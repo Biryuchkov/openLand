@@ -1,0 +1,121 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'commontexts.ui'
+#
+# Created: Mon Oct 28 11:22:20 2013
+#      by: PyQt4 UI code generator 4.9.4
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt4 import QtCore, QtGui
+
+try:
+    _fromUtf8 = QtCore.QString.fromUtf8
+except AttributeError:
+    _fromUtf8 = lambda s: s
+
+class Ui_DialogText(object):
+    def setupUi(self, DialogText):
+        DialogText.setObjectName(_fromUtf8("DialogText"))
+        DialogText.resize(420, 420)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(_fromUtf8(":/plugins/openland/icons/attributes.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        DialogText.setWindowIcon(icon)
+        DialogText.setSizeGripEnabled(True)
+        DialogText.setModal(True)
+        self.verticalLayout = QtGui.QVBoxLayout(DialogText)
+        self.verticalLayout.setObjectName(_fromUtf8("verticalLayout"))
+        self.treeWidget = QtGui.QTreeWidget(DialogText)
+        self.treeWidget.setObjectName(_fromUtf8("treeWidget"))
+        self.verticalLayout.addWidget(self.treeWidget)
+        self.textEdit = QtGui.QTextEdit(DialogText)
+        self.textEdit.setObjectName(_fromUtf8("textEdit"))
+        self.verticalLayout.addWidget(self.textEdit)
+        self.horizontalLayout = QtGui.QHBoxLayout()
+        self.horizontalLayout.setObjectName(_fromUtf8("horizontalLayout"))
+        self.pushButtonSelect = QtGui.QPushButton(DialogText)
+        self.pushButtonSelect.setEnabled(False)
+        self.pushButtonSelect.setStatusTip(_fromUtf8(""))
+        self.pushButtonSelect.setWhatsThis(_fromUtf8(""))
+        self.pushButtonSelect.setText(_fromUtf8(""))
+        icon1 = QtGui.QIcon()
+        icon1.addPixmap(QtGui.QPixmap(_fromUtf8(":/plugins/openland/icons/symbol_check.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButtonSelect.setIcon(icon1)
+        self.pushButtonSelect.setAutoDefault(False)
+        self.pushButtonSelect.setDefault(True)
+        self.pushButtonSelect.setObjectName(_fromUtf8("pushButtonSelect"))
+        self.horizontalLayout.addWidget(self.pushButtonSelect)
+        self.pushButtonAdd = QtGui.QPushButton(DialogText)
+        self.pushButtonAdd.setText(_fromUtf8(""))
+        icon2 = QtGui.QIcon()
+        icon2.addPixmap(QtGui.QPixmap(_fromUtf8(":/plugins/openland/icons/symbol_add.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButtonAdd.setIcon(icon2)
+        self.pushButtonAdd.setAutoDefault(False)
+        self.pushButtonAdd.setObjectName(_fromUtf8("pushButtonAdd"))
+        self.horizontalLayout.addWidget(self.pushButtonAdd)
+        self.pushButtonEdit = QtGui.QPushButton(DialogText)
+        self.pushButtonEdit.setText(_fromUtf8(""))
+        icon3 = QtGui.QIcon()
+        icon3.addPixmap(QtGui.QPixmap(_fromUtf8(":/plugins/openland/icons/edit.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButtonEdit.setIcon(icon3)
+        self.pushButtonEdit.setAutoDefault(False)
+        self.pushButtonEdit.setObjectName(_fromUtf8("pushButtonEdit"))
+        self.horizontalLayout.addWidget(self.pushButtonEdit)
+        self.pushButtonDel = QtGui.QPushButton(DialogText)
+        self.pushButtonDel.setText(_fromUtf8(""))
+        icon4 = QtGui.QIcon()
+        icon4.addPixmap(QtGui.QPixmap(_fromUtf8(":/plugins/openland/icons/symbol_remove.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButtonDel.setIcon(icon4)
+        self.pushButtonDel.setAutoDefault(False)
+        self.pushButtonDel.setObjectName(_fromUtf8("pushButtonDel"))
+        self.horizontalLayout.addWidget(self.pushButtonDel)
+        self.pushButtonSave = QtGui.QPushButton(DialogText)
+        self.pushButtonSave.setEnabled(False)
+        self.pushButtonSave.setText(_fromUtf8(""))
+        icon5 = QtGui.QIcon()
+        icon5.addPixmap(QtGui.QPixmap(_fromUtf8(":/plugins/openland/icons/save.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButtonSave.setIcon(icon5)
+        self.pushButtonSave.setAutoDefault(False)
+        self.pushButtonSave.setObjectName(_fromUtf8("pushButtonSave"))
+        self.horizontalLayout.addWidget(self.pushButtonSave)
+        self.pushButtonRefresh = QtGui.QPushButton(DialogText)
+        self.pushButtonRefresh.setText(_fromUtf8(""))
+        icon6 = QtGui.QIcon()
+        icon6.addPixmap(QtGui.QPixmap(_fromUtf8(":/plugins/openland/icons/refresh.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButtonRefresh.setIcon(icon6)
+        self.pushButtonRefresh.setAutoDefault(False)
+        self.pushButtonRefresh.setObjectName(_fromUtf8("pushButtonRefresh"))
+        self.horizontalLayout.addWidget(self.pushButtonRefresh)
+        self.pushButtonClose = QtGui.QPushButton(DialogText)
+        self.pushButtonClose.setText(_fromUtf8(""))
+        icon7 = QtGui.QIcon()
+        icon7.addPixmap(QtGui.QPixmap(_fromUtf8(":/plugins/openland/icons/close.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButtonClose.setIcon(icon7)
+        self.pushButtonClose.setAutoDefault(False)
+        self.pushButtonClose.setObjectName(_fromUtf8("pushButtonClose"))
+        self.horizontalLayout.addWidget(self.pushButtonClose)
+        self.verticalLayout.addLayout(self.horizontalLayout)
+
+        self.retranslateUi(DialogText)
+        QtCore.QMetaObject.connectSlotsByName(DialogText)
+        DialogText.setTabOrder(self.treeWidget, self.pushButtonSelect)
+        DialogText.setTabOrder(self.pushButtonSelect, self.pushButtonAdd)
+        DialogText.setTabOrder(self.pushButtonAdd, self.pushButtonEdit)
+        DialogText.setTabOrder(self.pushButtonEdit, self.pushButtonDel)
+        DialogText.setTabOrder(self.pushButtonDel, self.pushButtonSave)
+        DialogText.setTabOrder(self.pushButtonSave, self.pushButtonRefresh)
+        DialogText.setTabOrder(self.pushButtonRefresh, self.pushButtonClose)
+
+    def retranslateUi(self, DialogText):
+        DialogText.setWindowTitle(QtGui.QApplication.translate("DialogText", "Стандартные текстовые формулировки", None, QtGui.QApplication.UnicodeUTF8))
+        self.treeWidget.setSortingEnabled(True)
+        self.treeWidget.headerItem().setText(0, QtGui.QApplication.translate("DialogText", "Текст", None, QtGui.QApplication.UnicodeUTF8))
+        self.pushButtonSelect.setToolTip(QtGui.QApplication.translate("DialogText", "Выбрать стандартную текстовую формулировку", None, QtGui.QApplication.UnicodeUTF8))
+        self.pushButtonAdd.setToolTip(QtGui.QApplication.translate("DialogText", "Добавить стандартную текстовую формулировку", None, QtGui.QApplication.UnicodeUTF8))
+        self.pushButtonEdit.setToolTip(QtGui.QApplication.translate("DialogText", "Редактировать атрибуты стандартной текстовой формулировки", None, QtGui.QApplication.UnicodeUTF8))
+        self.pushButtonDel.setToolTip(QtGui.QApplication.translate("DialogText", "Удалить стандартную текстовую формулировку", None, QtGui.QApplication.UnicodeUTF8))
+        self.pushButtonSave.setToolTip(QtGui.QApplication.translate("DialogText", "Сохранить атрибуты стандартной текстовой формулировки", None, QtGui.QApplication.UnicodeUTF8))
+        self.pushButtonRefresh.setToolTip(QtGui.QApplication.translate("DialogText", "Обновить атрибуты стандартной текстовой формулировки", None, QtGui.QApplication.UnicodeUTF8))
+        self.pushButtonClose.setToolTip(QtGui.QApplication.translate("DialogText", "Закрыть окно", None, QtGui.QApplication.UnicodeUTF8))
+
+import resources_rc

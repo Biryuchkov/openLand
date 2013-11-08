@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Border</class>
+ <widget class="QDialog" name="Border">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>414</width>
+    <height>220</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Атрибуты границы</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="..\resources.qrc">
+    <normaloff>:/plugins/openland/icons/only_border.png</normaloff>:/plugins/openland/icons/only_border.png</iconset>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;Описание&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" colspan="3">
+    <widget class="QLineEdit" name="lineEditOpisanie"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;Длина&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;Градусы&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QCheckBox" name="checkBoxPoOpisaniyu">
+     <property name="text">
+      <string>По описанию</string>
+     </property>
+     <property name="tristate">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="lineEditDlina"/>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLineEdit" name="lineEditGradusy"/>
+   </item>
+   <item row="3" column="3">
+    <widget class="QLineEdit" name="lineEditMinuty"/>
+   </item>
+   <item row="3" column="2">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;Минуты&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QComboBox" name="comboBoxColor"/>
+   </item>
+   <item row="5" column="3">
+    <widget class="QPushButton" name="pushButtonClose">
+     <property name="text">
+      <string>Отмена</string>
+     </property>
+     <property name="icon">
+      <iconset resource="..\resources.qrc">
+       <normaloff>:/plugins/openland/icons/close.png</normaloff>:/plugins/openland/icons/close.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Цвет</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QPushButton" name="pushButtonSave">
+     <property name="text">
+      <string>OK</string>
+     </property>
+     <property name="icon">
+      <iconset resource="..\resources.qrc">
+       <normaloff>:/plugins/openland/icons/save.png</normaloff>:/plugins/openland/icons/save.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1" colspan="3">
+    <widget class="QCheckBox" name="checkBoxIsPre">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="font">
+      <font>
+       <underline>true</underline>
+      </font>
+     </property>
+     <property name="text">
+      <string>Прекратившая существованиение</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>lineEditOpisanie</tabstop>
+  <tabstop>checkBoxPoOpisaniyu</tabstop>
+  <tabstop>lineEditDlina</tabstop>
+  <tabstop>comboBoxColor</tabstop>
+  <tabstop>lineEditGradusy</tabstop>
+  <tabstop>lineEditMinuty</tabstop>
+  <tabstop>checkBoxIsPre</tabstop>
+  <tabstop>pushButtonSave</tabstop>
+  <tabstop>pushButtonClose</tabstop>
+ </tabstops>
+ <resources>
+  <include location="..\resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

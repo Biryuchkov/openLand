@@ -1,0 +1,20 @@
+# Mandatory items:
+[general]
+name=openLand
+qgisMinimumVersion=2.0
+description=Module for the cadastral engineer working
+version=0.2.5
+author=Dmitriy Biryuchkov
+email=biryuchkov@gmail.com
+
+# Optional items:
+qgisMaximumVersion=2.99
+# changelog=
+experimental=False
+deprecated=False
+tags=openland
+homepage=http://openlandgis.ru
+repository=http://openlandgis.ru/repository/openland.xml
+tracker=http://openlandgis.ru/bug-tracker
+icon=settings/main.png
+# category=Database

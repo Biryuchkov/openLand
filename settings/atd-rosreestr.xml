@@ -1,0 +1,4 @@
+<!DOCTYPE connections>
+<qgsWMSConnections version="1.0">
+    <wms ignoreGetMapURI="false" password="" ignoreGetFeatureInfoURI="false" username="" url="http://maps.rosreestr.ru/ArcGIS/services/TZ_ZOUIT_BORDERS/ATD/MapServer/WMSServer" name="АТД"/>
+</qgsWMSConnections>

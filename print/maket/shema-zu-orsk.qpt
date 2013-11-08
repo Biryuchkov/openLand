@@ -1,0 +1,303 @@
+<Composer title="Макет 13" visible="1">
+ <Composition printResolution="300" paperWidth="210" snapGridOffsetX="0" snapGridResolution="3" snapGridOffsetY="0" alignmentSnap="1" snapping="1" numPages="1" paperHeight="297" alignmentSnapTolerance="2" printAsRaster="0">
+  <ComposerLabel valign="32" labelText="(подпись, МП)" htmlState="0" halign="4" margin="1">
+   <LabelFont description="MS Shell Dlg 2,6,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="24.6" x="81" transparency="0" y="234" rotation="0" height="7.1" positionMode="0" frame="false" outlineWidth="0" zValue="30" lastValidViewScaleFactor="6.12081" uuid="{4f1ffd6d-c5bf-428e-93f0-cb7cddd4ca0d}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLegend symbolWidth="7" title="Условные обозначения:" boxSpace="2" splitLayer="0" equalColumnWidth="0" map="0" symbolHeight="2" wrapChar="" fontColor="#000000" columnSpace="2" columnCount="1">
+   <styles>
+    <style marginBottom="2" name="title" font="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
+    <style name="group" font="MS Shell Dlg 2,6,-1,5,50,0,0,0,0,0"/>
+    <style name="subgroup" font="MS Shell Dlg 2,6,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" name="symbol" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" marginLeft="2" name="symbolLabel" font="MS Shell Dlg 2,8,-1,5,50,0,0,0,0,0"/>
+   </styles>
+   <Model autoUpdate="1">
+    <LayerItem layerId="Линейные20130130123048442" userText="" style="subgroup" text="" showFeatureCount="0">
+     <VectorClassificationItemNg userText="" text="граница смежного земельного участка, имеющиеся в ГКН сведения о которой не достаточны для определения ее местоположения">
+      <symbols>
+       <symbol alpha="1" type="line" name="classificationSymbol">
+        <layer pass="0" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="square"/>
+         <prop k="color" v="0,255,0,255"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="solid"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width" v="0.4"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="красная линия">
+      <symbols>
+       <symbol alpha="1" type="line" name="classificationSymbol">
+        <layer pass="0" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="square"/>
+         <prop k="color" v="255,0,255,255"/>
+         <prop k="customdash" v="4;2"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="dash"/>
+         <prop k="use_custom_dash" v="1"/>
+         <prop k="width" v="0.2"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+    <LayerItem layerId="Площадные20130130123219004" userText="" style="subgroup" text="" showFeatureCount="0">
+     <VectorClassificationItemNg userText="" text="граница земельного участка">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="225,16,163,255"/>
+         <prop k="color_border" v="255,0,0,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="no"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0.4"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="граница кадастрового квартала">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="210,91,200,255"/>
+         <prop k="color_border" v="0,0,255,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="no"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0.4"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="граница смежного земельного участка, имеющиеся в ГКН сведения о которой достаточны для определения ее местоположения">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="90,233,77,255"/>
+         <prop k="color_border" v="85,0,0,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="no"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0.4"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="граница рекомендуемых проездов">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="255,255,0,255"/>
+         <prop k="color_border" v="255,255,0,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="dense7"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0.1"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="охранная зона коммуникаций">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="0,0,255,255"/>
+         <prop k="color_border" v="0,0,255,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="dense7"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0.1"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+   </Model>
+   <ComposerItem width="189" x="12" transparency="0" y="180" rotation="0" height="40.5" positionMode="0" frame="true" outlineWidth="0.3" zValue="29" lastValidViewScaleFactor="5.99329" uuid="{99225b54-76cd-4d74-ab16-38506b3259b8}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLegend>
+  <ComposerLabel valign="128" labelText="(место расположения земельного участка)" htmlState="0" halign="4" margin="1">
+   <LabelFont description="MS Shell Dlg 2,6,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="75" x="66" transparency="0" y="51" rotation="0" height="9" positionMode="0" frame="true" outlineWidth="0" zValue="28" lastValidViewScaleFactor="2.99664" uuid="{d8a41648-a8d7-4962-b99c-573d70c4b6bb}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="64" labelText="(испрашиваемое использование)" htmlState="0" halign="4" margin="1">
+   <LabelFont description="MS Shell Dlg 2,6,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="90" x="57" transparency="0" y="42" rotation="0" height="6" positionMode="0" frame="true" outlineWidth="0" zValue="27" lastValidViewScaleFactor="6.12081" uuid="{c28179d3-b089-406e-ae63-ef38c42f8b90}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="(дата)" htmlState="0" halign="4" margin="1">
+   <LabelFont description="MS Shell Dlg 2,6,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="24.6" x="153" transparency="0" y="255" rotation="0" height="6" positionMode="0" frame="true" outlineWidth="0" zValue="26" lastValidViewScaleFactor="4.34123" uuid="{c5fe938e-ba1d-4f1b-a079-3b6646665f12}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="(дата)" htmlState="0" halign="4" margin="1">
+   <LabelFont description="MS Shell Dlg 2,6,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="24.6" x="156" transparency="0" y="246" rotation="0" height="7.1" positionMode="0" frame="true" outlineWidth="0" zValue="25" lastValidViewScaleFactor="4.34123" uuid="{69d450ef-114d-4ca6-b2f7-7918877fd2dd}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="1" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="(дата)" htmlState="0" halign="4" margin="1">
+   <LabelFont description="MS Shell Dlg 2,6,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="24.6" x="156" transparency="0" y="234" rotation="0" height="7.1" positionMode="0" frame="true" outlineWidth="0" zValue="24" lastValidViewScaleFactor="3.02013" uuid="{c8233b2a-4d96-4059-ac50-d646e4f33eff}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="1" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" labelText="(подпись)" htmlState="0" halign="4" margin="1">
+   <LabelFont description="MS Shell Dlg 2,6,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="24.6" x="84" transparency="0" y="279" rotation="0" height="7.1" positionMode="0" frame="true" outlineWidth="0" zValue="23" lastValidViewScaleFactor="4.34123" uuid="{d23d3ac4-7a96-42ca-a57a-a14f689d41b1}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="64" labelText="(подпись, МП)" htmlState="0" halign="1" margin="1">
+   <LabelFont description="MS Shell Dlg 2,6,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="24" x="87" transparency="0" y="270" rotation="0" height="6" positionMode="0" frame="true" outlineWidth="0" zValue="22" lastValidViewScaleFactor="4.34123" uuid="{faaa40d1-0994-4972-8394-25b0115fbf29}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="(подпись, МП)" htmlState="0" halign="4" margin="1">
+   <LabelFont description="MS Shell Dlg 2,6,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="24.6" x="81" transparency="0" y="255" rotation="0" height="7.1" positionMode="0" frame="true" outlineWidth="0" zValue="21" lastValidViewScaleFactor="6.12081" uuid="{7071b034-aea0-4172-9706-b7e9ff58717e}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="(подпись, МП)" htmlState="0" halign="1" margin="1">
+   <LabelFont description="MS Shell Dlg 2,6,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="24.6" x="84" transparency="0" y="246" rotation="0" height="7.1" positionMode="0" frame="true" outlineWidth="0" zValue="20" lastValidViewScaleFactor="3.0604" uuid="{27724e1e-f326-4ad3-961f-16322c570e93}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerMap keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Render" drawCanvasItems="false">
+   <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewInverted="false">
+    <symbol alpha="0.3" type="fill" name="">
+     <layer pass="0" class="SimpleFill" locked="0">
+      <prop k="border_width_unit" v="MM"/>
+      <prop k="color" v="255,0,0,255"/>
+      <prop k="color_border" v="0,0,0,255"/>
+      <prop k="offset" v="0,0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="style" v="solid"/>
+      <prop k="style_border" v="no"/>
+      <prop k="width_border" v="0.26"/>
+     </layer>
+    </symbol>
+   </overviewFrame>
+   <Extent ymin="367774" xmin="3.33072e+06" ymax="367825" xmax="3.33081e+06"/>
+   <LayerSet/>
+   <Grid gridStyle="0" crossLength="3" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+    <symbol alpha="1" type="line" name="">
+     <layer pass="0" class="SimpleLine" locked="0">
+      <prop k="capstyle" v="square"/>
+      <prop k="color" v="0,0,0,255"/>
+      <prop k="customdash" v="5;2"/>
+      <prop k="customdash_unit" v="MM"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="offset" v="0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="penstyle" v="solid"/>
+      <prop k="use_custom_dash" v="0"/>
+      <prop k="width" v="0"/>
+      <prop k="width_unit" v="MM"/>
+     </layer>
+    </symbol>
+    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="0" precision="3" leftDirection="0" rightPosition="0" bottomPosition="0" frameDistance="1" show="0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" leftPosition="0" topDirection="0">
+     <fontColor red="0" blue="0" green="0"/>
+    </Annotation>
+   </Grid>
+   <ComposerItem width="189" x="12" transparency="0" y="72" rotation="0" height="108" positionMode="0" frame="true" outlineWidth="0.3" zValue="11" lastValidViewScaleFactor="2.99664" uuid="{3d1b370f-0004-4369-b9ef-2af00504cc52}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerMap>
+  <ComposerLabel valign="32" labelText="Площадь земельного участка 735 кв. м" htmlState="0" halign="1" margin="1">
+   <LabelFont description="MS Shell Dlg 2,9,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="255" blue="0" green="0"/>
+   <ComposerItem width="63" x="138" transparency="0" y="66" rotation="0" height="6" positionMode="0" frame="true" outlineWidth="0" zValue="9" lastValidViewScaleFactor="4.34123" uuid="{db95e42e-0965-4933-bc7d-833e294bceb2}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Земельный участок для размещения и эксплуатации индивидуального жилого дома&#xa;&#xa;Адрес: Оренбургская область, г. Орск, ул. Огнеупорная, д. 11&#xa;&#xa;Вид испрашиваемого права: собственность" htmlState="0" halign="4" margin="1">
+   <LabelFont description="MS Shell Dlg 2,11,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="177" x="12" transparency="0" y="39" rotation="0" height="27" positionMode="0" frame="true" outlineWidth="0" zValue="8" lastValidViewScaleFactor="2.99664" uuid="{617d9213-ccb9-4d1c-9f1b-ff72f4b2a0b9}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Приложение&#xa;к постановлению &#xa;администрации города Орска&#xa;от ________№ ___________" htmlState="0" halign="1" margin="1">
+   <LabelFont description="MS Shell Dlg 2,9,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="48" x="153" transparency="0" y="9" rotation="0" height="24" positionMode="0" frame="true" outlineWidth="0" zValue="7" lastValidViewScaleFactor="6.12081" uuid="{56b62833-3673-47c2-bfb2-afc7cb3aad87}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Схема расположения земельного участка &#xa;с кадастровым номером 56:43:0321032:39 &#xa;на кадастровом плане (кадастровой карте) территории &#xa;кадастрового квартала 56:43:0321032 муниципального &#xa;образования городской округ &quot;Город Орск&quot; &#xa;М 1:500" htmlState="0" halign="4" margin="1">
+   <LabelFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="144" x="15" transparency="0" y="6" rotation="0" height="33" positionMode="0" frame="true" outlineWidth="0" zValue="6" lastValidViewScaleFactor="2.99664" uuid="{17ff2d9f-f1d3-4009-9791-c805ba1caa92}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="УТВЕРЖДАЮ:&#xa;Председатель КУИ г. Орска _________________________________А. Н. Ширманова______________&#xa;&#xa;СОГЛАСОВАНО:&#xa;Председатель КАиГ г. Орска________________________________А. Е. Саурамбеков______________&#xa;&#xa;Заказчик_________________________________________________И. О. Смирнова_________________&#xa;&#xa;Исполнитель: ООО &quot;ГП Кадастровый центр&quot;&#xa;Договор № 287/12 от 21.08.2012 г.&#xa;Начальник отдела городского кадастра_______________________Е. В. Степанова&#xa;&#xa;Землеустроитель__________________________________________Е. Н. Соколова" htmlState="0" halign="1" margin="1">
+   <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="189" x="12" transparency="0" y="225" rotation="0" height="63" positionMode="0" frame="false" outlineWidth="0" zValue="5" lastValidViewScaleFactor="2.99664" uuid="{82c36d66-6b12-48f2-9192-4b812947b798}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+ </Composition>
+</Composer>

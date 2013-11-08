@@ -1,0 +1,8 @@
+<!DOCTYPE shortcuts>
+<qgsshortcuts version="1.0" locale="ru_RU">
+    <act shortcut="F4" name="Атрибуты объекта"/>
+    <act shortcut="F3" name="Выделить отдельный объект"/>
+    <act shortcut="F5" name="Межевой план"/>
+    <act shortcut="F2" name="Навигация касанием"/>
+    <act shortcut="F9" name="Настройки"/>
+</qgsshortcuts>

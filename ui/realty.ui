@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogRealty</class>
+ <widget class="QDialog" name="DialogRealty">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>520</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Объект капитального строительства</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="..\resources.qrc">
+    <normaloff>:/plugins/openland/icons/home.png</normaloff>:/plugins/openland/icons/home.png</iconset>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTreeWidget" name="treeWidget">
+     <property name="sortingEnabled">
+      <bool>true</bool>
+     </property>
+     <column>
+      <property name="text">
+       <string>КН ЗУ</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>КН ОКС</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <property name="fieldGrowthPolicy">
+      <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+     </property>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Кадастровый номер&lt;br /&gt;земельного участка</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="lineEditCadastralNumber">
+       <property name="inputMethodHints">
+        <set>Qt::ImhNone</set>
+       </property>
+       <property name="inputMask">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Кадастровые или иные номера&lt;br /&gt;зданий, сооружений</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEditCadastralNumberOtherNumber">
+       <property name="inputMethodHints">
+        <set>Qt::ImhNone</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Наименование (вид) расположенных&lt;br /&gt;на ЗУ объектов недвижимости</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEditNameOKS">
+       <property name="inputMask">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButtonSelect">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="toolTip">
+        <string>Выбрать ОКС</string>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="whatsThis">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="..\resources.qrc">
+         <normaloff>:/plugins/openland/icons/symbol_check.png</normaloff>:/plugins/openland/icons/symbol_check.png</iconset>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="default">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonAdd">
+       <property name="toolTip">
+        <string>Добавить ОКС</string>
+       </property>
+       <property name="text">
+        <string extracomment="Добавить"/>
+       </property>
+       <property name="icon">
+        <iconset resource="..\resources.qrc">
+         <normaloff>:/plugins/openland/icons/symbol_add.png</normaloff>:/plugins/openland/icons/symbol_add.png</iconset>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonEdit">
+       <property name="toolTip">
+        <string>Редактировать атрибуты ОКС</string>
+       </property>
+       <property name="text">
+        <string extracomment="Редактировать"/>
+       </property>
+       <property name="icon">
+        <iconset resource="..\resources.qrc">
+         <normaloff>:/plugins/openland/icons/edit.png</normaloff>:/plugins/openland/icons/edit.png</iconset>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonDel">
+       <property name="toolTip">
+        <string>Удалить ОКС</string>
+       </property>
+       <property name="text">
+        <string extracomment="Удалить"/>
+       </property>
+       <property name="icon">
+        <iconset resource="..\resources.qrc">
+         <normaloff>:/plugins/openland/icons/symbol_remove.png</normaloff>:/plugins/openland/icons/symbol_remove.png</iconset>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonSave">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="toolTip">
+        <string>Сохранить атрибуты ОКС</string>
+       </property>
+       <property name="text">
+        <string extracomment="Сохранить"/>
+       </property>
+       <property name="icon">
+        <iconset resource="..\resources.qrc">
+         <normaloff>:/plugins/openland/icons/save.png</normaloff>:/plugins/openland/icons/save.png</iconset>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonRefresh">
+       <property name="toolTip">
+        <string>Обновить атрибуты ОКС</string>
+       </property>
+       <property name="text">
+        <string extracomment="Обновить"/>
+       </property>
+       <property name="icon">
+        <iconset resource="..\resources.qrc">
+         <normaloff>:/plugins/openland/icons/refresh.png</normaloff>:/plugins/openland/icons/refresh.png</iconset>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonClose">
+       <property name="toolTip">
+        <string>Закрыть окно</string>
+       </property>
+       <property name="text">
+        <string extracomment="Закрыть"/>
+       </property>
+       <property name="icon">
+        <iconset resource="..\resources.qrc">
+         <normaloff>:/plugins/openland/icons/close.png</normaloff>:/plugins/openland/icons/close.png</iconset>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelMessage">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>treeWidget</tabstop>
+  <tabstop>lineEditCadastralNumber</tabstop>
+  <tabstop>lineEditCadastralNumberOtherNumber</tabstop>
+  <tabstop>lineEditNameOKS</tabstop>
+  <tabstop>pushButtonSelect</tabstop>
+  <tabstop>pushButtonAdd</tabstop>
+  <tabstop>pushButtonEdit</tabstop>
+  <tabstop>pushButtonDel</tabstop>
+  <tabstop>pushButtonSave</tabstop>
+  <tabstop>pushButtonRefresh</tabstop>
+  <tabstop>pushButtonClose</tabstop>
+ </tabstops>
+ <resources>
+  <include location="..\resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

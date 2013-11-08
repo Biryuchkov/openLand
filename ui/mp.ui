@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogMP</class>
+ <widget class="QDialog" name="DialogMP">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Межевой план</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../resources.qrc">
+    <normaloff>:/plugins/openland/icons/mp.png</normaloff>:/plugins/openland/icons/mp.png</iconset>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QComboBox" name="comboBoxMp"/>
+       </item>
+       <item>
+        <widget class="QTreeWidget" name="treeWidget">
+         <property name="toolTip">
+          <string/>
+         </property>
+         <column>
+          <property name="text">
+           <string>Разделы межевого плана</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QTabWidget" name="tabWidget">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="currentIndex">
+            <number>1</number>
+           </property>
+           <widget class="QWidget" name="tabEDocument">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <attribute name="title">
+             <string>Электронный документ</string>
+            </attribute>
+            <layout class="QGridLayout" name="gridLayout_2">
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_21">
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;Дата&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <widget class="QLineEdit" name="lineEditCreateDate">
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="QLineEdit" name="lineEditCreateUser">
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_5">
+               <property name="text">
+                <string>Тип заявления</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QComboBox" name="comboBoxEDocCodeType"/>
+             </item>
+             <item row="1" column="1">
+              <widget class="QSpinBox" name="spinBoxShemaVersion">
+               <property name="minimum">
+                <number>4</number>
+               </property>
+               <property name="maximum">
+                <number>4</number>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_8">
+               <property name="text">
+                <string>Версия схемы</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_9">
+               <property name="text">
+                <string>Идентификатор межевого плана</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="lineEditMpGUID">
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_20">
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;Создание&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <spacer name="verticalSpacer">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tabTitle">
+            <attribute name="title">
+             <string>Титульный лист</string>
+            </attribute>
+            <layout class="QGridLayout" name="gridLayout">
+             <item row="1" column="2">
+              <widget class="QPushButton" name="pushButtonEditContractor">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../resources.qrc">
+                 <normaloff>:/plugins/openland/icons/edit.png</normaloff>:/plugins/openland/icons/edit.png</iconset>
+               </property>
+               <property name="autoDefault">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QTextEdit" name="textEditReason"/>
+             </item>
+             <item row="2" column="1">
+              <widget class="QTextEdit" name="textEditPurpose"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_3">
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Цель кадастровых&lt;br/&gt;работ&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_4">
+               <property name="text">
+                <string>Вид кадастровых&lt;br /&gt;работ</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QComboBox" name="comboBoxContractor">
+               <property name="editable">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_2">
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Кадастровый&lt;br/&gt;инженер&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QDateEdit" name="dateEditDateWork">
+               <property name="calendarPopup">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label">
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Дата проведения&lt;br /&gt;кадастровых работ&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="2">
+              <widget class="QPushButton" name="pushButtonPurpose">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../resources.qrc">
+                 <normaloff>:/plugins/openland/icons/format_indent_more.png</normaloff>:/plugins/openland/icons/format_indent_more.png</iconset>
+               </property>
+               <property name="autoDefault">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="2">
+              <widget class="QPushButton" name="pushButtonReason">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../resources.qrc">
+                 <normaloff>:/plugins/openland/icons/format_indent_more.png</normaloff>:/plugins/openland/icons/format_indent_more.png</iconset>
+               </property>
+               <property name="autoDefault">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="QComboBox" name="comboBoxClient"/>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_10">
+               <property name="text">
+                <string>Заказчик&lt;br /&gt;кадастровых работ</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_11">
+               <property name="text">
+                <string>Дата приёмки&lt;br /&gt;работ</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <widget class="QDateEdit" name="dateEditAcceptWork">
+               <property name="calendarPopup">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="2">
+              <widget class="QPushButton" name="pushButtonEditClient">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../resources.qrc">
+                 <normaloff>:/plugins/openland/icons/edit.png</normaloff>:/plugins/openland/icons/edit.png</iconset>
+               </property>
+               <property name="autoDefault">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tabPackage">
+            <attribute name="title">
+             <string>Пакет информации</string>
+            </attribute>
+            <layout class="QGridLayout" name="gridLayout_3">
+             <item row="0" column="1">
+              <widget class="QTreeWidget" name="treeWidgetParcel">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="sortingEnabled">
+                <bool>true</bool>
+               </property>
+               <column>
+                <property name="text">
+                 <string>КН</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>Обозначение</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="labelParcel">
+               <property name="text">
+                <string>ЗУ</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tabCoordSystems">
+            <attribute name="title">
+             <string>Система координат</string>
+            </attribute>
+            <layout class="QHBoxLayout" name="horizontalLayout_10">
+             <item>
+              <widget class="QLabel" name="label_18">
+               <property name="text">
+                <string>Система&lt;br /&gt;координат</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QTreeWidget" name="treeWidgetCoordSystems">
+               <property name="sortingEnabled">
+                <bool>true</bool>
+               </property>
+               <column>
+                <property name="text">
+                 <string>Наименование</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>Код</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tabInputData">
+            <attribute name="title">
+             <string>Исходные данные</string>
+            </attribute>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <item>
+              <widget class="QToolBox" name="toolBox">
+               <property name="currentIndex">
+                <number>0</number>
+               </property>
+               <widget class="QWidget" name="pageDocument">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>96</width>
+                  <height>79</height>
+                 </rect>
+                </property>
+                <attribute name="label">
+                 <string>Перечень документов, на основании которых подготовлен МП</string>
+                </attribute>
+                <layout class="QVBoxLayout" name="verticalLayout_7">
+                 <item>
+                  <widget class="QTreeWidget" name="treeWidgetDocument">
+                   <property name="sortingEnabled">
+                    <bool>true</bool>
+                   </property>
+                   <column>
+                    <property name="text">
+                     <string>Номер</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>Наименование</string>
+                    </property>
+                   </column>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+               <widget class="QWidget" name="pageGeodesicBase">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>96</width>
+                  <height>79</height>
+                 </rect>
+                </property>
+                <attribute name="label">
+                 <string>Сведения о геодезической основе</string>
+                </attribute>
+                <layout class="QVBoxLayout" name="verticalLayout_8">
+                 <item>
+                  <widget class="QTreeWidget" name="treeWidgetGeodesicBase">
+                   <property name="sortingEnabled">
+                    <bool>true</bool>
+                   </property>
+                   <column>
+                    <property name="text">
+                     <string>Название пункта</string>
+                    </property>
+                   </column>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+               <widget class="QWidget" name="pageMeansSurvey">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>96</width>
+                  <height>79</height>
+                 </rect>
+                </property>
+                <attribute name="label">
+                 <string>Сведения о средствах измерения</string>
+                </attribute>
+                <layout class="QVBoxLayout" name="verticalLayout_9">
+                 <item>
+                  <widget class="QTreeWidget" name="treeWidgetMeansSurvey">
+                   <property name="sortingEnabled">
+                    <bool>true</bool>
+                   </property>
+                   <column>
+                    <property name="text">
+                     <string>Название прибора</string>
+                    </property>
+                   </column>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+               <widget class="QWidget" name="pageRealty">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>96</width>
+                  <height>79</height>
+                 </rect>
+                </property>
+                <attribute name="label">
+                 <string>Сведения о наличии зданий, сооружений</string>
+                </attribute>
+                <layout class="QVBoxLayout" name="verticalLayout_10">
+                 <item>
+                  <widget class="QTreeWidget" name="treeWidgetRealty">
+                   <property name="sortingEnabled">
+                    <bool>true</bool>
+                   </property>
+                   <column>
+                    <property name="text">
+                     <string>Кадастровый номер земельного участка</string>
+                    </property>
+                   </column>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+               <widget class="QWidget" name="pageSubParcel">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>96</width>
+                  <height>79</height>
+                 </rect>
+                </property>
+                <attribute name="label">
+                 <string>Сведения о частях исходных, измененных или уточняемых ЗУ</string>
+                </attribute>
+                <layout class="QVBoxLayout" name="verticalLayout_11">
+                 <item>
+                  <widget class="QTreeWidget" name="treeWidgetSubParcel">
+                   <property name="sortingEnabled">
+                    <bool>true</bool>
+                   </property>
+                   <column>
+                    <property name="text">
+                     <string>Кадастровый номер ЗУ</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>Учётный номер ЧЗУ</string>
+                    </property>
+                   </column>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tabSurvey">
+            <attribute name="title">
+             <string>Измерения и расчеты</string>
+            </attribute>
+            <layout class="QHBoxLayout" name="horizontalLayout_6">
+             <item>
+              <widget class="QLabel" name="label_14">
+               <property name="text">
+                <string>Файл</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QTreeWidget" name="treeWidgetSurvey">
+               <property name="sortingEnabled">
+                <bool>true</bool>
+               </property>
+               <column>
+                <property name="text">
+                 <string>Вид файла</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>Файл</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tabConclusion">
+            <attribute name="title">
+             <string>Заключение КИ</string>
+            </attribute>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <item>
+              <widget class="QTextEdit" name="textEditConclusion"/>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButtonConclusion">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../resources.qrc">
+                 <normaloff>:/plugins/openland/icons/format_indent_more.png</normaloff>:/plugins/openland/icons/format_indent_more.png</iconset>
+               </property>
+               <property name="autoDefault">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tabSchemeGeodesicPlotting">
+            <attribute name="title">
+             <string>Схема геопостроений</string>
+            </attribute>
+            <layout class="QHBoxLayout" name="horizontalLayout_7">
+             <item>
+              <widget class="QLabel" name="label_15">
+               <property name="text">
+                <string>Файл</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QTreeWidget" name="treeWidgetSchemeGeodesicPlotting">
+               <property name="sortingEnabled">
+                <bool>true</bool>
+               </property>
+               <column>
+                <property name="text">
+                 <string>Вид файла</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>Файл</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tabDispositionParcels">
+            <attribute name="title">
+             <string>Схема расположения ЗУ</string>
+            </attribute>
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <item>
+              <widget class="QLabel" name="label_12">
+               <property name="text">
+                <string>Файл</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QTreeWidget" name="treeWidgetSchemeDispositionParcels">
+               <property name="sortingEnabled">
+                <bool>true</bool>
+               </property>
+               <column>
+                <property name="text">
+                 <string>Вид файла</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>Файл</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tabDiagramParcels">
+            <attribute name="title">
+             <string>Чертёж ЗУ и их частей</string>
+            </attribute>
+            <layout class="QHBoxLayout" name="horizontalLayout_5">
+             <item>
+              <widget class="QLabel" name="label_13">
+               <property name="text">
+                <string>Файл</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QTreeWidget" name="treeWidgetDiagramParcels">
+               <property name="sortingEnabled">
+                <bool>true</bool>
+               </property>
+               <column>
+                <property name="text">
+                 <string>Вид файла</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>Файл</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tabAgreementDocument">
+            <attribute name="title">
+             <string>Акт согласования</string>
+            </attribute>
+            <layout class="QHBoxLayout" name="horizontalLayout_8">
+             <item>
+              <widget class="QLabel" name="label_16">
+               <property name="text">
+                <string>Файл</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QTreeWidget" name="treeWidgetAgreementDocument">
+               <property name="sortingEnabled">
+                <bool>true</bool>
+               </property>
+               <column>
+                <property name="text">
+                 <string>Вид файла</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>Файл</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tabNodalPointSchemes">
+            <attribute name="title">
+             <string>Абрисы</string>
+            </attribute>
+            <layout class="QHBoxLayout" name="horizontalLayout_9">
+             <item>
+              <widget class="QLabel" name="label_17">
+               <property name="text">
+                <string>Файл</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QTreeWidget" name="treeWidgetNodalPointSchemes">
+               <property name="sortingEnabled">
+                <bool>true</bool>
+               </property>
+               <column>
+                <property name="text">
+                 <string>Вид файла</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>Файл</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tabAppendix">
+            <attribute name="title">
+             <string>Приложения</string>
+            </attribute>
+            <layout class="QHBoxLayout" name="horizontalLayout_11">
+             <item>
+              <widget class="QLabel" name="label_19">
+               <property name="text">
+                <string>Документ</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QTreeWidget" name="treeWidgetAppendix">
+               <property name="sortingEnabled">
+                <bool>true</bool>
+               </property>
+               <column>
+                <property name="text">
+                 <string>Номер</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>Наименование</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QPushButton" name="pushButtonAddSectionMp">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Добавить</string>
+           </property>
+           <property name="icon">
+            <iconset resource="../resources.qrc">
+             <normaloff>:/plugins/openland/icons/symbol_add.png</normaloff>:/plugins/openland/icons/symbol_add.png</iconset>
+           </property>
+           <property name="autoDefault">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButtonSaveData">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Сохранить</string>
+           </property>
+           <property name="icon">
+            <iconset resource="../resources.qrc">
+             <normaloff>:/plugins/openland/icons/save.png</normaloff>:/plugins/openland/icons/save.png</iconset>
+           </property>
+           <property name="autoDefault">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButtonEditData">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Редактировать</string>
+           </property>
+           <property name="icon">
+            <iconset resource="../resources.qrc">
+             <normaloff>:/plugins/openland/icons/edit.png</normaloff>:/plugins/openland/icons/edit.png</iconset>
+           </property>
+           <property name="autoDefault">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButtonDeleteSectionMp">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Удалить</string>
+           </property>
+           <property name="icon">
+            <iconset resource="../resources.qrc">
+             <normaloff>:/plugins/openland/icons/symbol_remove.png</normaloff>:/plugins/openland/icons/symbol_remove.png</iconset>
+           </property>
+           <property name="autoDefault">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButtonRefreshData">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Обновить</string>
+           </property>
+           <property name="icon">
+            <iconset resource="../resources.qrc">
+             <normaloff>:/plugins/openland/icons/refresh.png</normaloff>:/plugins/openland/icons/refresh.png</iconset>
+           </property>
+           <property name="autoDefault">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButtonCreateNewMp">
+       <property name="text">
+        <string>Создать</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../resources.qrc">
+         <normaloff>:/plugins/openland/icons/mp.png</normaloff>:/plugins/openland/icons/mp.png</iconset>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonDeleteMp">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>Удалить</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../resources.qrc">
+         <normaloff>:/plugins/openland/icons/mp.png</normaloff>:/plugins/openland/icons/mp.png</iconset>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonCreateXML">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>XML</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../resources.qrc">
+         <normaloff>:/plugins/openland/icons/export_xml.png</normaloff>:/plugins/openland/icons/export_xml.png</iconset>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Искать </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEditFind">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>в поле</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBoxFindField">
+       <item>
+        <property name="text">
+         <string>КН участка</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>КН входящего участка</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>КН квартала</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Кадастровый инженер</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Дата кадастровых работ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Вид кадастровых работ</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonFindMp">
+       <property name="text">
+        <string>Искать</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../resources.qrc">
+         <normaloff>:/plugins/openland/icons/find_search.png</normaloff>:/plugins/openland/icons/find_search.png</iconset>
+       </property>
+       <property name="default">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonCloseDialog">
+       <property name="text">
+        <string>Закрыть</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../resources.qrc">
+         <normaloff>:/plugins/openland/icons/close.png</normaloff>:/plugins/openland/icons/close.png</iconset>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelMessage">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>lineEditFind</tabstop>
+  <tabstop>comboBoxFindField</tabstop>
+  <tabstop>pushButtonFindMp</tabstop>
+  <tabstop>pushButtonCloseDialog</tabstop>
+  <tabstop>spinBoxShemaVersion</tabstop>
+  <tabstop>lineEditMpGUID</tabstop>
+  <tabstop>pushButtonEditContractor</tabstop>
+  <tabstop>textEditReason</tabstop>
+  <tabstop>textEditPurpose</tabstop>
+  <tabstop>comboBoxContractor</tabstop>
+  <tabstop>dateEditDateWork</tabstop>
+  <tabstop>pushButtonPurpose</tabstop>
+  <tabstop>pushButtonReason</tabstop>
+  <tabstop>pushButtonAddSectionMp</tabstop>
+  <tabstop>pushButtonSaveData</tabstop>
+  <tabstop>pushButtonEditData</tabstop>
+  <tabstop>pushButtonDeleteSectionMp</tabstop>
+  <tabstop>pushButtonRefreshData</tabstop>
+  <tabstop>pushButtonCreateNewMp</tabstop>
+  <tabstop>pushButtonDeleteMp</tabstop>
+  <tabstop>comboBoxMp</tabstop>
+  <tabstop>treeWidget</tabstop>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>comboBoxEDocCodeType</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../resources.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>treeWidgetAppendix</sender>
+   <signal>doubleClicked(QModelIndex)</signal>
+   <receiver>pushButtonEditData</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>428</x>
+     <y>53</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>571</x>
+     <y>521</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>treeWidgetDocument</sender>
+   <signal>doubleClicked(QModelIndex)</signal>
+   <receiver>pushButtonEditData</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>544</x>
+     <y>214</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>565</x>
+     <y>514</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>treeWidgetGeodesicBase</sender>
+   <signal>doubleClicked(QModelIndex)</signal>
+   <receiver>pushButtonEditData</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>588</x>
+     <y>252</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>562</x>
+     <y>520</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>treeWidgetMeansSurvey</sender>
+   <signal>doubleClicked(QModelIndex)</signal>
+   <receiver>pushButtonEditData</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>550</x>
+     <y>272</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>576</x>
+     <y>521</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>treeWidgetRealty</sender>
+   <signal>doubleClicked(QModelIndex)</signal>
+   <receiver>pushButtonEditData</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>570</x>
+     <y>299</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>565</x>
+     <y>515</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>treeWidgetSubParcel</sender>
+   <signal>doubleClicked(QModelIndex)</signal>
+   <receiver>pushButtonEditData</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>558</x>
+     <y>310</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>568</x>
+     <y>522</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

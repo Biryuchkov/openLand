@@ -1,0 +1,481 @@
+<Composer title="МП. Схема расположения ЗУ. Условные обозначения. А4 - портрет." visible="1">
+ <Composition printResolution="300" paperWidth="210" snapGridOffsetX="0" snapGridResolution="3" snapGridOffsetY="0" alignmentSnap="1" snapping="1" numPages="1" paperHeight="297" alignmentSnapTolerance="2" printAsRaster="0">
+  <ComposerLabel valign="32" labelText="- кадастровый номер кадастрового квартала" htmlState="0" halign="1" margin="1">
+   <LabelFont description="Times New Roman,8,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="147" x="54" transparency="0" y="192" rotation="0" height="6" positionMode="0" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="4.71141" uuid="{cb6eaf63-2e33-4f7b-b87d-18b98fa0ce23}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="56:43:0102003" htmlState="0" halign="1" margin="1">
+   <LabelFont description="Times New Roman,12,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="255" green="0"/>
+   <ComposerItem width="30" x="24" transparency="0" y="192" rotation="0" height="7.1" positionMode="0" frame="false" outlineWidth="0.3" zValue="19" lastValidViewScaleFactor="4.71141" uuid="{754051de-2da9-4b5c-b679-b4cd469be2d0}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText=":19&#xa;:123/5&#xa;" htmlState="0" halign="1" margin="1">
+   <LabelFont description="Times New Roman,8,-1,5,50,0,1,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="12" x="24" transparency="0" y="183" rotation="0" height="9" positionMode="0" frame="false" outlineWidth="0.3" zValue="19" lastValidViewScaleFactor="6.51007" uuid="{72833122-a041-4a1e-958a-1c55f685adb3}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText=":ЗУ1                 - обозначение  земельных участков, образуемых путем перераспределения, а также из земель, находящихся в государственной или муниципальной собственности &#xa;:123:ЗУ1          - обозначение  земельных участков, образуемых путем раздела и выдела&#xa;:19                   - обозначение исходных, измененных и уточняемых земельных участков&#xa;:ЗУ1(1), :123(1), :123:ЗУ1(1) - обозначение контура многоконтурного земельного участка&#xa;:123/5               - обозначение существующих частей земельных участков&#xa;:123/чзу1         - обозначение образуемых частей измененных и уточняемых  земельных участков, а также образуемых частей земельных участков при выполнении кадастровых работ исключительно в целях образования частей земельных участков&#xa;:123:ЗУ1/чзу1, :ЗУ1/чзу1 - обозначение образуемых частей  образуемых земельных участков&#xa;:ЗУ1/чзу1(1), :123:ЗУ1/чзу1(1) - обозначение контура  многоконтурной части земельного участка&#xa;1                        - обозначение выноски (врезки)" htmlState="0" halign="1" margin="1">
+   <LabelFont description="Times New Roman,8,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="177" x="24" transparency="0" y="141" rotation="0" height="42" positionMode="0" frame="false" outlineWidth="0.3" zValue="15" lastValidViewScaleFactor="6.51007" uuid="{c49211dd-e34e-41e9-833e-e35bed64b7a8}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLegend symbolWidth="10" title="Условные обозначения:" boxSpace="1" splitLayer="0" equalColumnWidth="0" symbolHeight="2" wrapChar="/" fontColor="#000000" columnSpace="2" columnCount="1">
+   <styles>
+    <style name="title" font="Times New Roman,10,-1,5,50,0,0,0,0,0"/>
+    <style name="group" font="Times New Roman,8,-1,5,50,0,0,0,0,0"/>
+    <style name="subgroup" font="Times New Roman,8,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="1" name="symbol" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="1" marginLeft="2" name="symbolLabel" font="Times New Roman,8,-1,5,50,0,0,0,0,0"/>
+   </styles>
+   <Model autoUpdate="0">
+    <LayerItem layerId="granica20121204184130101" userText="" style="subgroup" text="" showFeatureCount="0">
+     <VectorClassificationItemNg userText="" text="- вновь образованная часть границы, сведения о которой достаточны для определения ее местоположения">
+      <symbols>
+       <symbol alpha="1" type="line" name="classificationSymbol">
+        <layer pass="0" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="square"/>
+         <prop k="color" v="255,0,0,255"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="solid"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width" v="0.2"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="- существующая часть границы, имеющиеся в ГКН сведения о которой достаточны для определения ее местоположения">
+      <symbols>
+       <symbol alpha="1" type="line" name="classificationSymbol">
+        <layer pass="0" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="square"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="solid"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width" v="0.2"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="- существующая часть границы, имеющиеся в ГКН сведения о которой не достаточны для определения ее местоположения">
+      <symbols>
+       <symbol alpha="1" type="line" name="classificationSymbol">
+        <layer pass="0" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="square"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="customdash" v="2;1"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="dot"/>
+         <prop k="use_custom_dash" v="1"/>
+         <prop k="width" v="0.2"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="- вновь образованная часть границы, сведения о которой не достаточны для определения ее местоположения">
+      <symbols>
+       <symbol alpha="1" type="line" name="classificationSymbol">
+        <layer pass="0" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="square"/>
+         <prop k="color" v="255,0,0,255"/>
+         <prop k="customdash" v="2;1"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="dot"/>
+         <prop k="use_custom_dash" v="1"/>
+         <prop k="width" v="0.2"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+    <LayerItem layerId="dpoints20130130122450033" userText="" style="subgroup" text="" showFeatureCount="0">
+     <VectorClassificationItemNg userText="" text="- земельный участок, имеющиеся в ГКН сведения о границе которого достаточны для определения ее положения на местности,/ размеры которого не могут быть переданы в масштабе графической части">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SimpleMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="name" v="rectangle"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline_width" v="0"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="scale_method" v="area"/>
+         <prop k="size" v="3"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="- земельный участок, имеющиеся в ГКН сведения о границе которого не достаточны для определения ее положения на местности,/ размеры которого не могут быть переданы в масштабе графической части">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="EllipseMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill_color" v="255,255,255,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline_color" v="0,0,0,255"/>
+         <prop k="outline_width" v="0.2"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="symbol_height" v="3"/>
+         <prop k="symbol_height_unit" v="MM"/>
+         <prop k="symbol_name" v="rectangle"/>
+         <prop k="symbol_width" v="3"/>
+         <prop k="symbol_width_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="- образуемый земельный участок (контур земельного участка), сведения о границе которого достаточны для определения ее положения/ на местности, размеры которого не могут быть переданы в масштабе графической части">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SimpleMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="color" v="255,0,0,255"/>
+         <prop k="color_border" v="255,0,0,255"/>
+         <prop k="name" v="rectangle"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline_width" v="0"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="scale_method" v="area"/>
+         <prop k="size" v="3"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="- образуемый земельный участок, сведения о границе которого не достаточны для определения ее положения на местности,/ размеры которого не могут быть переданы в масштабе графической части">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="EllipseMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill_color" v="255,255,255,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline_color" v="255,0,0,255"/>
+         <prop k="outline_width" v="0.2"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="symbol_height" v="3"/>
+         <prop k="symbol_height_unit" v="MM"/>
+         <prop k="symbol_name" v="rectangle"/>
+         <prop k="symbol_width" v="3"/>
+         <prop k="symbol_width_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+    <LayerItem layerId="Линейные20130130123048442" userText="" style="subgroup" text="" showFeatureCount="0">
+     <VectorClassificationItemNg userText="" text="- ранее учтенный земельный участок, представляющий собой единое землепользование с преобладанием обособленных участков,/ имеющиеся в ГКН сведения о границах которых достаточны для определения их положения на местности, а также многоконтурный/ земельный участок, размеры которого не могут быть переданы в масштабе графической части">
+      <symbols>
+       <symbol alpha="1" type="line" name="classificationSymbol">
+        <layer pass="0" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="square"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="solid"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width" v="0.2"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+        <layer pass="0" class="MarkerLine" locked="0">
+         <prop k="interval" v="6"/>
+         <prop k="interval_unit" v="MM"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="placement" v="vertex"/>
+         <prop k="rotate" v="1"/>
+         <symbol alpha="1" type="marker" name="@classificationSymbol@1">
+          <layer pass="0" class="SimpleMarker" locked="0">
+           <prop k="angle" v="0"/>
+           <prop k="color" v="0,0,0,255"/>
+           <prop k="color_border" v="0,0,0,255"/>
+           <prop k="name" v="rectangle"/>
+           <prop k="offset" v="0,0"/>
+           <prop k="offset_unit" v="MM"/>
+           <prop k="outline_width" v="0"/>
+           <prop k="outline_width_unit" v="MM"/>
+           <prop k="scale_method" v="area"/>
+           <prop k="size" v="2"/>
+           <prop k="size_unit" v="MM"/>
+          </layer>
+         </symbol>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="- ранее учтенный земельный участок, представляющий собой единое землепользование с преобладанием обособленных участков,/ имеющиеся в ГКН сведения о границах которых не достаточны для определения их положения на местности, а также/ многоконтурный земельный участок, размеры которого не могут быть переданы в масштабе графической части">
+      <symbols>
+       <symbol alpha="1" type="line" name="classificationSymbol">
+        <layer pass="0" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="square"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="solid"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width" v="0.2"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+        <layer pass="0" class="MarkerLine" locked="0">
+         <prop k="interval" v="3"/>
+         <prop k="interval_unit" v="MM"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="placement" v="vertex"/>
+         <prop k="rotate" v="1"/>
+         <symbol alpha="1" type="marker" name="@classificationSymbol@1">
+          <layer pass="0" class="EllipseMarker" locked="0">
+           <prop k="angle" v="0"/>
+           <prop k="fill_color" v="255,255,255,255"/>
+           <prop k="offset" v="0,0"/>
+           <prop k="offset_unit" v="MM"/>
+           <prop k="outline_color" v="0,0,0,255"/>
+           <prop k="outline_width" v="0.2"/>
+           <prop k="outline_width_unit" v="MM"/>
+           <prop k="symbol_height" v="2"/>
+           <prop k="symbol_height_unit" v="MM"/>
+           <prop k="symbol_name" v="rectangle"/>
+           <prop k="symbol_width" v="2"/>
+           <prop k="symbol_width_unit" v="MM"/>
+          </layer>
+         </symbol>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="- ранее учтенный земельный участок, представляющий собой единое землепользование с преобладанием условных участков,/ имеющиеся в ГКН сведения о границах которых  достаточны для определения их положения на местности, размеры которого/ не могут быть переданы в масштабе графической части">
+      <symbols>
+       <symbol alpha="1" type="line" name="classificationSymbol">
+        <layer pass="0" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="square"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="joinstyle" v="round"/>
+         <prop k="offset" v="0.5"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="solid"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width" v="0.2"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+        <layer pass="0" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="square"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="-0.5"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="solid"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width" v="0.2"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="- ранее учтенный земельный участок, представляющий собой единое землепользование с преобладанием условных участков,/ имеющиеся в ГКН сведения о границах которых не достаточны для определения их положения на местности, размеры которого/ не могут быть переданы в масштабе графической части">
+      <symbols>
+       <symbol alpha="1" type="line" name="classificationSymbol">
+        <layer pass="0" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="square"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="customdash" v="2;1"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="-0.5"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="dot"/>
+         <prop k="use_custom_dash" v="1"/>
+         <prop k="width" v="0.2"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+        <layer pass="0" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="square"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="customdash" v="2;1"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0.5"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="solid"/>
+         <prop k="use_custom_dash" v="1"/>
+         <prop k="width" v="0.2"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+    <LayerItem layerId="kvartal20121119101607062" userText="" style="subgroup" text="" showFeatureCount="0">
+     <VectorClassificationItemNg userText="" text="- границы кадастрового деления">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="0,0,255,255"/>
+         <prop k="color_border" v="0,0,255,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="no"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0.5"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+    <LayerItem layerId="Площадные20130130123219004" userText="" style="subgroup" text="" showFeatureCount="0">
+     <VectorClassificationItemNg userText="" text="- земли общего пользования">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="LinePatternFill" locked="0">
+         <prop k="color" v="255,85,0,255"/>
+         <prop k="distance" v="2"/>
+         <prop k="distance_unit" v="MM"/>
+         <prop k="line_width_unit" v="MM"/>
+         <prop k="lineangle" v="45"/>
+         <prop k="linewidth" v="0.2"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_unit" v="MM"/>
+         <symbol alpha="1" type="line" name="@classificationSymbol@0">
+          <layer pass="0" class="SimpleLine" locked="0">
+           <prop k="capstyle" v="square"/>
+           <prop k="color" v="255,85,0,255"/>
+           <prop k="customdash" v="5;2"/>
+           <prop k="customdash_unit" v="MM"/>
+           <prop k="joinstyle" v="bevel"/>
+           <prop k="offset" v="0"/>
+           <prop k="offset_unit" v="MM"/>
+           <prop k="penstyle" v="solid"/>
+           <prop k="use_custom_dash" v="0"/>
+           <prop k="width" v="0.2"/>
+           <prop k="width_unit" v="MM"/>
+          </layer>
+         </symbol>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="- зона с особыми условиями использования территорий - охранная зона">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="0,255,0,255"/>
+         <prop k="color_border" v="0,255,0,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="no"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0.2"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="- границы муниципальных образований и (или) границы населенных пунктов">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="255,0,127,255"/>
+         <prop k="color_border" v="255,0,127,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="no"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0.2"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+   </Model>
+   <ComposerItem width="174.4" x="24" transparency="0" y="33" rotation="0" height="95.4" positionMode="0" frame="false" outlineWidth="0.3" zValue="14" lastValidViewScaleFactor="6.51007" uuid="{646bbe29-4e98-4da7-a9c5-5f589ddaac1f}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLegend>
+  <ComposerLabel valign="32" labelText="Схема расположения земельных участков " htmlState="0" halign="4" margin="1">
+   <LabelFont description="Times New Roman,12,-1,5,75,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="183" x="21" transparency="0" y="21" rotation="0" height="9" positionMode="0" frame="true" outlineWidth="0.15" zValue="8" lastValidViewScaleFactor="3.02349" uuid="{14cff450-1565-45db-9a34-aea44ca65e26}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="МЕЖЕВОЙ ПЛАН" htmlState="0" halign="4" margin="0.5">
+   <LabelFont description="Times New Roman,12,-1,5,75,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="183" x="21" transparency="0" y="12" rotation="0" height="18" positionMode="0" frame="true" outlineWidth="0.3" zValue="7" lastValidViewScaleFactor="3.02349" uuid="{a81fc565-bab6-4286-88f5-5c3a82de573e}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Лист № " htmlState="0" halign="1" margin="1">
+   <LabelFont description="Times New Roman,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="24" x="180" transparency="0" y="6" rotation="0" height="6" positionMode="0" frame="true" outlineWidth="0.3" zValue="6" lastValidViewScaleFactor="3.02349" uuid="{e7d50b23-36a7-496c-bfca-a0f57ea90843}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="- обозначение исходных земельных участков, прекращающих существование&#xa;- обозначение прекращающих существование частей земельных участков&#xa;" htmlState="0" halign="1" margin="1">
+   <LabelFont description="Times New Roman,8,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="159" x="39" transparency="0" y="183" rotation="0" height="9" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="6.51007" uuid="{6b7db1dc-d952-44a7-ba2c-83f253ac2927}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerShape shapeType="1">
+   <ComposerItem width="183.069" x="21" transparency="0" y="30" rotation="0" height="255" positionMode="0" frame="true" outlineWidth="0" zValue="1" lastValidViewScaleFactor="3.25503" uuid="{b32a26d3-9869-4ab2-8ba7-84f82b4808d3}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="0" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+ </Composition>
+</Composer>

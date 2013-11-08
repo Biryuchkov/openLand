@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogGeodesicBase</class>
+ <widget class="QDialog" name="DialogGeodesicBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>420</width>
+    <height>420</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Сведения о геодезической основе</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="..\resources.qrc">
+    <normaloff>:/plugins/openland/icons/geoshema.png</normaloff>:/plugins/openland/icons/geoshema.png</iconset>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTreeWidget" name="treeWidget">
+     <property name="sortingEnabled">
+      <bool>true</bool>
+     </property>
+     <column>
+      <property name="text">
+       <string>Название пункта</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>X</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Y</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <property name="fieldGrowthPolicy">
+      <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+     </property>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Название пункта&lt;br /&gt;геодезической сети</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="lineEditPName">
+       <property name="inputMethodHints">
+        <set>Qt::ImhNone</set>
+       </property>
+       <property name="inputMask">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Тип пункта&lt;br /&gt;геодезической сети</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEditPKind">
+       <property name="inputMethodHints">
+        <set>Qt::ImhNone</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Класс&lt;br /&gt;геодезической сети</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEditPKlass">
+       <property name="inputMask">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Координата Х</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="lineEditOrdX"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Координата Y</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="lineEditOrdY"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButtonSelect">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="toolTip">
+        <string>Выбрать пункт геодезической сети</string>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="whatsThis">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="..\resources.qrc">
+         <normaloff>:/plugins/openland/icons/symbol_check.png</normaloff>:/plugins/openland/icons/symbol_check.png</iconset>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="default">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonAdd">
+       <property name="toolTip">
+        <string>Добавить пункт геодезической сети</string>
+       </property>
+       <property name="text">
+        <string extracomment="Добавить"/>
+       </property>
+       <property name="icon">
+        <iconset resource="..\resources.qrc">
+         <normaloff>:/plugins/openland/icons/symbol_add.png</normaloff>:/plugins/openland/icons/symbol_add.png</iconset>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonEdit">
+       <property name="toolTip">
+        <string>Редактировать атрибуты пункта геодезической сети</string>
+       </property>
+       <property name="text">
+        <string extracomment="Редактировать"/>
+       </property>
+       <property name="icon">
+        <iconset resource="..\resources.qrc">
+         <normaloff>:/plugins/openland/icons/edit.png</normaloff>:/plugins/openland/icons/edit.png</iconset>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonDel">
+       <property name="toolTip">
+        <string>Удалить пункт геодезической сети</string>
+       </property>
+       <property name="text">
+        <string extracomment="Удалить"/>
+       </property>
+       <property name="icon">
+        <iconset resource="..\resources.qrc">
+         <normaloff>:/plugins/openland/icons/symbol_remove.png</normaloff>:/plugins/openland/icons/symbol_remove.png</iconset>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonSave">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="toolTip">
+        <string>Сохранить атрибуты пункта геодезической сети</string>
+       </property>
+       <property name="text">
+        <string extracomment="Сохранить"/>
+       </property>
+       <property name="icon">
+        <iconset resource="..\resources.qrc">
+         <normaloff>:/plugins/openland/icons/save.png</normaloff>:/plugins/openland/icons/save.png</iconset>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonRefresh">
+       <property name="toolTip">
+        <string>Обновить атрибуты пункта геодезической сети</string>
+       </property>
+       <property name="text">
+        <string extracomment="Обновить"/>
+       </property>
+       <property name="icon">
+        <iconset resource="..\resources.qrc">
+         <normaloff>:/plugins/openland/icons/refresh.png</normaloff>:/plugins/openland/icons/refresh.png</iconset>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonClose">
+       <property name="toolTip">
+        <string>Закрыть окно</string>
+       </property>
+       <property name="text">
+        <string extracomment="Закрыть"/>
+       </property>
+       <property name="icon">
+        <iconset resource="..\resources.qrc">
+         <normaloff>:/plugins/openland/icons/close.png</normaloff>:/plugins/openland/icons/close.png</iconset>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelMessage">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>treeWidget</tabstop>
+  <tabstop>lineEditPName</tabstop>
+  <tabstop>lineEditPKind</tabstop>
+  <tabstop>lineEditPKlass</tabstop>
+  <tabstop>lineEditOrdX</tabstop>
+  <tabstop>lineEditOrdY</tabstop>
+  <tabstop>pushButtonSelect</tabstop>
+  <tabstop>pushButtonAdd</tabstop>
+  <tabstop>pushButtonEdit</tabstop>
+  <tabstop>pushButtonDel</tabstop>
+  <tabstop>pushButtonSave</tabstop>
+  <tabstop>pushButtonRefresh</tabstop>
+  <tabstop>pushButtonClose</tabstop>
+ </tabstops>
+ <resources>
+  <include location="..\resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

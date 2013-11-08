@@ -1,0 +1,1 @@
+bin\xsltproc.exe -o content.xml %1 %2
