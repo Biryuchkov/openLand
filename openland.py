@@ -26,9 +26,10 @@ from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 from qgis.core import *
 #from tools.landplaning.coordcatalog import CatalogData
-from tools.landplaning.createCoordCatalog import CreateCoordCatalog
+from tools.landplaning.createCoordCatalog import *
 
 sys.path.append(os.path.abspath(os.path.dirname(__file__) + '/tools'))
+sys.path.append(os.path.abspath(os.path.dirname(__file__) + '/tools/landplaning'))
 
 from math import sqrt
 from common import *
