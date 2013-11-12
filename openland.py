@@ -19,17 +19,17 @@
  *                                                                         *
  ***************************************************************************/
 """
+import os.path
+import sys
+
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 from qgis.core import *
-
-import os.path, sys
-import string
-import shutil
+#from tools.landplaning.coordcatalog import CatalogData
+from tools.landplaning.createCoordCatalog import CreateCoordCatalog
 
 sys.path.append(os.path.abspath(os.path.dirname(__file__) + '/tools'))
 
-import resources_rc
 from math import sqrt
 from common import *
 from mp import mpDialog
@@ -56,6 +56,7 @@ from filterset import filterSet
 from openlandsettings import OpenLandSettings
 from openlandabout import OpenLandAbout
 
+
 class openLand:
     def __init__(self, iface):
         self.iface = iface
@@ -69,6 +70,7 @@ class openLand:
         self.dlgAbout = None
         self.dlgImportXML = None
         self.dlgMP = None
+        self.dlg_coordcatalog = None
 
     def initGui(self):
         QObject.connect(self.iface, SIGNAL('currentLayerChanged(QgsMapLayer*)'), self.toggle)
@@ -177,10 +179,21 @@ class openLand:
         self.openland_about.setIcon(QIcon(":/plugins/openland/icons/about.png"))
         self.menu.addActions([self.openland_xml2print, self.openland_filterset, self.openland_settings, self.openland_about])
 
+        # Землеустройство
+        self.menu_landplaning = QMenu()
+        self.menu_landplaning.setTitle(u'Землеустройство')
+
+        self.openland_createcoordcatalog = QAction(u'Ведомость координат', self.iface.mainWindow())
+        self.openland_createcoordcatalog.setEnabled(True)
+        self.openland_createcoordcatalog.setIcon(QIcon(":/plugins/openland/icons/create_coordcatalog.png"))
+        self.menu_landplaning.addActions([self.openland_createcoordcatalog])
+
+
         menu_bar = self.iface.mainWindow().menuBar()
         actions = menu_bar.actions()
-        lastAction = actions[len( actions ) - 1]
+        lastAction = actions[len(actions) - 1]
         menu_bar.insertMenu(lastAction, self.menu)
+        menu_bar.insertMenu(lastAction+1, self.menu_landplaning)
 
         QObject.connect(self.openland_importxml, SIGNAL("triggered()"), self.doImportXML)
         QObject.connect(self.openland_importgeometry, SIGNAL("triggered()"), self.doImportGeometry)
@@ -205,6 +218,7 @@ class openLand:
         QObject.connect(self.openland_filterset, SIGNAL("triggered()"), self.doFilterSet)
         QObject.connect(self.openland_settings, SIGNAL("triggered()"), self.doSettings)
         QObject.connect(self.openland_about, SIGNAL("triggered()"), self.doAbout)
+        QObject.connect(self.openland_createcoordcatalog, SIGNAL("triggered()"), self.doCreateCoordcatalog)
 
         self.toolBar = self.iface.addToolBar("openLand")
         self.toolBar.setObjectName("openLand")
@@ -565,6 +579,11 @@ class openLand:
         self.dlgAbout.lblVersion.setText(u'<html><head/><body><p>Версия ' +gv['versionPlugin']+ u' <span style=\" color:#ff0000; vertical-align:sub;\">альфа</span> от ' +gv['datePlugin']+ u'</p></body></html>')
         self.dlgAbout.show()
 
+    def doCreateCoordcatalog(self):
+        if self.dlg_coordcatalog is None:
+            self.dlg_coordcatalog = CreateCoordCatalog(self.iface)
+        self.dlg_coordcatalog.show()
+
     def updateProjectFromDefault(self):
         '''
         Обновление проекта QGIS, указанного в настройках
@@ -832,4 +851,3 @@ class openLand:
 #        QObject.disconnect(layer,SIGNAL("editingStopped()"),self.toggle)        
 
 #        QMessageBox.information(self.iface.mainWindow(), 'test', str())
-   

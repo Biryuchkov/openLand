@@ -45,5 +45,6 @@
     <file>icons/attributes.png</file>
     <file>icons/close.png</file>
     <file>icons/save.png</file>
+    <file>icons/create_coordcatalog.png</file>
   </qresource>
 </RCC>
