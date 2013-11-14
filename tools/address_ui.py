@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'address.ui'
 #
-# Created: Mon Oct 28 12:16:29 2013
+# Created: Fri Nov 08 20:18:24 2013
 #      by: PyQt4 UI code generator 4.9.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -31,6 +31,7 @@ class Ui_Address(object):
         self.gridLayout_2.addWidget(self.label_17, 14, 0, 1, 1)
         self.label_4 = QtGui.QLabel(Address)
         font = QtGui.QFont()
+        font.setFamily(_fromUtf8("MS Shell Dlg 2"))
         font.setBold(True)
         font.setWeight(75)
         self.label_4.setFont(font)
@@ -48,6 +49,7 @@ class Ui_Address(object):
         self.gridLayout_2.addWidget(self.label_7, 6, 0, 1, 1)
         self.label = QtGui.QLabel(Address)
         font = QtGui.QFont()
+        font.setFamily(_fromUtf8("MS Shell Dlg 2"))
         font.setBold(True)
         font.setWeight(75)
         self.label.setFont(font)
@@ -55,6 +57,7 @@ class Ui_Address(object):
         self.gridLayout_2.addWidget(self.label, 2, 0, 1, 1)
         self.label_2 = QtGui.QLabel(Address)
         font = QtGui.QFont()
+        font.setFamily(_fromUtf8("MS Shell Dlg 2"))
         font.setBold(True)
         font.setWeight(75)
         self.label_2.setFont(font)
@@ -300,11 +303,11 @@ class Ui_Address(object):
         Address.setWindowTitle(QtGui.QApplication.translate("Address", "Адрес или местоположение", None, QtGui.QApplication.UnicodeUTF8))
         self.label_17.setWhatsThis(QtGui.QApplication.translate("Address", "<html><head/><body><p><br/></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.label_17.setText(QtGui.QApplication.translate("Address", "<html><head/><body><p align=\"right\">Документ</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_4.setText(QtGui.QApplication.translate("Address", "<html><head/><body><p align=\"right\">Регион</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_4.setText(QtGui.QApplication.translate("Address", "<html><head/><body><p align=\"right\"><span style=\" font-weight:600;\">Регион</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.label_6.setText(QtGui.QApplication.translate("Address", "<html><head/><body><p align=\"right\">МО</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.label_7.setText(QtGui.QApplication.translate("Address", "<html><head/><body><p align=\"right\">Городской район</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label.setText(QtGui.QApplication.translate("Address", "<html><head/><body><p align=\"right\">ОКАТО</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_2.setText(QtGui.QApplication.translate("Address", "<html><head/><body><p align=\"right\">КЛАДР</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.label.setText(QtGui.QApplication.translate("Address", "<html><head/><body><p align=\"right\"><span style=\" font-weight:600;\">ОКАТО</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_2.setText(QtGui.QApplication.translate("Address", "<html><head/><body><p align=\"right\"><span style=\" font-weight:600;\">КЛАДР</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.label_5.setText(QtGui.QApplication.translate("Address", "<html><head/><body><p align=\"right\">Район</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.label_3.setText(QtGui.QApplication.translate("Address", "<html><head/><body><p align=\"right\">Почтовый индекс</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.label_8.setText(QtGui.QApplication.translate("Address", "<html><head/><body><p align=\"right\">Сельсовет</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
@@ -318,7 +321,7 @@ class Ui_Address(object):
         self.comboBoxDocument.setWhatsThis(QtGui.QApplication.translate("Address", "<html><head/><body><p>Реквизиты акта органа государственной власти или органа местного самоуправления, уполномоченного присваивать адреса земельным участкам</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.pushButtonDocument.setWhatsThis(QtGui.QApplication.translate("Address", "<html><head/><body><p>Кнопка вызова диалога редактирования справочника документов</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.label_15.setText(QtGui.QApplication.translate("Address", "<html><head/><body><p align=\"right\">Иное</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_16.setText(QtGui.QApplication.translate("Address", "<html><head/><body><p align=\"right\">Описание</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_16.setText(QtGui.QApplication.translate("Address", "<html><head/><body><p align=\"right\"><span style=\" font-weight:600;\">Описание</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.pushButtonCreateDesc.setText(QtGui.QApplication.translate("Address", "Сформировать", None, QtGui.QApplication.UnicodeUTF8))
         self.pushButtonRefresh.setText(QtGui.QApplication.translate("Address", "Обновить", None, QtGui.QApplication.UnicodeUTF8))
         self.pushButtonOk.setText(QtGui.QApplication.translate("Address", "OK", None, QtGui.QApplication.UnicodeUTF8))

@@ -22,11 +22,11 @@
 def name():
     return "openLand"
 def description():
-    return "Module for the cadastral engineer working"
+    return "Module for the cadastral engineer work"
 def category():
     return "Plugins"
 def version():
-    return "Version 0.2.5"
+    return "Version 0.2.6"
 def icon():
     return "settings/main.png"
 def qgisMinimumVersion():

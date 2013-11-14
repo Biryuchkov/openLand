@@ -3894,7 +3894,11 @@
 					</style:paragraph-properties>
 					<style:text-properties fo:language="en" fo:country="US" officeooo:paragraph-rsid="0113a807"/>
 				</style:style>
-				<style:style style:name="P95" style:family="paragraph" style:parent-style-name="Обычный" style:master-page-name="MP0">
+				<style:style style:name="P95" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="normal" officeooo:rsid="0124a375" officeooo:paragraph-rsid="0124a375" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+				</style:style>
+				<style:style style:name="P96" style:family="paragraph" style:parent-style-name="Обычный" style:master-page-name="MP0">
 					<style:paragraph-properties fo:margin-left="0cm" fo:margin-right="-0.252cm" fo:text-indent="0cm" style:auto-text-indent="false" style:page-number="auto" fo:break-before="page"/>
 				</style:style>
 				<style:style style:name="T1" style:family="text">
@@ -4056,7 +4060,7 @@
 						<text:sequence-decl text:display-outline-level="0" text:name="Table"/>
 						<text:sequence-decl text:display-outline-level="0" text:name="Text"/>
 						<text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
-					</text:sequence-decls><text:p text:style-name="P95"/><table:table table:name="Таблица8" table:style-name="Таблица8">
+					</text:sequence-decls><text:p text:style-name="P96"/><table:table table:name="Таблица8" table:style-name="Таблица8">
 						<table:table-column table:style-name="Таблица8.A"/>
 						<table:table-column table:style-name="Таблица8.B"/>
 						<table:table-column table:style-name="Таблица8.C"/>
@@ -4547,7 +4551,7 @@
 								</table:table-cell>
 							</table:table-row><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A19" office:value-type="string">
-									<text:list xml:id="list3303019920913431425" text:style-name="Numbering_20_1">
+									<text:list xml:id="list8646304714553330748" text:style-name="Numbering_20_1">
 										<text:list-item>
 											<text:p text:style-name="P90">
 												<text:span text:style-name="User_20_Entry"/>
@@ -4574,7 +4578,7 @@
 								</table:table-cell>
 							</table:table-row><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A19" office:value-type="string">
-									<text:list xml:id="list190325480138406" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list192222489141769" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
 											<text:p text:style-name="P91">
 												<text:span text:style-name="User_20_Entry"/>
@@ -4609,7 +4613,7 @@
 							</table:table-row><!--row-code-->
 <xsl:if test="/.//NewParcel"><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A9" office:value-type="string">
-									<text:list xml:id="list190325480147739" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list192222489132052" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
 											<text:p text:style-name="P94">
 												<text:span text:style-name="User_20_Entry"/>
@@ -4645,7 +4649,7 @@
 </xsl:if>
 <xsl:if test="/.//ExistEZParcels"><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A19" office:value-type="string">
-									<text:list xml:id="list190325480155890" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list192222499158044" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
 											<text:p text:style-name="P92">
 												<text:span text:style-name="User_20_Entry"/>
@@ -4681,7 +4685,7 @@
 </xsl:if>
 <xsl:if test="/.//NewParcel/Providing_Pass_CadastralNumbers"><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A19" office:value-type="string">
-									<text:list xml:id="list190325480135157" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list192222499142527" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
 											<text:p text:style-name="P92">
 												<text:span text:style-name="User_20_Entry"/>
@@ -4717,7 +4721,7 @@
 </xsl:if>
 <xsl:if test="/.//ExistParcel[not(Composition_EZ)]"><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A19" office:value-type="string">
-									<text:list xml:id="list190325480160964" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list192222499154067" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
 											<text:p text:style-name="P92">
 												<text:span text:style-name="User_20_Entry">
@@ -4755,7 +4759,7 @@
 </xsl:if>
 <xsl:if test="/.//NewSubParcel"><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A19" office:value-type="string">
-									<text:list xml:id="list190325490153732" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list192222499144203" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
 											<text:p text:style-name="P92">
 												<text:span text:style-name="User_20_Entry"/>
@@ -4791,7 +4795,7 @@
 </xsl:if>
 <xsl:if test="/.//Conclusion"><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A19" office:value-type="string">
-									<text:list xml:id="list190325490163757" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list192222499160121" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
 											<text:p text:style-name="P93">
 												<text:span text:style-name="User_20_Entry"/>
@@ -4828,7 +4832,7 @@
 <xsl:if test="/.//Scheme_Geodesic_Plotting">
 <table:table-row>
 								<table:table-cell table:style-name="Таблица9.A21">
-									<text:list xml:id="list190325490145451" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list192222499151837" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
 											<text:p text:style-name="P92"/>
 										</text:list-item>
@@ -4855,7 +4859,7 @@
 </xsl:if>
 <xsl:if test="/.//Scheme_Disposition_Parcels"><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A23" office:value-type="string">
-									<text:list xml:id="list190325490152884" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list192222509144853" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
 											<text:p text:style-name="P92">
 												<text:span text:style-name="User_20_Entry">
@@ -4886,7 +4890,7 @@
 </xsl:if>
 <xsl:if test="/.//Diagram_Parcels_SubParcels"><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A25" office:value-type="string">
-									<text:list xml:id="list190325490162108" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list192222509149043" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
 											<text:p text:style-name="P92">
 												<text:span text:style-name="User_20_Entry">
@@ -4917,7 +4921,7 @@
 </xsl:if>
 <xsl:if test="/.//Agreement_Document"><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A27" office:value-type="string">
-									<text:list xml:id="list190325500159657" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list192222509146745" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
 											<text:p text:style-name="P92">
 												<text:span text:style-name="User_20_Entry">
@@ -4941,7 +4945,7 @@
 </xsl:if>
 <xsl:if test="/.//Appendix"><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A29" office:value-type="string">
-									<text:list xml:id="list190325500141575" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list192222509160950" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
 											<text:p text:style-name="P92">
 												<text:span text:style-name="User_20_Entry">
@@ -8232,8 +8236,8 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 								<text:p text:style-name="P8">4</text:p>
 							</table:table-cell>
 						</table:table-row><!--row-code-->
-		<xsl:for-each select="Contours/Contour/Entity_Spatial | Entity_Spatial">
-			<xsl:if test="(ancestor::Contour)"><table:table-row table:style-name="Таблица68.1">
+		<xsl:for-each select="Contours/NewContour/Entity_Spatial | Contours/ExistContour/Entity_Spatial | Entity_Spatial">
+			<xsl:if test="(ancestor::NewContour) or (ancestor::ExistContourContour)"><table:table-row table:style-name="Таблица68.1">
 							<table:table-cell table:style-name="Таблица68.A3" table:number-columns-spanned="4" office:value-type="string">
 								<text:p text:style-name="P19">
 									<text:span text:style-name="User_20_Entry">
@@ -8317,7 +8321,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 		</xsl:for-each>
 			</xsl:for-each>
 <!--xsl:if test="descendant::Composition_EZ"-->
-<xsl:if test="not(Contours/Contour/Entity_Spatial | Entity_Spatial)"><table:table-row table:style-name="Таблица68.1">
+<xsl:if test="not(Contours/NewContour/Entity_Spatial | Contours/ExistContour/Entity_Spatial | Entity_Spatial)"><table:table-row table:style-name="Таблица68.1">
 							<table:table-cell table:style-name="Таблица68.A9" office:value-type="string">
 								<text:p text:style-name="P55">-</text:p>
 							</table:table-cell>
@@ -8697,7 +8701,9 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 								<text:p text:style-name="Обычный">Иные сведения</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица72.C3" office:value-type="string">
-								<text:p text:style-name="P26">-</text:p>
+								<text:p text:style-name="P95"><xsl:call-template name="get_value"><xsl:with-param name="p_name">Note</xsl:with-param></xsl:call-template>
+<xsl:if test="not(Note)">-</xsl:if>
+</text:p>
 							</table:table-cell>
 						</table:table-row><!--row-code-->			
 	<!--/xsl:for-each--></table:table><!--xsl:for-each select="/.//ExistParcel[not(Composition_EZ)][SubParcels] | /STD_MP[not(/.//ExistParcel[not(Composition_EZ)][SubParcel])]"-->
