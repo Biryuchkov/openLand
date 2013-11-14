@@ -19,17 +19,15 @@
  *                                                                         *
  ***************************************************************************/
 """
-import os.path
-import sys
-
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 from qgis.core import *
-#from tools.landplaning.coordcatalog import CatalogData
-from tools.landplaning.createCoordCatalog import *
+
+import os.path, sys
+import string
+import shutil
 
 sys.path.append(os.path.abspath(os.path.dirname(__file__) + '/tools'))
-sys.path.append(os.path.abspath(os.path.dirname(__file__) + '/tools/landplaning'))
 
 from math import sqrt
 from common import *
@@ -56,7 +54,7 @@ from border import border
 from filterset import filterSet
 from openlandsettings import OpenLandSettings
 from openlandabout import OpenLandAbout
-
+from createCoordCatalog import CreateCoordCatalog
 
 class openLand:
     def __init__(self, iface):
@@ -194,7 +192,7 @@ class openLand:
         actions = menu_bar.actions()
         lastAction = actions[len(actions) - 1]
         menu_bar.insertMenu(lastAction, self.menu)
-        menu_bar.insertMenu(lastAction+1, self.menu_landplaning)
+        menu_bar.insertMenu(lastAction, self.menu_landplaning)
 
         QObject.connect(self.openland_importxml, SIGNAL("triggered()"), self.doImportXML)
         QObject.connect(self.openland_importgeometry, SIGNAL("triggered()"), self.doImportGeometry)

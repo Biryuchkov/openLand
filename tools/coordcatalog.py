@@ -69,9 +69,10 @@ class CatalogData():
         self.number_ring = 0
         self.number_contours = 0
         self.list_contours = []
+        self.prepare_data()
 
     def prepare_data(self):
-        geom = self.feat.geometry()
+        geom = self.feature.geometry()
         # 1 x1 y1 angTo2 lengTo2
         # 2 x2 y2 angTo3 lengTo3
         # 3 x3 y3 angTo1 lengTo1
