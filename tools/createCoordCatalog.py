@@ -25,11 +25,12 @@ class CreateCoordCatalog(QDialog, Ui_CoordCatalog):
         if (self.iface.mapCanvas().currentLayer() is not None) \
             and (self.iface.mapCanvas().currentLayer().selectedFeatures() is not None):
             for feature in self.iface.mapCanvas().currentLayer().selectedFeatures():
-                QMessageBox.warning(self.iface.mainWindow(), 'area', \
-                                    str(feature.geometry().area()), QtGui.QMessageBox.Ok, \
-                                    QtGui.QMessageBox.Ok)
+                #QMessageBox.warning(self.iface.mainWindow(), 'area', \
+                #                    str(feature.geometry().area()), QtGui.QMessageBox.Ok, \
+                #                    QtGui.QMessageBox.Ok)
                 ved = CatalogData(feature)
-                data = ved.list_contours[0]
-                QMessageBox.warning(self.iface.mainWindow(), 'data', \
-                                    data, QtGui.QMessageBox.Ok, \
-                                    QtGui.QMessageBox.Ok)
+                data = str(ved.list_contours[0])
+                self.textEdit.append(data)
+                #QMessageBox.warning(self.iface.mainWindow(), 'data', \
+                #                    data, QtGui.QMessageBox.Ok, \
+                #                    QtGui.QMessageBox.Ok)

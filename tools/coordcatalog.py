@@ -77,54 +77,57 @@ class CatalogData():
         # 2 x2 y2 angTo3 lengTo3
         # 3 x3 y3 angTo1 lengTo1
         # 1 x1 y1
+        iter = 1
         if geom.isMultipart():
-            polygons = geom.asMultiPolygon
+            polygons = geom.asMultiPolygon()
             for polygon in polygons:
                 self.number_contours += 1
                 self.number_ring = 0
                 list_ring = []
                 for ring in polygon:
-                    self.numberRing += 1
+                    self.number_ring += 1
                     list_ponts = []
                     #numberNode = len(ring)
                     for node in ring:
                         # Тут происходит переход к геодезической СК
-                        ++iter
+                        iter += 1
                         x = round(node.y(), 2)
                         y = round(node.x(), 2)
                         list_ponts.append([x, y])
-                        list_data = []  #'numbers', 'x', 'y', 'angles', 'lenghts'
-                        if iter > 1 and iter != len(ring) - 1:
-                            measure = Measure(list_ponts[iter], list_ponts[iter - 1])
-                            list_data.append([iter, x, y, measure.angle, measure.lenght])
-                        elif iter == len(ring):
-                            measure = Measure(list_ponts[iter], list_ponts[0])
-                            list_data.append([iter, list_ponts[iter][0],
-                                              list_ponts[iter][1], measure.angle, measure.lenght])
-                    list_ring.append(list_data)
+                        #list_data = []  #'numbers', 'x', 'y', 'angles', 'lenghts'
+                        #if iter > 1 and iter != len(ring) - 1:
+                        #    measure = Measure(list_ponts[iter], list_ponts[iter - 1])
+                        #    list_data.append([iter, x, y, measure.angle, measure.lenght])
+                        #elif iter == len(ring):
+                        #    measure = Measure(list_ponts[iter], list_ponts[0])
+                        #    list_data.append([iter, list_ponts[iter][0],
+                        #                      list_ponts[iter][1], measure.angle, measure.lenght])
+                    #list_ring.append(list_data)
+                    list_ring.append(list_ponts)
                 self.list_contours.append(list_ring)
         else:
             self.number_ring = 0
             polygon = geom.asPolygon()
             for ring in polygon:
-                self.numberRing += 1
+                self.number_ring += 1
                 list_ponts = []
                 #numberNode = len(ring)
                 list_ring = []
                 for node in ring:
                     # Тут происходит переход к геодезической СК
-                    ++iter
+                    iter += 1
                     x = round(node.y(), 2)
                     y = round(node.x(), 2)
                     list_ponts.append([x, y])
-                    list_data = []  #'numbers', 'x', 'y', 'angles', 'lenghts'
-                    if iter > 1 and iter != len(ring)-1:
-                        measure = Measure(list_ponts[iter], list_ponts[iter-1])
-                        list_data.append([iter, x, y, measure.angle, measure.lenght])
-                    elif iter == len(ring):
-                        measure = Measure(list_ponts[iter], list_ponts[0])
-                        list_data.append([iter, list_ponts[iter][0],
-                                          list_ponts[iter][1], measure.angle, measure.lenght])
+                    #list_data = []  #'numbers', 'x', 'y', 'angles', 'lenghts'
+                    #if iter > 1 and iter != len(ring)-1:
+                    #    measure = Measure(list_ponts[iter], list_ponts[iter-1])
+                    #    list_data.append([iter, x, y, measure.angle, measure.lenght])
+                    #elif iter == len(ring):
+                    #    measure = Measure(list_ponts[iter], list_ponts[0])
+                    #    list_data.append([iter, list_ponts[iter][0],
+                    #                      list_ponts[iter][1], measure.angle, measure.lenght])
 
-                list_ring.append(list_data)
+                #list_ring.append(list_data)
+                list_ring.append(list_ponts)
                 self.list_contours.append(list_ring)
