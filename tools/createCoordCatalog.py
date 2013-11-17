@@ -28,8 +28,8 @@ class CreateCoordCatalog(QDialog, Ui_CoordCatalog):
                 #QMessageBox.warning(self.iface.mainWindow(), 'area', \
                 #                    str(feature.geometry().area()), QtGui.QMessageBox.Ok, \
                 #                    QtGui.QMessageBox.Ok)
-                ved = CatalogData(feature)
-                data = str(ved.list_contours[0])
+                ved = CatalogData(feature, self.radioBtnNewPoint.checkStateSet())
+                data = str(ved.list_data)
                 self.textEdit.append(data)
                 #QMessageBox.warning(self.iface.mainWindow(), 'data', \
                 #                    data, QtGui.QMessageBox.Ok, \
