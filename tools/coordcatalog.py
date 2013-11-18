@@ -65,7 +65,7 @@ class Measure():
     def calcdegmin(self):
         a = int(self.ang)
         minute = (self.ang - a) * 60
-        self.angle = str(a) + '°' + '{0:.0f}'.format(minute) + '\''
+        self.angle = unicode(a) + u'°' + u'{0:.0f}'.format(minute) + u'\''
 
 
 class CatalogData():
