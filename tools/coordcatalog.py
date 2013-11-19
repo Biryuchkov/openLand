@@ -27,9 +27,6 @@ class Measure():
         self.calclenght()
         self.calcangle()
 
-    def getdata(self):
-        return self.angle + ';' + self.lenght
-
     def calclenght(self):
         a = math.pow(self.ddx, 2)
         b = math.pow(self.ddy, 2)
@@ -58,14 +55,14 @@ class Measure():
                 self.ang = 360 - alfa
                 self.calcdegmin()
             elif (self.ddx > 0) and (self.ddy == 0):
-                self.angle = u'0°0,0\''
+                self.angle = u'0°0\''
             elif (self.ddx < 0) and (self.ddy == 0):
-                self.angle = u'180°0,0\''
+                self.angle = u'180°0\''
 
     def calcdegmin(self):
         a = int(self.ang)
         minute = (self.ang - a) * 60
-        self.angle = unicode(a) + u'°' + u'{0:.0f}'.format(minute) + u'\''
+        self.angle = unicode(a) + u'°' + unicode('{0:.0f}'.format(minute)) + u'\''
 
 
 class CatalogData():
@@ -127,15 +124,17 @@ class CatalogData():
                 point1 = Point(ring[iter_r][0], ring[iter_r][1])
                 point2 = Point(ring[iter_r + 1][0], ring[iter_r + 1][1])
                 measure = Measure(point1, point2)
-                self.list_data.append([point_num, ring[iter_r][0], ring[iter_r][1], measure.angle, measure.lenght])
+                self.list_data.append([point_num, unicode(ring[iter_r][0]), unicode(ring[iter_r][1]), measure.angle,
+                                       unicode(measure.lenght)])
                 if iter_r == len(ring)-1:
                     point1 = Point(ring[iter_r][0], ring[iter_r][1])
                     point2 = Point(ring[0][1])
                     measure = Measure(point1, point2)
                     self.list_data.append(
-                        [point_num, ring[iter_r][0], ring[iter_r][1], measure.angle, measure.lenght])
+                        [point_num, unicode(ring[iter_r][0]), unicode(ring[iter_r][1]), measure.angle,
+                         unicode(measure.lenght)])
                     self.list_data.append(
-                        [first_pt_num, ring[0][0], ring[0][1], None, None])
+                        [first_pt_num, unicode(ring[0][0]), unicode(ring[0][1]), u'', u''])
                 number += 1
             iter_c += 1
             number = 1
