@@ -18,19 +18,21 @@ class CreateCoordCatalog(QDialog, Ui_CoordCatalog):
         QDialog.__init__(self, iface.mainWindow())
         self.iface = iface
         self.setupUi(self)
-        #self.template = u'<HTML><HEAD><META HTTP-EQUIV="CONTENT-TYPE"CONTENT="text/html; charset=UTF-8">' \
-        #                u'</HEAD><BODY>{0}</BODY></HTML>'
+        self.template = u'<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\"> ' \
+                        u'<HTML><HEAD><META HTTP-EQUIV=\"CONTENT-TYPE"CONTENT=\"text/html; charset=UTF-8\">' \
+                        u'</HEAD><BODY>{0}</BODY></HTML>'
         self.connect(self.btnCreateCoord, QtCore.SIGNAL("clicked()"), self.calculate)
 
     def calculate(self):
         if (self.iface.mapCanvas().currentLayer() is not None) \
             and (self.iface.mapCanvas().currentLayer().selectedFeatures() is not None):
             for feature in self.iface.mapCanvas().currentLayer().selectedFeatures():
-                ved = CatalogData(feature, self.radioBtnNewPoint.checkStateSet())
+                ved = CatalogData(feature, self.radioBtnNewPoint.isChecked())
                 data = ''
                 for val in ved.list_data:
                     data += self.decorate_value_html(val)
-                self.textEdit.append(data)
+                #self.textEdit.append(data)
+                self.textEdit.setHtml(self.template.format(data))
 
                 #QMessageBox.warning(self.iface.mainWindow(), 'end', \
                 #                    data, QtGui.QMessageBox.Ok, \
