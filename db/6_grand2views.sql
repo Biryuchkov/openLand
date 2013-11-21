@@ -1,4 +1,5 @@
-﻿GRANT SELECT ON TABLE geography_columns TO openlandusers;
+﻿-- перед выполнением обновить базу в pgAdmin
+GRANT SELECT ON TABLE geography_columns TO openlandusers;
 GRANT SELECT ON TABLE geography_columns TO openlandadmin;
 
 GRANT SELECT ON TABLE geometry_columns TO openlandusers;

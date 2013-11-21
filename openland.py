@@ -133,7 +133,7 @@ class openLand:
         self.functionMenu.addActions([self.openland_createpoints, self.openland_renumber, self.openland_objects2pre, self.openland_linkpoint2area, self.openland_createborder])
         self.functionMenu.addActions([self.openland_createmulticontour, self.openland_selectallcontours, self.openland_fillareaupdate])
         self.menu.addMenu(self.functionMenu)
-        
+
         self.attributeMenu = QMenu()
         self.attributeMenu.setTitle(u"Атрибуты")
         self.openland_attribute = QAction(u"Атрибуты объекта", self.iface.mainWindow())
@@ -283,7 +283,7 @@ class openLand:
         if d.toPrepare():
             d.exec_()
         del d
-            
+
     def doCreatePoints(self):
         d = createPoints(self.iface)
         if d.toPrepare():
@@ -295,7 +295,7 @@ class openLand:
         if d.toPrepare():
             d.exec_()
         del d
-        
+
     def doReNumberPoints(self):
         layer = get_vector_layer_by_name(gln['ln_uchastok'])
         selection = layer.selectedFeatures()
@@ -338,11 +338,11 @@ class openLand:
                     for i in geomaPoints:
                         dl = sqrt((i[0] - x)**2 + (i[1] - y)**2);
                         l4sort.append([dl, i[0], i[1]])
-    
+
                     l4sort.sort()
                     xNew = l4sort[0][1]
                     yNew = l4sort[0][2]
-                    
+
                     attributesOnePoint = {}
                     attributesOnePoint[layerPn.fieldNameIndex('id_uchastok')] = idu
                     attributesOnePoint[layerPn.fieldNameIndex('x')] = xNew
@@ -361,7 +361,7 @@ class openLand:
         else:
             QMessageBox.warning(self.iface.mainWindow(), u"Ошибка выбора данных", 
                                                          u'Необходимо предварительно выбрать только один участок.')
-    
+
     def doCreateBorder(self):
         layerPn = get_vector_layer_by_name(gln['ln_tochka'])
         selection = layerPn.selectedFeatures()
@@ -391,7 +391,7 @@ class openLand:
                 feat.initAttributes(len(layerBrd.dataProvider().attributeIndexes()))
                 feat.setAttribute(layerBrd.fieldNameIndex('id_uchastok'), id_uchastok1)
                 feat.setAttribute(layerBrd.fieldNameIndex('id_msk'), idCurrentMSK())
-                
+
                 if layerBrd.dataProvider().addFeatures([feat])[0]:
                     self.canvas.refresh()
                 else: 
@@ -449,7 +449,7 @@ class openLand:
 
             if idParent > 0:
                 listIdParcel = listIdChildByIdParent(idParent)
-                
+
                 if len(listIdParcel) > 0:
                     if selectVectorObjectsById('ln_uchastok', listIdParcel):
                         self.canvas.zoomToSelected()
@@ -472,13 +472,13 @@ class openLand:
         else:
             QMessageBox.warning(self.iface.mainWindow(), u"Ошибка выбора данных", 
                                                          u'Необходимо выбрать не менее одного контура для расчёта уточнённой площади.')
-    
+
     def doAttribute(self):
         layer = self.iface.mainWindow().activeLayer()
         selection = layer.selectedFeatures()
         if len(selection) == 1:
             row = selection[0].attributes()
-            
+
             # Атрибуты земельного участка
             if layer.name() == gln['ln_uchastok']: 
                 d = uchAttributes(self.iface)
@@ -524,14 +524,14 @@ class openLand:
                 QMessageBox.warning(self.iface.mainWindow(), u"Ошибка выбора данных", 
                                                              u'Необходимо выбрать объект на одном из перечисленных слоёв: \"Точка\", \"Граница\", \"Участок\", \"Квартал\"')
                 return
-            
+
             d.exec_()
             del d
             self.canvas.refresh()
         else:
             QMessageBox.warning(self.iface.mainWindow(), u"Ошибка выбора данных", 
                                                          u'Необходимо выбрать только один объект для работы с атрибутами.')
-                    
+
     def doMp(self):
         if self.dlgMP == None:
             self.dlgMP = mpDialog(self.iface)
@@ -539,7 +539,7 @@ class openLand:
 
         self.dlgMP.mpSelectionParcel()
         self.dlgMP.show()
-    
+
     def doFilterSet(self):
         if self.dlgFilterSet == None:
             self.dlgFilterSet = filterSet(self.iface)
@@ -583,6 +583,7 @@ class openLand:
     def doCreateCoordcatalog(self):
         if self.dlg_coordcatalog is None:
             self.dlg_coordcatalog = CreateCoordCatalog(self.iface)
+            self.dlg_coordcatalog.setWindowModality(Qt.NonModal)
         self.dlg_coordcatalog.show()
 
     def updateProjectFromDefault(self):
@@ -607,16 +608,16 @@ class openLand:
             isCreateNewProject = False
             newConnectionString = ''
             newLine = ''
-            
+
             if (connectionServer > ' ') and (connectionPort > ' ') and (connectionDataBase > ' '):
                 newConnectionString = "dbname=\'" +connectionDataBase+ "\' host=" +connectionServer+ " port=" +connectionPort
-                
+
                 if (connectionUserName > ' '):
                     newConnectionString = newConnectionString + " user=\'" +connectionUserName+ "\'"
 
                 if (connectionUserPassword > ' '):
                     newConnectionString = newConnectionString + " password=\'" +connectionUserPassword+ "\'"
-                 
+
                 # newConnectionString = newConnectionString + " key="
                 newConnectionString = newConnectionString + " sslmode=disable"
                 # newConnectionString = unicode(newConnectionString)
@@ -635,7 +636,7 @@ class openLand:
 
                 else:
                     isCreateNewProject = True
-                        
+
             if (isCreateNewProject) and (newConnectionString > 'dbname'):
                 fileIn = codecs.open(fileProject, 'r', 'utf-8')
 
@@ -682,7 +683,7 @@ class openLand:
                             copyTree(shpFromDir, shpToDir)
 
                 fileIn.close()
-    
+
     def toggle(self):
         mc = self.canvas
         layer = mc.currentLayer()
@@ -733,7 +734,7 @@ class openLand:
                     self.openland_importxml.setEnabled(False)
                     self.openland_unionparcels.setEnabled(False)
                     self.openland_splitparcel.setEnabled(False)
-                    
+
                 elif (unicode(layer.name()) == gln['ln_granica']):
                     self.openland_attribute.setEnabled(True)
                     self.openland_mp.setEnabled(False)

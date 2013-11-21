@@ -63,7 +63,7 @@ class Measure():
 	def calcdegmin(self):
 		a = int(self.ang)
 		minute = (self.ang - a) * 60
-		self.angle = unicode(a) + u'°' + unicode('{0:.0f}'.format(minute)) + u'\''
+		self.angle = unicode(a) + u'°' + unicode('{0:.1f}'.format(minute)) + u'\''
 
 
 class CatalogData():
@@ -122,13 +122,13 @@ class CatalogData():
 					else:
 						point_num = str(number)
 						first_pt_num = str(first_num)
-					if (number < len(ring)):
+					if (number < len(ring)-1):
 						point1 = Point(ring[number-1][0], ring[number-1][1])
 						point2 = Point(ring[number][0], ring[number][1])
 						measure = Measure(point1, point2)
 						self.list_data.append([point_num, unicode(ring[number-1][0]), unicode(ring[number-1][1]), measure.angle,
 						                       unicode(measure.lenght)])
-					elif number == len(ring):
+					elif number == len(ring)-1:
 						point1 = Point(ring[number-1][0], ring[number-1][1])
 						point2 = Point(ring[0][0], ring[0][1])
 						measure = Measure(point1, point2)

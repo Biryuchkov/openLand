@@ -7,7 +7,7 @@
 #
 # WARNING! All changes made in this file will be lost!
 
-from PyQt4 import QtCore, QtGui
+from PyQt4 import QtCore, QtGui, QtWebKit
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
@@ -29,7 +29,7 @@ class Ui_CoordCatalog(object):
         CoordCatalog.resize(586, 552)
         self.verticalLayout = QtGui.QVBoxLayout(CoordCatalog)
         self.verticalLayout.setObjectName(_fromUtf8("verticalLayout"))
-        self.textEdit = QtGui.QTextEdit(CoordCatalog)
+        self.textEdit = QtWebKit.QWebView(CoordCatalog)
         self.textEdit.setObjectName(_fromUtf8("textEdit"))
         self.verticalLayout.addWidget(self.textEdit)
         self.radioBtnNewPoint = QtGui.QRadioButton(CoordCatalog)
@@ -56,11 +56,12 @@ class Ui_CoordCatalog(object):
 
     def retranslateUi(self, CoordCatalog):
         CoordCatalog.setWindowTitle(_translate("CoordCatalog", "Ведомость координат", None))
-        self.textEdit.setHtml(_translate("CoordCatalog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\"  HTTP-EQUIV=\"CONTENT-TYPE\"CONTENT=\"text/html; charset=UTF-8\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans Serif\'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"justify\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'MS Shell Dlg 2\'; font-size:8pt;\"><br /></p></body></html>", None))
+#        self.textEdit.setHtml(_translate("CoordCatalog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#"<html><head><meta name=\"qrichtext\" content=\"1\"  HTTP-EQUIV=\"CONTENT-TYPE\"CONTENT=\"text/html; charset=UTF-8\" /><style type=\"text/css\">\n"
+#"p, li { white-space: pre-wrap; }\n"
+#"</style></head><body style=\" font-family:\'Sans Serif\'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+#"<p align=\"justify\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'MS Shell Dlg 2\'; font-size:8pt;\"><br /></p></body></html>", None))
+        #self.textEdit.setUrl("about:blank")
         self.radioBtnNewPoint.setText(_translate("CoordCatalog", "Новые точки", None))
         self.btnCreateCoord.setText(_translate("CoordCatalog", "Создать ведомость выделенного ЗУ", None))
         self.btnSave.setText(_translate("CoordCatalog", "Сохранить ведомость", None))
