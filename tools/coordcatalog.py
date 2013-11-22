@@ -73,6 +73,8 @@ class CatalogData():
 		self.list_contours = []  # 1 (если полигон) или N конутуров мультполигона
 		self.list_ring = []  # контуры текущего полигона
 		self.list_data = []
+		self.catalog = u''
+		self.multi = False
 		self.is_new_point = is_new_point
 		self.prepare_data()
 		self.calculate()
@@ -80,10 +82,9 @@ class CatalogData():
 	def prepare_data(self):
 		geom = self.feature.geometry()
 		if geom.isMultipart():
+			self.multi = True
 			polygons = geom.asMultiPolygon()
 			for polygon in polygons:
-				#self.number_contours += 1
-				#self.number_ring = 0
 				self.parse_polygon(polygon)
 		else:
 			self.parse_polygon(geom.asPolygon())
@@ -97,47 +98,79 @@ class CatalogData():
 				x = round(node.y(), 2)
 				y = round(node.x(), 2)
 				list_ponts.append([x, y])
-
-			#list_ring.append(list_data)
 			self.list_ring.append(list_ponts)
-			self.list_contours.append(self.list_ring)
-		#self.list_contours[self.number_contours].append(self.list_ring)
+		self.list_contours.append(self.list_ring)
 
-	# 1 x1 y1 angTo2 lengTo2
-	# 2 x2 y2 angTo3 lengTo3
-	# 3 x3 y3 angTo1 lengTo1
-	# 1 x1 y1
 	def calculate(self):
-		iter_r = 0
+		iter_n = 0
 		iter_c = 0
+		iter_r = 0
 		number = 1
+		first_num = 1
 		for polygon in self.list_contours:
-			first_num = number
-			#'numbers', 'x', 'y', 'angles', 'lenghts'
+			if self.multi:
+				self.catalog += u'<h1>Контур ' + unicode(iter_c + 1) + u'</h1>'
 			for ring in polygon:
+				iter_n = 1
 				for point in ring:
 					if self.is_new_point:
-						point_num = u'н' + str(number)
-						first_pt_num = u'н' + str(first_num)
+						point_num = u'н' + unicode(number)
+						first_pt_num = u'н' + unicode(first_num)
 					else:
-						point_num = str(number)
-						first_pt_num = str(first_num)
-					if (number < len(ring)-1):
-						point1 = Point(ring[number-1][0], ring[number-1][1])
-						point2 = Point(ring[number][0], ring[number][1])
+						point_num = unicode(number)
+						first_pt_num = unicode(first_num)
+					if iter_n < len(ring)-1:
+						point1 = Point(self.list_contours[iter_c][iter_r][iter_n-1][0], self.list_contours[iter_c][iter_r][iter_n-1][1])
+						point2 = Point(self.list_contours[iter_c][iter_r][iter_n][0], self.list_contours[iter_c][iter_r][iter_n][1])
 						measure = Measure(point1, point2)
-						self.list_data.append([point_num, unicode(ring[number-1][0]), unicode(ring[number-1][1]), measure.angle,
-						                       unicode(measure.lenght)])
-					elif number == len(ring)-1:
-						point1 = Point(ring[number-1][0], ring[number-1][1])
-						point2 = Point(ring[0][0], ring[0][1])
+						#self.list_data.append([point_num, unicode(ring[iter_n-1][0]), unicode(ring[iter_n-1][1]), measure.angle,
+						#                       unicode(measure.lenght)])
+						self.catalog += self.decorate_value_html([point_num, unicode(self.list_contours[iter_c][iter_r][iter_n-1][0]),
+							unicode(self.list_contours[iter_c][iter_r][iter_n-1][1]), measure.angle, unicode(measure.lenght)])
+						pass  #TODO Создание точек на слое
+					elif iter_n == len(ring):
+						point1 = Point(self.list_contours[iter_c][iter_r][iter_n-1][0], self.list_contours[iter_c][iter_r][iter_n-1][1])
+						point2 = Point(self.list_contours[iter_c][iter_r][0][0], self.list_contours[iter_c][iter_r][0][1])
 						measure = Measure(point1, point2)
 						self.list_data.append(
-							[point_num, unicode(ring[number-1][0]), unicode(ring[number-1][1]), measure.angle,
+							[point_num, unicode(self.list_contours[iter_c][iter_r][iter_n-1][0]),
+							 unicode(self.list_contours[iter_c][iter_r][iter_n-1][1]), measure.angle,
 							 unicode(measure.lenght)])
+						self.catalog += self.decorate_value_html(self.list_data[len(self.list_data)-1])
 						self.list_data.append(
-							[first_pt_num, unicode(ring[0][0]), unicode(ring[0][1]), u'', u''])
+							[first_pt_num, unicode(self.list_contours[iter_c][iter_r][0][0]),
+							 unicode(self.list_contours[iter_c][iter_r][0][1]), u'', u''])
+						self.catalog += self.decorate_value_html(self.list_data[len(self.list_data)-1], True)
+
 					number += 1
+					iter_n += 1
 				iter_r += 1
+			self.catalog += u'<BR>'
 			iter_c += 1
-			number = 1
+			self.catalog += u'<BR>'
+		self.catalog += u'Площадь: '
+
+			#number = 1
+
+#  Одна строка таблицы со значениями
+	@staticmethod
+	def decorate_value_html(value, last=False):
+		row1 = u'<TR>{0}</TR>'
+		row2 = u'<TR>{0}</TR>'
+		empty = u'<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: ' \
+		        u'1px solid #000000; border-right: 1px solid #000000\" HEIGHT=\"17\" ALIGN=\"CENTER\">{0}</TD>'
+		if not last:
+			num = empty.format(value[0])
+			x = empty.format(value[1])
+			y = empty.format(value[2])
+			a = empty.format(value[3])
+			l = empty.format(value[4])
+			data1 = num + x + y + empty.format('<BR>') + empty.format('<BR>')
+			data2 = empty.format('<BR>') + empty.format('<BR>') + empty.format('<BR>') + a + l
+			return row1.format(data1) + row2.format(data2)
+		else:
+			num = empty.format(''.join(value[0]))
+			x = empty.format(''.join(value[1]))
+			y = empty.format(''.join(value[2]))
+			row1.format(num + x + y + empty.format('<BR>') + empty.format('<BR>'))
+			return row1
