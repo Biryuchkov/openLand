@@ -3,7 +3,7 @@
 name=openLand
 qgisMinimumVersion=2.0
 description=Module for the cadastral engineer work
-version=0.2.6
+version=0.2.7
 author=Dmitriy Biryuchkov
 email=biryuchkov@gmail.com
 

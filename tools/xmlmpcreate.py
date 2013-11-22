@@ -517,7 +517,7 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
                 # Категория земель
                 xmlCategory = SubElement(xmlNewParcel, u'Category', {'Category':everyParcel['id_kategoriya']})
                 
-                uidDocument = str(everyParcel['guid_doc_category'])
+                guidDocument = everyParcel['guid_doc_category']
                 if guidDocument > ' ':
                     self.createDocumentByListGuid(xmlCategory, [guidDocument], u'DocCategory')
 
@@ -540,7 +540,7 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
 
                 xmlUtilization = SubElement(xmlNewParcel, u'Utilization', dictUtilization)
 
-                guidDocument = str(everyParcel['guid_doc_utilization'])
+                guidDocument = everyParcel['guid_doc_utilization']
                 if guidDocument > ' ':
                     self.createDocumentByListGuid(xmlUtilization, [guidDocument], u'DocUtilization')
 
@@ -1328,7 +1328,7 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
             xmlNote = SubElement(xmlLocation, u'Note')
             xmlNote.text = Note
 
-        guidDocument = str(attributesLocation['guid_document'])
+        guidDocument = attributesLocation['guid_document']
         if guidDocument > ' ':
             # xmlDocument = SubElement(xmlLocation, u'Document')
             # self.createDocumentByListGuid(xmlDocument, [guidDocument])

@@ -4,9 +4,9 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>3263251.13790534762665629</xmin>
+            <xmin>3256239.67956486204639077</xmin>
             <ymin>332300.33968533750157803</ymin>
-            <xmax>3462085.51310817478224635</xmax>
+            <xmax>3469096.97144866036251187</xmax>
             <ymax>449510.7564715682528913</ymax>
         </extent>
         <projections>1</projections>
@@ -23,7 +23,7 @@
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
-    <legend updateDrawingOrder="true" activeLayer="uchastok20121203165126098">
+    <legend updateDrawingOrder="true" activeLayer="rayon20121119101516927">
         <legendgroup open="false" checked="Qt::Unchecked" name="Оформление">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Точечные" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
@@ -2917,7 +2917,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>rayon20121119101516927</id>
             <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' srid=0 type=POLYGON table="msk"."rayon" (geom) sql="id_msk" = '0e5059fb-75ef-4021-855e-8101aea729bb'</datasource>
             <title></title>
@@ -2939,7 +2939,7 @@
                 </spatialrefsys>
             </srs>
             <provider encoding="windows-1251">postgres</provider>
-            <previewExpression></previewExpression>
+            <previewExpression>COALESCE("id", '&lt;NULL>')</previewExpression>
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
@@ -3103,8 +3103,8 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype labelontop="0" editable="1" type="0" name="id"/>
-                <edittype labelontop="0" editable="1" type="0" name="id_msk"/>
+                <edittype labelontop="0" editable="1" type="11" name="id"/>
+                <edittype labelontop="0" editable="1" allowNull="false" orderByValue="false" key="id" layer="sistema_koordinat20121212081704559" allowMulti="false" filterExpression="" type="15" value="zona" name="id_msk"/>
                 <edittype labelontop="0" editable="1" type="0" name="id_region"/>
                 <edittype labelontop="0" editable="1" type="0" name="kn"/>
                 <edittype labelontop="0" editable="1" type="0" name="nazvanie"/>
@@ -3113,6 +3113,11 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
+            <aliases>
+                <alias field="id_region" index="1" name="Код региона"/>
+                <alias field="kn" index="2" name="Кадастровый номер"/>
+                <alias field="nazvanie" index="3" name="Название"/>
+            </aliases>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>

@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'fillareaupdate.ui'
 #
-# Created: Mon Oct 28 11:22:24 2013
+# Created: Wed Nov 20 10:29:53 2013
 #      by: PyQt4 UI code generator 4.9.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -17,7 +17,7 @@ except AttributeError:
 class Ui_fillAreaUpdate(object):
     def setupUi(self, fillAreaUpdate):
         fillAreaUpdate.setObjectName(_fromUtf8("fillAreaUpdate"))
-        fillAreaUpdate.resize(393, 163)
+        fillAreaUpdate.resize(393, 176)
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Minimum, QtGui.QSizePolicy.Minimum)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -82,8 +82,8 @@ class Ui_fillAreaUpdate(object):
         fillAreaUpdate.setWindowTitle(QtGui.QApplication.translate("fillAreaUpdate", "Расчёт уточненных площадей", None, QtGui.QApplication.UnicodeUTF8))
         self.label.setText(QtGui.QApplication.translate("fillAreaUpdate", "<html><head/><body><p align=\"right\">Количество выбранных контуров</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.pushButtonCancel.setText(QtGui.QApplication.translate("fillAreaUpdate", "Закрыть", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_3.setText(QtGui.QApplication.translate("fillAreaUpdate", "<html><head/><body><p align=\"right\">Количество знаков после запятой<br/>для площади отдельного контура</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_3.setText(QtGui.QApplication.translate("fillAreaUpdate", "<html><head/><body><p align=\"right\">Количество знаков после запятой<br/><span style=\" text-decoration: underline;\">для площади</span> отдельного контура</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.pushButtonOk.setText(QtGui.QApplication.translate("fillAreaUpdate", "Расчитать уточненную площадь", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_2.setText(QtGui.QApplication.translate("fillAreaUpdate", "<html><head/><body><p align=\"right\">Количество знаков после запятой<br/>для погрешности вычисления площади<br />отдельного контура</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_2.setText(QtGui.QApplication.translate("fillAreaUpdate", "<html><head/><body><p align=\"right\">Количество знаков после запятой<br/><span style=\" text-decoration: underline;\">для погрешности</span> вычисления площади<br/>отдельного контура</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
 
 import resources_rc
