@@ -28,7 +28,7 @@ import string
 import shutil
 
 sys.path.append(os.path.abspath(os.path.dirname(__file__) + '/tools'))
-sys.path.append(os.path.abspath(os.path.dirname(__file__) + '/tools/pydev'))
+#sys.path.append(os.path.abspath(os.path.dirname(__file__) + '/tools/pydev'))
 # debug
 
 from math import sqrt

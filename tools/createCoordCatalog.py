@@ -20,7 +20,7 @@ class CreateCoordCatalog(QDialog, Ui_CoordCatalog):
 		self.setupUi(self)
 		self.template = u'<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\"> ' \
 		                u'<HTML><HEAD><META HTTP-EQUIV=\"CONTENT-TYPE"CONTENT=\"text/html; charset=UTF-8\">' \
-		                u'</HEAD><BODY><TABLE CELLSPACING=\"0\" COLS=\"5\" BORDER=\"0\"><COLGROUP SPAN=\"5\" WIDTH=\"86\"></COLGROUP>{0}</TABLE></BODY></HTML>'
+		                u'</HEAD><BODY>{0}</BODY></HTML>'
 		self.connect(self.btnCreateCoord, QtCore.SIGNAL("clicked()"), self.calculate)
 		self.connect(self.btnSave, QtCore.SIGNAL("clicked()"), self.save_catalog)
 
@@ -29,14 +29,7 @@ class CreateCoordCatalog(QDialog, Ui_CoordCatalog):
 			and (self.iface.mapCanvas().currentLayer().selectedFeatures() is not None):
 			for feature in self.iface.mapCanvas().currentLayer().selectedFeatures():
 				ved = CatalogData(feature, self.radioBtnNewPoint.isChecked())
-				empty = u'<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: ' \
-		        u'1px solid #000000; border-right: 1px solid #000000\" HEIGHT=\"17\" ALIGN=\"CENTER\">{0}</TD>'
-				header = empty.format(u'№')
-				header += empty.format(u'X, м')
-				header += empty.format(u'Y, м')
-				header += empty.format(u'Дирекционный угол')
-				header += empty.format(u'Расстояние, м')
-				data = u'<TR>{0}</TR>'.format(header)
+				data = u''
 				data += ved.catalog
 				self.textEdit.setHtml(self.template.format(data))
 				self.btnSave.setEnabled(True)
