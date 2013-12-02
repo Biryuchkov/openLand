@@ -1,20 +1,22 @@
 # -*- coding: utf-8 -*-
-from PyQt4 import QtCore, QtGui
-from coordcatalog import CatalogData
 
 __name__ = 'createCoordCatalog'
 __version__ = '0.1'
 __author__ = 'Filippov Vladislav'
 
+from PyQt4 import QtCore, QtGui
+from coordcatalog import CatalogData
+import os
 from PyQt4.QtGui import QDialog, QMessageBox
 from createCoordCatalog_ui import Ui_CoordCatalog
 # открывать html-файлы с помощью браузера. корректно показывает Firefox
 
-#currentPath = os.path.dirname(__file__)
+
 
 # Ведомость создаётся на один ЗУ с любым количеством контуров
 class CreateCoordCatalog(QDialog, Ui_CoordCatalog):
 	def __init__(self, iface):
+		self.html_cataloga_data = u''
 		QDialog.__init__(self, iface.mainWindow())
 		self.iface = iface
 		self.setupUi(self)
@@ -29,36 +31,21 @@ class CreateCoordCatalog(QDialog, Ui_CoordCatalog):
 			and (self.iface.mapCanvas().currentLayer().selectedFeatures() is not None):
 			for feature in self.iface.mapCanvas().currentLayer().selectedFeatures():
 				ved = CatalogData(feature, self.radioBtnNewPoint.isChecked())
-				data = u''
-				data += ved.catalog
+				#data = u''
+				#QMessageBox.warning(self.iface.mainWindow(), 'test', \
+				#                str(len(ved.list_ring)), QtGui.QMessageBox.Ok, \
+			     #               QtGui.QMessageBox.Ok)
+				data = ved.catalog
 				self.textEdit.setHtml(data)
 				self.btnSave.setEnabled(True)
+				self.html_cataloga_data = data
 			#QMessageBox.warning(self.iface.mainWindow(), 'end', \
 			#                    data, QtGui.QMessageBox.Ok, \
 			#                    QtGui.QMessageBox.Ok)
 
-	#  Одна строка таблицы со значениями
-	#def decorate_value_html(self, value, last=False):
-	#	row1 = u'<TR>{0}</TR>'
-	#	row2 = u'<TR>{0}</TR>'
-	#	empty = u'<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: ' \
-	#	        u'1px solid #000000; border-right: 1px solid #000000\" HEIGHT=\"17\" ALIGN=\"CENTER\">{0}</TD>'
-	#
-	#	if not last:
-	#		num = empty.format(value[0])
-	#		x = empty.format(value[1])
-	#		y = empty.format(value[2])
-	#		a = empty.format(value[3])
-	#		l = empty.format(value[4])
-	#		data1 = num + x + y + empty.format('<BR>') + empty.format('<BR>')
-	#		data2 = empty.format('<BR>') + empty.format('<BR>') + empty.format('<BR>') + a + l
-	#		return row1.format(data1) + row2.format(data2)
-	#	else:
-	#		num = empty.format(''.join(value[0]))
-	#		x = empty.format(''.join(value[1]))
-	#		y = empty.format(''.join(value[2]))
-	#		row1.format(num + x + y + empty.format('<BR>') + empty.format('<BR>'))
-	#		return row1
-
 	def save_catalog(self):
-		pass
+		current_path = os.path.dirname(__file__)
+		filepath = os.path.join(current_path, 'coord_catalog.html')
+		ccf = open(filepath, 'w')
+		ccf.write(self.html_cataloga_data.encode('utf8'))
+		ccf.close()
