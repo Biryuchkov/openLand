@@ -5,7 +5,7 @@ __author__ = 'Filippov Vladislav'
 
 #from pydev import pydevd
 import math
-import common
+from common import *
 from qgis.core import QGis
 
 
@@ -76,6 +76,7 @@ class CatalogData():
 		#self.list_data = []
 		self.catalog = u'<HEAD><meta http-equiv="Content-type" content="text/html;charset=UTF-8"><HEAD/>'
 		self.multi = False
+		self.layerUc = get_vector_layer_by_name(gln['ln_uchastok'])
 		self.area = 0
 		self.perimeter = 0
 		self.is_new_point = is_new_point
@@ -84,8 +85,8 @@ class CatalogData():
 
 	def prepare_data(self):
 		geom = self.feature.geometry()
-		#self.area = geom.getArea()
-		#self.perimeter = geom.getPerimeter()
+		self.area = round(geom.area(), 0)
+		self.perimeter = round(geom.length(), 2)
 		if geom.isMultipart():
 			self.multi = True
 			polygons = geom.asMultiPolygon()
@@ -114,6 +115,7 @@ class CatalogData():
 		table = u''
 		table_attr = [u'name']
 		table_val = []
+		idParcel = self.feature.attributes()[self.layerUc.fieldNameIndex('id')]
 		for polygon in self.list_contours:
 			catalog_data = u''
 			if self.multi and len(self.list_contours) > 1:
@@ -182,8 +184,7 @@ class CatalogData():
 			number = 1
 
 		self.catalog += table.format(catalog_data)
-		self.catalog += u'Площадь: {0} кв.м Периметр: {1} м'
-		#common.insertFeatures('points', table_attr, table_val)
+		self.catalog += u'Площадь: {0} кв.м Периметр: {1} м'.format(self.area, self.perimeter)
 
 	def decorate_value_html(self, value, last=False):
 		row1 = u'<TR>{0}</TR>'
@@ -200,4 +201,4 @@ class CatalogData():
 		if not last:
 			return row1.format(data1) + row2.format(data2)
 		else:
-			return  row1.format(data1)
+			return row1.format(data1)
