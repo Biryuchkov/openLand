@@ -29,16 +29,13 @@ class CreateCoordCatalog(QDialog, Ui_CoordCatalog):
 	def calculate(self):
 		if (self.iface.mapCanvas().currentLayer() is not None) \
 			and (self.iface.mapCanvas().currentLayer().selectedFeatures() is not None):
-			for feature in self.iface.mapCanvas().currentLayer().selectedFeatures():
-				ved = CatalogData(feature, self.radioBtnNewPoint.isChecked())
-				#data = u''
-				#QMessageBox.warning(self.iface.mainWindow(), 'test', \
-				#                str(len(ved.list_ring)), QtGui.QMessageBox.Ok, \
-			     #               QtGui.QMessageBox.Ok)
-				data = ved.catalog
-				self.textEdit.setHtml(data)
-				self.btnSave.setEnabled(True)
-				self.html_cataloga_data = data
+			#for feature in self.iface.mapCanvas().currentLayer().selectedFeatures():
+			ved = CatalogData(self.iface.mapCanvas().currentLayer().selectedFeatures(),
+			                  self.radioBtnNewPoint.isChecked())
+			data = ved.catalog
+			self.textEdit.setHtml(data)
+			self.btnSave.setEnabled(True)
+			self.html_cataloga_data = data
 			#QMessageBox.warning(self.iface.mainWindow(), 'end', \
 			#                    data, QtGui.QMessageBox.Ok, \
 			#                    QtGui.QMessageBox.Ok)

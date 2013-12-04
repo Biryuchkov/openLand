@@ -68,15 +68,15 @@ class Measure():
 
 
 class CatalogData():
-	def __init__(self, feature, is_new_point):
-		self.feature = feature
-		#self.number_contours = 0
+	def __init__(self, features, is_new_point):
+		self.features = features
+		self.number_contours = 0
 		self.list_contours = []  # 1 (если полигон) или N конутуров мультполигона
 		self.list_ring = []  # контуры текущего полигона
 		#self.list_data = []
 		self.catalog = u'<HEAD><meta http-equiv="Content-type" content="text/html;charset=UTF-8"><HEAD/>'
 		self.multi = False
-		self.layerUc = get_vector_layer_by_name(gln['ln_uchastok'])
+		#self.layerUc = get_vector_layer_by_name(gln['ln_uchastok'])
 		self.area = 0
 		self.perimeter = 0
 		self.is_new_point = is_new_point
@@ -84,19 +84,26 @@ class CatalogData():
 		self.calculate()
 
 	def prepare_data(self):
-		geom = self.feature.geometry()
-		self.area = round(geom.area(), 0)
-		self.perimeter = round(geom.length(), 2)
-		if geom.isMultipart():
+		# используется принцип openland - мультиполигоны не используются
+		# многоконтурные ЗУ собираются по ID из простых полиногов
+		if len(self.features) > 1:
 			self.multi = True
-			polygons = geom.asMultiPolygon()
-			for polygon in polygons:
-				self.parse_polygon(polygon)
+			for feat in self.features:
+				geom = feat.geometry()
+				self.area += round(geom.area(), 0)
+				self.perimeter += round(geom.length(), 2)
+				self.list_ring = []
+				self.parse_polygon(geom.asPolygon())
+				self.number_contours += 1
 		else:
+			geom = self.features[0].geometry()
+			self.area = round(geom.area(), 0)
+			self.perimeter = round(geom.length(), 2)
 			self.parse_polygon(geom.asPolygon())
 
 	# полигон может содержать один внешний и от нуля до N внутренних контуров (дырок)
 	def parse_polygon(self, polygon):
+		iter = 0
 		for ring in polygon:
 			list_ponts = []
 			for node in ring:
@@ -113,11 +120,11 @@ class CatalogData():
 		number = 1
 		first_num = 1
 		table = u''
-		table_attr = [u'name']
 		table_val = []
-		idParcel = self.feature.attributes()[self.layerUc.fieldNameIndex('id')]
+		#idParcel = self.feature.attributes()[self.layerUc.fieldNameIndex('id')]
+		catalog_data = u''
 		for polygon in self.list_contours:
-			catalog_data = u''
+
 			if self.multi and len(self.list_contours) > 1:
 				catalog_data += u'<h3>Контур ' + unicode(iter_c + 1) + u'</h3>'
 			table += u'<TABLE CELLSPACING=\"0\" COLS=\"5\" BORDER=\"0\"><COLGROUP SPAN=\"5\" WIDTH=\"120\"></COLGROUP>{0}</TABLE>'
@@ -140,33 +147,29 @@ class CatalogData():
 						first_pt_num = unicode(first_num)
 
 					if iter_n > 0 and iter_n < len(ring) - 1:
-						point1 = Point(self.list_contours[iter_c][iter_r][iter_n - 1][0],
-						               self.list_contours[iter_c][iter_r][iter_n - 1][1])
-						point2 = Point(self.list_contours[iter_c][iter_r][iter_n][0],
-						               self.list_contours[iter_c][iter_r][iter_n][1])
+						point1 = Point(ring[iter_n - 1][0],
+						               ring[iter_n - 1][1])
+						point2 = Point(ring[iter_n][0],
+						               ring[iter_n][1])
 						measure = Measure(point1, point2)
 						catalog_data += self.decorate_value_html(
-							[point_num, unicode(self.list_contours[iter_c][iter_r][iter_n - 1][0]),
-							 unicode(self.list_contours[iter_c][iter_r][iter_n - 1][1]), measure.angle,
+							[point_num, unicode(ring[iter_n - 1][0]),
+							 unicode(ring[iter_n - 1][1]), measure.angle,
 							 unicode(measure.lenght)])
-						#pass  #TODO Создание точек на слое
 						table_val.append(point_num)
 						number += 1
 
 					elif iter_n == len(ring) - 1:
-						point1 = Point(self.list_contours[iter_c][iter_r][iter_n - 1][0],
-						               self.list_contours[iter_c][iter_r][iter_n - 1][1])
-						point2 = Point(self.list_contours[iter_c][iter_r][0][0],
-						               self.list_contours[iter_c][iter_r][0][1])
+						point1 = Point(ring[iter_n - 1][0], ring[iter_n - 1][1])
+						point2 = Point(ring[0][0], ring[0][1])
 						measure = Measure(point1, point2)
 
 						catalog_data += self.decorate_value_html(
-							[point_num, unicode(self.list_contours[iter_c][iter_r][iter_n - 1][0]),
-							 unicode(self.list_contours[iter_c][iter_r][iter_n - 1][1]), measure.angle,
+							[point_num, unicode(ring[iter_n - 1][0]),
+							 unicode(ring[iter_n - 1][1]), measure.angle,
 							 unicode(measure.lenght)])
 						catalog_data += self.decorate_value_html(
-							[first_pt_num, unicode(self.list_contours[iter_c][iter_r][0][0]),
-							 unicode(self.list_contours[iter_c][iter_r][0][1]), u'', u''], True)
+							[first_pt_num, unicode(ring[0][0]), unicode(ring[0][1]), u'', u''], True)
 
 						table_val.append(first_pt_num)
 						number += 1
@@ -176,7 +179,8 @@ class CatalogData():
 				first_num = iter_n  # номер первой точки внутреннего контура
 				if len(self.list_ring) > 1:
 					if iter_r != len(self.list_ring):
-						catalog_data += empty.format('--')+empty.format('--')+empty.format('--')+empty.format('--')+empty.format('--')
+						catalog_data += empty.format('--')+empty.format('--')+\
+						                empty.format('--')+empty.format('--')+empty.format('--')
 
 			iter_c += 1
 			iter_r = 0
