@@ -4,9 +4,9 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>9456294.66028251871466637</xmin>
+            <xmin>9456294.29021936096251011</xmin>
             <ymin>7625545.3899723757058382</ymin>
-            <xmax>9456835.69261784479022026</xmax>
+            <xmax>9456836.06268100254237652</xmax>
             <ymax>7626056.07712884061038494</ymax>
         </extent>
         <projections>1</projections>
