@@ -116,19 +116,18 @@ class CatalogData():
 		iter_contour = 0
 		iter_ring = 0
 		number = 1
-		#first_num = 1
-		#table_val = []
 		catalog_all_data = u''  # вся ведомость со всеми контурами
 		for polygon in self.list_contours:
 			contour_table = u''  # ведомость одного контура
 			catalog_data = u''
+			catalog_header = u''
 			if self.multi and len(self.list_contours) > 1:
 				contour_header = u'<h3>Контур ' + unicode(iter_contour + 1) + u'</h3>'
 				contour_table += contour_header
 			contour_table += u'<TABLE CELLSPACING=\"0\" COLS=\"5\" BORDER=\"0\"><COLGROUP SPAN=\"5\" WIDTH=\"120\"></COLGROUP>{0}</TABLE>'
 			empty = u'<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; ' \
 			        u'border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=\"17\" ALIGN=\"CENTER\">{0}</TD>'
-			catalog_header = empty.format(u'№')
+			catalog_header += empty.format(u'№')
 			catalog_header += empty.format(u'X, м')
 			catalog_header += empty.format(u'Y, м')
 			catalog_header += empty.format(u'Дирекционный угол')
@@ -155,7 +154,6 @@ class CatalogData():
 							[point_num, unicode(ring[iter_node - 1][0]),
 							 unicode(ring[iter_node - 1][1]), measure.angle,
 							 unicode(measure.lenght)])
-						#table_val.append(point_num)
 						number += 1
 
 					elif iter_node == len(ring) - 1:
@@ -170,7 +168,6 @@ class CatalogData():
 						catalog_data += self.decorate_value_html(
 							[first_pt_num, unicode(ring[0][0]), unicode(ring[0][1]), u'', u''], True)
 
-						#table_val.append(first_pt_num)
 						number += 1
 
 					iter_node += 1
@@ -181,15 +178,12 @@ class CatalogData():
 						                empty.format('--')+empty.format('--')+empty.format('--')
 
 			catalog_all_data += catalog_data
-			self.catalog += contour_table.format(catalog_all_data)
+			self.catalog += contour_table.format(catalog_data)
 			self.catalog += u'Площадь: {0} кв.м Периметр: {1} м'.format(self.area[iter_contour], self.perimeter[iter_contour])
 			iter_contour += 1
 			iter_ring = 0
-			#first_num = 1
-			#number = 1
-
 		if self.multi:
-			self.catalog += u'Площадь: {0} кв.м Периметр: {1} м'.format(str(sum(self.area, 0)), str(sum(self.perimeter, 0)))
+			self.catalog += u'<BR/><h5>Общая площадь: {0} кв.м Общий периметр: {1} м<h5>'.format(str(sum(self.area, 0)), str(sum(self.perimeter, 0)))
 
 	def decorate_value_html(self, value, last=False):
 		row1 = u'<TR>{0}</TR>'
