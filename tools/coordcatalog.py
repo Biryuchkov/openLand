@@ -187,7 +187,8 @@ class CatalogData():
 
 			catalog_all_data += catalog_data
 			self.catalog += contour_table.format(catalog_data)
-			self.catalog += u'Площадь: {0} кв.м Периметр: {1} м'.format(self.area[iter_contour], self.perimeter[iter_contour])
+			self.catalog += u'<p>Площадь: {0} кв.м Периметр: {1} м</p>'.format(self.area[iter_contour], self.perimeter[
+				iter_contour])
 			iter_contour += 1
 			iter_ring = 0
 		if self.multi:
