@@ -2,12 +2,12 @@
 
 # Form implementation generated from reading ui file 'createCoordCatalog.ui'
 #
-# Created: Tue Nov 12 23:02:17 2013
-#      by: PyQt4 UI code generator 4.10
+# Created: Mon Dec  9 22:17:33 2013
+#      by: PyQt4 UI code generator 4.10.3
 #
 # WARNING! All changes made in this file will be lost!
 
-from PyQt4 import QtCore, QtGui, QtWebKit
+from PyQt4 import QtCore, QtGui
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
@@ -26,19 +26,52 @@ except AttributeError:
 class Ui_CoordCatalog(object):
     def setupUi(self, CoordCatalog):
         CoordCatalog.setObjectName(_fromUtf8("CoordCatalog"))
-        CoordCatalog.resize(586, 552)
+        CoordCatalog.resize(662, 682)
         self.verticalLayout = QtGui.QVBoxLayout(CoordCatalog)
         self.verticalLayout.setObjectName(_fromUtf8("verticalLayout"))
         self.textEdit = QtWebKit.QWebView(CoordCatalog)
+        self.textEdit.setUrl(QtCore.QUrl(_fromUtf8("about:blank")))
         self.textEdit.setObjectName(_fromUtf8("textEdit"))
         self.verticalLayout.addWidget(self.textEdit)
-        self.radioBtnNewPoint = QtGui.QRadioButton(CoordCatalog)
+        self.radioBtnNewPoint = QtGui.QCheckBox(CoordCatalog)
         self.radioBtnNewPoint.setChecked(True)
         self.radioBtnNewPoint.setObjectName(_fromUtf8("radioBtnNewPoint"))
         self.verticalLayout.addWidget(self.radioBtnNewPoint)
+        self.radioBtnZiped = QtGui.QCheckBox(CoordCatalog)
+        self.radioBtnZiped.setObjectName(_fromUtf8("radioBtnZiped"))
+        self.verticalLayout.addWidget(self.radioBtnZiped)
+        self.line_3 = QtGui.QFrame(CoordCatalog)
+        self.line_3.setFrameShape(QtGui.QFrame.HLine)
+        self.line_3.setFrameShadow(QtGui.QFrame.Sunken)
+        self.line_3.setObjectName(_fromUtf8("line_3"))
+        self.verticalLayout.addWidget(self.line_3)
+        self.label = QtGui.QLabel(CoordCatalog)
+        self.label.setObjectName(_fromUtf8("label"))
+        self.verticalLayout.addWidget(self.label)
+        self.spinBoxFontSize = QtGui.QSpinBox(CoordCatalog)
+        self.spinBoxFontSize.setMinimum(1)
+        self.spinBoxFontSize.setMaximum(4)
+        self.spinBoxFontSize.setValue(2)
+        self.spinBoxFontSize.setObjectName(_fromUtf8("spinBoxFontSize"))
+        self.verticalLayout.addWidget(self.spinBoxFontSize)
+        self.line_2 = QtGui.QFrame(CoordCatalog)
+        self.line_2.setLineWidth(4)
+        self.line_2.setFrameShape(QtGui.QFrame.HLine)
+        self.line_2.setFrameShadow(QtGui.QFrame.Sunken)
+        self.line_2.setObjectName(_fromUtf8("line_2"))
+        self.verticalLayout.addWidget(self.line_2)
         self.btnCreateCoord = QtGui.QPushButton(CoordCatalog)
         self.btnCreateCoord.setObjectName(_fromUtf8("btnCreateCoord"))
         self.verticalLayout.addWidget(self.btnCreateCoord)
+        self.pushButton = QtGui.QPushButton(CoordCatalog)
+        self.pushButton.setObjectName(_fromUtf8("pushButton"))
+        self.verticalLayout.addWidget(self.pushButton)
+        self.line = QtGui.QFrame(CoordCatalog)
+        self.line.setLineWidth(4)
+        self.line.setFrameShape(QtGui.QFrame.HLine)
+        self.line.setFrameShadow(QtGui.QFrame.Sunken)
+        self.line.setObjectName(_fromUtf8("line"))
+        self.verticalLayout.addWidget(self.line)
         self.btnSave = QtGui.QPushButton(CoordCatalog)
         self.btnSave.setEnabled(False)
         self.btnSave.setObjectName(_fromUtf8("btnSave"))
@@ -56,13 +89,11 @@ class Ui_CoordCatalog(object):
 
     def retranslateUi(self, CoordCatalog):
         CoordCatalog.setWindowTitle(_translate("CoordCatalog", "Ведомость координат", None))
-#        self.textEdit.setHtml(_translate("CoordCatalog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-#"<html><head><meta name=\"qrichtext\" content=\"1\"  HTTP-EQUIV=\"CONTENT-TYPE\"CONTENT=\"text/html; charset=UTF-8\" /><style type=\"text/css\">\n"
-#"p, li { white-space: pre-wrap; }\n"
-#"</style></head><body style=\" font-family:\'Sans Serif\'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-#"<p align=\"justify\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'MS Shell Dlg 2\'; font-size:8pt;\"><br /></p></body></html>", None))
-        #self.textEdit.setUrl("about:blank")
         self.radioBtnNewPoint.setText(_translate("CoordCatalog", "Новые точки", None))
+        self.radioBtnZiped.setText(_translate("CoordCatalog", "Сжатые геоданные", None))
+        self.label.setText(_translate("CoordCatalog", "Размер шрифта (1-4)", None))
         self.btnCreateCoord.setText(_translate("CoordCatalog", "Создать ведомость выделенного ЗУ", None))
-        self.btnSave.setText(_translate("CoordCatalog", "Сохранить ведомость", None))
+        self.pushButton.setText(_translate("CoordCatalog", "Создать геоданные выделенного ЗУ", None))
+        self.btnSave.setText(_translate("CoordCatalog", "Сохранить HTML", None))
 
+from PyQt4 import QtWebKit

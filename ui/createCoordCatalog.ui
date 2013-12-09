@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>586</width>
-    <height>552</height>
+    <width>662</width>
+    <height>682</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -24,12 +24,56 @@
     </widget>
    </item>
    <item>
-    <widget class="QRadioButton" name="radioBtnNewPoint">
+    <widget class="QCheckBox" name="radioBtnNewPoint">
      <property name="text">
       <string>Новые точки</string>
      </property>
      <property name="checked">
       <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="radioBtnZiped">
+     <property name="text">
+      <string>Сжатые геоданные</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="Line" name="line_3">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Размер шрифта</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSpinBox" name="spinBoxFontSize">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>12</number>
+     </property>
+     <property name="value">
+      <number>2</number>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="Line" name="line_2">
+     <property name="lineWidth">
+      <number>4</number>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
      </property>
     </widget>
    </item>
@@ -41,12 +85,29 @@
     </widget>
    </item>
    <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>Создать геоданные выделенного ЗУ</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="Line" name="line">
+     <property name="lineWidth">
+      <number>4</number>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
     <widget class="QPushButton" name="btnSave">
      <property name="enabled">
       <bool>false</bool>
      </property>
      <property name="text">
-      <string>Сохранить ведомость</string>
+      <string>Сохранить HTML</string>
      </property>
     </widget>
    </item>
@@ -66,7 +127,7 @@
   <customwidget>
    <class>QWebView</class>
    <extends>QWidget</extends>
-   <header>QtWebKit/QWebView</header>
+   <header>QtWebKitWidgets/QWebView</header>
   </customwidget>
  </customwidgets>
  <resources/>

@@ -68,15 +68,22 @@ class Measure():
 
 
 class CatalogData():
-	def __init__(self, features, is_new_point):
+	def __init__(self, features, is_new_point, is_ziped, font_size):
 		self.features = features
-		self.number_contours = 0
+		self.fontsize = u'xx-small'
+		if font_size == 2:
+			self.fontsize = u'small'
+		elif font_size == 3:
+			self.fontsize = u'medium'
+		elif font_size == 4:
+			self.fontsize = u'large'
+		self.is_ziped = is_ziped
 		self.list_contours = []  # 1 (если полигон) или N конутуров мультполигона
 		self.list_ring = []  # контуры текущего полигона
-		#self.list_data = []
-		self.catalog = u'<HEAD><meta http-equiv="Content-type" content="text/html;charset=UTF-8"><HEAD/>'
+		self.catalog = u'<HEAD><meta http-equiv=\"Content-type\" ' \
+		               u'content=\"text/html;charset=UTF-8\"><style>table { font-size: '+self\
+			.fontsize+u'; font-family: Arial;} p { font-size: '+self.fontsize+u'; font-family: Arial;}</style><HEAD/>'
 		self.multi = False
-		#self.layerUc = get_vector_layer_by_name(gln['ln_uchastok'])
 		self.area = 0
 		self.perimeter = 0
 		self.is_new_point = is_new_point
@@ -92,9 +99,8 @@ class CatalogData():
 				geom = feat.geometry()
 				self.area += round(geom.area(), 0)
 				self.perimeter += round(geom.length(), 2)
-				self.list_ring = []
 				self.parse_polygon(geom.asPolygon())
-				self.number_contours += 1
+				#self.number_contours += 1
 		else:
 			geom = self.features[0].geometry()
 			self.area = round(geom.area(), 0)
@@ -103,7 +109,7 @@ class CatalogData():
 
 	# полигон может содержать один внешний и от нуля до N внутренних контуров (дырок)
 	def parse_polygon(self, polygon):
-		iter = 0
+		#self.list_ring = []
 		for ring in polygon:
 			list_ponts = []
 			for node in ring:
@@ -124,7 +130,6 @@ class CatalogData():
 		#idParcel = self.feature.attributes()[self.layerUc.fieldNameIndex('id')]
 		catalog_data = u''
 		for polygon in self.list_contours:
-
 			if self.multi and len(self.list_contours) > 1:
 				catalog_data += u'<h3>Контур ' + unicode(iter_c + 1) + u'</h3>'
 			table += u'<TABLE CELLSPACING=\"0\" COLS=\"5\" BORDER=\"0\"><COLGROUP SPAN=\"5\" WIDTH=\"120\"></COLGROUP>{0}</TABLE>'
@@ -156,7 +161,7 @@ class CatalogData():
 							[point_num, unicode(ring[iter_n - 1][0]),
 							 unicode(ring[iter_n - 1][1]), measure.angle,
 							 unicode(measure.lenght)])
-						table_val.append(point_num)
+						#table_val.append(point_num)
 						number += 1
 
 					elif iter_n == len(ring) - 1:
@@ -171,16 +176,15 @@ class CatalogData():
 						catalog_data += self.decorate_value_html(
 							[first_pt_num, unicode(ring[0][0]), unicode(ring[0][1]), u'', u''], True)
 
-						table_val.append(first_pt_num)
+						#table_val.append(first_pt_num)
 						number += 1
 
 					iter_n += 1
 				iter_r += 1
 				first_num = iter_n  # номер первой точки внутреннего контура
-				if len(self.list_ring) > 1:
-					if iter_r != len(self.list_ring):
-						catalog_data += empty.format('--')+empty.format('--')+\
-						                empty.format('--')+empty.format('--')+empty.format('--')
+				if len(ring) > 1 and iter_r != len(ring):
+					catalog_data += empty.format('--')+empty.format('--')+\
+					                empty.format('--')+empty.format('--')+empty.format('--')
 
 			iter_c += 1
 			iter_r = 0
@@ -188,7 +192,7 @@ class CatalogData():
 			number = 1
 
 		self.catalog += table.format(catalog_data)
-		self.catalog += u'Площадь: {0} кв.м Периметр: {1} м'.format(self.area, self.perimeter)
+		self.catalog += u'<p>Площадь: {0} кв.м; Периметр: {1} м</p>'.format(self.area, self.perimeter)
 
 	def decorate_value_html(self, value, last=False):
 		row1 = u'<TR>{0}</TR>'

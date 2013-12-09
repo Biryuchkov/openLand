@@ -20,9 +20,7 @@ class CreateCoordCatalog(QDialog, Ui_CoordCatalog):
 		QDialog.__init__(self, iface.mainWindow())
 		self.iface = iface
 		self.setupUi(self)
-		#self.template = u'<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\"> ' \
-		#                u'<HTML><HEAD><META HTTP-EQUIV=\"CONTENT-TYPE"CONTENT=\"text/html; charset=UTF-8\">' \
-		#                u'</HEAD><BODY>{0}</BODY></HTML>'
+
 		self.connect(self.btnCreateCoord, QtCore.SIGNAL("clicked()"), self.calculate)
 		self.connect(self.btnSave, QtCore.SIGNAL("clicked()"), self.save_catalog)
 
@@ -31,7 +29,7 @@ class CreateCoordCatalog(QDialog, Ui_CoordCatalog):
 			and (self.iface.mapCanvas().currentLayer().selectedFeatures() is not None):
 			#for feature in self.iface.mapCanvas().currentLayer().selectedFeatures():
 			ved = CatalogData(self.iface.mapCanvas().currentLayer().selectedFeatures(),
-			                  self.radioBtnNewPoint.isChecked())
+			                  self.radioBtnNewPoint.isChecked(), self.radioBtnZiped.isChecked(), self.spinBoxFontSize.value())
 			data = ved.catalog
 			self.textEdit.setHtml(data)
 			self.btnSave.setEnabled(True)
