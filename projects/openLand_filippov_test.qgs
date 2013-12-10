@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>9456189.77759916707873344</xmin>
-            <ymin>7624802.18337876629084349</ymin>
-            <xmax>9457766.7759288102388382</xmax>
-            <ymax>7626275.77198187541216612</ymax>
+            <xmin>9456614.1883518174290657</xmin>
+            <ymin>7625360.16502818837761879</ymin>
+            <xmax>9458234.27406751736998558</xmax>
+            <ymax>7626833.75363129936158657</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -2468,7 +2468,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>mp_section_data20130725112220853</id>
-            <datasource>dbname='openland' host=filippov-vg port=5432 user='openlandadmin' password='admin' sslmode=disable key='guid' table="mp_section_data" sql=False</datasource>
+            <datasource>dbname='openland' host=filippov-vg port=5432 user='openlandadmin' password='admin' sslmode=disable key='guid' table="mp_section_data" sql="id_parcel" IN (2371)</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2737,7 +2737,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>parcel_parcel20130717192257532</id>
-            <datasource>dbname='openland' host=filippov-vg port=5432 user='openlandadmin' password='admin' sslmode=disable key='guid' table="parcel_parcel" sql="id_parent" IN (2369)</datasource>
+            <datasource>dbname='openland' host=filippov-vg port=5432 user='openlandadmin' password='admin' sslmode=disable key='guid' table="parcel_parcel" sql="id_children" IN (2371)</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3129,7 +3129,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>section_mp20130723110538531</id>
-            <datasource>dbname='openland' host=filippov-vg port=5432 user='openlandadmin' password='admin' sslmode=disable key='id' table="class"."section_mp" sql=</datasource>
+            <datasource>dbname='openland' host=filippov-vg port=5432 user='openlandadmin' password='admin' sslmode=disable key='id' table="class"."section_mp" sql="id_parent" = 34 AND "number_version_mp" = 4</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
