@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+\# -*- coding: utf-8 -*-
 """
 /***************************************************************************
  openLand
@@ -26,7 +26,7 @@ def description():
 def category():
     return "Plugins"
 def version():
-    return "Version 0.2.7"
+    return "Version 0.2.8"
 def icon():
     return "settings/main.png"
 def qgisMinimumVersion():

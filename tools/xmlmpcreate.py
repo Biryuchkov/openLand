@@ -478,7 +478,11 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
     def createFormNewParcel(self, listIdParcel):
         self.attributesParcel = attributesByKeys('ln_uchastok', 'id', listIdParcel, attributesNamesParcel)
         if len(self.attributesParcel) > 0:
-            xmlFormParcels = SubElement(self.Package, u'FormParcels', {'Method':self.attributesParcel[0]['id_sposob_obrazovaniya']})
+            Method = reNull(self.attributesParcel[0]['id_sposob_obrazovaniya'], '')
+            if not self.checkStringEmpty(Method, 
+                                         u'Ошибка! Не определен способ образования участка'):
+                return
+            xmlFormParcels = SubElement(self.Package, u'FormParcels', {'Method':Method})
             for everyParcel in self.attributesParcel:
                 idParcel = int(everyParcel['id'])
 
@@ -713,6 +717,8 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
                 xmlNote = SubElement(xmlExistEZParcels, u'Note')
                 xmlNote.text = Note
         
+            self.createRelatedParcels(xmlExistEZParcels, idParcel)
+        
         else:
             self.highLightLine(u'Ошибка! В обработке более одного уточняемого ЕЗ!?')
 
@@ -784,15 +790,16 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
             # Entity_Spatial 
             self.createEntitySpatial(xmlExistParcel, idParcel, everyParcel['id_msk'])
             
-        self.createAreaGkn(xmlExistParcel, everyParcel)            
-        self.createDeltaArea(xmlExistParcel, everyParcel)            
-        self.createMinMaxArea(xmlExistParcel, everyParcel)            
+        self.createAreaGkn(xmlExistParcel, everyParcel)
+        self.createDeltaArea(xmlExistParcel, everyParcel)
+        self.createMinMaxArea(xmlExistParcel, everyParcel)
 
         Note = everyParcel['note']
         if Note > '-':
             xmlNote = SubElement(xmlExistParcel, u'Note')
             xmlNote.text = Note
     
+        self.createRelatedParcels(xmlExistParcel, idParcel)
 
     # Сведения об уточняемом, входящем в ЕЗ участке
     def createExistEZEntryParcel(self, xmlParentElement, entryParcel):
@@ -909,25 +916,25 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
                 if str(everyContour['tip_obekta_kadastrovyh_rabot']) == gv['specifyContour']:
                     idContour = int(everyContour['id'])
                     xmlExistContour = SubElement(xmlContours, u'ExistContour', {'Number_Record':str(everyContour['nomer_kontura'])})
-                    self.createArea(xmlExistContour, idContour)
+                    self.createArea(xmlExistContour, idContour, False)
                     self.createEntitySpatial(xmlExistContour, idContour, everyContour['id_msk'])
 
                 elif str(everyContour['tip_obekta_kadastrovyh_rabot']) == gv['newContour']:
                     idContour = int(everyContour['id'])
                     xmlNewContour = SubElement(xmlContours, u'NewContour', {'Definition':everyContour['oboznachenie_na_plane']})
-                    self.createArea(xmlNewContour, idContour)
+                    self.createArea(xmlNewContour, idContour, False)
                     self.createEntitySpatial(xmlNewContour, idContour, everyContour['id_msk'])
                     self.createCadastralNumbers(xmlNewContour, idContour, False, True, False)
                     
             else:
                 idContour = int(everyContour['id'])
                 xmlNewContour = SubElement(xmlContours, u'NewContour', {'Definition':everyContour['oboznachenie_na_plane']})
-                self.createArea(xmlNewContour, idContour)
+                self.createArea(xmlNewContour, idContour, False)
                 self.createEntitySpatial(xmlNewContour, idContour, everyContour['id_msk'])
                 self.createCadastralNumbers(xmlNewContour, idContour, False, True, False)
 
     # Уточненная площадь ЗУ или контура
-    def createArea(self, xmlParentElement, idParcel):
+    def createArea(self, xmlParentElement, idParcel, isRound = True):
         searchCondition = '\"id_uchastok\" = ' + str(idParcel) + ' AND \"id_vid_ploshadi\" = \'' + gv['accurateArea'] + '\''
         attributesArea = attributesBySearchCondition('pb_ploshad', searchCondition, attributesNamesArea)
         if len(attributesArea) != 1:
@@ -938,7 +945,11 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
 
         attributesArea = attributesArea[0]
 
-        valueArea = int(reNull(attributesArea['ploshad'], 0))
+        if isRound:
+            valueArea = int(reNull(attributesArea['ploshad'], 0))
+        else:
+            valueArea = reNull(attributesArea['ploshad'], 0)
+
         if not valueArea > 0: 
             self.highLightLine(u'Ошибка! Не определено значение площади ЗУ')
             return
@@ -1002,7 +1013,84 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
             xmlMaxAreaUnit = SubElement(xmlMaxAreaParent, u'Unit')
             xmlMaxAreaUnit.text = MaxAreaUnit
 
+    # 
+    def createRelatedParcels(self, xmlParent, idParcel):
+        # Сведения о земельных участках, смежных с уточняемым земельным участком
+        attributesPN = attributesByKeys('pb_parcel_neighbour', 
+                                        'id_parcel', [idParcel], 
+                                        attributesNamesParcelNeighbour)
+        if len(attributesPN) == 0:
+            return
 
+        xmlRelatedParcels   = SubElement(xmlParent, u'RelatedParcels')
+
+        for every in attributesPN:
+            xmlParcelNeighbours = SubElement(xmlRelatedParcels, u'ParcelNeighbours')
+
+            Definition = every['definition']
+            if not self.checkStringEmpty(Definition, u'Ошибка! Не определено обозначение характерной точки или части границы'): 
+                return
+            xmlDefinition = SubElement(xmlParcelNeighbours, u'Definition')
+            xmlDefinition.text = Definition
+
+            CadastralNumber = every['cadastral_number']
+            if not self.checkStringEmpty(CadastralNumber, u'Ошибка! Не определен кадастровый номер земельного участка, смежного с уточняемым (образуемым) земельным участком'): 
+                return
+            xmlParcelNeighbour = SubElement(xmlParcelNeighbours, u'ParcelNeighbour')
+            xmlCadastralNumber = SubElement(xmlParcelNeighbour, u'Cadastral_Number')
+            xmlCadastralNumber.text = CadastralNumber
+    
+            guid = every['guid']
+            self.createOwnerNeighbours(xmlParcelNeighbour, guid)
+    # 
+    def createOwnerNeighbours(self, xmlParent, guidPN):
+        # Сведения о правах и правообладателях смежного участка
+        attributesON = attributesByKeys('pb_owner_neighbour', 
+                                        'guid_parcel_neighbour', [guidPN], 
+                                        attributesNamesOwnerNeighbour)
+        if len(attributesON) == 0:
+            return
+
+        xmlOwnerNeighbours   = SubElement(xmlParent, u'OwnerNeighbours')
+
+        NameRight = attributesON[0]['name_right']
+        if NameRight > ' ': 
+            xmlNameRight = SubElement(xmlOwnerNeighbours, u'NameRight')
+            xmlNameRight.text = NameRight
+
+        for every in attributesON:
+            xmlOwnerNeighbour =  SubElement(xmlOwnerNeighbours, u'OwnerNeighbour')
+
+            NameOwner = every['name_owner']
+            if NameOwner > ' ': 
+                xmlNameOwner = SubElement(xmlOwnerNeighbour, u'NameOwner')
+                xmlNameOwner.text = NameOwner
+
+            ContactAddress = every['contact_address']
+            if ContactAddress > ' ': 
+                xmlContactAddress = SubElement(xmlOwnerNeighbour, u'ContactAddress')
+                xmlContactAddress.text = ContactAddress
+
+            guid = every['guid']
+
+            attributesOND = attributesByKeys('pb_owner_neighbour_document', 
+                                             'guid_owner_neighbour', [guid], 
+                                             attributesNamesOwnerNeighbourDoc)
+            if len(attributesOND) > 0:
+                listGuidDocuments = [str(a['guid_document']) for a in attributesOND]
+            
+                xmlDocuments = SubElement(xmlOwnerNeighbour, u'Documents')
+                self.createDocumentByListGuid(xmlDocuments, listGuidDocuments, u'Document')
+
+                if len(xmlDocuments.getchildren()) == 0:
+                    xmlOwnerNeighbour.remove(xmlDocuments)
+
+            if len(xmlOwnerNeighbour.getchildren()) == 0:
+                xmlOwnerNeighbours.remove(xmlOwnerNeighbour)
+
+        if len(xmlOwnerNeighbours.getchildren()) == 0:
+            xmlParent.remove(xmlOwnerNeighbours)
+    
     # Кадастровые номера ЗУ или контура
     def createCadastralNumbers(self, xmlParentElement, idParcel, isPrev = True, isProv = True, isInner = True):
         searchCondition = '\"id_uchastok\" = ' + str(idParcel)

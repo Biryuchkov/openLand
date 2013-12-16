@@ -4,7 +4,7 @@
 
 -- Dumped from database version 9.2.4
 -- Dumped by pg_dump version 9.2.4
--- Started on 2013-11-14 09:53:36
+-- Started on 2013-12-16 07:59:04
 
 SET statement_timeout = 0;
 SET client_encoding = 'UTF8';
@@ -13,7 +13,7 @@ SET check_function_bodies = false;
 SET client_min_messages = warning;
 
 --
--- TOC entry 7 (class 2615 OID 17679)
+-- TOC entry 7 (class 2615 OID 32780)
 -- Name: class; Type: SCHEMA; Schema: -; Owner: openlandadmin
 --
 
@@ -23,7 +23,7 @@ CREATE SCHEMA class;
 ALTER SCHEMA class OWNER TO openlandadmin;
 
 --
--- TOC entry 8 (class 2615 OID 17680)
+-- TOC entry 8 (class 2615 OID 32781)
 -- Name: mapinfo; Type: SCHEMA; Schema: -; Owner: openlandadmin
 --
 
@@ -33,7 +33,7 @@ CREATE SCHEMA mapinfo;
 ALTER SCHEMA mapinfo OWNER TO openlandadmin;
 
 --
--- TOC entry 9 (class 2615 OID 17681)
+-- TOC entry 9 (class 2615 OID 32782)
 -- Name: msk; Type: SCHEMA; Schema: -; Owner: openlandadmin
 --
 
@@ -43,7 +43,7 @@ CREATE SCHEMA msk;
 ALTER SCHEMA msk OWNER TO openlandadmin;
 
 --
--- TOC entry 6 (class 2615 OID 17682)
+-- TOC entry 6 (class 2615 OID 32783)
 -- Name: topology; Type: SCHEMA; Schema: -; Owner: postgres
 --
 
@@ -53,7 +53,7 @@ CREATE SCHEMA topology;
 ALTER SCHEMA topology OWNER TO postgres;
 
 --
--- TOC entry 286 (class 3079 OID 11727)
+-- TOC entry 289 (class 3079 OID 11727)
 -- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 
 --
 
@@ -61,8 +61,8 @@ CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
 
 
 --
--- TOC entry 3950 (class 0 OID 0)
--- Dependencies: 286
+-- TOC entry 3980 (class 0 OID 0)
+-- Dependencies: 289
 -- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner: 
 --
 
@@ -70,7 +70,7 @@ COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
 
 
 --
--- TOC entry 288 (class 3079 OID 17683)
+-- TOC entry 291 (class 3079 OID 32784)
 -- Name: postgis; Type: EXTENSION; Schema: -; Owner: 
 --
 
@@ -78,8 +78,8 @@ CREATE EXTENSION IF NOT EXISTS postgis WITH SCHEMA public;
 
 
 --
--- TOC entry 3951 (class 0 OID 0)
--- Dependencies: 288
+-- TOC entry 3981 (class 0 OID 0)
+-- Dependencies: 291
 -- Name: EXTENSION postgis; Type: COMMENT; Schema: -; Owner: 
 --
 
@@ -87,7 +87,7 @@ COMMENT ON EXTENSION postgis IS 'PostGIS geometry, geography, and raster spatial
 
 
 --
--- TOC entry 287 (class 3079 OID 18798)
+-- TOC entry 290 (class 3079 OID 33899)
 -- Name: postgis_topology; Type: EXTENSION; Schema: -; Owner: 
 --
 
@@ -95,8 +95,8 @@ CREATE EXTENSION IF NOT EXISTS postgis_topology WITH SCHEMA topology;
 
 
 --
--- TOC entry 3952 (class 0 OID 0)
--- Dependencies: 287
+-- TOC entry 3982 (class 0 OID 0)
+-- Dependencies: 290
 -- Name: EXTENSION postgis_topology; Type: COMMENT; Schema: -; Owner: 
 --
 
@@ -104,7 +104,7 @@ COMMENT ON EXTENSION postgis_topology IS 'PostGIS topology spatial types and fun
 
 
 --
--- TOC entry 289 (class 3079 OID 17668)
+-- TOC entry 292 (class 3079 OID 32769)
 -- Name: uuid-ossp; Type: EXTENSION; Schema: -; Owner: 
 --
 
@@ -112,8 +112,8 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp" WITH SCHEMA public;
 
 
 --
--- TOC entry 3953 (class 0 OID 0)
--- Dependencies: 289
+-- TOC entry 3983 (class 0 OID 0)
+-- Dependencies: 292
 -- Name: EXTENSION "uuid-ossp"; Type: COMMENT; Schema: -; Owner: 
 --
 
@@ -123,7 +123,7 @@ COMMENT ON EXTENSION "uuid-ossp" IS 'generate universally unique identifiers (UU
 SET search_path = public, pg_catalog;
 
 --
--- TOC entry 1285 (class 1255 OID 18942)
+-- TOC entry 1288 (class 1255 OID 34043)
 -- Name: ol_adr_ins(); Type: FUNCTION; Schema: public; Owner: openlandadmin
 --
 
@@ -151,7 +151,7 @@ $$;
 ALTER FUNCTION public.ol_adr_ins() OWNER TO openlandadmin;
 
 --
--- TOC entry 1286 (class 1255 OID 18943)
+-- TOC entry 1289 (class 1255 OID 34044)
 -- Name: ol_gran_ins(); Type: FUNCTION; Schema: public; Owner: openlandadmin
 --
 
@@ -209,7 +209,7 @@ $$;
 ALTER FUNCTION public.ol_gran_ins() OWNER TO openlandadmin;
 
 --
--- TOC entry 1287 (class 1255 OID 18944)
+-- TOC entry 1290 (class 1255 OID 34045)
 -- Name: ol_gran_ins_after(); Type: FUNCTION; Schema: public; Owner: postgres
 --
 
@@ -237,7 +237,7 @@ $$;
 ALTER FUNCTION public.ol_gran_ins_after() OWNER TO postgres;
 
 --
--- TOC entry 1288 (class 1255 OID 18945)
+-- TOC entry 1291 (class 1255 OID 34046)
 -- Name: ol_gran_upd(); Type: FUNCTION; Schema: public; Owner: postgres
 --
 
@@ -287,7 +287,7 @@ $$;
 ALTER FUNCTION public.ol_gran_upd() OWNER TO postgres;
 
 --
--- TOC entry 1289 (class 1255 OID 18946)
+-- TOC entry 1292 (class 1255 OID 34047)
 -- Name: ol_kvr_ins(); Type: FUNCTION; Schema: public; Owner: openlandadmin
 --
 
@@ -323,7 +323,7 @@ $$;
 ALTER FUNCTION public.ol_kvr_ins() OWNER TO openlandadmin;
 
 --
--- TOC entry 1290 (class 1255 OID 18947)
+-- TOC entry 1293 (class 1255 OID 34048)
 -- Name: ol_kvr_upd(); Type: FUNCTION; Schema: public; Owner: postgres
 --
 
@@ -343,7 +343,7 @@ $$;
 ALTER FUNCTION public.ol_kvr_upd() OWNER TO postgres;
 
 --
--- TOC entry 1291 (class 1255 OID 18948)
+-- TOC entry 1294 (class 1255 OID 34049)
 -- Name: ol_rayon_ins_after(); Type: FUNCTION; Schema: public; Owner: postgres
 --
 
@@ -374,7 +374,7 @@ $$;
 ALTER FUNCTION public.ol_rayon_ins_after() OWNER TO postgres;
 
 --
--- TOC entry 1292 (class 1255 OID 18949)
+-- TOC entry 1295 (class 1255 OID 34050)
 -- Name: ol_toch_ins(); Type: FUNCTION; Schema: public; Owner: postgres
 --
 
@@ -385,9 +385,9 @@ DECLARE
   idu INTEGER;
   ngeom geometry;
   idt INTEGER;
-  pob SMALLINT;
+  pob INTEGER;
   idparent INTEGER;
-  maxnomer SMALLINT;
+  maxnomer INTEGER;
 
 BEGIN
   idu = NEW.id_uchastok;
@@ -434,7 +434,7 @@ $$;
 ALTER FUNCTION public.ol_toch_ins() OWNER TO postgres;
 
 --
--- TOC entry 1293 (class 1255 OID 18950)
+-- TOC entry 1300 (class 1255 OID 34051)
 -- Name: ol_toch_ins_after(); Type: FUNCTION; Schema: public; Owner: openlandadmin
 --
 
@@ -447,7 +447,7 @@ DECLARE
   ngeom geometry;
   idt INTEGER;
   pgeom geometry;
-  n SMALLINT;
+  n INTEGER;
   p CHAR;
   sposob CHAR;
 BEGIN
@@ -499,7 +499,7 @@ $$;
 ALTER FUNCTION public.ol_toch_ins_after() OWNER TO openlandadmin;
 
 --
--- TOC entry 1294 (class 1255 OID 18951)
+-- TOC entry 1296 (class 1255 OID 34052)
 -- Name: ol_toch_upd(); Type: FUNCTION; Schema: public; Owner: openlandadmin
 --
 
@@ -544,7 +544,7 @@ $$;
 ALTER FUNCTION public.ol_toch_upd() OWNER TO openlandadmin;
 
 --
--- TOC entry 1299 (class 1255 OID 20106)
+-- TOC entry 1297 (class 1255 OID 34053)
 -- Name: ol_uch_del(); Type: FUNCTION; Schema: public; Owner: postgres
 --
 
@@ -576,7 +576,7 @@ $$;
 ALTER FUNCTION public.ol_uch_del() OWNER TO postgres;
 
 --
--- TOC entry 1295 (class 1255 OID 18952)
+-- TOC entry 1298 (class 1255 OID 34054)
 -- Name: ol_uch_ins(); Type: FUNCTION; Schema: public; Owner: openlandadmin
 --
 
@@ -612,7 +612,7 @@ $$;
 ALTER FUNCTION public.ol_uch_ins() OWNER TO openlandadmin;
 
 --
--- TOC entry 1296 (class 1255 OID 18953)
+-- TOC entry 1299 (class 1255 OID 34055)
 -- Name: ol_uch_ins_after(); Type: FUNCTION; Schema: public; Owner: openlandadmin
 --
 
@@ -657,7 +657,7 @@ $$;
 ALTER FUNCTION public.ol_uch_ins_after() OWNER TO openlandadmin;
 
 --
--- TOC entry 1297 (class 1255 OID 18954)
+-- TOC entry 1301 (class 1255 OID 34056)
 -- Name: ol_uch_upd(); Type: FUNCTION; Schema: public; Owner: postgres
 --
 
@@ -697,7 +697,7 @@ $$;
 ALTER FUNCTION public.ol_uch_upd() OWNER TO postgres;
 
 --
--- TOC entry 1298 (class 1255 OID 18955)
+-- TOC entry 1302 (class 1255 OID 34057)
 -- Name: ol_zon_upd(); Type: FUNCTION; Schema: public; Owner: postgres
 --
 
@@ -723,7 +723,7 @@ SET default_tablespace = '';
 SET default_with_oids = false;
 
 --
--- TOC entry 191 (class 1259 OID 18956)
+-- TOC entry 191 (class 1259 OID 34058)
 -- Name: ato_rayonogo_podchineniya; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -736,7 +736,7 @@ CREATE TABLE ato_rayonogo_podchineniya (
 ALTER TABLE class.ato_rayonogo_podchineniya OWNER TO openlandadmin;
 
 --
--- TOC entry 192 (class 1259 OID 18959)
+-- TOC entry 192 (class 1259 OID 34061)
 -- Name: database_version; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -750,7 +750,7 @@ CREATE TABLE database_version (
 ALTER TABLE class.database_version OWNER TO openlandadmin;
 
 --
--- TOC entry 193 (class 1259 OID 18962)
+-- TOC entry 193 (class 1259 OID 34064)
 -- Name: dokument; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -763,7 +763,7 @@ CREATE TABLE dokument (
 ALTER TABLE class.dokument OWNER TO openlandadmin;
 
 --
--- TOC entry 194 (class 1259 OID 18965)
+-- TOC entry 194 (class 1259 OID 34067)
 -- Name: dom; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -776,7 +776,7 @@ CREATE TABLE dom (
 ALTER TABLE class.dom OWNER TO openlandadmin;
 
 --
--- TOC entry 195 (class 1259 OID 18968)
+-- TOC entry 195 (class 1259 OID 34070)
 -- Name: edinicy_izmereniya; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -789,7 +789,7 @@ CREATE TABLE edinicy_izmereniya (
 ALTER TABLE class.edinicy_izmereniya OWNER TO openlandadmin;
 
 --
--- TOC entry 196 (class 1259 OID 18971)
+-- TOC entry 196 (class 1259 OID 34073)
 -- Name: gorodskoy_rayon; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -802,7 +802,7 @@ CREATE TABLE gorodskoy_rayon (
 ALTER TABLE class.gorodskoy_rayon OWNER TO openlandadmin;
 
 --
--- TOC entry 197 (class 1259 OID 18974)
+-- TOC entry 197 (class 1259 OID 34076)
 -- Name: ispolzovanie_razreshennoe; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -815,7 +815,7 @@ CREATE TABLE ispolzovanie_razreshennoe (
 ALTER TABLE class.ispolzovanie_razreshennoe OWNER TO openlandadmin;
 
 --
--- TOC entry 198 (class 1259 OID 18977)
+-- TOC entry 198 (class 1259 OID 34079)
 -- Name: ispolzovanie_zemli; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -828,7 +828,7 @@ CREATE TABLE ispolzovanie_zemli (
 ALTER TABLE class.ispolzovanie_zemli OWNER TO openlandadmin;
 
 --
--- TOC entry 199 (class 1259 OID 18980)
+-- TOC entry 199 (class 1259 OID 34082)
 -- Name: kategoriya_zemli; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -841,7 +841,7 @@ CREATE TABLE kategoriya_zemli (
 ALTER TABLE class.kategoriya_zemli OWNER TO openlandadmin;
 
 --
--- TOC entry 200 (class 1259 OID 18983)
+-- TOC entry 200 (class 1259 OID 34085)
 -- Name: korpus; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -854,7 +854,7 @@ CREATE TABLE korpus (
 ALTER TABLE class.korpus OWNER TO openlandadmin;
 
 --
--- TOC entry 201 (class 1259 OID 18986)
+-- TOC entry 201 (class 1259 OID 34088)
 -- Name: kvartira; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -867,7 +867,7 @@ CREATE TABLE kvartira (
 ALTER TABLE class.kvartira OWNER TO openlandadmin;
 
 --
--- TOC entry 202 (class 1259 OID 18989)
+-- TOC entry 202 (class 1259 OID 34091)
 -- Name: metod_opredeleniya_tochki; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -880,7 +880,7 @@ CREATE TABLE metod_opredeleniya_tochki (
 ALTER TABLE class.metod_opredeleniya_tochki OWNER TO openlandadmin;
 
 --
--- TOC entry 203 (class 1259 OID 18992)
+-- TOC entry 203 (class 1259 OID 34094)
 -- Name: naselen_punkt; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -893,7 +893,7 @@ CREATE TABLE naselen_punkt (
 ALTER TABLE class.naselen_punkt OWNER TO openlandadmin;
 
 --
--- TOC entry 204 (class 1259 OID 18995)
+-- TOC entry 204 (class 1259 OID 34097)
 -- Name: obekt_gkn; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -906,7 +906,7 @@ CREATE TABLE obekt_gkn (
 ALTER TABLE class.obekt_gkn OWNER TO openlandadmin;
 
 --
--- TOC entry 205 (class 1259 OID 18998)
+-- TOC entry 205 (class 1259 OID 34100)
 -- Name: obekt_kadastrovyh_rabot; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -919,7 +919,7 @@ CREATE TABLE obekt_kadastrovyh_rabot (
 ALTER TABLE class.obekt_kadastrovyh_rabot OWNER TO openlandadmin;
 
 --
--- TOC entry 206 (class 1259 OID 19001)
+-- TOC entry 206 (class 1259 OID 34103)
 -- Name: obremeneniya; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -932,7 +932,7 @@ CREATE TABLE obremeneniya (
 ALTER TABLE class.obremeneniya OWNER TO openlandadmin;
 
 --
--- TOC entry 207 (class 1259 OID 19004)
+-- TOC entry 207 (class 1259 OID 34106)
 -- Name: opf; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -945,7 +945,7 @@ CREATE TABLE opf (
 ALTER TABLE class.opf OWNER TO openlandadmin;
 
 --
--- TOC entry 208 (class 1259 OID 19007)
+-- TOC entry 208 (class 1259 OID 34109)
 -- Name: rayon; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -958,7 +958,7 @@ CREATE TABLE rayon (
 ALTER TABLE class.rayon OWNER TO openlandadmin;
 
 --
--- TOC entry 209 (class 1259 OID 19010)
+-- TOC entry 209 (class 1259 OID 34112)
 -- Name: region; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -971,7 +971,7 @@ CREATE TABLE region (
 ALTER TABLE class.region OWNER TO openlandadmin;
 
 --
--- TOC entry 210 (class 1259 OID 19013)
+-- TOC entry 210 (class 1259 OID 34115)
 -- Name: section_mp; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -988,7 +988,7 @@ CREATE TABLE section_mp (
 ALTER TABLE class.section_mp OWNER TO openlandadmin;
 
 --
--- TOC entry 211 (class 1259 OID 19017)
+-- TOC entry 211 (class 1259 OID 34119)
 -- Name: section_mp_id_seq; Type: SEQUENCE; Schema: class; Owner: openlandadmin
 --
 
@@ -1003,7 +1003,7 @@ CREATE SEQUENCE section_mp_id_seq
 ALTER TABLE class.section_mp_id_seq OWNER TO openlandadmin;
 
 --
--- TOC entry 3974 (class 0 OID 0)
+-- TOC entry 4004 (class 0 OID 0)
 -- Dependencies: 211
 -- Name: section_mp_id_seq; Type: SEQUENCE OWNED BY; Schema: class; Owner: openlandadmin
 --
@@ -1012,7 +1012,7 @@ ALTER SEQUENCE section_mp_id_seq OWNED BY section_mp.id;
 
 
 --
--- TOC entry 212 (class 1259 OID 19019)
+-- TOC entry 212 (class 1259 OID 34121)
 -- Name: selsovet; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1025,7 +1025,7 @@ CREATE TABLE selsovet (
 ALTER TABLE class.selsovet OWNER TO openlandadmin;
 
 --
--- TOC entry 213 (class 1259 OID 19022)
+-- TOC entry 213 (class 1259 OID 34124)
 -- Name: sistema_koordinat; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1040,7 +1040,7 @@ CREATE TABLE sistema_koordinat (
 ALTER TABLE class.sistema_koordinat OWNER TO openlandadmin;
 
 --
--- TOC entry 214 (class 1259 OID 19026)
+-- TOC entry 214 (class 1259 OID 34128)
 -- Name: sposob_obrazovaniya_uchastka; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1053,7 +1053,7 @@ CREATE TABLE sposob_obrazovaniya_uchastka (
 ALTER TABLE class.sposob_obrazovaniya_uchastka OWNER TO openlandadmin;
 
 --
--- TOC entry 215 (class 1259 OID 19029)
+-- TOC entry 215 (class 1259 OID 34131)
 -- Name: sposob_zakrepleniya_tochki; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1066,7 +1066,7 @@ CREATE TABLE sposob_zakrepleniya_tochki (
 ALTER TABLE class.sposob_zakrepleniya_tochki OWNER TO openlandadmin;
 
 --
--- TOC entry 216 (class 1259 OID 19032)
+-- TOC entry 216 (class 1259 OID 34134)
 -- Name: status_zemelnogo_uchastka; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1079,7 +1079,7 @@ CREATE TABLE status_zemelnogo_uchastka (
 ALTER TABLE class.status_zemelnogo_uchastka OWNER TO openlandadmin;
 
 --
--- TOC entry 217 (class 1259 OID 19035)
+-- TOC entry 217 (class 1259 OID 34137)
 -- Name: stroenie; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1092,7 +1092,7 @@ CREATE TABLE stroenie (
 ALTER TABLE class.stroenie OWNER TO openlandadmin;
 
 --
--- TOC entry 218 (class 1259 OID 19038)
+-- TOC entry 218 (class 1259 OID 34140)
 -- Name: subect_pravootnosheniy; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1105,7 +1105,7 @@ CREATE TABLE subect_pravootnosheniy (
 ALTER TABLE class.subect_pravootnosheniy OWNER TO openlandadmin;
 
 --
--- TOC entry 219 (class 1259 OID 19041)
+-- TOC entry 219 (class 1259 OID 34143)
 -- Name: type_applied_file; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1118,7 +1118,7 @@ CREATE TABLE type_applied_file (
 ALTER TABLE class.type_applied_file OWNER TO openlandadmin;
 
 --
--- TOC entry 220 (class 1259 OID 19044)
+-- TOC entry 220 (class 1259 OID 34146)
 -- Name: ulica; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1131,7 +1131,7 @@ CREATE TABLE ulica (
 ALTER TABLE class.ulica OWNER TO openlandadmin;
 
 --
--- TOC entry 221 (class 1259 OID 19047)
+-- TOC entry 221 (class 1259 OID 34149)
 -- Name: vid_ploshadi; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1144,7 +1144,7 @@ CREATE TABLE vid_ploshadi (
 ALTER TABLE class.vid_ploshadi OWNER TO openlandadmin;
 
 --
--- TOC entry 222 (class 1259 OID 19050)
+-- TOC entry 222 (class 1259 OID 34152)
 -- Name: vid_zemelnogo_uchastka; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1157,7 +1157,7 @@ CREATE TABLE vid_zemelnogo_uchastka (
 ALTER TABLE class.vid_zemelnogo_uchastka OWNER TO openlandadmin;
 
 --
--- TOC entry 223 (class 1259 OID 19053)
+-- TOC entry 223 (class 1259 OID 34155)
 -- Name: zona; Type: TABLE; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1172,7 +1172,7 @@ ALTER TABLE class.zona OWNER TO openlandadmin;
 SET search_path = mapinfo, pg_catalog;
 
 --
--- TOC entry 224 (class 1259 OID 19056)
+-- TOC entry 224 (class 1259 OID 34158)
 -- Name: mapinfo_mapcatalog; Type: TABLE; Schema: mapinfo; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1205,7 +1205,7 @@ ALTER TABLE mapinfo.mapinfo_mapcatalog OWNER TO openlandadmin;
 SET search_path = public, pg_catalog;
 
 --
--- TOC entry 225 (class 1259 OID 19062)
+-- TOC entry 225 (class 1259 OID 34164)
 -- Name: granica_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -1222,7 +1222,7 @@ ALTER TABLE public.granica_id_seq OWNER TO openlandadmin;
 SET search_path = msk, pg_catalog;
 
 --
--- TOC entry 226 (class 1259 OID 19064)
+-- TOC entry 226 (class 1259 OID 34166)
 -- Name: granica; Type: TABLE; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1250,7 +1250,7 @@ ALTER TABLE msk.granica OWNER TO openlandadmin;
 SET search_path = public, pg_catalog;
 
 --
--- TOC entry 227 (class 1259 OID 19081)
+-- TOC entry 227 (class 1259 OID 34183)
 -- Name: kvartal_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -1267,7 +1267,7 @@ ALTER TABLE public.kvartal_id_seq OWNER TO openlandadmin;
 SET search_path = msk, pg_catalog;
 
 --
--- TOC entry 228 (class 1259 OID 19083)
+-- TOC entry 228 (class 1259 OID 34185)
 -- Name: kvartal; Type: TABLE; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1289,7 +1289,7 @@ ALTER TABLE msk.kvartal OWNER TO openlandadmin;
 SET search_path = public, pg_catalog;
 
 --
--- TOC entry 229 (class 1259 OID 19094)
+-- TOC entry 229 (class 1259 OID 34196)
 -- Name: rayon_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -1306,7 +1306,7 @@ ALTER TABLE public.rayon_id_seq OWNER TO openlandadmin;
 SET search_path = msk, pg_catalog;
 
 --
--- TOC entry 230 (class 1259 OID 19096)
+-- TOC entry 230 (class 1259 OID 34198)
 -- Name: rayon; Type: TABLE; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1325,7 +1325,7 @@ ALTER TABLE msk.rayon OWNER TO openlandadmin;
 SET search_path = public, pg_catalog;
 
 --
--- TOC entry 231 (class 1259 OID 19103)
+-- TOC entry 231 (class 1259 OID 34205)
 -- Name: tochka_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -1342,7 +1342,7 @@ ALTER TABLE public.tochka_id_seq OWNER TO openlandadmin;
 SET search_path = msk, pg_catalog;
 
 --
--- TOC entry 232 (class 1259 OID 19105)
+-- TOC entry 232 (class 1259 OID 34207)
 -- Name: tochka; Type: TABLE; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1351,8 +1351,8 @@ CREATE TABLE tochka (
     id_uchastok integer,
     x numeric(10,2),
     y numeric(10,2),
-    poryadok_obhoda smallint,
-    nomer smallint,
+    poryadok_obhoda integer,
+    nomer integer,
     pogreshnost numeric(5,2) DEFAULT 0.1,
     prefiks_nomera character(1) DEFAULT ''::bpchar,
     id_sposob_zakrepleniya character(12) DEFAULT '626003000000'::bpchar,
@@ -1377,7 +1377,7 @@ ALTER TABLE msk.tochka OWNER TO openlandadmin;
 SET search_path = public, pg_catalog;
 
 --
--- TOC entry 233 (class 1259 OID 19123)
+-- TOC entry 233 (class 1259 OID 34225)
 -- Name: uchastok_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -1394,7 +1394,7 @@ ALTER TABLE public.uchastok_id_seq OWNER TO openlandadmin;
 SET search_path = msk, pg_catalog;
 
 --
--- TOC entry 234 (class 1259 OID 19125)
+-- TOC entry 234 (class 1259 OID 34227)
 -- Name: uchastok; Type: TABLE; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1444,7 +1444,7 @@ ALTER TABLE msk.uchastok OWNER TO openlandadmin;
 SET search_path = public, pg_catalog;
 
 --
--- TOC entry 235 (class 1259 OID 19138)
+-- TOC entry 235 (class 1259 OID 34240)
 -- Name: adres; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1474,7 +1474,7 @@ CREATE TABLE adres (
 ALTER TABLE public.adres OWNER TO openlandadmin;
 
 --
--- TOC entry 236 (class 1259 OID 19145)
+-- TOC entry 236 (class 1259 OID 34247)
 -- Name: adres_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -1489,7 +1489,7 @@ CREATE SEQUENCE adres_id_seq
 ALTER TABLE public.adres_id_seq OWNER TO openlandadmin;
 
 --
--- TOC entry 3999 (class 0 OID 0)
+-- TOC entry 4029 (class 0 OID 0)
 -- Dependencies: 236
 -- Name: adres_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: openlandadmin
 --
@@ -1498,7 +1498,7 @@ ALTER SEQUENCE adres_id_seq OWNED BY adres.id;
 
 
 --
--- TOC entry 237 (class 1259 OID 19147)
+-- TOC entry 237 (class 1259 OID 34249)
 -- Name: applied_file; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1513,7 +1513,7 @@ CREATE TABLE applied_file (
 ALTER TABLE public.applied_file OWNER TO openlandadmin;
 
 --
--- TOC entry 238 (class 1259 OID 19155)
+-- TOC entry 238 (class 1259 OID 34257)
 -- Name: client; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1531,7 +1531,7 @@ CREATE TABLE client (
 ALTER TABLE public.client OWNER TO openlandadmin;
 
 --
--- TOC entry 239 (class 1259 OID 19159)
+-- TOC entry 239 (class 1259 OID 34261)
 -- Name: contractor; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1551,7 +1551,7 @@ CREATE TABLE contractor (
 ALTER TABLE public.contractor OWNER TO openlandadmin;
 
 --
--- TOC entry 240 (class 1259 OID 19166)
+-- TOC entry 240 (class 1259 OID 34268)
 -- Name: document; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1578,7 +1578,7 @@ CREATE TABLE document (
 ALTER TABLE public.document OWNER TO openlandadmin;
 
 --
--- TOC entry 241 (class 1259 OID 19175)
+-- TOC entry 241 (class 1259 OID 34277)
 -- Name: document_applied_file; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1592,7 +1592,7 @@ CREATE TABLE document_applied_file (
 ALTER TABLE public.document_applied_file OWNER TO openlandadmin;
 
 --
--- TOC entry 242 (class 1259 OID 19179)
+-- TOC entry 242 (class 1259 OID 34281)
 -- Name: dom; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1606,7 +1606,7 @@ CREATE TABLE dom (
 ALTER TABLE public.dom OWNER TO openlandadmin;
 
 --
--- TOC entry 243 (class 1259 OID 19182)
+-- TOC entry 243 (class 1259 OID 34284)
 -- Name: dom_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -1621,7 +1621,7 @@ CREATE SEQUENCE dom_id_seq
 ALTER TABLE public.dom_id_seq OWNER TO openlandadmin;
 
 --
--- TOC entry 4007 (class 0 OID 0)
+-- TOC entry 4037 (class 0 OID 0)
 -- Dependencies: 243
 -- Name: dom_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: openlandadmin
 --
@@ -1630,7 +1630,7 @@ ALTER SEQUENCE dom_id_seq OWNED BY dom.id;
 
 
 --
--- TOC entry 244 (class 1259 OID 19184)
+-- TOC entry 244 (class 1259 OID 34286)
 -- Name: duplicate_text_values; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1644,7 +1644,7 @@ CREATE TABLE duplicate_text_values (
 ALTER TABLE public.duplicate_text_values OWNER TO openlandadmin;
 
 --
--- TOC entry 245 (class 1259 OID 19191)
+-- TOC entry 245 (class 1259 OID 34293)
 -- Name: fiz_liczo; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1670,7 +1670,7 @@ CREATE TABLE fiz_liczo (
 ALTER TABLE public.fiz_liczo OWNER TO openlandadmin;
 
 --
--- TOC entry 246 (class 1259 OID 19198)
+-- TOC entry 246 (class 1259 OID 34300)
 -- Name: foreign_organization; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1684,7 +1684,7 @@ CREATE TABLE foreign_organization (
 ALTER TABLE public.foreign_organization OWNER TO openlandadmin;
 
 --
--- TOC entry 247 (class 1259 OID 19205)
+-- TOC entry 247 (class 1259 OID 34307)
 -- Name: geo_osnova; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1702,7 +1702,7 @@ CREATE TABLE geo_osnova (
 ALTER TABLE public.geo_osnova OWNER TO openlandadmin;
 
 --
--- TOC entry 248 (class 1259 OID 19209)
+-- TOC entry 248 (class 1259 OID 34311)
 -- Name: gorodskoy_rayon; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1716,7 +1716,7 @@ CREATE TABLE gorodskoy_rayon (
 ALTER TABLE public.gorodskoy_rayon OWNER TO openlandadmin;
 
 --
--- TOC entry 249 (class 1259 OID 19212)
+-- TOC entry 249 (class 1259 OID 34314)
 -- Name: gorodskoy_raiyon_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -1731,7 +1731,7 @@ CREATE SEQUENCE gorodskoy_raiyon_id_seq
 ALTER TABLE public.gorodskoy_raiyon_id_seq OWNER TO openlandadmin;
 
 --
--- TOC entry 4014 (class 0 OID 0)
+-- TOC entry 4044 (class 0 OID 0)
 -- Dependencies: 249
 -- Name: gorodskoy_raiyon_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: openlandadmin
 --
@@ -1740,7 +1740,7 @@ ALTER SEQUENCE gorodskoy_raiyon_id_seq OWNED BY gorodskoy_rayon.id;
 
 
 --
--- TOC entry 250 (class 1259 OID 19214)
+-- TOC entry 250 (class 1259 OID 34316)
 -- Name: governance; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1753,7 +1753,7 @@ CREATE TABLE governance (
 ALTER TABLE public.governance OWNER TO openlandadmin;
 
 --
--- TOC entry 251 (class 1259 OID 19221)
+-- TOC entry 251 (class 1259 OID 34323)
 -- Name: granica_tochka; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1767,7 +1767,7 @@ CREATE TABLE granica_tochka (
 ALTER TABLE public.granica_tochka OWNER TO openlandadmin;
 
 --
--- TOC entry 252 (class 1259 OID 19224)
+-- TOC entry 252 (class 1259 OID 34326)
 -- Name: granica_tochka_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -1782,7 +1782,7 @@ CREATE SEQUENCE granica_tochka_id_seq
 ALTER TABLE public.granica_tochka_id_seq OWNER TO openlandadmin;
 
 --
--- TOC entry 4018 (class 0 OID 0)
+-- TOC entry 4048 (class 0 OID 0)
 -- Dependencies: 252
 -- Name: granica_tochka_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: openlandadmin
 --
@@ -1791,7 +1791,7 @@ ALTER SEQUENCE granica_tochka_id_seq OWNED BY granica_tochka.id;
 
 
 --
--- TOC entry 253 (class 1259 OID 19226)
+-- TOC entry 253 (class 1259 OID 34328)
 -- Name: kn; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1809,7 +1809,7 @@ CREATE TABLE kn (
 ALTER TABLE public.kn OWNER TO openlandadmin;
 
 --
--- TOC entry 254 (class 1259 OID 19229)
+-- TOC entry 254 (class 1259 OID 34331)
 -- Name: kn_document; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1823,7 +1823,7 @@ CREATE TABLE kn_document (
 ALTER TABLE public.kn_document OWNER TO openlandadmin;
 
 --
--- TOC entry 255 (class 1259 OID 19233)
+-- TOC entry 255 (class 1259 OID 34335)
 -- Name: kn_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -1838,7 +1838,7 @@ CREATE SEQUENCE kn_id_seq
 ALTER TABLE public.kn_id_seq OWNER TO openlandadmin;
 
 --
--- TOC entry 4022 (class 0 OID 0)
+-- TOC entry 4052 (class 0 OID 0)
 -- Dependencies: 255
 -- Name: kn_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: openlandadmin
 --
@@ -1847,7 +1847,7 @@ ALTER SEQUENCE kn_id_seq OWNED BY kn.id;
 
 
 --
--- TOC entry 256 (class 1259 OID 19235)
+-- TOC entry 256 (class 1259 OID 34337)
 -- Name: korpus; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1862,7 +1862,7 @@ ALTER TABLE ONLY korpus ALTER COLUMN id_korpus SET STATISTICS 0;
 ALTER TABLE public.korpus OWNER TO openlandadmin;
 
 --
--- TOC entry 257 (class 1259 OID 19238)
+-- TOC entry 257 (class 1259 OID 34340)
 -- Name: korpus_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -1877,7 +1877,7 @@ CREATE SEQUENCE korpus_id_seq
 ALTER TABLE public.korpus_id_seq OWNER TO openlandadmin;
 
 --
--- TOC entry 4025 (class 0 OID 0)
+-- TOC entry 4055 (class 0 OID 0)
 -- Dependencies: 257
 -- Name: korpus_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: openlandadmin
 --
@@ -1886,7 +1886,7 @@ ALTER SEQUENCE korpus_id_seq OWNED BY korpus.id;
 
 
 --
--- TOC entry 258 (class 1259 OID 19240)
+-- TOC entry 258 (class 1259 OID 34342)
 -- Name: kvartira; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1900,7 +1900,7 @@ CREATE TABLE kvartira (
 ALTER TABLE public.kvartira OWNER TO openlandadmin;
 
 --
--- TOC entry 259 (class 1259 OID 19243)
+-- TOC entry 259 (class 1259 OID 34345)
 -- Name: kvartira_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -1915,7 +1915,7 @@ CREATE SEQUENCE kvartira_id_seq
 ALTER TABLE public.kvartira_id_seq OWNER TO openlandadmin;
 
 --
--- TOC entry 4028 (class 0 OID 0)
+-- TOC entry 4058 (class 0 OID 0)
 -- Dependencies: 259
 -- Name: kvartira_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: openlandadmin
 --
@@ -1924,7 +1924,7 @@ ALTER SEQUENCE kvartira_id_seq OWNED BY kvartira.id;
 
 
 --
--- TOC entry 260 (class 1259 OID 19245)
+-- TOC entry 260 (class 1259 OID 34347)
 -- Name: mo; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1938,7 +1938,7 @@ CREATE TABLE mo (
 ALTER TABLE public.mo OWNER TO openlandadmin;
 
 --
--- TOC entry 261 (class 1259 OID 19248)
+-- TOC entry 261 (class 1259 OID 34350)
 -- Name: mo_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -1953,7 +1953,7 @@ CREATE SEQUENCE mo_id_seq
 ALTER TABLE public.mo_id_seq OWNER TO openlandadmin;
 
 --
--- TOC entry 4031 (class 0 OID 0)
+-- TOC entry 4061 (class 0 OID 0)
 -- Dependencies: 261
 -- Name: mo_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: openlandadmin
 --
@@ -1962,7 +1962,7 @@ ALTER SEQUENCE mo_id_seq OWNED BY mo.id;
 
 
 --
--- TOC entry 262 (class 1259 OID 19250)
+-- TOC entry 262 (class 1259 OID 34352)
 -- Name: mp; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1985,7 +1985,7 @@ CREATE TABLE mp (
 ALTER TABLE public.mp OWNER TO openlandadmin;
 
 --
--- TOC entry 263 (class 1259 OID 19259)
+-- TOC entry 263 (class 1259 OID 34361)
 -- Name: mp_section; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -1999,7 +1999,7 @@ CREATE TABLE mp_section (
 ALTER TABLE public.mp_section OWNER TO openlandadmin;
 
 --
--- TOC entry 264 (class 1259 OID 19263)
+-- TOC entry 264 (class 1259 OID 34365)
 -- Name: mp_section_data; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -2020,7 +2020,7 @@ CREATE TABLE mp_section_data (
 ALTER TABLE public.mp_section_data OWNER TO openlandadmin;
 
 --
--- TOC entry 265 (class 1259 OID 19267)
+-- TOC entry 265 (class 1259 OID 34369)
 -- Name: naselen_punkt; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -2034,7 +2034,7 @@ CREATE TABLE naselen_punkt (
 ALTER TABLE public.naselen_punkt OWNER TO openlandadmin;
 
 --
--- TOC entry 266 (class 1259 OID 19270)
+-- TOC entry 266 (class 1259 OID 34372)
 -- Name: naselen_punkt_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -2049,7 +2049,7 @@ CREATE SEQUENCE naselen_punkt_id_seq
 ALTER TABLE public.naselen_punkt_id_seq OWNER TO openlandadmin;
 
 --
--- TOC entry 4037 (class 0 OID 0)
+-- TOC entry 4067 (class 0 OID 0)
 -- Dependencies: 266
 -- Name: naselen_punkt_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: openlandadmin
 --
@@ -2058,7 +2058,7 @@ ALTER SEQUENCE naselen_punkt_id_seq OWNED BY naselen_punkt.id;
 
 
 --
--- TOC entry 267 (class 1259 OID 19272)
+-- TOC entry 267 (class 1259 OID 34374)
 -- Name: oks; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -2073,7 +2073,52 @@ CREATE TABLE oks (
 ALTER TABLE public.oks OWNER TO openlandadmin;
 
 --
--- TOC entry 268 (class 1259 OID 19279)
+-- TOC entry 287 (class 1259 OID 43488)
+-- Name: owner_neighbour; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
+--
+
+CREATE TABLE owner_neighbour (
+    guid uuid DEFAULT uuid_generate_v4() NOT NULL,
+    guid_parcel_neighbour uuid NOT NULL,
+    name_right character varying(255) NOT NULL,
+    name_owner text NOT NULL,
+    contact_address text NOT NULL
+);
+
+
+ALTER TABLE public.owner_neighbour OWNER TO openlandadmin;
+
+--
+-- TOC entry 288 (class 1259 OID 43497)
+-- Name: owner_neighbour_document; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
+--
+
+CREATE TABLE owner_neighbour_document (
+    guid uuid DEFAULT uuid_generate_v4() NOT NULL,
+    guid_owner_neighbour uuid NOT NULL,
+    guid_document uuid NOT NULL
+);
+
+
+ALTER TABLE public.owner_neighbour_document OWNER TO openlandadmin;
+
+--
+-- TOC entry 286 (class 1259 OID 43474)
+-- Name: parcel_neighbour; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
+--
+
+CREATE TABLE parcel_neighbour (
+    guid uuid DEFAULT uuid_generate_v4() NOT NULL,
+    id_parcel integer NOT NULL,
+    definition text NOT NULL,
+    cadastral_number character(40) NOT NULL
+);
+
+
+ALTER TABLE public.parcel_neighbour OWNER TO openlandadmin;
+
+--
+-- TOC entry 268 (class 1259 OID 34381)
 -- Name: parcel_parcel; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -2087,7 +2132,7 @@ CREATE TABLE parcel_parcel (
 ALTER TABLE public.parcel_parcel OWNER TO openlandadmin;
 
 --
--- TOC entry 269 (class 1259 OID 19283)
+-- TOC entry 269 (class 1259 OID 34385)
 -- Name: ploshad; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -2104,7 +2149,7 @@ CREATE TABLE ploshad (
 ALTER TABLE public.ploshad OWNER TO openlandadmin;
 
 --
--- TOC entry 270 (class 1259 OID 19286)
+-- TOC entry 270 (class 1259 OID 34388)
 -- Name: ploshad_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -2119,7 +2164,7 @@ CREATE SEQUENCE ploshad_id_seq
 ALTER TABLE public.ploshad_id_seq OWNER TO openlandadmin;
 
 --
--- TOC entry 4042 (class 0 OID 0)
+-- TOC entry 4075 (class 0 OID 0)
 -- Dependencies: 270
 -- Name: ploshad_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: openlandadmin
 --
@@ -2128,7 +2173,7 @@ ALTER SEQUENCE ploshad_id_seq OWNED BY ploshad.id;
 
 
 --
--- TOC entry 271 (class 1259 OID 19288)
+-- TOC entry 271 (class 1259 OID 34390)
 -- Name: rayon; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -2142,7 +2187,7 @@ CREATE TABLE rayon (
 ALTER TABLE public.rayon OWNER TO openlandadmin;
 
 --
--- TOC entry 272 (class 1259 OID 19291)
+-- TOC entry 272 (class 1259 OID 34393)
 -- Name: raiyon_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -2157,7 +2202,7 @@ CREATE SEQUENCE raiyon_id_seq
 ALTER TABLE public.raiyon_id_seq OWNER TO openlandadmin;
 
 --
--- TOC entry 4045 (class 0 OID 0)
+-- TOC entry 4078 (class 0 OID 0)
 -- Dependencies: 272
 -- Name: raiyon_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: openlandadmin
 --
@@ -2166,7 +2211,7 @@ ALTER SEQUENCE raiyon_id_seq OWNED BY rayon.id;
 
 
 --
--- TOC entry 273 (class 1259 OID 19293)
+-- TOC entry 273 (class 1259 OID 34395)
 -- Name: rebro_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -2181,7 +2226,7 @@ CREATE SEQUENCE rebro_id_seq
 ALTER TABLE public.rebro_id_seq OWNER TO openlandadmin;
 
 --
--- TOC entry 274 (class 1259 OID 19295)
+-- TOC entry 274 (class 1259 OID 34397)
 -- Name: selsovet; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -2195,7 +2240,7 @@ CREATE TABLE selsovet (
 ALTER TABLE public.selsovet OWNER TO openlandadmin;
 
 --
--- TOC entry 275 (class 1259 OID 19298)
+-- TOC entry 275 (class 1259 OID 34400)
 -- Name: selsovet_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -2210,7 +2255,7 @@ CREATE SEQUENCE selsovet_id_seq
 ALTER TABLE public.selsovet_id_seq OWNER TO openlandadmin;
 
 --
--- TOC entry 4049 (class 0 OID 0)
+-- TOC entry 4082 (class 0 OID 0)
 -- Dependencies: 275
 -- Name: selsovet_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: openlandadmin
 --
@@ -2219,7 +2264,7 @@ ALTER SEQUENCE selsovet_id_seq OWNED BY selsovet.id;
 
 
 --
--- TOC entry 276 (class 1259 OID 19300)
+-- TOC entry 276 (class 1259 OID 34402)
 -- Name: sredstva_izmereniya; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -2234,7 +2279,7 @@ CREATE TABLE sredstva_izmereniya (
 ALTER TABLE public.sredstva_izmereniya OWNER TO openlandadmin;
 
 --
--- TOC entry 277 (class 1259 OID 19307)
+-- TOC entry 277 (class 1259 OID 34409)
 -- Name: stroenie; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -2248,7 +2293,7 @@ CREATE TABLE stroenie (
 ALTER TABLE public.stroenie OWNER TO openlandadmin;
 
 --
--- TOC entry 278 (class 1259 OID 19310)
+-- TOC entry 278 (class 1259 OID 34412)
 -- Name: stroenie_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -2263,7 +2308,7 @@ CREATE SEQUENCE stroenie_id_seq
 ALTER TABLE public.stroenie_id_seq OWNER TO openlandadmin;
 
 --
--- TOC entry 4053 (class 0 OID 0)
+-- TOC entry 4086 (class 0 OID 0)
 -- Dependencies: 278
 -- Name: stroenie_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: openlandadmin
 --
@@ -2272,7 +2317,7 @@ ALTER SEQUENCE stroenie_id_seq OWNED BY stroenie.id;
 
 
 --
--- TOC entry 279 (class 1259 OID 19312)
+-- TOC entry 279 (class 1259 OID 34414)
 -- Name: subparcel; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -2286,7 +2331,7 @@ CREATE TABLE subparcel (
 ALTER TABLE public.subparcel OWNER TO openlandadmin;
 
 --
--- TOC entry 280 (class 1259 OID 19319)
+-- TOC entry 280 (class 1259 OID 34421)
 -- Name: uchastok_adres; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -2300,7 +2345,7 @@ CREATE TABLE uchastok_adres (
 ALTER TABLE public.uchastok_adres OWNER TO openlandadmin;
 
 --
--- TOC entry 281 (class 1259 OID 19322)
+-- TOC entry 281 (class 1259 OID 34424)
 -- Name: uchastok_adres_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -2315,7 +2360,7 @@ CREATE SEQUENCE uchastok_adres_id_seq
 ALTER TABLE public.uchastok_adres_id_seq OWNER TO openlandadmin;
 
 --
--- TOC entry 4057 (class 0 OID 0)
+-- TOC entry 4090 (class 0 OID 0)
 -- Dependencies: 281
 -- Name: uchastok_adres_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: openlandadmin
 --
@@ -2324,7 +2369,7 @@ ALTER SEQUENCE uchastok_adres_id_seq OWNED BY uchastok_adres.id;
 
 
 --
--- TOC entry 282 (class 1259 OID 19324)
+-- TOC entry 282 (class 1259 OID 34426)
 -- Name: ulica; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -2338,7 +2383,7 @@ CREATE TABLE ulica (
 ALTER TABLE public.ulica OWNER TO openlandadmin;
 
 --
--- TOC entry 283 (class 1259 OID 19327)
+-- TOC entry 283 (class 1259 OID 34429)
 -- Name: ulica_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -2353,7 +2398,7 @@ CREATE SEQUENCE ulica_id_seq
 ALTER TABLE public.ulica_id_seq OWNER TO openlandadmin;
 
 --
--- TOC entry 4060 (class 0 OID 0)
+-- TOC entry 4093 (class 0 OID 0)
 -- Dependencies: 283
 -- Name: ulica_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: openlandadmin
 --
@@ -2362,7 +2407,7 @@ ALTER SEQUENCE ulica_id_seq OWNED BY ulica.id;
 
 
 --
--- TOC entry 284 (class 1259 OID 19329)
+-- TOC entry 284 (class 1259 OID 34431)
 -- Name: yur_liczo; Type: TABLE; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -2385,7 +2430,7 @@ CREATE TABLE yur_liczo (
 ALTER TABLE public.yur_liczo OWNER TO openlandadmin;
 
 --
--- TOC entry 285 (class 1259 OID 19336)
+-- TOC entry 285 (class 1259 OID 34438)
 -- Name: zona_id_seq; Type: SEQUENCE; Schema: public; Owner: openlandadmin
 --
 
@@ -2402,7 +2447,7 @@ ALTER TABLE public.zona_id_seq OWNER TO openlandadmin;
 SET search_path = class, pg_catalog;
 
 --
--- TOC entry 3493 (class 2604 OID 19338)
+-- TOC entry 3507 (class 2604 OID 34440)
 -- Name: id; Type: DEFAULT; Schema: class; Owner: openlandadmin
 --
 
@@ -2412,7 +2457,7 @@ ALTER TABLE ONLY section_mp ALTER COLUMN id SET DEFAULT nextval('section_mp_id_s
 SET search_path = public, pg_catalog;
 
 --
--- TOC entry 3532 (class 2604 OID 19339)
+-- TOC entry 3546 (class 2604 OID 34441)
 -- Name: id; Type: DEFAULT; Schema: public; Owner: openlandadmin
 --
 
@@ -2420,7 +2465,7 @@ ALTER TABLE ONLY adres ALTER COLUMN id SET DEFAULT nextval('adres_id_seq'::regcl
 
 
 --
--- TOC entry 3541 (class 2604 OID 19340)
+-- TOC entry 3555 (class 2604 OID 34442)
 -- Name: id; Type: DEFAULT; Schema: public; Owner: openlandadmin
 --
 
@@ -2428,7 +2473,7 @@ ALTER TABLE ONLY dom ALTER COLUMN id SET DEFAULT nextval('dom_id_seq'::regclass)
 
 
 --
--- TOC entry 3546 (class 2604 OID 19341)
+-- TOC entry 3560 (class 2604 OID 34443)
 -- Name: id; Type: DEFAULT; Schema: public; Owner: openlandadmin
 --
 
@@ -2436,7 +2481,7 @@ ALTER TABLE ONLY gorodskoy_rayon ALTER COLUMN id SET DEFAULT nextval('gorodskoy_
 
 
 --
--- TOC entry 3548 (class 2604 OID 19342)
+-- TOC entry 3562 (class 2604 OID 34444)
 -- Name: id; Type: DEFAULT; Schema: public; Owner: openlandadmin
 --
 
@@ -2444,7 +2489,7 @@ ALTER TABLE ONLY granica_tochka ALTER COLUMN id SET DEFAULT nextval('granica_toc
 
 
 --
--- TOC entry 3549 (class 2604 OID 19343)
+-- TOC entry 3563 (class 2604 OID 34445)
 -- Name: id; Type: DEFAULT; Schema: public; Owner: openlandadmin
 --
 
@@ -2452,7 +2497,7 @@ ALTER TABLE ONLY kn ALTER COLUMN id SET DEFAULT nextval('kn_id_seq'::regclass);
 
 
 --
--- TOC entry 3551 (class 2604 OID 19344)
+-- TOC entry 3565 (class 2604 OID 34446)
 -- Name: id; Type: DEFAULT; Schema: public; Owner: openlandadmin
 --
 
@@ -2460,7 +2505,7 @@ ALTER TABLE ONLY korpus ALTER COLUMN id SET DEFAULT nextval('korpus_id_seq'::reg
 
 
 --
--- TOC entry 3552 (class 2604 OID 19345)
+-- TOC entry 3566 (class 2604 OID 34447)
 -- Name: id; Type: DEFAULT; Schema: public; Owner: openlandadmin
 --
 
@@ -2468,7 +2513,7 @@ ALTER TABLE ONLY kvartira ALTER COLUMN id SET DEFAULT nextval('kvartira_id_seq':
 
 
 --
--- TOC entry 3553 (class 2604 OID 19346)
+-- TOC entry 3567 (class 2604 OID 34448)
 -- Name: id; Type: DEFAULT; Schema: public; Owner: openlandadmin
 --
 
@@ -2476,7 +2521,7 @@ ALTER TABLE ONLY mo ALTER COLUMN id SET DEFAULT nextval('mo_id_seq'::regclass);
 
 
 --
--- TOC entry 3559 (class 2604 OID 19347)
+-- TOC entry 3573 (class 2604 OID 34449)
 -- Name: id; Type: DEFAULT; Schema: public; Owner: openlandadmin
 --
 
@@ -2484,7 +2529,7 @@ ALTER TABLE ONLY naselen_punkt ALTER COLUMN id SET DEFAULT nextval('naselen_punk
 
 
 --
--- TOC entry 3562 (class 2604 OID 19348)
+-- TOC entry 3576 (class 2604 OID 34450)
 -- Name: id; Type: DEFAULT; Schema: public; Owner: openlandadmin
 --
 
@@ -2492,7 +2537,7 @@ ALTER TABLE ONLY ploshad ALTER COLUMN id SET DEFAULT nextval('ploshad_id_seq'::r
 
 
 --
--- TOC entry 3563 (class 2604 OID 19349)
+-- TOC entry 3577 (class 2604 OID 34451)
 -- Name: id; Type: DEFAULT; Schema: public; Owner: openlandadmin
 --
 
@@ -2500,7 +2545,7 @@ ALTER TABLE ONLY rayon ALTER COLUMN id SET DEFAULT nextval('raiyon_id_seq'::regc
 
 
 --
--- TOC entry 3564 (class 2604 OID 19350)
+-- TOC entry 3578 (class 2604 OID 34452)
 -- Name: id; Type: DEFAULT; Schema: public; Owner: openlandadmin
 --
 
@@ -2508,7 +2553,7 @@ ALTER TABLE ONLY selsovet ALTER COLUMN id SET DEFAULT nextval('selsovet_id_seq':
 
 
 --
--- TOC entry 3566 (class 2604 OID 19351)
+-- TOC entry 3580 (class 2604 OID 34453)
 -- Name: id; Type: DEFAULT; Schema: public; Owner: openlandadmin
 --
 
@@ -2516,7 +2561,7 @@ ALTER TABLE ONLY stroenie ALTER COLUMN id SET DEFAULT nextval('stroenie_id_seq':
 
 
 --
--- TOC entry 3568 (class 2604 OID 19352)
+-- TOC entry 3582 (class 2604 OID 34454)
 -- Name: id; Type: DEFAULT; Schema: public; Owner: openlandadmin
 --
 
@@ -2524,7 +2569,7 @@ ALTER TABLE ONLY uchastok_adres ALTER COLUMN id SET DEFAULT nextval('uchastok_ad
 
 
 --
--- TOC entry 3569 (class 2604 OID 19353)
+-- TOC entry 3583 (class 2604 OID 34455)
 -- Name: id; Type: DEFAULT; Schema: public; Owner: openlandadmin
 --
 
@@ -2534,7 +2579,7 @@ ALTER TABLE ONLY ulica ALTER COLUMN id SET DEFAULT nextval('ulica_id_seq'::regcl
 SET search_path = class, pg_catalog;
 
 --
--- TOC entry 3845 (class 0 OID 18956)
+-- TOC entry 3872 (class 0 OID 34058)
 -- Dependencies: 191
 -- Data for Name: ato_rayonogo_podchineniya; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -2558,16 +2603,16 @@ INSERT INTO ato_rayonogo_podchineniya VALUES ('п      ', 'Поселок');
 
 
 --
--- TOC entry 3846 (class 0 OID 18959)
+-- TOC entry 3873 (class 0 OID 34061)
 -- Dependencies: 192
 -- Data for Name: database_version; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
 
-INSERT INTO database_version VALUES (0, 16, '2013-11-14');
+INSERT INTO database_version VALUES (0, 17, '2013-12-16');
 
 
 --
--- TOC entry 3847 (class 0 OID 18962)
+-- TOC entry 3874 (class 0 OID 34064)
 -- Dependencies: 193
 -- Data for Name: dokument; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -2873,7 +2918,7 @@ INSERT INTO dokument VALUES ('558502029900', 'Иной документ');
 
 
 --
--- TOC entry 3848 (class 0 OID 18965)
+-- TOC entry 3875 (class 0 OID 34067)
 -- Dependencies: 194
 -- Data for Name: dom; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -2889,7 +2934,7 @@ INSERT INTO dom VALUES ('сооружение', 'сооружение');
 
 
 --
--- TOC entry 3849 (class 0 OID 18968)
+-- TOC entry 3876 (class 0 OID 34070)
 -- Dependencies: 195
 -- Data for Name: edinicy_izmereniya; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -2929,7 +2974,7 @@ INSERT INTO edinicy_izmereniya VALUES ('1005', 'Иные');
 
 
 --
--- TOC entry 3850 (class 0 OID 18971)
+-- TOC entry 3877 (class 0 OID 34073)
 -- Dependencies: 196
 -- Data for Name: gorodskoy_rayon; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -2938,7 +2983,7 @@ INSERT INTO gorodskoy_rayon VALUES ('р-н', 'Район');
 
 
 --
--- TOC entry 3851 (class 0 OID 18974)
+-- TOC entry 3878 (class 0 OID 34076)
 -- Dependencies: 197
 -- Data for Name: ispolzovanie_razreshennoe; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -2949,7 +2994,7 @@ INSERT INTO ispolzovanie_razreshennoe VALUES (3, 'Вспомогательный
 
 
 --
--- TOC entry 3852 (class 0 OID 18977)
+-- TOC entry 3879 (class 0 OID 34079)
 -- Dependencies: 198
 -- Data for Name: ispolzovanie_zemli; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3146,7 +3191,7 @@ INSERT INTO ispolzovanie_zemli VALUES ('147000000000', 'Земли запаса 
 
 
 --
--- TOC entry 3853 (class 0 OID 18980)
+-- TOC entry 3880 (class 0 OID 34082)
 -- Dependencies: 199
 -- Data for Name: kategoriya_zemli; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3162,7 +3207,7 @@ INSERT INTO kategoriya_zemli VALUES ('003008000000', 'Категория не у
 
 
 --
--- TOC entry 3854 (class 0 OID 18983)
+-- TOC entry 3881 (class 0 OID 34085)
 -- Dependencies: 200
 -- Data for Name: korpus; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3178,7 +3223,7 @@ INSERT INTO korpus VALUES ('сооружение', 'сооружение');
 
 
 --
--- TOC entry 3855 (class 0 OID 18986)
+-- TOC entry 3882 (class 0 OID 34088)
 -- Dependencies: 201
 -- Data for Name: kvartira; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3190,7 +3235,7 @@ INSERT INTO kvartira VALUES ('пом ', 'Помещение');
 
 
 --
--- TOC entry 3856 (class 0 OID 18989)
+-- TOC entry 3883 (class 0 OID 34091)
 -- Dependencies: 202
 -- Data for Name: metod_opredeleniya_tochki; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3202,7 +3247,7 @@ INSERT INTO metod_opredeleniya_tochki VALUES ('692004000000', 'Иное опис
 
 
 --
--- TOC entry 3857 (class 0 OID 18992)
+-- TOC entry 3884 (class 0 OID 34094)
 -- Dependencies: 203
 -- Data for Name: naselen_punkt; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3258,7 +3303,7 @@ INSERT INTO naselen_punkt VALUES ('массив    ', 'Массив');
 
 
 --
--- TOC entry 3858 (class 0 OID 18995)
+-- TOC entry 3885 (class 0 OID 34097)
 -- Dependencies: 204
 -- Data for Name: obekt_gkn; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3282,7 +3327,7 @@ INSERT INTO obekt_gkn VALUES ('002002002000', 'Граница между суб�
 
 
 --
--- TOC entry 3859 (class 0 OID 18998)
+-- TOC entry 3886 (class 0 OID 34100)
 -- Dependencies: 205
 -- Data for Name: obekt_kadastrovyh_rabot; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3299,7 +3344,7 @@ INSERT INTO obekt_kadastrovyh_rabot VALUES (9, 'Исключаемый из ЕЗ
 
 
 --
--- TOC entry 3860 (class 0 OID 19001)
+-- TOC entry 3887 (class 0 OID 34103)
 -- Dependencies: 206
 -- Data for Name: obremeneniya; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3321,7 +3366,7 @@ INSERT INTO obremeneniya VALUES ('022099000000', 'Иные ограничени�
 
 
 --
--- TOC entry 3861 (class 0 OID 19004)
+-- TOC entry 3888 (class 0 OID 34106)
 -- Dependencies: 207
 -- Data for Name: opf; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3369,7 +3414,7 @@ INSERT INTO opf VALUES ('809000000099', 'Организации без прав 
 
 
 --
--- TOC entry 3862 (class 0 OID 19007)
+-- TOC entry 3889 (class 0 OID 34109)
 -- Dependencies: 208
 -- Data for Name: rayon; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3382,7 +3427,7 @@ INSERT INTO rayon VALUES ('АО    ', 'Автономный округ');
 
 
 --
--- TOC entry 3863 (class 0 OID 19010)
+-- TOC entry 3890 (class 0 OID 34112)
 -- Dependencies: 209
 -- Data for Name: region; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3481,7 +3526,7 @@ INSERT INTO region VALUES ('99', 'Значение отсутствует');
 
 
 --
--- TOC entry 3864 (class 0 OID 19013)
+-- TOC entry 3891 (class 0 OID 34115)
 -- Dependencies: 210
 -- Data for Name: section_mp; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3519,7 +3564,7 @@ INSERT INTO section_mp VALUES (34, 0, 'Приложения', 'Appendix', 13, 4)
 
 
 --
--- TOC entry 4064 (class 0 OID 0)
+-- TOC entry 4097 (class 0 OID 0)
 -- Dependencies: 211
 -- Name: section_mp_id_seq; Type: SEQUENCE SET; Schema: class; Owner: openlandadmin
 --
@@ -3528,7 +3573,7 @@ SELECT pg_catalog.setval('section_mp_id_seq', 1, false);
 
 
 --
--- TOC entry 3866 (class 0 OID 19019)
+-- TOC entry 3893 (class 0 OID 34121)
 -- Dependencies: 212
 -- Data for Name: selsovet; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3537,7 +3582,7 @@ INSERT INTO selsovet VALUES ('с/с', 'Сельсовет');
 
 
 --
--- TOC entry 3867 (class 0 OID 19022)
+-- TOC entry 3894 (class 0 OID 34124)
 -- Dependencies: 213
 -- Data for Name: sistema_koordinat; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3551,7 +3596,7 @@ INSERT INTO sistema_koordinat VALUES ('91c7e36b-ec82-463f-b219-442d938718fb', '�
 
 
 --
--- TOC entry 3868 (class 0 OID 19026)
+-- TOC entry 3895 (class 0 OID 34128)
 -- Dependencies: 214
 -- Data for Name: sposob_obrazovaniya_uchastka; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3565,7 +3610,7 @@ INSERT INTO sposob_obrazovaniya_uchastka VALUES ('6', 'Объединение');
 
 
 --
--- TOC entry 3869 (class 0 OID 19029)
+-- TOC entry 3896 (class 0 OID 34131)
 -- Dependencies: 215
 -- Data for Name: sposob_zakrepleniya_tochki; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3576,7 +3621,7 @@ INSERT INTO sposob_zakrepleniya_tochki VALUES ('626003000000', 'Закрепле
 
 
 --
--- TOC entry 3870 (class 0 OID 19032)
+-- TOC entry 3897 (class 0 OID 34134)
 -- Dependencies: 216
 -- Data for Name: status_zemelnogo_uchastka; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3591,7 +3636,7 @@ INSERT INTO status_zemelnogo_uchastka VALUES ('08', 'Аннулирован');
 
 
 --
--- TOC entry 3871 (class 0 OID 19035)
+-- TOC entry 3898 (class 0 OID 34137)
 -- Dependencies: 217
 -- Data for Name: stroenie; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3603,7 +3648,7 @@ INSERT INTO stroenie VALUES ('литера', 'литера');
 
 
 --
--- TOC entry 3872 (class 0 OID 19038)
+-- TOC entry 3899 (class 0 OID 34140)
 -- Dependencies: 218
 -- Data for Name: subect_pravootnosheniy; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3630,7 +3675,7 @@ INSERT INTO subect_pravootnosheniy VALUES ('007004004000', 'Владельцы �
 
 
 --
--- TOC entry 3873 (class 0 OID 19041)
+-- TOC entry 3900 (class 0 OID 34143)
 -- Dependencies: 219
 -- Data for Name: type_applied_file; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3640,7 +3685,7 @@ INSERT INTO type_applied_file VALUES ('02', 'Электронный докуме
 
 
 --
--- TOC entry 3874 (class 0 OID 19044)
+-- TOC entry 3901 (class 0 OID 34146)
 -- Dependencies: 220
 -- Data for Name: ulica; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3725,7 +3770,7 @@ INSERT INTO ulica VALUES ('зона      ', 'Зона');
 
 
 --
--- TOC entry 3875 (class 0 OID 19047)
+-- TOC entry 3902 (class 0 OID 34149)
 -- Dependencies: 221
 -- Data for Name: vid_ploshadi; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3750,7 +3795,7 @@ INSERT INTO vid_ploshadi VALUES ('022', 'Значение площади отс�
 
 
 --
--- TOC entry 3876 (class 0 OID 19050)
+-- TOC entry 3903 (class 0 OID 34152)
 -- Dependencies: 222
 -- Data for Name: vid_zemelnogo_uchastka; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3765,7 +3810,7 @@ INSERT INTO vid_zemelnogo_uchastka VALUES ('07', 'Часть земельног�
 
 
 --
--- TOC entry 3877 (class 0 OID 19053)
+-- TOC entry 3904 (class 0 OID 34155)
 -- Dependencies: 223
 -- Data for Name: zona; Type: TABLE DATA; Schema: class; Owner: openlandadmin
 --
@@ -3822,7 +3867,7 @@ INSERT INTO zona VALUES ('218020050001', 'Иная зона с особыми у
 SET search_path = mapinfo, pg_catalog;
 
 --
--- TOC entry 3878 (class 0 OID 19056)
+-- TOC entry 3905 (class 0 OID 34158)
 -- Dependencies: 224
 -- Data for Name: mapinfo_mapcatalog; Type: TABLE DATA; Schema: mapinfo; Owner: openlandadmin
 --
@@ -3832,7 +3877,7 @@ SET search_path = mapinfo, pg_catalog;
 SET search_path = msk, pg_catalog;
 
 --
--- TOC entry 3880 (class 0 OID 19064)
+-- TOC entry 3907 (class 0 OID 34166)
 -- Dependencies: 226
 -- Data for Name: granica; Type: TABLE DATA; Schema: msk; Owner: openlandadmin
 --
@@ -3840,7 +3885,7 @@ SET search_path = msk, pg_catalog;
 
 
 --
--- TOC entry 3882 (class 0 OID 19083)
+-- TOC entry 3909 (class 0 OID 34185)
 -- Dependencies: 228
 -- Data for Name: kvartal; Type: TABLE DATA; Schema: msk; Owner: openlandadmin
 --
@@ -4172,7 +4217,7 @@ INSERT INTO kvartal VALUES (3008, '56:45:0000000', NULL, 16, 'openlandadmin', '2
 
 
 --
--- TOC entry 3884 (class 0 OID 19096)
+-- TOC entry 3911 (class 0 OID 34198)
 -- Dependencies: 230
 -- Data for Name: rayon; Type: TABLE DATA; Schema: msk; Owner: openlandadmin
 --
@@ -4222,7 +4267,7 @@ INSERT INTO rayon VALUES (16, '56', '45', '010300000001000000B0000000713D0A57121
 
 
 --
--- TOC entry 3886 (class 0 OID 19105)
+-- TOC entry 3913 (class 0 OID 34207)
 -- Dependencies: 232
 -- Data for Name: tochka; Type: TABLE DATA; Schema: msk; Owner: openlandadmin
 --
@@ -4230,7 +4275,7 @@ INSERT INTO rayon VALUES (16, '56', '45', '010300000001000000B0000000713D0A57121
 
 
 --
--- TOC entry 3888 (class 0 OID 19125)
+-- TOC entry 3915 (class 0 OID 34227)
 -- Dependencies: 234
 -- Data for Name: uchastok; Type: TABLE DATA; Schema: msk; Owner: openlandadmin
 --
@@ -4240,7 +4285,7 @@ INSERT INTO rayon VALUES (16, '56', '45', '010300000001000000B0000000713D0A57121
 SET search_path = public, pg_catalog;
 
 --
--- TOC entry 3889 (class 0 OID 19138)
+-- TOC entry 3916 (class 0 OID 34240)
 -- Dependencies: 235
 -- Data for Name: adres; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4248,7 +4293,7 @@ SET search_path = public, pg_catalog;
 
 
 --
--- TOC entry 4065 (class 0 OID 0)
+-- TOC entry 4098 (class 0 OID 0)
 -- Dependencies: 236
 -- Name: adres_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4257,7 +4302,7 @@ SELECT pg_catalog.setval('adres_id_seq', 265, true);
 
 
 --
--- TOC entry 3891 (class 0 OID 19147)
+-- TOC entry 3918 (class 0 OID 34249)
 -- Dependencies: 237
 -- Data for Name: applied_file; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4265,7 +4310,7 @@ SELECT pg_catalog.setval('adres_id_seq', 265, true);
 
 
 --
--- TOC entry 3892 (class 0 OID 19155)
+-- TOC entry 3919 (class 0 OID 34257)
 -- Dependencies: 238
 -- Data for Name: client; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4273,7 +4318,7 @@ SELECT pg_catalog.setval('adres_id_seq', 265, true);
 
 
 --
--- TOC entry 3893 (class 0 OID 19159)
+-- TOC entry 3920 (class 0 OID 34261)
 -- Dependencies: 239
 -- Data for Name: contractor; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4281,7 +4326,7 @@ SELECT pg_catalog.setval('adres_id_seq', 265, true);
 
 
 --
--- TOC entry 3894 (class 0 OID 19166)
+-- TOC entry 3921 (class 0 OID 34268)
 -- Dependencies: 240
 -- Data for Name: document; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4289,7 +4334,7 @@ SELECT pg_catalog.setval('adres_id_seq', 265, true);
 
 
 --
--- TOC entry 3895 (class 0 OID 19175)
+-- TOC entry 3922 (class 0 OID 34277)
 -- Dependencies: 241
 -- Data for Name: document_applied_file; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4297,7 +4342,7 @@ SELECT pg_catalog.setval('adres_id_seq', 265, true);
 
 
 --
--- TOC entry 3896 (class 0 OID 19179)
+-- TOC entry 3923 (class 0 OID 34281)
 -- Dependencies: 242
 -- Data for Name: dom; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4305,7 +4350,7 @@ SELECT pg_catalog.setval('adres_id_seq', 265, true);
 
 
 --
--- TOC entry 4066 (class 0 OID 0)
+-- TOC entry 4099 (class 0 OID 0)
 -- Dependencies: 243
 -- Name: dom_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4314,7 +4359,7 @@ SELECT pg_catalog.setval('dom_id_seq', 8, true);
 
 
 --
--- TOC entry 3898 (class 0 OID 19184)
+-- TOC entry 3925 (class 0 OID 34286)
 -- Dependencies: 244
 -- Data for Name: duplicate_text_values; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4322,7 +4367,7 @@ SELECT pg_catalog.setval('dom_id_seq', 8, true);
 
 
 --
--- TOC entry 3899 (class 0 OID 19191)
+-- TOC entry 3926 (class 0 OID 34293)
 -- Dependencies: 245
 -- Data for Name: fiz_liczo; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4330,7 +4375,7 @@ SELECT pg_catalog.setval('dom_id_seq', 8, true);
 
 
 --
--- TOC entry 3900 (class 0 OID 19198)
+-- TOC entry 3927 (class 0 OID 34300)
 -- Dependencies: 246
 -- Data for Name: foreign_organization; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4338,7 +4383,7 @@ SELECT pg_catalog.setval('dom_id_seq', 8, true);
 
 
 --
--- TOC entry 3901 (class 0 OID 19205)
+-- TOC entry 3928 (class 0 OID 34307)
 -- Dependencies: 247
 -- Data for Name: geo_osnova; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4346,7 +4391,7 @@ SELECT pg_catalog.setval('dom_id_seq', 8, true);
 
 
 --
--- TOC entry 4067 (class 0 OID 0)
+-- TOC entry 4100 (class 0 OID 0)
 -- Dependencies: 249
 -- Name: gorodskoy_raiyon_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4355,7 +4400,7 @@ SELECT pg_catalog.setval('gorodskoy_raiyon_id_seq', 1, true);
 
 
 --
--- TOC entry 3902 (class 0 OID 19209)
+-- TOC entry 3929 (class 0 OID 34311)
 -- Dependencies: 248
 -- Data for Name: gorodskoy_rayon; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4363,7 +4408,7 @@ SELECT pg_catalog.setval('gorodskoy_raiyon_id_seq', 1, true);
 
 
 --
--- TOC entry 3904 (class 0 OID 19214)
+-- TOC entry 3931 (class 0 OID 34316)
 -- Dependencies: 250
 -- Data for Name: governance; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4371,7 +4416,7 @@ SELECT pg_catalog.setval('gorodskoy_raiyon_id_seq', 1, true);
 
 
 --
--- TOC entry 4068 (class 0 OID 0)
+-- TOC entry 4101 (class 0 OID 0)
 -- Dependencies: 225
 -- Name: granica_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4380,7 +4425,7 @@ SELECT pg_catalog.setval('granica_id_seq', 17001, true);
 
 
 --
--- TOC entry 3905 (class 0 OID 19221)
+-- TOC entry 3932 (class 0 OID 34323)
 -- Dependencies: 251
 -- Data for Name: granica_tochka; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4388,7 +4433,7 @@ SELECT pg_catalog.setval('granica_id_seq', 17001, true);
 
 
 --
--- TOC entry 4069 (class 0 OID 0)
+-- TOC entry 4102 (class 0 OID 0)
 -- Dependencies: 252
 -- Name: granica_tochka_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4397,7 +4442,7 @@ SELECT pg_catalog.setval('granica_tochka_id_seq', 30888, true);
 
 
 --
--- TOC entry 3907 (class 0 OID 19226)
+-- TOC entry 3934 (class 0 OID 34328)
 -- Dependencies: 253
 -- Data for Name: kn; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4405,7 +4450,7 @@ SELECT pg_catalog.setval('granica_tochka_id_seq', 30888, true);
 
 
 --
--- TOC entry 3908 (class 0 OID 19229)
+-- TOC entry 3935 (class 0 OID 34331)
 -- Dependencies: 254
 -- Data for Name: kn_document; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4413,7 +4458,7 @@ SELECT pg_catalog.setval('granica_tochka_id_seq', 30888, true);
 
 
 --
--- TOC entry 4070 (class 0 OID 0)
+-- TOC entry 4103 (class 0 OID 0)
 -- Dependencies: 255
 -- Name: kn_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4422,7 +4467,7 @@ SELECT pg_catalog.setval('kn_id_seq', 59, true);
 
 
 --
--- TOC entry 3910 (class 0 OID 19235)
+-- TOC entry 3937 (class 0 OID 34337)
 -- Dependencies: 256
 -- Data for Name: korpus; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4430,7 +4475,7 @@ SELECT pg_catalog.setval('kn_id_seq', 59, true);
 
 
 --
--- TOC entry 4071 (class 0 OID 0)
+-- TOC entry 4104 (class 0 OID 0)
 -- Dependencies: 257
 -- Name: korpus_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4439,7 +4484,7 @@ SELECT pg_catalog.setval('korpus_id_seq', 2, true);
 
 
 --
--- TOC entry 4072 (class 0 OID 0)
+-- TOC entry 4105 (class 0 OID 0)
 -- Dependencies: 227
 -- Name: kvartal_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4448,7 +4493,7 @@ SELECT pg_catalog.setval('kvartal_id_seq', 3015, true);
 
 
 --
--- TOC entry 3912 (class 0 OID 19240)
+-- TOC entry 3939 (class 0 OID 34342)
 -- Dependencies: 258
 -- Data for Name: kvartira; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4456,7 +4501,7 @@ SELECT pg_catalog.setval('kvartal_id_seq', 3015, true);
 
 
 --
--- TOC entry 4073 (class 0 OID 0)
+-- TOC entry 4106 (class 0 OID 0)
 -- Dependencies: 259
 -- Name: kvartira_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4465,7 +4510,7 @@ SELECT pg_catalog.setval('kvartira_id_seq', 1, true);
 
 
 --
--- TOC entry 3914 (class 0 OID 19245)
+-- TOC entry 3941 (class 0 OID 34347)
 -- Dependencies: 260
 -- Data for Name: mo; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4473,7 +4518,7 @@ SELECT pg_catalog.setval('kvartira_id_seq', 1, true);
 
 
 --
--- TOC entry 4074 (class 0 OID 0)
+-- TOC entry 4107 (class 0 OID 0)
 -- Dependencies: 261
 -- Name: mo_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4482,7 +4527,7 @@ SELECT pg_catalog.setval('mo_id_seq', 2, true);
 
 
 --
--- TOC entry 3916 (class 0 OID 19250)
+-- TOC entry 3943 (class 0 OID 34352)
 -- Dependencies: 262
 -- Data for Name: mp; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4490,7 +4535,7 @@ SELECT pg_catalog.setval('mo_id_seq', 2, true);
 
 
 --
--- TOC entry 3917 (class 0 OID 19259)
+-- TOC entry 3944 (class 0 OID 34361)
 -- Dependencies: 263
 -- Data for Name: mp_section; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4498,7 +4543,7 @@ SELECT pg_catalog.setval('mo_id_seq', 2, true);
 
 
 --
--- TOC entry 3918 (class 0 OID 19263)
+-- TOC entry 3945 (class 0 OID 34365)
 -- Dependencies: 264
 -- Data for Name: mp_section_data; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4506,7 +4551,7 @@ SELECT pg_catalog.setval('mo_id_seq', 2, true);
 
 
 --
--- TOC entry 3919 (class 0 OID 19267)
+-- TOC entry 3946 (class 0 OID 34369)
 -- Dependencies: 265
 -- Data for Name: naselen_punkt; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4514,7 +4559,7 @@ SELECT pg_catalog.setval('mo_id_seq', 2, true);
 
 
 --
--- TOC entry 4075 (class 0 OID 0)
+-- TOC entry 4108 (class 0 OID 0)
 -- Dependencies: 266
 -- Name: naselen_punkt_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4523,7 +4568,7 @@ SELECT pg_catalog.setval('naselen_punkt_id_seq', 2, true);
 
 
 --
--- TOC entry 3921 (class 0 OID 19272)
+-- TOC entry 3948 (class 0 OID 34374)
 -- Dependencies: 267
 -- Data for Name: oks; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4531,7 +4576,31 @@ SELECT pg_catalog.setval('naselen_punkt_id_seq', 2, true);
 
 
 --
--- TOC entry 3922 (class 0 OID 19279)
+-- TOC entry 3968 (class 0 OID 43488)
+-- Dependencies: 287
+-- Data for Name: owner_neighbour; Type: TABLE DATA; Schema: public; Owner: openlandadmin
+--
+
+
+
+--
+-- TOC entry 3969 (class 0 OID 43497)
+-- Dependencies: 288
+-- Data for Name: owner_neighbour_document; Type: TABLE DATA; Schema: public; Owner: openlandadmin
+--
+
+
+
+--
+-- TOC entry 3967 (class 0 OID 43474)
+-- Dependencies: 286
+-- Data for Name: parcel_neighbour; Type: TABLE DATA; Schema: public; Owner: openlandadmin
+--
+
+
+
+--
+-- TOC entry 3949 (class 0 OID 34381)
 -- Dependencies: 268
 -- Data for Name: parcel_parcel; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4539,7 +4608,7 @@ SELECT pg_catalog.setval('naselen_punkt_id_seq', 2, true);
 
 
 --
--- TOC entry 3923 (class 0 OID 19283)
+-- TOC entry 3950 (class 0 OID 34385)
 -- Dependencies: 269
 -- Data for Name: ploshad; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4547,7 +4616,7 @@ SELECT pg_catalog.setval('naselen_punkt_id_seq', 2, true);
 
 
 --
--- TOC entry 4076 (class 0 OID 0)
+-- TOC entry 4109 (class 0 OID 0)
 -- Dependencies: 270
 -- Name: ploshad_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4556,7 +4625,7 @@ SELECT pg_catalog.setval('ploshad_id_seq', 691, true);
 
 
 --
--- TOC entry 4077 (class 0 OID 0)
+-- TOC entry 4110 (class 0 OID 0)
 -- Dependencies: 272
 -- Name: raiyon_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4565,7 +4634,7 @@ SELECT pg_catalog.setval('raiyon_id_seq', 8, true);
 
 
 --
--- TOC entry 3925 (class 0 OID 19288)
+-- TOC entry 3952 (class 0 OID 34390)
 -- Dependencies: 271
 -- Data for Name: rayon; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4573,7 +4642,7 @@ SELECT pg_catalog.setval('raiyon_id_seq', 8, true);
 
 
 --
--- TOC entry 4078 (class 0 OID 0)
+-- TOC entry 4111 (class 0 OID 0)
 -- Dependencies: 229
 -- Name: rayon_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4582,7 +4651,7 @@ SELECT pg_catalog.setval('rayon_id_seq', 50, true);
 
 
 --
--- TOC entry 4079 (class 0 OID 0)
+-- TOC entry 4112 (class 0 OID 0)
 -- Dependencies: 273
 -- Name: rebro_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4591,7 +4660,7 @@ SELECT pg_catalog.setval('rebro_id_seq', 1, false);
 
 
 --
--- TOC entry 3928 (class 0 OID 19295)
+-- TOC entry 3955 (class 0 OID 34397)
 -- Dependencies: 274
 -- Data for Name: selsovet; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4599,7 +4668,7 @@ SELECT pg_catalog.setval('rebro_id_seq', 1, false);
 
 
 --
--- TOC entry 4080 (class 0 OID 0)
+-- TOC entry 4113 (class 0 OID 0)
 -- Dependencies: 275
 -- Name: selsovet_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4608,7 +4677,7 @@ SELECT pg_catalog.setval('selsovet_id_seq', 2, true);
 
 
 --
--- TOC entry 3487 (class 0 OID 17923)
+-- TOC entry 3501 (class 0 OID 33024)
 -- Dependencies: 173
 -- Data for Name: spatial_ref_sys; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -4616,7 +4685,7 @@ SELECT pg_catalog.setval('selsovet_id_seq', 2, true);
 
 
 --
--- TOC entry 3930 (class 0 OID 19300)
+-- TOC entry 3957 (class 0 OID 34402)
 -- Dependencies: 276
 -- Data for Name: sredstva_izmereniya; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4624,7 +4693,7 @@ SELECT pg_catalog.setval('selsovet_id_seq', 2, true);
 
 
 --
--- TOC entry 3931 (class 0 OID 19307)
+-- TOC entry 3958 (class 0 OID 34409)
 -- Dependencies: 277
 -- Data for Name: stroenie; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4632,7 +4701,7 @@ SELECT pg_catalog.setval('selsovet_id_seq', 2, true);
 
 
 --
--- TOC entry 4081 (class 0 OID 0)
+-- TOC entry 4114 (class 0 OID 0)
 -- Dependencies: 278
 -- Name: stroenie_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4641,7 +4710,7 @@ SELECT pg_catalog.setval('stroenie_id_seq', 2, true);
 
 
 --
--- TOC entry 3933 (class 0 OID 19312)
+-- TOC entry 3960 (class 0 OID 34414)
 -- Dependencies: 279
 -- Data for Name: subparcel; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4649,7 +4718,7 @@ SELECT pg_catalog.setval('stroenie_id_seq', 2, true);
 
 
 --
--- TOC entry 4082 (class 0 OID 0)
+-- TOC entry 4115 (class 0 OID 0)
 -- Dependencies: 231
 -- Name: tochka_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4658,7 +4727,7 @@ SELECT pg_catalog.setval('tochka_id_seq', 17664, true);
 
 
 --
--- TOC entry 3934 (class 0 OID 19319)
+-- TOC entry 3961 (class 0 OID 34421)
 -- Dependencies: 280
 -- Data for Name: uchastok_adres; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4666,7 +4735,7 @@ SELECT pg_catalog.setval('tochka_id_seq', 17664, true);
 
 
 --
--- TOC entry 4083 (class 0 OID 0)
+-- TOC entry 4116 (class 0 OID 0)
 -- Dependencies: 281
 -- Name: uchastok_adres_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4675,7 +4744,7 @@ SELECT pg_catalog.setval('uchastok_adres_id_seq', 239, true);
 
 
 --
--- TOC entry 4084 (class 0 OID 0)
+-- TOC entry 4117 (class 0 OID 0)
 -- Dependencies: 233
 -- Name: uchastok_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4684,7 +4753,7 @@ SELECT pg_catalog.setval('uchastok_id_seq', 2322, true);
 
 
 --
--- TOC entry 3936 (class 0 OID 19324)
+-- TOC entry 3963 (class 0 OID 34426)
 -- Dependencies: 282
 -- Data for Name: ulica; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4692,7 +4761,7 @@ SELECT pg_catalog.setval('uchastok_id_seq', 2322, true);
 
 
 --
--- TOC entry 4085 (class 0 OID 0)
+-- TOC entry 4118 (class 0 OID 0)
 -- Dependencies: 283
 -- Name: ulica_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4701,7 +4770,7 @@ SELECT pg_catalog.setval('ulica_id_seq', 14, true);
 
 
 --
--- TOC entry 3938 (class 0 OID 19329)
+-- TOC entry 3965 (class 0 OID 34431)
 -- Dependencies: 284
 -- Data for Name: yur_liczo; Type: TABLE DATA; Schema: public; Owner: openlandadmin
 --
@@ -4709,7 +4778,7 @@ SELECT pg_catalog.setval('ulica_id_seq', 14, true);
 
 
 --
--- TOC entry 4086 (class 0 OID 0)
+-- TOC entry 4119 (class 0 OID 0)
 -- Dependencies: 285
 -- Name: zona_id_seq; Type: SEQUENCE SET; Schema: public; Owner: openlandadmin
 --
@@ -4720,7 +4789,7 @@ SELECT pg_catalog.setval('zona_id_seq', 1, false);
 SET search_path = topology, pg_catalog;
 
 --
--- TOC entry 3486 (class 0 OID 18814)
+-- TOC entry 3500 (class 0 OID 33915)
 -- Dependencies: 187
 -- Data for Name: layer; Type: TABLE DATA; Schema: topology; Owner: postgres
 --
@@ -4728,7 +4797,7 @@ SET search_path = topology, pg_catalog;
 
 
 --
--- TOC entry 3485 (class 0 OID 18801)
+-- TOC entry 3499 (class 0 OID 33902)
 -- Dependencies: 186
 -- Data for Name: topology; Type: TABLE DATA; Schema: topology; Owner: postgres
 --
@@ -4738,7 +4807,7 @@ SET search_path = topology, pg_catalog;
 SET search_path = class, pg_catalog;
 
 --
--- TOC entry 3572 (class 2606 OID 19501)
+-- TOC entry 3589 (class 2606 OID 34603)
 -- Name: ato_raiyonogo_podchineniya_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4747,7 +4816,7 @@ ALTER TABLE ONLY ato_rayonogo_podchineniya
 
 
 --
--- TOC entry 3574 (class 2606 OID 19503)
+-- TOC entry 3591 (class 2606 OID 34605)
 -- Name: database_version_date_version_key; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4756,7 +4825,7 @@ ALTER TABLE ONLY database_version
 
 
 --
--- TOC entry 3576 (class 2606 OID 19505)
+-- TOC entry 3593 (class 2606 OID 34607)
 -- Name: database_version_number_version_key; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4765,7 +4834,7 @@ ALTER TABLE ONLY database_version
 
 
 --
--- TOC entry 3578 (class 2606 OID 19507)
+-- TOC entry 3595 (class 2606 OID 34609)
 -- Name: database_version_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4774,7 +4843,7 @@ ALTER TABLE ONLY database_version
 
 
 --
--- TOC entry 3580 (class 2606 OID 19509)
+-- TOC entry 3597 (class 2606 OID 34611)
 -- Name: dok_lichnost_fl_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4783,7 +4852,7 @@ ALTER TABLE ONLY dokument
 
 
 --
--- TOC entry 3582 (class 2606 OID 19511)
+-- TOC entry 3599 (class 2606 OID 34613)
 -- Name: dom_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4792,7 +4861,7 @@ ALTER TABLE ONLY dom
 
 
 --
--- TOC entry 3584 (class 2606 OID 19513)
+-- TOC entry 3601 (class 2606 OID 34615)
 -- Name: edinicy_izmereniya_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4801,7 +4870,7 @@ ALTER TABLE ONLY edinicy_izmereniya
 
 
 --
--- TOC entry 3586 (class 2606 OID 19515)
+-- TOC entry 3603 (class 2606 OID 34617)
 -- Name: gorodskoy_raiyon_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4810,7 +4879,7 @@ ALTER TABLE ONLY gorodskoy_rayon
 
 
 --
--- TOC entry 3588 (class 2606 OID 19517)
+-- TOC entry 3605 (class 2606 OID 34619)
 -- Name: ispolzovanie_razreshennoe_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4819,7 +4888,7 @@ ALTER TABLE ONLY ispolzovanie_razreshennoe
 
 
 --
--- TOC entry 3590 (class 2606 OID 19519)
+-- TOC entry 3607 (class 2606 OID 34621)
 -- Name: ispolzovanie_zemli_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4828,7 +4897,7 @@ ALTER TABLE ONLY ispolzovanie_zemli
 
 
 --
--- TOC entry 3592 (class 2606 OID 19521)
+-- TOC entry 3609 (class 2606 OID 34623)
 -- Name: kategoriya_zemli_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4837,7 +4906,7 @@ ALTER TABLE ONLY kategoriya_zemli
 
 
 --
--- TOC entry 3594 (class 2606 OID 19523)
+-- TOC entry 3611 (class 2606 OID 34625)
 -- Name: korpus_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4846,7 +4915,7 @@ ALTER TABLE ONLY korpus
 
 
 --
--- TOC entry 3596 (class 2606 OID 19525)
+-- TOC entry 3613 (class 2606 OID 34627)
 -- Name: kvartira_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4855,7 +4924,7 @@ ALTER TABLE ONLY kvartira
 
 
 --
--- TOC entry 3598 (class 2606 OID 19527)
+-- TOC entry 3615 (class 2606 OID 34629)
 -- Name: metod_opredeleniya_tochki_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4864,7 +4933,7 @@ ALTER TABLE ONLY metod_opredeleniya_tochki
 
 
 --
--- TOC entry 3600 (class 2606 OID 19529)
+-- TOC entry 3617 (class 2606 OID 34631)
 -- Name: naselen_punkt_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4873,7 +4942,7 @@ ALTER TABLE ONLY naselen_punkt
 
 
 --
--- TOC entry 3604 (class 2606 OID 19531)
+-- TOC entry 3621 (class 2606 OID 34633)
 -- Name: obekt_kadastrovyh_rabot_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4882,7 +4951,7 @@ ALTER TABLE ONLY obekt_kadastrovyh_rabot
 
 
 --
--- TOC entry 3602 (class 2606 OID 19533)
+-- TOC entry 3619 (class 2606 OID 34635)
 -- Name: obekty_gkn_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4891,7 +4960,7 @@ ALTER TABLE ONLY obekt_gkn
 
 
 --
--- TOC entry 3606 (class 2606 OID 19535)
+-- TOC entry 3623 (class 2606 OID 34637)
 -- Name: obremeneniya_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4900,7 +4969,7 @@ ALTER TABLE ONLY obremeneniya
 
 
 --
--- TOC entry 3608 (class 2606 OID 19537)
+-- TOC entry 3625 (class 2606 OID 34639)
 -- Name: opf_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4909,7 +4978,7 @@ ALTER TABLE ONLY opf
 
 
 --
--- TOC entry 3610 (class 2606 OID 19539)
+-- TOC entry 3627 (class 2606 OID 34641)
 -- Name: raiyon_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4918,7 +4987,7 @@ ALTER TABLE ONLY rayon
 
 
 --
--- TOC entry 3612 (class 2606 OID 19541)
+-- TOC entry 3629 (class 2606 OID 34643)
 -- Name: region_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4927,7 +4996,7 @@ ALTER TABLE ONLY region
 
 
 --
--- TOC entry 3614 (class 2606 OID 19543)
+-- TOC entry 3631 (class 2606 OID 34645)
 -- Name: section_mp_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4936,7 +5005,7 @@ ALTER TABLE ONLY section_mp
 
 
 --
--- TOC entry 3616 (class 2606 OID 19545)
+-- TOC entry 3633 (class 2606 OID 34647)
 -- Name: section_mp_xml_name_key; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4945,7 +5014,7 @@ ALTER TABLE ONLY section_mp
 
 
 --
--- TOC entry 3618 (class 2606 OID 19547)
+-- TOC entry 3635 (class 2606 OID 34649)
 -- Name: selsovet_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4954,7 +5023,7 @@ ALTER TABLE ONLY selsovet
 
 
 --
--- TOC entry 3620 (class 2606 OID 19549)
+-- TOC entry 3637 (class 2606 OID 34651)
 -- Name: sistema_koordinat_definition_key; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4963,7 +5032,7 @@ ALTER TABLE ONLY sistema_koordinat
 
 
 --
--- TOC entry 3622 (class 2606 OID 19551)
+-- TOC entry 3639 (class 2606 OID 34653)
 -- Name: sistema_koordinat_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4972,7 +5041,7 @@ ALTER TABLE ONLY sistema_koordinat
 
 
 --
--- TOC entry 3624 (class 2606 OID 19553)
+-- TOC entry 3641 (class 2606 OID 34655)
 -- Name: sposob_obrazovaniya_uchastka_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4981,7 +5050,7 @@ ALTER TABLE ONLY sposob_obrazovaniya_uchastka
 
 
 --
--- TOC entry 3626 (class 2606 OID 19555)
+-- TOC entry 3643 (class 2606 OID 34657)
 -- Name: sposob_zakrepleniya_tochki_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4990,7 +5059,7 @@ ALTER TABLE ONLY sposob_zakrepleniya_tochki
 
 
 --
--- TOC entry 3628 (class 2606 OID 19557)
+-- TOC entry 3645 (class 2606 OID 34659)
 -- Name: status_zemelnogo_uchastka_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -4999,7 +5068,7 @@ ALTER TABLE ONLY status_zemelnogo_uchastka
 
 
 --
--- TOC entry 3630 (class 2606 OID 19559)
+-- TOC entry 3647 (class 2606 OID 34661)
 -- Name: stroenie_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5008,7 +5077,7 @@ ALTER TABLE ONLY stroenie
 
 
 --
--- TOC entry 3632 (class 2606 OID 19561)
+-- TOC entry 3649 (class 2606 OID 34663)
 -- Name: subect_pravootnosheniy_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5017,7 +5086,7 @@ ALTER TABLE ONLY subect_pravootnosheniy
 
 
 --
--- TOC entry 3634 (class 2606 OID 19563)
+-- TOC entry 3651 (class 2606 OID 34665)
 -- Name: type_applied_file_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5026,7 +5095,7 @@ ALTER TABLE ONLY type_applied_file
 
 
 --
--- TOC entry 3636 (class 2606 OID 19565)
+-- TOC entry 3653 (class 2606 OID 34667)
 -- Name: ulica_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5035,7 +5104,7 @@ ALTER TABLE ONLY ulica
 
 
 --
--- TOC entry 3638 (class 2606 OID 19567)
+-- TOC entry 3655 (class 2606 OID 34669)
 -- Name: vid_ploshadi_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5044,7 +5113,7 @@ ALTER TABLE ONLY vid_ploshadi
 
 
 --
--- TOC entry 3640 (class 2606 OID 19569)
+-- TOC entry 3657 (class 2606 OID 34671)
 -- Name: vid_zemelnogo_uchastka_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5053,7 +5122,7 @@ ALTER TABLE ONLY vid_zemelnogo_uchastka
 
 
 --
--- TOC entry 3642 (class 2606 OID 19571)
+-- TOC entry 3659 (class 2606 OID 34673)
 -- Name: zona_pkey; Type: CONSTRAINT; Schema: class; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5064,7 +5133,7 @@ ALTER TABLE ONLY zona
 SET search_path = msk, pg_catalog;
 
 --
--- TOC entry 3647 (class 2606 OID 19573)
+-- TOC entry 3663 (class 2606 OID 34675)
 -- Name: granica_pkey; Type: CONSTRAINT; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5073,7 +5142,7 @@ ALTER TABLE ONLY granica
 
 
 --
--- TOC entry 3651 (class 2606 OID 19575)
+-- TOC entry 3667 (class 2606 OID 34677)
 -- Name: kvartal_idx; Type: CONSTRAINT; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5082,7 +5151,7 @@ ALTER TABLE ONLY kvartal
 
 
 --
--- TOC entry 3653 (class 2606 OID 19577)
+-- TOC entry 3669 (class 2606 OID 34679)
 -- Name: kvartal_pkey; Type: CONSTRAINT; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5091,7 +5160,7 @@ ALTER TABLE ONLY kvartal
 
 
 --
--- TOC entry 3656 (class 2606 OID 19579)
+-- TOC entry 3672 (class 2606 OID 34681)
 -- Name: rayon_pkey; Type: CONSTRAINT; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5100,7 +5169,7 @@ ALTER TABLE ONLY rayon
 
 
 --
--- TOC entry 3659 (class 2606 OID 19581)
+-- TOC entry 3675 (class 2606 OID 34683)
 -- Name: tochka_idx; Type: CONSTRAINT; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5109,7 +5178,7 @@ ALTER TABLE ONLY tochka
 
 
 --
--- TOC entry 3662 (class 2606 OID 19583)
+-- TOC entry 3678 (class 2606 OID 34685)
 -- Name: tochka_pkey; Type: CONSTRAINT; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5118,7 +5187,7 @@ ALTER TABLE ONLY tochka
 
 
 --
--- TOC entry 3667 (class 2606 OID 19585)
+-- TOC entry 3683 (class 2606 OID 34687)
 -- Name: uchastok_pkey; Type: CONSTRAINT; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5129,7 +5198,7 @@ ALTER TABLE ONLY uchastok
 SET search_path = public, pg_catalog;
 
 --
--- TOC entry 3670 (class 2606 OID 19587)
+-- TOC entry 3686 (class 2606 OID 34689)
 -- Name: adres_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5138,7 +5207,7 @@ ALTER TABLE ONLY adres
 
 
 --
--- TOC entry 3674 (class 2606 OID 19589)
+-- TOC entry 3690 (class 2606 OID 34691)
 -- Name: client_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5147,7 +5216,7 @@ ALTER TABLE ONLY client
 
 
 --
--- TOC entry 3676 (class 2606 OID 19591)
+-- TOC entry 3692 (class 2606 OID 34693)
 -- Name: contractor_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5156,7 +5225,7 @@ ALTER TABLE ONLY contractor
 
 
 --
--- TOC entry 3680 (class 2606 OID 19593)
+-- TOC entry 3696 (class 2606 OID 34695)
 -- Name: document_applied_file_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5165,7 +5234,7 @@ ALTER TABLE ONLY document_applied_file
 
 
 --
--- TOC entry 3678 (class 2606 OID 19595)
+-- TOC entry 3694 (class 2606 OID 34697)
 -- Name: document_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5174,7 +5243,7 @@ ALTER TABLE ONLY document
 
 
 --
--- TOC entry 3683 (class 2606 OID 19597)
+-- TOC entry 3699 (class 2606 OID 34699)
 -- Name: dom_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5183,7 +5252,7 @@ ALTER TABLE ONLY dom
 
 
 --
--- TOC entry 3685 (class 2606 OID 19599)
+-- TOC entry 3701 (class 2606 OID 34701)
 -- Name: duplicate_text_values_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5192,7 +5261,7 @@ ALTER TABLE ONLY duplicate_text_values
 
 
 --
--- TOC entry 3672 (class 2606 OID 19601)
+-- TOC entry 3688 (class 2606 OID 34703)
 -- Name: file_applied_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5201,7 +5270,7 @@ ALTER TABLE ONLY applied_file
 
 
 --
--- TOC entry 3687 (class 2606 OID 19603)
+-- TOC entry 3703 (class 2606 OID 34705)
 -- Name: fiz_liczo_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5210,7 +5279,7 @@ ALTER TABLE ONLY fiz_liczo
 
 
 --
--- TOC entry 3689 (class 2606 OID 19605)
+-- TOC entry 3705 (class 2606 OID 34707)
 -- Name: foreign_organization_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5219,7 +5288,7 @@ ALTER TABLE ONLY foreign_organization
 
 
 --
--- TOC entry 3691 (class 2606 OID 19607)
+-- TOC entry 3707 (class 2606 OID 34709)
 -- Name: geo_osnova_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5228,7 +5297,7 @@ ALTER TABLE ONLY geo_osnova
 
 
 --
--- TOC entry 3694 (class 2606 OID 19609)
+-- TOC entry 3710 (class 2606 OID 34711)
 -- Name: gorodskoy_raiyon_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5237,7 +5306,7 @@ ALTER TABLE ONLY gorodskoy_rayon
 
 
 --
--- TOC entry 3696 (class 2606 OID 19611)
+-- TOC entry 3712 (class 2606 OID 34713)
 -- Name: governance_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5246,7 +5315,7 @@ ALTER TABLE ONLY governance
 
 
 --
--- TOC entry 3699 (class 2606 OID 19613)
+-- TOC entry 3715 (class 2606 OID 34715)
 -- Name: granica_tochka_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5255,7 +5324,7 @@ ALTER TABLE ONLY granica_tochka
 
 
 --
--- TOC entry 3703 (class 2606 OID 19615)
+-- TOC entry 3719 (class 2606 OID 34717)
 -- Name: kn_document_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5264,7 +5333,7 @@ ALTER TABLE ONLY kn_document
 
 
 --
--- TOC entry 3701 (class 2606 OID 19617)
+-- TOC entry 3717 (class 2606 OID 34719)
 -- Name: kn_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5273,7 +5342,7 @@ ALTER TABLE ONLY kn
 
 
 --
--- TOC entry 3706 (class 2606 OID 19619)
+-- TOC entry 3722 (class 2606 OID 34721)
 -- Name: korpus_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5282,7 +5351,7 @@ ALTER TABLE ONLY korpus
 
 
 --
--- TOC entry 3709 (class 2606 OID 19621)
+-- TOC entry 3725 (class 2606 OID 34723)
 -- Name: kvartira_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5291,7 +5360,7 @@ ALTER TABLE ONLY kvartira
 
 
 --
--- TOC entry 3712 (class 2606 OID 19623)
+-- TOC entry 3728 (class 2606 OID 34725)
 -- Name: mo_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5300,7 +5369,7 @@ ALTER TABLE ONLY mo
 
 
 --
--- TOC entry 3714 (class 2606 OID 19625)
+-- TOC entry 3730 (class 2606 OID 34727)
 -- Name: mp_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5309,7 +5378,7 @@ ALTER TABLE ONLY mp
 
 
 --
--- TOC entry 3720 (class 2606 OID 19627)
+-- TOC entry 3736 (class 2606 OID 34729)
 -- Name: mp_section_document_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5318,7 +5387,7 @@ ALTER TABLE ONLY mp_section_data
 
 
 --
--- TOC entry 3716 (class 2606 OID 19629)
+-- TOC entry 3732 (class 2606 OID 34731)
 -- Name: mp_section_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5327,7 +5396,7 @@ ALTER TABLE ONLY mp_section
 
 
 --
--- TOC entry 3723 (class 2606 OID 19631)
+-- TOC entry 3739 (class 2606 OID 34733)
 -- Name: naselen_punkt_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5336,7 +5405,7 @@ ALTER TABLE ONLY naselen_punkt
 
 
 --
--- TOC entry 3725 (class 2606 OID 19633)
+-- TOC entry 3741 (class 2606 OID 34735)
 -- Name: oks_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5345,7 +5414,34 @@ ALTER TABLE ONLY oks
 
 
 --
--- TOC entry 3727 (class 2606 OID 19635)
+-- TOC entry 3773 (class 2606 OID 43502)
+-- Name: owner_neighbour_document_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
+--
+
+ALTER TABLE ONLY owner_neighbour_document
+    ADD CONSTRAINT owner_neighbour_document_pkey PRIMARY KEY (guid);
+
+
+--
+-- TOC entry 3770 (class 2606 OID 43496)
+-- Name: owner_neighbour_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
+--
+
+ALTER TABLE ONLY owner_neighbour
+    ADD CONSTRAINT owner_neighbour_pkey PRIMARY KEY (guid);
+
+
+--
+-- TOC entry 3768 (class 2606 OID 43482)
+-- Name: parcel_neighbour_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
+--
+
+ALTER TABLE ONLY parcel_neighbour
+    ADD CONSTRAINT parcel_neighbour_pkey PRIMARY KEY (guid);
+
+
+--
+-- TOC entry 3743 (class 2606 OID 34737)
 -- Name: parcel_parcel_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5354,7 +5450,7 @@ ALTER TABLE ONLY parcel_parcel
 
 
 --
--- TOC entry 3730 (class 2606 OID 19637)
+-- TOC entry 3746 (class 2606 OID 34739)
 -- Name: ploshad_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5363,7 +5459,7 @@ ALTER TABLE ONLY ploshad
 
 
 --
--- TOC entry 3733 (class 2606 OID 19639)
+-- TOC entry 3749 (class 2606 OID 34741)
 -- Name: raiyon_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5372,7 +5468,7 @@ ALTER TABLE ONLY rayon
 
 
 --
--- TOC entry 3736 (class 2606 OID 19641)
+-- TOC entry 3752 (class 2606 OID 34743)
 -- Name: selsovet_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5381,7 +5477,7 @@ ALTER TABLE ONLY selsovet
 
 
 --
--- TOC entry 3738 (class 2606 OID 19643)
+-- TOC entry 3754 (class 2606 OID 34745)
 -- Name: sredstva_izmereniya_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5390,7 +5486,7 @@ ALTER TABLE ONLY sredstva_izmereniya
 
 
 --
--- TOC entry 3741 (class 2606 OID 19645)
+-- TOC entry 3757 (class 2606 OID 34747)
 -- Name: stroenie_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5399,7 +5495,7 @@ ALTER TABLE ONLY stroenie
 
 
 --
--- TOC entry 3743 (class 2606 OID 19647)
+-- TOC entry 3759 (class 2606 OID 34749)
 -- Name: subparcel_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5408,7 +5504,7 @@ ALTER TABLE ONLY subparcel
 
 
 --
--- TOC entry 3745 (class 2606 OID 19649)
+-- TOC entry 3761 (class 2606 OID 34751)
 -- Name: uchastok_adres_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5417,7 +5513,7 @@ ALTER TABLE ONLY uchastok_adres
 
 
 --
--- TOC entry 3748 (class 2606 OID 19651)
+-- TOC entry 3764 (class 2606 OID 34753)
 -- Name: ulica_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5426,7 +5522,7 @@ ALTER TABLE ONLY ulica
 
 
 --
--- TOC entry 3750 (class 2606 OID 19653)
+-- TOC entry 3766 (class 2606 OID 34755)
 -- Name: yur_liczo_pkey; Type: CONSTRAINT; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5437,7 +5533,7 @@ ALTER TABLE ONLY yur_liczo
 SET search_path = mapinfo, pg_catalog;
 
 --
--- TOC entry 3643 (class 1259 OID 19654)
+-- TOC entry 3660 (class 1259 OID 34756)
 -- Name: mapcatalog_idx; Type: INDEX; Schema: mapinfo; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5447,7 +5543,7 @@ CREATE UNIQUE INDEX mapcatalog_idx ON mapinfo_mapcatalog USING btree (tablename,
 SET search_path = msk, pg_catalog;
 
 --
--- TOC entry 3644 (class 1259 OID 19655)
+-- TOC entry 3661 (class 1259 OID 34757)
 -- Name: granica_gist; Type: INDEX; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5455,15 +5551,7 @@ CREATE INDEX granica_gist ON granica USING gist (geom);
 
 
 --
--- TOC entry 3645 (class 1259 OID 19656)
--- Name: granica_idx; Type: INDEX; Schema: msk; Owner: openlandadmin; Tablespace: 
---
-
-CREATE UNIQUE INDEX granica_idx ON granica USING btree (id_uchastok, dlina, pre, geom);
-
-
---
--- TOC entry 3648 (class 1259 OID 19657)
+-- TOC entry 3664 (class 1259 OID 34759)
 -- Name: granica_user; Type: INDEX; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5471,7 +5559,7 @@ CREATE INDEX granica_user ON granica USING btree (update_user);
 
 
 --
--- TOC entry 3649 (class 1259 OID 19658)
+-- TOC entry 3665 (class 1259 OID 34760)
 -- Name: kvartal_gist; Type: INDEX; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5479,7 +5567,7 @@ CREATE INDEX kvartal_gist ON kvartal USING gist (geom);
 
 
 --
--- TOC entry 3654 (class 1259 OID 19659)
+-- TOC entry 3670 (class 1259 OID 34761)
 -- Name: rayon_gist; Type: INDEX; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5487,7 +5575,7 @@ CREATE INDEX rayon_gist ON rayon USING gist (geom);
 
 
 --
--- TOC entry 3657 (class 1259 OID 19660)
+-- TOC entry 3673 (class 1259 OID 34762)
 -- Name: tochka_gist; Type: INDEX; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5495,7 +5583,7 @@ CREATE INDEX tochka_gist ON tochka USING gist (geom);
 
 
 --
--- TOC entry 3660 (class 1259 OID 19661)
+-- TOC entry 3676 (class 1259 OID 34763)
 -- Name: tochka_idx1; Type: INDEX; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5503,7 +5591,7 @@ CREATE UNIQUE INDEX tochka_idx1 ON tochka USING btree (id, id_child);
 
 
 --
--- TOC entry 3663 (class 1259 OID 19662)
+-- TOC entry 3679 (class 1259 OID 34764)
 -- Name: tochka_user; Type: INDEX; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5511,7 +5599,7 @@ CREATE INDEX tochka_user ON tochka USING btree (update_user);
 
 
 --
--- TOC entry 3664 (class 1259 OID 19663)
+-- TOC entry 3680 (class 1259 OID 34765)
 -- Name: uchastok_gist; Type: INDEX; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5519,7 +5607,7 @@ CREATE INDEX uchastok_gist ON uchastok USING gist (geom);
 
 
 --
--- TOC entry 3665 (class 1259 OID 19664)
+-- TOC entry 3681 (class 1259 OID 34766)
 -- Name: uchastok_guid; Type: INDEX; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5527,7 +5615,7 @@ CREATE INDEX uchastok_guid ON uchastok USING btree (guid);
 
 
 --
--- TOC entry 3668 (class 1259 OID 19665)
+-- TOC entry 3684 (class 1259 OID 34767)
 -- Name: uchastok_user; Type: INDEX; Schema: msk; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5537,7 +5625,7 @@ CREATE INDEX uchastok_user ON uchastok USING btree (update_user);
 SET search_path = public, pg_catalog;
 
 --
--- TOC entry 3681 (class 1259 OID 19666)
+-- TOC entry 3697 (class 1259 OID 34768)
 -- Name: dom_idx; Type: INDEX; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5545,7 +5633,7 @@ CREATE UNIQUE INDEX dom_idx ON dom USING btree (id_dom, naimenovanie);
 
 
 --
--- TOC entry 3692 (class 1259 OID 19667)
+-- TOC entry 3708 (class 1259 OID 34769)
 -- Name: gorodskoy_raiyon_idx; Type: INDEX; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5553,7 +5641,7 @@ CREATE UNIQUE INDEX gorodskoy_raiyon_idx ON gorodskoy_rayon USING btree (id_goro
 
 
 --
--- TOC entry 3697 (class 1259 OID 19668)
+-- TOC entry 3713 (class 1259 OID 34770)
 -- Name: granica_tochka_idx; Type: INDEX; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5561,7 +5649,7 @@ CREATE UNIQUE INDEX granica_tochka_idx ON granica_tochka USING btree (id_granica
 
 
 --
--- TOC entry 3704 (class 1259 OID 19669)
+-- TOC entry 3720 (class 1259 OID 34771)
 -- Name: korpus_idx; Type: INDEX; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5569,7 +5657,7 @@ CREATE UNIQUE INDEX korpus_idx ON korpus USING btree (id_korpus, naimenovanie);
 
 
 --
--- TOC entry 3707 (class 1259 OID 19670)
+-- TOC entry 3723 (class 1259 OID 34772)
 -- Name: kvartira_idx; Type: INDEX; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5577,7 +5665,7 @@ CREATE UNIQUE INDEX kvartira_idx ON kvartira USING btree (id_kvartira, naimenova
 
 
 --
--- TOC entry 3710 (class 1259 OID 19671)
+-- TOC entry 3726 (class 1259 OID 34773)
 -- Name: mo_idx; Type: INDEX; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5585,7 +5673,7 @@ CREATE UNIQUE INDEX mo_idx ON mo USING btree (id_ato_rayon_pod, naimenovanie);
 
 
 --
--- TOC entry 3717 (class 1259 OID 19672)
+-- TOC entry 3733 (class 1259 OID 34774)
 -- Name: mp_section_data_idx; Type: INDEX; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5593,7 +5681,7 @@ CREATE UNIQUE INDEX mp_section_data_idx ON mp_section_data USING btree (guid_mp,
 
 
 --
--- TOC entry 3718 (class 1259 OID 19673)
+-- TOC entry 3734 (class 1259 OID 34775)
 -- Name: mp_section_data_idx1; Type: INDEX; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5601,7 +5689,7 @@ CREATE UNIQUE INDEX mp_section_data_idx1 ON mp_section_data USING btree (guid_mp
 
 
 --
--- TOC entry 3721 (class 1259 OID 19674)
+-- TOC entry 3737 (class 1259 OID 34776)
 -- Name: naselen_punkt_idx; Type: INDEX; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5609,7 +5697,15 @@ CREATE UNIQUE INDEX naselen_punkt_idx ON naselen_punkt USING btree (id_naselen_p
 
 
 --
--- TOC entry 3728 (class 1259 OID 19675)
+-- TOC entry 3771 (class 1259 OID 43518)
+-- Name: owner_neighbour_document_idx; Type: INDEX; Schema: public; Owner: openlandadmin; Tablespace: 
+--
+
+CREATE UNIQUE INDEX owner_neighbour_document_idx ON owner_neighbour_document USING btree (guid_owner_neighbour, guid_document);
+
+
+--
+-- TOC entry 3744 (class 1259 OID 34777)
 -- Name: ploshad_idx; Type: INDEX; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5617,7 +5713,7 @@ CREATE UNIQUE INDEX ploshad_idx ON ploshad USING btree (id_uchastok, id_vid_plos
 
 
 --
--- TOC entry 3731 (class 1259 OID 19676)
+-- TOC entry 3747 (class 1259 OID 34778)
 -- Name: raiyon_idx; Type: INDEX; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5625,7 +5721,7 @@ CREATE UNIQUE INDEX raiyon_idx ON rayon USING btree (id_rayon, naimenovanie);
 
 
 --
--- TOC entry 3734 (class 1259 OID 19677)
+-- TOC entry 3750 (class 1259 OID 34779)
 -- Name: selsovet_idx; Type: INDEX; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5633,7 +5729,7 @@ CREATE UNIQUE INDEX selsovet_idx ON selsovet USING btree (id_selsovet, naimenova
 
 
 --
--- TOC entry 3739 (class 1259 OID 19678)
+-- TOC entry 3755 (class 1259 OID 34780)
 -- Name: stroenie_idx; Type: INDEX; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5641,7 +5737,7 @@ CREATE UNIQUE INDEX stroenie_idx ON stroenie USING btree (id_stroenie, naimenova
 
 
 --
--- TOC entry 3746 (class 1259 OID 19679)
+-- TOC entry 3762 (class 1259 OID 34781)
 -- Name: ulica_idx; Type: INDEX; Schema: public; Owner: openlandadmin; Tablespace: 
 --
 
@@ -5649,7 +5745,7 @@ CREATE UNIQUE INDEX ulica_idx ON ulica USING btree (id_ulica, naimenovanie);
 
 
 --
--- TOC entry 3482 (class 2618 OID 18340)
+-- TOC entry 3496 (class 2618 OID 33441)
 -- Name: geometry_columns_delete; Type: RULE; Schema: public; Owner: postgres
 --
 
@@ -5657,15 +5753,15 @@ CREATE UNIQUE INDEX ulica_idx ON ulica USING btree (id_ulica, naimenovanie);
 
 
 --
--- TOC entry 3480 (class 2618 OID 18338)
+-- TOC entry 3494 (class 2618 OID 33439)
 -- Name: geometry_columns_insert; Type: RULE; Schema: public; Owner: postgres
 --
 
---- CREATE RULE geometry_columns_insert AS ON INSERT TO geometry_columns DO INSTEAD NOTHING;
+-- CREATE RULE geometry_columns_insert AS ON INSERT TO geometry_columns DO INSTEAD NOTHING;
 
 
 --
--- TOC entry 3481 (class 2618 OID 18339)
+-- TOC entry 3495 (class 2618 OID 33440)
 -- Name: geometry_columns_update; Type: RULE; Schema: public; Owner: postgres
 --
 
@@ -5675,7 +5771,7 @@ CREATE UNIQUE INDEX ulica_idx ON ulica USING btree (id_ulica, naimenovanie);
 SET search_path = msk, pg_catalog;
 
 --
--- TOC entry 3831 (class 2620 OID 19680)
+-- TOC entry 3858 (class 2620 OID 34782)
 -- Name: granica_tri; Type: TRIGGER; Schema: msk; Owner: openlandadmin
 --
 
@@ -5683,7 +5779,7 @@ CREATE TRIGGER granica_tri BEFORE INSERT ON granica FOR EACH ROW EXECUTE PROCEDU
 
 
 --
--- TOC entry 3832 (class 2620 OID 19681)
+-- TOC entry 3859 (class 2620 OID 34783)
 -- Name: granica_tria; Type: TRIGGER; Schema: msk; Owner: openlandadmin
 --
 
@@ -5691,7 +5787,7 @@ CREATE TRIGGER granica_tria AFTER INSERT ON granica FOR EACH ROW EXECUTE PROCEDU
 
 
 --
--- TOC entry 3833 (class 2620 OID 19682)
+-- TOC entry 3860 (class 2620 OID 34784)
 -- Name: granica_tru; Type: TRIGGER; Schema: msk; Owner: openlandadmin
 --
 
@@ -5699,7 +5795,7 @@ CREATE TRIGGER granica_tru BEFORE UPDATE ON granica FOR EACH ROW EXECUTE PROCEDU
 
 
 --
--- TOC entry 3834 (class 2620 OID 19683)
+-- TOC entry 3861 (class 2620 OID 34785)
 -- Name: kvartal_tri; Type: TRIGGER; Schema: msk; Owner: openlandadmin
 --
 
@@ -5707,7 +5803,7 @@ CREATE TRIGGER kvartal_tri BEFORE INSERT ON kvartal FOR EACH ROW EXECUTE PROCEDU
 
 
 --
--- TOC entry 3835 (class 2620 OID 19684)
+-- TOC entry 3862 (class 2620 OID 34786)
 -- Name: kvartal_tru; Type: TRIGGER; Schema: msk; Owner: openlandadmin
 --
 
@@ -5715,7 +5811,7 @@ CREATE TRIGGER kvartal_tru BEFORE UPDATE ON kvartal FOR EACH ROW EXECUTE PROCEDU
 
 
 --
--- TOC entry 3836 (class 2620 OID 19685)
+-- TOC entry 3863 (class 2620 OID 34787)
 -- Name: rayon_tria; Type: TRIGGER; Schema: msk; Owner: openlandadmin
 --
 
@@ -5723,7 +5819,7 @@ CREATE TRIGGER rayon_tria AFTER INSERT ON rayon FOR EACH ROW EXECUTE PROCEDURE p
 
 
 --
--- TOC entry 3837 (class 2620 OID 19686)
+-- TOC entry 3864 (class 2620 OID 34788)
 -- Name: tochka_tri; Type: TRIGGER; Schema: msk; Owner: openlandadmin
 --
 
@@ -5731,7 +5827,7 @@ CREATE TRIGGER tochka_tri BEFORE INSERT ON tochka FOR EACH ROW WHEN ((new.id_uch
 
 
 --
--- TOC entry 3838 (class 2620 OID 19687)
+-- TOC entry 3865 (class 2620 OID 34789)
 -- Name: tochka_tria; Type: TRIGGER; Schema: msk; Owner: openlandadmin
 --
 
@@ -5739,7 +5835,7 @@ CREATE TRIGGER tochka_tria AFTER INSERT ON tochka FOR EACH ROW WHEN ((new.id_uch
 
 
 --
--- TOC entry 3839 (class 2620 OID 19688)
+-- TOC entry 3866 (class 2620 OID 34790)
 -- Name: tochka_tru; Type: TRIGGER; Schema: msk; Owner: openlandadmin
 --
 
@@ -5747,7 +5843,7 @@ CREATE TRIGGER tochka_tru BEFORE UPDATE ON tochka FOR EACH ROW EXECUTE PROCEDURE
 
 
 --
--- TOC entry 3843 (class 2620 OID 20107)
+-- TOC entry 3867 (class 2620 OID 34791)
 -- Name: uchastok_trd; Type: TRIGGER; Schema: msk; Owner: openlandadmin
 --
 
@@ -5755,7 +5851,7 @@ CREATE TRIGGER uchastok_trd BEFORE DELETE ON uchastok FOR EACH ROW EXECUTE PROCE
 
 
 --
--- TOC entry 3840 (class 2620 OID 19689)
+-- TOC entry 3868 (class 2620 OID 34792)
 -- Name: uchastok_tri; Type: TRIGGER; Schema: msk; Owner: openlandadmin
 --
 
@@ -5763,7 +5859,7 @@ CREATE TRIGGER uchastok_tri BEFORE INSERT ON uchastok FOR EACH ROW EXECUTE PROCE
 
 
 --
--- TOC entry 3841 (class 2620 OID 19690)
+-- TOC entry 3869 (class 2620 OID 34793)
 -- Name: uchastok_tria; Type: TRIGGER; Schema: msk; Owner: openlandadmin
 --
 
@@ -5773,7 +5869,7 @@ ALTER TABLE uchastok DISABLE TRIGGER uchastok_tria;
 
 
 --
--- TOC entry 3842 (class 2620 OID 19691)
+-- TOC entry 3870 (class 2620 OID 34794)
 -- Name: uchastok_tru; Type: TRIGGER; Schema: msk; Owner: openlandadmin
 --
 
@@ -5783,7 +5879,7 @@ CREATE TRIGGER uchastok_tru BEFORE UPDATE ON uchastok FOR EACH ROW EXECUTE PROCE
 SET search_path = public, pg_catalog;
 
 --
--- TOC entry 3844 (class 2620 OID 19692)
+-- TOC entry 3871 (class 2620 OID 34795)
 -- Name: adres_tri; Type: TRIGGER; Schema: public; Owner: openlandadmin
 --
 
@@ -5793,7 +5889,7 @@ CREATE TRIGGER adres_tri AFTER INSERT ON adres FOR EACH ROW EXECUTE PROCEDURE ol
 SET search_path = msk, pg_catalog;
 
 --
--- TOC entry 3751 (class 2606 OID 19693)
+-- TOC entry 3774 (class 2606 OID 34796)
 -- Name: granica_fk; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5802,7 +5898,7 @@ ALTER TABLE ONLY granica
 
 
 --
--- TOC entry 3752 (class 2606 OID 19698)
+-- TOC entry 3775 (class 2606 OID 34801)
 -- Name: granica_fk1; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5811,7 +5907,7 @@ ALTER TABLE ONLY granica
 
 
 --
--- TOC entry 3753 (class 2606 OID 19703)
+-- TOC entry 3776 (class 2606 OID 34806)
 -- Name: kvartal_fk; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5820,7 +5916,7 @@ ALTER TABLE ONLY kvartal
 
 
 --
--- TOC entry 3754 (class 2606 OID 19708)
+-- TOC entry 3777 (class 2606 OID 34811)
 -- Name: kvartal_fk1; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5829,7 +5925,7 @@ ALTER TABLE ONLY kvartal
 
 
 --
--- TOC entry 3755 (class 2606 OID 19713)
+-- TOC entry 3778 (class 2606 OID 34816)
 -- Name: rayon_fk; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5838,7 +5934,7 @@ ALTER TABLE ONLY rayon
 
 
 --
--- TOC entry 3756 (class 2606 OID 19718)
+-- TOC entry 3779 (class 2606 OID 34821)
 -- Name: rayon_fk1; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5847,7 +5943,7 @@ ALTER TABLE ONLY rayon
 
 
 --
--- TOC entry 3757 (class 2606 OID 19723)
+-- TOC entry 3780 (class 2606 OID 34826)
 -- Name: tochka_fk; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5856,7 +5952,7 @@ ALTER TABLE ONLY tochka
 
 
 --
--- TOC entry 3758 (class 2606 OID 19728)
+-- TOC entry 3781 (class 2606 OID 34831)
 -- Name: tochka_fk1; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5865,7 +5961,7 @@ ALTER TABLE ONLY tochka
 
 
 --
--- TOC entry 3759 (class 2606 OID 19733)
+-- TOC entry 3782 (class 2606 OID 34836)
 -- Name: tochka_fk2; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5874,7 +5970,7 @@ ALTER TABLE ONLY tochka
 
 
 --
--- TOC entry 3760 (class 2606 OID 19738)
+-- TOC entry 3783 (class 2606 OID 34841)
 -- Name: tochka_fk3; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5883,7 +5979,7 @@ ALTER TABLE ONLY tochka
 
 
 --
--- TOC entry 3761 (class 2606 OID 19743)
+-- TOC entry 3784 (class 2606 OID 34846)
 -- Name: uchastok_fk; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5892,7 +5988,7 @@ ALTER TABLE ONLY uchastok
 
 
 --
--- TOC entry 3762 (class 2606 OID 19748)
+-- TOC entry 3785 (class 2606 OID 34851)
 -- Name: uchastok_fk1; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5901,7 +5997,7 @@ ALTER TABLE ONLY uchastok
 
 
 --
--- TOC entry 3763 (class 2606 OID 19753)
+-- TOC entry 3786 (class 2606 OID 34856)
 -- Name: uchastok_fk10; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5910,7 +6006,7 @@ ALTER TABLE ONLY uchastok
 
 
 --
--- TOC entry 3764 (class 2606 OID 19758)
+-- TOC entry 3787 (class 2606 OID 34861)
 -- Name: uchastok_fk11; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5919,7 +6015,7 @@ ALTER TABLE ONLY uchastok
 
 
 --
--- TOC entry 3765 (class 2606 OID 19763)
+-- TOC entry 3788 (class 2606 OID 34866)
 -- Name: uchastok_fk12; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5928,7 +6024,7 @@ ALTER TABLE ONLY uchastok
 
 
 --
--- TOC entry 3766 (class 2606 OID 19768)
+-- TOC entry 3789 (class 2606 OID 34871)
 -- Name: uchastok_fk13; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5937,7 +6033,7 @@ ALTER TABLE ONLY uchastok
 
 
 --
--- TOC entry 3767 (class 2606 OID 19773)
+-- TOC entry 3790 (class 2606 OID 34876)
 -- Name: uchastok_fk14; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5946,7 +6042,7 @@ ALTER TABLE ONLY uchastok
 
 
 --
--- TOC entry 3768 (class 2606 OID 19778)
+-- TOC entry 3791 (class 2606 OID 34881)
 -- Name: uchastok_fk2; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5955,7 +6051,7 @@ ALTER TABLE ONLY uchastok
 
 
 --
--- TOC entry 3769 (class 2606 OID 19783)
+-- TOC entry 3792 (class 2606 OID 34886)
 -- Name: uchastok_fk3; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5964,7 +6060,7 @@ ALTER TABLE ONLY uchastok
 
 
 --
--- TOC entry 3770 (class 2606 OID 19788)
+-- TOC entry 3793 (class 2606 OID 34891)
 -- Name: uchastok_fk4; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5973,7 +6069,7 @@ ALTER TABLE ONLY uchastok
 
 
 --
--- TOC entry 3771 (class 2606 OID 19793)
+-- TOC entry 3794 (class 2606 OID 34896)
 -- Name: uchastok_fk5; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5982,7 +6078,7 @@ ALTER TABLE ONLY uchastok
 
 
 --
--- TOC entry 3772 (class 2606 OID 19798)
+-- TOC entry 3795 (class 2606 OID 34901)
 -- Name: uchastok_fk6; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -5991,7 +6087,7 @@ ALTER TABLE ONLY uchastok
 
 
 --
--- TOC entry 3773 (class 2606 OID 19803)
+-- TOC entry 3796 (class 2606 OID 34906)
 -- Name: uchastok_fk7; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -6000,7 +6096,7 @@ ALTER TABLE ONLY uchastok
 
 
 --
--- TOC entry 3774 (class 2606 OID 19808)
+-- TOC entry 3797 (class 2606 OID 34911)
 -- Name: uchastok_fk8; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -6009,7 +6105,7 @@ ALTER TABLE ONLY uchastok
 
 
 --
--- TOC entry 3775 (class 2606 OID 19813)
+-- TOC entry 3798 (class 2606 OID 34916)
 -- Name: uchastok_fk9; Type: FK CONSTRAINT; Schema: msk; Owner: openlandadmin
 --
 
@@ -6020,7 +6116,7 @@ ALTER TABLE ONLY uchastok
 SET search_path = public, pg_catalog;
 
 --
--- TOC entry 3776 (class 2606 OID 19818)
+-- TOC entry 3799 (class 2606 OID 34921)
 -- Name: adres_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6029,7 +6125,7 @@ ALTER TABLE ONLY adres
 
 
 --
--- TOC entry 3777 (class 2606 OID 19823)
+-- TOC entry 3800 (class 2606 OID 34926)
 -- Name: adres_fk1; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6038,7 +6134,7 @@ ALTER TABLE ONLY adres
 
 
 --
--- TOC entry 3778 (class 2606 OID 19828)
+-- TOC entry 3801 (class 2606 OID 34931)
 -- Name: adres_fk10; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6047,7 +6143,7 @@ ALTER TABLE ONLY adres
 
 
 --
--- TOC entry 3779 (class 2606 OID 19833)
+-- TOC entry 3802 (class 2606 OID 34936)
 -- Name: adres_fk11; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6056,7 +6152,7 @@ ALTER TABLE ONLY adres
 
 
 --
--- TOC entry 3780 (class 2606 OID 19838)
+-- TOC entry 3803 (class 2606 OID 34941)
 -- Name: adres_fk2; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6065,7 +6161,7 @@ ALTER TABLE ONLY adres
 
 
 --
--- TOC entry 3781 (class 2606 OID 19843)
+-- TOC entry 3804 (class 2606 OID 34946)
 -- Name: adres_fk3; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6074,7 +6170,7 @@ ALTER TABLE ONLY adres
 
 
 --
--- TOC entry 3782 (class 2606 OID 19848)
+-- TOC entry 3805 (class 2606 OID 34951)
 -- Name: adres_fk4; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6083,7 +6179,7 @@ ALTER TABLE ONLY adres
 
 
 --
--- TOC entry 3783 (class 2606 OID 19853)
+-- TOC entry 3806 (class 2606 OID 34956)
 -- Name: adres_fk5; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6092,7 +6188,7 @@ ALTER TABLE ONLY adres
 
 
 --
--- TOC entry 3784 (class 2606 OID 19858)
+-- TOC entry 3807 (class 2606 OID 34961)
 -- Name: adres_fk6; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6101,7 +6197,7 @@ ALTER TABLE ONLY adres
 
 
 --
--- TOC entry 3785 (class 2606 OID 19863)
+-- TOC entry 3808 (class 2606 OID 34966)
 -- Name: adres_fk7; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6110,7 +6206,7 @@ ALTER TABLE ONLY adres
 
 
 --
--- TOC entry 3786 (class 2606 OID 19868)
+-- TOC entry 3809 (class 2606 OID 34971)
 -- Name: adres_fk8; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6119,7 +6215,7 @@ ALTER TABLE ONLY adres
 
 
 --
--- TOC entry 3787 (class 2606 OID 19873)
+-- TOC entry 3810 (class 2606 OID 34976)
 -- Name: adres_fk9; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6128,7 +6224,7 @@ ALTER TABLE ONLY adres
 
 
 --
--- TOC entry 3788 (class 2606 OID 19878)
+-- TOC entry 3811 (class 2606 OID 34981)
 -- Name: applied_file_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6137,7 +6233,7 @@ ALTER TABLE ONLY applied_file
 
 
 --
--- TOC entry 3789 (class 2606 OID 19883)
+-- TOC entry 3812 (class 2606 OID 34986)
 -- Name: client_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6146,7 +6242,7 @@ ALTER TABLE ONLY client
 
 
 --
--- TOC entry 3790 (class 2606 OID 19888)
+-- TOC entry 3813 (class 2606 OID 34991)
 -- Name: client_fk1; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6155,7 +6251,7 @@ ALTER TABLE ONLY client
 
 
 --
--- TOC entry 3791 (class 2606 OID 19893)
+-- TOC entry 3814 (class 2606 OID 34996)
 -- Name: client_fk2; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6164,7 +6260,7 @@ ALTER TABLE ONLY client
 
 
 --
--- TOC entry 3792 (class 2606 OID 19898)
+-- TOC entry 3815 (class 2606 OID 35001)
 -- Name: client_fk3; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6173,7 +6269,7 @@ ALTER TABLE ONLY client
 
 
 --
--- TOC entry 3793 (class 2606 OID 19903)
+-- TOC entry 3816 (class 2606 OID 35006)
 -- Name: client_fk4; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6182,7 +6278,7 @@ ALTER TABLE ONLY client
 
 
 --
--- TOC entry 3795 (class 2606 OID 19908)
+-- TOC entry 3818 (class 2606 OID 35011)
 -- Name: document_applied_file_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6191,7 +6287,7 @@ ALTER TABLE ONLY document_applied_file
 
 
 --
--- TOC entry 3796 (class 2606 OID 19913)
+-- TOC entry 3819 (class 2606 OID 35016)
 -- Name: document_applied_file_fk1; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6200,7 +6296,7 @@ ALTER TABLE ONLY document_applied_file
 
 
 --
--- TOC entry 3794 (class 2606 OID 19918)
+-- TOC entry 3817 (class 2606 OID 35021)
 -- Name: document_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6209,7 +6305,7 @@ ALTER TABLE ONLY document
 
 
 --
--- TOC entry 3797 (class 2606 OID 19923)
+-- TOC entry 3820 (class 2606 OID 35026)
 -- Name: dom_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6218,7 +6314,7 @@ ALTER TABLE ONLY dom
 
 
 --
--- TOC entry 3798 (class 2606 OID 19928)
+-- TOC entry 3821 (class 2606 OID 35031)
 -- Name: geo_osnova_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6227,7 +6323,7 @@ ALTER TABLE ONLY geo_osnova
 
 
 --
--- TOC entry 3799 (class 2606 OID 19933)
+-- TOC entry 3822 (class 2606 OID 35036)
 -- Name: gorodskoy_raiyon_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6236,7 +6332,7 @@ ALTER TABLE ONLY gorodskoy_rayon
 
 
 --
--- TOC entry 3800 (class 2606 OID 19938)
+-- TOC entry 3823 (class 2606 OID 35041)
 -- Name: granica_tochka_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6245,7 +6341,7 @@ ALTER TABLE ONLY granica_tochka
 
 
 --
--- TOC entry 3801 (class 2606 OID 19943)
+-- TOC entry 3824 (class 2606 OID 35046)
 -- Name: granica_tochka_fk1; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6254,7 +6350,7 @@ ALTER TABLE ONLY granica_tochka
 
 
 --
--- TOC entry 3803 (class 2606 OID 19948)
+-- TOC entry 3826 (class 2606 OID 35051)
 -- Name: kn_document_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6263,7 +6359,7 @@ ALTER TABLE ONLY kn_document
 
 
 --
--- TOC entry 3804 (class 2606 OID 19953)
+-- TOC entry 3827 (class 2606 OID 35056)
 -- Name: kn_document_fk1; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6272,7 +6368,7 @@ ALTER TABLE ONLY kn_document
 
 
 --
--- TOC entry 3802 (class 2606 OID 19958)
+-- TOC entry 3825 (class 2606 OID 35061)
 -- Name: kn_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6281,7 +6377,7 @@ ALTER TABLE ONLY kn
 
 
 --
--- TOC entry 3805 (class 2606 OID 19963)
+-- TOC entry 3828 (class 2606 OID 35066)
 -- Name: korpus_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6290,7 +6386,7 @@ ALTER TABLE ONLY korpus
 
 
 --
--- TOC entry 3806 (class 2606 OID 19968)
+-- TOC entry 3829 (class 2606 OID 35071)
 -- Name: kvartira_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6299,7 +6395,7 @@ ALTER TABLE ONLY kvartira
 
 
 --
--- TOC entry 3807 (class 2606 OID 19973)
+-- TOC entry 3830 (class 2606 OID 35076)
 -- Name: mo_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6308,7 +6404,7 @@ ALTER TABLE ONLY mo
 
 
 --
--- TOC entry 3808 (class 2606 OID 19978)
+-- TOC entry 3831 (class 2606 OID 35081)
 -- Name: mp_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6317,7 +6413,7 @@ ALTER TABLE ONLY mp
 
 
 --
--- TOC entry 3809 (class 2606 OID 19983)
+-- TOC entry 3832 (class 2606 OID 35086)
 -- Name: mp_fk1; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6326,7 +6422,7 @@ ALTER TABLE ONLY mp
 
 
 --
--- TOC entry 3810 (class 2606 OID 19988)
+-- TOC entry 3833 (class 2606 OID 35091)
 -- Name: mp_section_data_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6335,7 +6431,7 @@ ALTER TABLE ONLY mp_section_data
 
 
 --
--- TOC entry 3811 (class 2606 OID 19993)
+-- TOC entry 3834 (class 2606 OID 35096)
 -- Name: mp_section_data_fk1; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6344,7 +6440,7 @@ ALTER TABLE ONLY mp_section_data
 
 
 --
--- TOC entry 3812 (class 2606 OID 19998)
+-- TOC entry 3835 (class 2606 OID 35101)
 -- Name: mp_section_data_fk2; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6353,7 +6449,7 @@ ALTER TABLE ONLY mp_section_data
 
 
 --
--- TOC entry 3813 (class 2606 OID 20003)
+-- TOC entry 3836 (class 2606 OID 35106)
 -- Name: mp_section_data_fk3; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6362,7 +6458,7 @@ ALTER TABLE ONLY mp_section_data
 
 
 --
--- TOC entry 3814 (class 2606 OID 20008)
+-- TOC entry 3837 (class 2606 OID 35111)
 -- Name: mp_section_data_fk4; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6371,7 +6467,7 @@ ALTER TABLE ONLY mp_section_data
 
 
 --
--- TOC entry 3815 (class 2606 OID 20013)
+-- TOC entry 3838 (class 2606 OID 35116)
 -- Name: mp_section_data_fk5; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6380,7 +6476,7 @@ ALTER TABLE ONLY mp_section_data
 
 
 --
--- TOC entry 3816 (class 2606 OID 20018)
+-- TOC entry 3839 (class 2606 OID 35121)
 -- Name: mp_section_data_fk6; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6389,7 +6485,7 @@ ALTER TABLE ONLY mp_section_data
 
 
 --
--- TOC entry 3817 (class 2606 OID 20023)
+-- TOC entry 3840 (class 2606 OID 35126)
 -- Name: mp_section_data_fk7; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6398,7 +6494,7 @@ ALTER TABLE ONLY mp_section_data
 
 
 --
--- TOC entry 3818 (class 2606 OID 20028)
+-- TOC entry 3841 (class 2606 OID 35131)
 -- Name: mp_section_data_fk8; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6407,7 +6503,7 @@ ALTER TABLE ONLY mp_section_data
 
 
 --
--- TOC entry 3819 (class 2606 OID 20033)
+-- TOC entry 3842 (class 2606 OID 35136)
 -- Name: naselen_punkt_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6416,7 +6512,43 @@ ALTER TABLE ONLY naselen_punkt
 
 
 --
--- TOC entry 3820 (class 2606 OID 20038)
+-- TOC entry 3857 (class 2606 OID 43508)
+-- Name: owner_neighbour_document_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
+--
+
+ALTER TABLE ONLY owner_neighbour_document
+    ADD CONSTRAINT owner_neighbour_document_fk FOREIGN KEY (guid_owner_neighbour) REFERENCES owner_neighbour(guid) ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+--
+-- TOC entry 3856 (class 2606 OID 43513)
+-- Name: owner_neighbour_document_fk1; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
+--
+
+ALTER TABLE ONLY owner_neighbour_document
+    ADD CONSTRAINT owner_neighbour_document_fk1 FOREIGN KEY (guid_document) REFERENCES document(guid);
+
+
+--
+-- TOC entry 3855 (class 2606 OID 43503)
+-- Name: owner_neighbour_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
+--
+
+ALTER TABLE ONLY owner_neighbour
+    ADD CONSTRAINT owner_neighbour_fk FOREIGN KEY (guid_parcel_neighbour) REFERENCES parcel_neighbour(guid) ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+--
+-- TOC entry 3854 (class 2606 OID 43483)
+-- Name: parcel_neighbour_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
+--
+
+ALTER TABLE ONLY parcel_neighbour
+    ADD CONSTRAINT parcel_neighbour_fk FOREIGN KEY (id_parcel) REFERENCES msk.uchastok(id) ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+--
+-- TOC entry 3843 (class 2606 OID 35141)
 -- Name: parcel_parcel_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6425,7 +6557,7 @@ ALTER TABLE ONLY parcel_parcel
 
 
 --
--- TOC entry 3821 (class 2606 OID 20043)
+-- TOC entry 3844 (class 2606 OID 35146)
 -- Name: parcel_parcel_fk1; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6434,7 +6566,7 @@ ALTER TABLE ONLY parcel_parcel
 
 
 --
--- TOC entry 3822 (class 2606 OID 20048)
+-- TOC entry 3845 (class 2606 OID 35151)
 -- Name: ploshad_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6443,7 +6575,7 @@ ALTER TABLE ONLY ploshad
 
 
 --
--- TOC entry 3823 (class 2606 OID 20053)
+-- TOC entry 3846 (class 2606 OID 35156)
 -- Name: ploshad_fk1; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6452,7 +6584,7 @@ ALTER TABLE ONLY ploshad
 
 
 --
--- TOC entry 3824 (class 2606 OID 20058)
+-- TOC entry 3847 (class 2606 OID 35161)
 -- Name: ploshad_fk2; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6461,7 +6593,7 @@ ALTER TABLE ONLY ploshad
 
 
 --
--- TOC entry 3825 (class 2606 OID 20063)
+-- TOC entry 3848 (class 2606 OID 35166)
 -- Name: raiyon_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6470,7 +6602,7 @@ ALTER TABLE ONLY rayon
 
 
 --
--- TOC entry 3826 (class 2606 OID 20068)
+-- TOC entry 3849 (class 2606 OID 35171)
 -- Name: selsovet_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6479,7 +6611,7 @@ ALTER TABLE ONLY selsovet
 
 
 --
--- TOC entry 3827 (class 2606 OID 20073)
+-- TOC entry 3850 (class 2606 OID 35176)
 -- Name: stroenie_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6488,7 +6620,7 @@ ALTER TABLE ONLY stroenie
 
 
 --
--- TOC entry 3828 (class 2606 OID 20078)
+-- TOC entry 3851 (class 2606 OID 35181)
 -- Name: uchastok_adres_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6497,7 +6629,7 @@ ALTER TABLE ONLY uchastok_adres
 
 
 --
--- TOC entry 3829 (class 2606 OID 20083)
+-- TOC entry 3852 (class 2606 OID 35186)
 -- Name: uchastok_adres_fk1; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6506,7 +6638,7 @@ ALTER TABLE ONLY uchastok_adres
 
 
 --
--- TOC entry 3830 (class 2606 OID 20088)
+-- TOC entry 3853 (class 2606 OID 35191)
 -- Name: ulica_fk; Type: FK CONSTRAINT; Schema: public; Owner: openlandadmin
 --
 
@@ -6515,7 +6647,7 @@ ALTER TABLE ONLY ulica
 
 
 --
--- TOC entry 3945 (class 0 OID 0)
+-- TOC entry 3975 (class 0 OID 0)
 -- Dependencies: 7
 -- Name: class; Type: ACL; Schema: -; Owner: openlandadmin
 --
@@ -6527,7 +6659,7 @@ GRANT ALL ON SCHEMA class TO openlandusers;
 
 
 --
--- TOC entry 3946 (class 0 OID 0)
+-- TOC entry 3976 (class 0 OID 0)
 -- Dependencies: 8
 -- Name: mapinfo; Type: ACL; Schema: -; Owner: openlandadmin
 --
@@ -6540,7 +6672,7 @@ GRANT ALL ON SCHEMA mapinfo TO openlandusers;
 
 
 --
--- TOC entry 3947 (class 0 OID 0)
+-- TOC entry 3977 (class 0 OID 0)
 -- Dependencies: 9
 -- Name: msk; Type: ACL; Schema: -; Owner: openlandadmin
 --
@@ -6552,7 +6684,7 @@ GRANT ALL ON SCHEMA msk TO openlandusers;
 
 
 --
--- TOC entry 3949 (class 0 OID 0)
+-- TOC entry 3979 (class 0 OID 0)
 -- Dependencies: 10
 -- Name: public; Type: ACL; Schema: -; Owner: postgres
 --
@@ -6567,7 +6699,7 @@ GRANT ALL ON SCHEMA public TO openlandusers;
 SET search_path = class, pg_catalog;
 
 --
--- TOC entry 3954 (class 0 OID 0)
+-- TOC entry 3984 (class 0 OID 0)
 -- Dependencies: 191
 -- Name: ato_rayonogo_podchineniya; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6579,7 +6711,7 @@ GRANT SELECT ON TABLE ato_rayonogo_podchineniya TO openlandusers;
 
 
 --
--- TOC entry 3955 (class 0 OID 0)
+-- TOC entry 3985 (class 0 OID 0)
 -- Dependencies: 192
 -- Name: database_version; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6591,7 +6723,7 @@ GRANT SELECT ON TABLE database_version TO openlandusers;
 
 
 --
--- TOC entry 3956 (class 0 OID 0)
+-- TOC entry 3986 (class 0 OID 0)
 -- Dependencies: 193
 -- Name: dokument; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6603,7 +6735,7 @@ GRANT SELECT ON TABLE dokument TO openlandusers;
 
 
 --
--- TOC entry 3957 (class 0 OID 0)
+-- TOC entry 3987 (class 0 OID 0)
 -- Dependencies: 194
 -- Name: dom; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6615,7 +6747,7 @@ GRANT SELECT ON TABLE dom TO openlandusers;
 
 
 --
--- TOC entry 3958 (class 0 OID 0)
+-- TOC entry 3988 (class 0 OID 0)
 -- Dependencies: 195
 -- Name: edinicy_izmereniya; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6627,7 +6759,7 @@ GRANT SELECT ON TABLE edinicy_izmereniya TO openlandusers;
 
 
 --
--- TOC entry 3959 (class 0 OID 0)
+-- TOC entry 3989 (class 0 OID 0)
 -- Dependencies: 196
 -- Name: gorodskoy_rayon; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6639,7 +6771,7 @@ GRANT SELECT ON TABLE gorodskoy_rayon TO openlandusers;
 
 
 --
--- TOC entry 3960 (class 0 OID 0)
+-- TOC entry 3990 (class 0 OID 0)
 -- Dependencies: 197
 -- Name: ispolzovanie_razreshennoe; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6651,7 +6783,7 @@ GRANT SELECT ON TABLE ispolzovanie_razreshennoe TO openlandusers;
 
 
 --
--- TOC entry 3961 (class 0 OID 0)
+-- TOC entry 3991 (class 0 OID 0)
 -- Dependencies: 198
 -- Name: ispolzovanie_zemli; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6663,7 +6795,7 @@ GRANT SELECT ON TABLE ispolzovanie_zemli TO openlandusers;
 
 
 --
--- TOC entry 3962 (class 0 OID 0)
+-- TOC entry 3992 (class 0 OID 0)
 -- Dependencies: 199
 -- Name: kategoriya_zemli; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6675,7 +6807,7 @@ GRANT SELECT ON TABLE kategoriya_zemli TO openlandusers;
 
 
 --
--- TOC entry 3963 (class 0 OID 0)
+-- TOC entry 3993 (class 0 OID 0)
 -- Dependencies: 200
 -- Name: korpus; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6687,7 +6819,7 @@ GRANT SELECT ON TABLE korpus TO openlandusers;
 
 
 --
--- TOC entry 3964 (class 0 OID 0)
+-- TOC entry 3994 (class 0 OID 0)
 -- Dependencies: 201
 -- Name: kvartira; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6699,7 +6831,7 @@ GRANT SELECT ON TABLE kvartira TO openlandusers;
 
 
 --
--- TOC entry 3965 (class 0 OID 0)
+-- TOC entry 3995 (class 0 OID 0)
 -- Dependencies: 202
 -- Name: metod_opredeleniya_tochki; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6711,7 +6843,7 @@ GRANT SELECT ON TABLE metod_opredeleniya_tochki TO openlandusers;
 
 
 --
--- TOC entry 3966 (class 0 OID 0)
+-- TOC entry 3996 (class 0 OID 0)
 -- Dependencies: 203
 -- Name: naselen_punkt; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6723,7 +6855,7 @@ GRANT SELECT ON TABLE naselen_punkt TO openlandusers;
 
 
 --
--- TOC entry 3967 (class 0 OID 0)
+-- TOC entry 3997 (class 0 OID 0)
 -- Dependencies: 204
 -- Name: obekt_gkn; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6735,7 +6867,7 @@ GRANT SELECT ON TABLE obekt_gkn TO openlandusers;
 
 
 --
--- TOC entry 3968 (class 0 OID 0)
+-- TOC entry 3998 (class 0 OID 0)
 -- Dependencies: 205
 -- Name: obekt_kadastrovyh_rabot; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6747,7 +6879,7 @@ GRANT SELECT ON TABLE obekt_kadastrovyh_rabot TO openlandusers;
 
 
 --
--- TOC entry 3969 (class 0 OID 0)
+-- TOC entry 3999 (class 0 OID 0)
 -- Dependencies: 206
 -- Name: obremeneniya; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6759,7 +6891,7 @@ GRANT SELECT ON TABLE obremeneniya TO openlandusers;
 
 
 --
--- TOC entry 3970 (class 0 OID 0)
+-- TOC entry 4000 (class 0 OID 0)
 -- Dependencies: 207
 -- Name: opf; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6771,7 +6903,7 @@ GRANT SELECT ON TABLE opf TO openlandusers;
 
 
 --
--- TOC entry 3971 (class 0 OID 0)
+-- TOC entry 4001 (class 0 OID 0)
 -- Dependencies: 208
 -- Name: rayon; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6783,7 +6915,7 @@ GRANT SELECT ON TABLE rayon TO openlandusers;
 
 
 --
--- TOC entry 3972 (class 0 OID 0)
+-- TOC entry 4002 (class 0 OID 0)
 -- Dependencies: 209
 -- Name: region; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6795,7 +6927,7 @@ GRANT SELECT ON TABLE region TO openlandusers;
 
 
 --
--- TOC entry 3973 (class 0 OID 0)
+-- TOC entry 4003 (class 0 OID 0)
 -- Dependencies: 210
 -- Name: section_mp; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6807,7 +6939,7 @@ GRANT SELECT ON TABLE section_mp TO openlandusers;
 
 
 --
--- TOC entry 3975 (class 0 OID 0)
+-- TOC entry 4005 (class 0 OID 0)
 -- Dependencies: 212
 -- Name: selsovet; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6819,7 +6951,7 @@ GRANT SELECT ON TABLE selsovet TO openlandusers;
 
 
 --
--- TOC entry 3976 (class 0 OID 0)
+-- TOC entry 4006 (class 0 OID 0)
 -- Dependencies: 213
 -- Name: sistema_koordinat; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6831,7 +6963,7 @@ GRANT SELECT ON TABLE sistema_koordinat TO openlandusers;
 
 
 --
--- TOC entry 3977 (class 0 OID 0)
+-- TOC entry 4007 (class 0 OID 0)
 -- Dependencies: 214
 -- Name: sposob_obrazovaniya_uchastka; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6843,7 +6975,7 @@ GRANT SELECT ON TABLE sposob_obrazovaniya_uchastka TO openlandusers;
 
 
 --
--- TOC entry 3978 (class 0 OID 0)
+-- TOC entry 4008 (class 0 OID 0)
 -- Dependencies: 215
 -- Name: sposob_zakrepleniya_tochki; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6855,7 +6987,7 @@ GRANT SELECT ON TABLE sposob_zakrepleniya_tochki TO openlandusers;
 
 
 --
--- TOC entry 3979 (class 0 OID 0)
+-- TOC entry 4009 (class 0 OID 0)
 -- Dependencies: 216
 -- Name: status_zemelnogo_uchastka; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6867,7 +6999,7 @@ GRANT SELECT ON TABLE status_zemelnogo_uchastka TO openlandusers;
 
 
 --
--- TOC entry 3980 (class 0 OID 0)
+-- TOC entry 4010 (class 0 OID 0)
 -- Dependencies: 217
 -- Name: stroenie; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6879,7 +7011,7 @@ GRANT SELECT ON TABLE stroenie TO openlandusers;
 
 
 --
--- TOC entry 3981 (class 0 OID 0)
+-- TOC entry 4011 (class 0 OID 0)
 -- Dependencies: 218
 -- Name: subect_pravootnosheniy; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6891,7 +7023,7 @@ GRANT SELECT ON TABLE subect_pravootnosheniy TO openlandusers;
 
 
 --
--- TOC entry 3982 (class 0 OID 0)
+-- TOC entry 4012 (class 0 OID 0)
 -- Dependencies: 219
 -- Name: type_applied_file; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6903,7 +7035,7 @@ GRANT SELECT ON TABLE type_applied_file TO openlandusers;
 
 
 --
--- TOC entry 3983 (class 0 OID 0)
+-- TOC entry 4013 (class 0 OID 0)
 -- Dependencies: 220
 -- Name: ulica; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6915,7 +7047,7 @@ GRANT SELECT ON TABLE ulica TO openlandusers;
 
 
 --
--- TOC entry 3984 (class 0 OID 0)
+-- TOC entry 4014 (class 0 OID 0)
 -- Dependencies: 221
 -- Name: vid_ploshadi; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6927,7 +7059,7 @@ GRANT SELECT ON TABLE vid_ploshadi TO openlandusers;
 
 
 --
--- TOC entry 3985 (class 0 OID 0)
+-- TOC entry 4015 (class 0 OID 0)
 -- Dependencies: 222
 -- Name: vid_zemelnogo_uchastka; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6939,7 +7071,7 @@ GRANT SELECT ON TABLE vid_zemelnogo_uchastka TO openlandusers;
 
 
 --
--- TOC entry 3986 (class 0 OID 0)
+-- TOC entry 4016 (class 0 OID 0)
 -- Dependencies: 223
 -- Name: zona; Type: ACL; Schema: class; Owner: openlandadmin
 --
@@ -6953,7 +7085,7 @@ GRANT SELECT ON TABLE zona TO openlandusers;
 SET search_path = mapinfo, pg_catalog;
 
 --
--- TOC entry 3987 (class 0 OID 0)
+-- TOC entry 4017 (class 0 OID 0)
 -- Dependencies: 224
 -- Name: mapinfo_mapcatalog; Type: ACL; Schema: mapinfo; Owner: openlandadmin
 --
@@ -6968,7 +7100,7 @@ GRANT SELECT ON TABLE mapinfo_mapcatalog TO openlandusers;
 SET search_path = public, pg_catalog;
 
 --
--- TOC entry 3988 (class 0 OID 0)
+-- TOC entry 4018 (class 0 OID 0)
 -- Dependencies: 225
 -- Name: granica_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -6982,7 +7114,7 @@ GRANT USAGE ON SEQUENCE granica_id_seq TO openlandusers;
 SET search_path = msk, pg_catalog;
 
 --
--- TOC entry 3989 (class 0 OID 0)
+-- TOC entry 4019 (class 0 OID 0)
 -- Dependencies: 226
 -- Name: granica; Type: ACL; Schema: msk; Owner: openlandadmin
 --
@@ -6996,7 +7128,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE granica TO openlandusers;
 SET search_path = public, pg_catalog;
 
 --
--- TOC entry 3990 (class 0 OID 0)
+-- TOC entry 4020 (class 0 OID 0)
 -- Dependencies: 227
 -- Name: kvartal_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7010,7 +7142,7 @@ GRANT USAGE ON SEQUENCE kvartal_id_seq TO openlandusers;
 SET search_path = msk, pg_catalog;
 
 --
--- TOC entry 3991 (class 0 OID 0)
+-- TOC entry 4021 (class 0 OID 0)
 -- Dependencies: 228
 -- Name: kvartal; Type: ACL; Schema: msk; Owner: openlandadmin
 --
@@ -7024,7 +7156,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE kvartal TO openlandusers;
 SET search_path = public, pg_catalog;
 
 --
--- TOC entry 3992 (class 0 OID 0)
+-- TOC entry 4022 (class 0 OID 0)
 -- Dependencies: 229
 -- Name: rayon_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7038,7 +7170,7 @@ GRANT USAGE ON SEQUENCE rayon_id_seq TO openlandusers;
 SET search_path = msk, pg_catalog;
 
 --
--- TOC entry 3993 (class 0 OID 0)
+-- TOC entry 4023 (class 0 OID 0)
 -- Dependencies: 230
 -- Name: rayon; Type: ACL; Schema: msk; Owner: openlandadmin
 --
@@ -7052,7 +7184,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE rayon TO openlandusers;
 SET search_path = public, pg_catalog;
 
 --
--- TOC entry 3994 (class 0 OID 0)
+-- TOC entry 4024 (class 0 OID 0)
 -- Dependencies: 231
 -- Name: tochka_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7066,7 +7198,7 @@ GRANT USAGE ON SEQUENCE tochka_id_seq TO openlandusers;
 SET search_path = msk, pg_catalog;
 
 --
--- TOC entry 3995 (class 0 OID 0)
+-- TOC entry 4025 (class 0 OID 0)
 -- Dependencies: 232
 -- Name: tochka; Type: ACL; Schema: msk; Owner: openlandadmin
 --
@@ -7080,7 +7212,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE tochka TO openlandusers;
 SET search_path = public, pg_catalog;
 
 --
--- TOC entry 3996 (class 0 OID 0)
+-- TOC entry 4026 (class 0 OID 0)
 -- Dependencies: 233
 -- Name: uchastok_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7094,7 +7226,7 @@ GRANT USAGE ON SEQUENCE uchastok_id_seq TO openlandusers;
 SET search_path = msk, pg_catalog;
 
 --
--- TOC entry 3997 (class 0 OID 0)
+-- TOC entry 4027 (class 0 OID 0)
 -- Dependencies: 234
 -- Name: uchastok; Type: ACL; Schema: msk; Owner: openlandadmin
 --
@@ -7108,7 +7240,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE uchastok TO openlandusers;
 SET search_path = public, pg_catalog;
 
 --
--- TOC entry 3998 (class 0 OID 0)
+-- TOC entry 4028 (class 0 OID 0)
 -- Dependencies: 235
 -- Name: adres; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7120,7 +7252,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE adres TO openlandusers;
 
 
 --
--- TOC entry 4000 (class 0 OID 0)
+-- TOC entry 4030 (class 0 OID 0)
 -- Dependencies: 236
 -- Name: adres_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7132,7 +7264,7 @@ GRANT USAGE ON SEQUENCE adres_id_seq TO openlandusers;
 
 
 --
--- TOC entry 4001 (class 0 OID 0)
+-- TOC entry 4031 (class 0 OID 0)
 -- Dependencies: 237
 -- Name: applied_file; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7144,7 +7276,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE applied_file TO openlandusers;
 
 
 --
--- TOC entry 4002 (class 0 OID 0)
+-- TOC entry 4032 (class 0 OID 0)
 -- Dependencies: 238
 -- Name: client; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7156,7 +7288,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE client TO openlandusers;
 
 
 --
--- TOC entry 4003 (class 0 OID 0)
+-- TOC entry 4033 (class 0 OID 0)
 -- Dependencies: 239
 -- Name: contractor; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7168,7 +7300,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE contractor TO openlandusers;
 
 
 --
--- TOC entry 4004 (class 0 OID 0)
+-- TOC entry 4034 (class 0 OID 0)
 -- Dependencies: 240
 -- Name: document; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7180,7 +7312,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE document TO openlandusers;
 
 
 --
--- TOC entry 4005 (class 0 OID 0)
+-- TOC entry 4035 (class 0 OID 0)
 -- Dependencies: 241
 -- Name: document_applied_file; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7192,7 +7324,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE document_applied_file TO openlanduser
 
 
 --
--- TOC entry 4006 (class 0 OID 0)
+-- TOC entry 4036 (class 0 OID 0)
 -- Dependencies: 242
 -- Name: dom; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7204,7 +7336,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE dom TO openlandusers;
 
 
 --
--- TOC entry 4008 (class 0 OID 0)
+-- TOC entry 4038 (class 0 OID 0)
 -- Dependencies: 243
 -- Name: dom_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7216,7 +7348,7 @@ GRANT USAGE ON SEQUENCE dom_id_seq TO openlandusers;
 
 
 --
--- TOC entry 4009 (class 0 OID 0)
+-- TOC entry 4039 (class 0 OID 0)
 -- Dependencies: 244
 -- Name: duplicate_text_values; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7228,7 +7360,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE duplicate_text_values TO openlanduser
 
 
 --
--- TOC entry 4010 (class 0 OID 0)
+-- TOC entry 4040 (class 0 OID 0)
 -- Dependencies: 245
 -- Name: fiz_liczo; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7240,7 +7372,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE fiz_liczo TO openlandusers;
 
 
 --
--- TOC entry 4011 (class 0 OID 0)
+-- TOC entry 4041 (class 0 OID 0)
 -- Dependencies: 246
 -- Name: foreign_organization; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7252,7 +7384,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE foreign_organization TO openlandusers
 
 
 --
--- TOC entry 4012 (class 0 OID 0)
+-- TOC entry 4042 (class 0 OID 0)
 -- Dependencies: 247
 -- Name: geo_osnova; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7264,7 +7396,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE geo_osnova TO openlandusers;
 
 
 --
--- TOC entry 4013 (class 0 OID 0)
+-- TOC entry 4043 (class 0 OID 0)
 -- Dependencies: 248
 -- Name: gorodskoy_rayon; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7276,7 +7408,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE gorodskoy_rayon TO openlandusers;
 
 
 --
--- TOC entry 4015 (class 0 OID 0)
+-- TOC entry 4045 (class 0 OID 0)
 -- Dependencies: 249
 -- Name: gorodskoy_raiyon_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7288,7 +7420,7 @@ GRANT USAGE ON SEQUENCE gorodskoy_raiyon_id_seq TO openlandusers;
 
 
 --
--- TOC entry 4016 (class 0 OID 0)
+-- TOC entry 4046 (class 0 OID 0)
 -- Dependencies: 250
 -- Name: governance; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7300,7 +7432,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE governance TO openlandusers;
 
 
 --
--- TOC entry 4017 (class 0 OID 0)
+-- TOC entry 4047 (class 0 OID 0)
 -- Dependencies: 251
 -- Name: granica_tochka; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7312,7 +7444,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE granica_tochka TO openlandusers;
 
 
 --
--- TOC entry 4019 (class 0 OID 0)
+-- TOC entry 4049 (class 0 OID 0)
 -- Dependencies: 252
 -- Name: granica_tochka_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7324,7 +7456,7 @@ GRANT USAGE ON SEQUENCE granica_tochka_id_seq TO openlandusers;
 
 
 --
--- TOC entry 4020 (class 0 OID 0)
+-- TOC entry 4050 (class 0 OID 0)
 -- Dependencies: 253
 -- Name: kn; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7336,7 +7468,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE kn TO openlandusers;
 
 
 --
--- TOC entry 4021 (class 0 OID 0)
+-- TOC entry 4051 (class 0 OID 0)
 -- Dependencies: 254
 -- Name: kn_document; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7348,7 +7480,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE kn_document TO openlandusers;
 
 
 --
--- TOC entry 4023 (class 0 OID 0)
+-- TOC entry 4053 (class 0 OID 0)
 -- Dependencies: 255
 -- Name: kn_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7360,7 +7492,7 @@ GRANT USAGE ON SEQUENCE kn_id_seq TO openlandusers;
 
 
 --
--- TOC entry 4024 (class 0 OID 0)
+-- TOC entry 4054 (class 0 OID 0)
 -- Dependencies: 256
 -- Name: korpus; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7372,7 +7504,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE korpus TO openlandusers;
 
 
 --
--- TOC entry 4026 (class 0 OID 0)
+-- TOC entry 4056 (class 0 OID 0)
 -- Dependencies: 257
 -- Name: korpus_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7384,7 +7516,7 @@ GRANT USAGE ON SEQUENCE korpus_id_seq TO openlandusers;
 
 
 --
--- TOC entry 4027 (class 0 OID 0)
+-- TOC entry 4057 (class 0 OID 0)
 -- Dependencies: 258
 -- Name: kvartira; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7396,7 +7528,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE kvartira TO openlandusers;
 
 
 --
--- TOC entry 4029 (class 0 OID 0)
+-- TOC entry 4059 (class 0 OID 0)
 -- Dependencies: 259
 -- Name: kvartira_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7408,7 +7540,7 @@ GRANT USAGE ON SEQUENCE kvartira_id_seq TO openlandusers;
 
 
 --
--- TOC entry 4030 (class 0 OID 0)
+-- TOC entry 4060 (class 0 OID 0)
 -- Dependencies: 260
 -- Name: mo; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7420,7 +7552,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE mo TO openlandusers;
 
 
 --
--- TOC entry 4032 (class 0 OID 0)
+-- TOC entry 4062 (class 0 OID 0)
 -- Dependencies: 261
 -- Name: mo_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7432,7 +7564,7 @@ GRANT USAGE ON SEQUENCE mo_id_seq TO openlandusers;
 
 
 --
--- TOC entry 4033 (class 0 OID 0)
+-- TOC entry 4063 (class 0 OID 0)
 -- Dependencies: 262
 -- Name: mp; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7444,7 +7576,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE mp TO openlandusers;
 
 
 --
--- TOC entry 4034 (class 0 OID 0)
+-- TOC entry 4064 (class 0 OID 0)
 -- Dependencies: 263
 -- Name: mp_section; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7456,7 +7588,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE mp_section TO openlandusers;
 
 
 --
--- TOC entry 4035 (class 0 OID 0)
+-- TOC entry 4065 (class 0 OID 0)
 -- Dependencies: 264
 -- Name: mp_section_data; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7468,7 +7600,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE mp_section_data TO openlandusers;
 
 
 --
--- TOC entry 4036 (class 0 OID 0)
+-- TOC entry 4066 (class 0 OID 0)
 -- Dependencies: 265
 -- Name: naselen_punkt; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7480,7 +7612,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE naselen_punkt TO openlandusers;
 
 
 --
--- TOC entry 4038 (class 0 OID 0)
+-- TOC entry 4068 (class 0 OID 0)
 -- Dependencies: 266
 -- Name: naselen_punkt_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7492,7 +7624,7 @@ GRANT USAGE ON SEQUENCE naselen_punkt_id_seq TO openlandusers;
 
 
 --
--- TOC entry 4039 (class 0 OID 0)
+-- TOC entry 4069 (class 0 OID 0)
 -- Dependencies: 267
 -- Name: oks; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7504,7 +7636,43 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE oks TO openlandusers;
 
 
 --
--- TOC entry 4040 (class 0 OID 0)
+-- TOC entry 4070 (class 0 OID 0)
+-- Dependencies: 287
+-- Name: owner_neighbour; Type: ACL; Schema: public; Owner: openlandadmin
+--
+
+REVOKE ALL ON TABLE owner_neighbour FROM PUBLIC;
+REVOKE ALL ON TABLE owner_neighbour FROM openlandadmin;
+GRANT ALL ON TABLE owner_neighbour TO openlandadmin;
+GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE owner_neighbour TO openlandusers;
+
+
+--
+-- TOC entry 4071 (class 0 OID 0)
+-- Dependencies: 288
+-- Name: owner_neighbour_document; Type: ACL; Schema: public; Owner: openlandadmin
+--
+
+REVOKE ALL ON TABLE owner_neighbour_document FROM PUBLIC;
+REVOKE ALL ON TABLE owner_neighbour_document FROM openlandadmin;
+GRANT ALL ON TABLE owner_neighbour_document TO openlandadmin;
+GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE owner_neighbour_document TO openlandusers;
+
+
+--
+-- TOC entry 4072 (class 0 OID 0)
+-- Dependencies: 286
+-- Name: parcel_neighbour; Type: ACL; Schema: public; Owner: openlandadmin
+--
+
+REVOKE ALL ON TABLE parcel_neighbour FROM PUBLIC;
+REVOKE ALL ON TABLE parcel_neighbour FROM openlandadmin;
+GRANT ALL ON TABLE parcel_neighbour TO openlandadmin;
+GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE parcel_neighbour TO openlandusers;
+
+
+--
+-- TOC entry 4073 (class 0 OID 0)
 -- Dependencies: 268
 -- Name: parcel_parcel; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7516,7 +7684,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE parcel_parcel TO openlandusers;
 
 
 --
--- TOC entry 4041 (class 0 OID 0)
+-- TOC entry 4074 (class 0 OID 0)
 -- Dependencies: 269
 -- Name: ploshad; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7528,7 +7696,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE ploshad TO openlandusers;
 
 
 --
--- TOC entry 4043 (class 0 OID 0)
+-- TOC entry 4076 (class 0 OID 0)
 -- Dependencies: 270
 -- Name: ploshad_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7540,7 +7708,7 @@ GRANT USAGE ON SEQUENCE ploshad_id_seq TO openlandusers;
 
 
 --
--- TOC entry 4044 (class 0 OID 0)
+-- TOC entry 4077 (class 0 OID 0)
 -- Dependencies: 271
 -- Name: rayon; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7552,7 +7720,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE rayon TO openlandusers;
 
 
 --
--- TOC entry 4046 (class 0 OID 0)
+-- TOC entry 4079 (class 0 OID 0)
 -- Dependencies: 272
 -- Name: raiyon_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7564,7 +7732,7 @@ GRANT USAGE ON SEQUENCE raiyon_id_seq TO openlandusers;
 
 
 --
--- TOC entry 4047 (class 0 OID 0)
+-- TOC entry 4080 (class 0 OID 0)
 -- Dependencies: 273
 -- Name: rebro_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7576,7 +7744,7 @@ GRANT USAGE ON SEQUENCE rebro_id_seq TO openlandusers;
 
 
 --
--- TOC entry 4048 (class 0 OID 0)
+-- TOC entry 4081 (class 0 OID 0)
 -- Dependencies: 274
 -- Name: selsovet; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7588,7 +7756,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE selsovet TO openlandusers;
 
 
 --
--- TOC entry 4050 (class 0 OID 0)
+-- TOC entry 4083 (class 0 OID 0)
 -- Dependencies: 275
 -- Name: selsovet_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7600,7 +7768,7 @@ GRANT USAGE ON SEQUENCE selsovet_id_seq TO openlandusers;
 
 
 --
--- TOC entry 4051 (class 0 OID 0)
+-- TOC entry 4084 (class 0 OID 0)
 -- Dependencies: 276
 -- Name: sredstva_izmereniya; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7612,7 +7780,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE sredstva_izmereniya TO openlandusers;
 
 
 --
--- TOC entry 4052 (class 0 OID 0)
+-- TOC entry 4085 (class 0 OID 0)
 -- Dependencies: 277
 -- Name: stroenie; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7624,7 +7792,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE stroenie TO openlandusers;
 
 
 --
--- TOC entry 4054 (class 0 OID 0)
+-- TOC entry 4087 (class 0 OID 0)
 -- Dependencies: 278
 -- Name: stroenie_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7636,7 +7804,7 @@ GRANT USAGE ON SEQUENCE stroenie_id_seq TO openlandusers;
 
 
 --
--- TOC entry 4055 (class 0 OID 0)
+-- TOC entry 4088 (class 0 OID 0)
 -- Dependencies: 279
 -- Name: subparcel; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7648,7 +7816,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE subparcel TO openlandusers;
 
 
 --
--- TOC entry 4056 (class 0 OID 0)
+-- TOC entry 4089 (class 0 OID 0)
 -- Dependencies: 280
 -- Name: uchastok_adres; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7660,7 +7828,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE uchastok_adres TO openlandusers;
 
 
 --
--- TOC entry 4058 (class 0 OID 0)
+-- TOC entry 4091 (class 0 OID 0)
 -- Dependencies: 281
 -- Name: uchastok_adres_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7672,7 +7840,7 @@ GRANT USAGE ON SEQUENCE uchastok_adres_id_seq TO openlandusers;
 
 
 --
--- TOC entry 4059 (class 0 OID 0)
+-- TOC entry 4092 (class 0 OID 0)
 -- Dependencies: 282
 -- Name: ulica; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7684,7 +7852,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE ulica TO openlandusers;
 
 
 --
--- TOC entry 4061 (class 0 OID 0)
+-- TOC entry 4094 (class 0 OID 0)
 -- Dependencies: 283
 -- Name: ulica_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7696,7 +7864,7 @@ GRANT USAGE ON SEQUENCE ulica_id_seq TO openlandusers;
 
 
 --
--- TOC entry 4062 (class 0 OID 0)
+-- TOC entry 4095 (class 0 OID 0)
 -- Dependencies: 284
 -- Name: yur_liczo; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7708,7 +7876,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE yur_liczo TO openlandusers;
 
 
 --
--- TOC entry 4063 (class 0 OID 0)
+-- TOC entry 4096 (class 0 OID 0)
 -- Dependencies: 285
 -- Name: zona_id_seq; Type: ACL; Schema: public; Owner: openlandadmin
 --
@@ -7722,7 +7890,7 @@ GRANT USAGE ON SEQUENCE zona_id_seq TO openlandusers;
 SET search_path = class, pg_catalog;
 
 --
--- TOC entry 3018 (class 826 OID 20093)
+-- TOC entry 3032 (class 826 OID 35196)
 -- Name: DEFAULT PRIVILEGES FOR TABLES; Type: DEFAULT ACL; Schema: class; Owner: postgres
 --
 
@@ -7731,7 +7899,7 @@ ALTER DEFAULT PRIVILEGES FOR ROLE postgres IN SCHEMA class REVOKE ALL ON TABLES 
 ALTER DEFAULT PRIVILEGES FOR ROLE postgres IN SCHEMA class GRANT SELECT ON TABLES  TO openlandusers;
 
 
--- Completed on 2013-11-14 09:53:43
+-- Completed on 2013-12-16 07:59:11
 
 --
 -- PostgreSQL database dump complete

@@ -2,8 +2,8 @@
 
 # Form implementation generated from reading ui file 'border.ui'
 #
-# Created: Mon Oct 28 11:22:19 2013
-#      by: PyQt4 UI code generator 4.9.4
+# Created: Thu Dec 05 19:02:28 2013
+#      by: PyQt4 UI code generator 4.8.3
 #
 # WARNING! All changes made in this file will be lost!
 

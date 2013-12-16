@@ -18,6 +18,7 @@ from border import border
 from kn import kn
 from document import Document
 from commontexts import CommonText
+from parcelneighbour import ParcelNeighbour
 
 class uchAttributes(QDialog,  Ui_uchAttributes):
     def __init__(self, iface):
@@ -468,6 +469,25 @@ class uchAttributes(QDialog,  Ui_uchAttributes):
                     itemInsert.setData(2, 0, int(every['id']))
 
                     itemRestriction.addChild(itemInsert)
+        
+        # Смежные ЗУ
+        listNeighbour = attributesByKeys('pb_parcel_neighbour', 
+                                         'id_parcel', [self.idParcel], 
+                                         attributesNamesParcelNeighbour)
+
+        itemNeighbour = QTreeWidgetItem([u'Смежные ЗУ', u''])
+        itemNeighbour.setData(2, 0, -10)
+        tree.addTopLevelItem(itemNeighbour)
+
+        if len(listNeighbour) > 0:
+            for every in listNeighbour:
+                definition  = reNull(every['definition'], '')
+                kn          = reNull(every['cadastral_number'], '')
+
+                itemInsert = QTreeWidgetItem([definition, kn])
+                
+                itemInsert.setData(2, 0, every['guid'])
+                itemNeighbour.addChild(itemInsert)
 
         if paramByName([['interface/isSortAttributes', 'bool']])[0]: 
             tree.setSortingEnabled(True)
@@ -553,6 +573,16 @@ class uchAttributes(QDialog,  Ui_uchAttributes):
                     d = kn(self.iface)
                     d.id_uchastok = self.idParcel
                     d.tip_kn = int(gv['restrictionKn'])
+                    d.action = 'add'
+                    d.dlgFill()
+                    result = d.exec_()
+                    if result == 1: 
+                        self.dlgFill()
+                    del d
+
+                elif itemText == u'Смежные ЗУ':
+                    d = ParcelNeighbour(self.iface)
+                    d.idParcel = self.idParcel
                     d.action = 'add'
                     d.dlgFill()
                     result = d.exec_()
@@ -741,6 +771,17 @@ class uchAttributes(QDialog,  Ui_uchAttributes):
                     if result == 1: self.dlgFill()
                     del d
                 
+                elif itemText == u'Смежные ЗУ':
+                    d = ParcelNeighbour(self.iface)
+                    d.guidPN    = itemData
+                    d.idParcel  = self.idParcel
+                    d.action    = 'edit'
+                    d.dlgFill()
+                    result = d.exec_()
+                    if result == 1: 
+                        self.dlgFill()
+                    del d
+                
                 else:
                     QMessageBox.warning(self.iface.mainWindow(), u'Ошибка редактирования атрибутов', 
                         u'Не определён тип атрибута, выбранного в списке элемента.')
@@ -834,6 +875,12 @@ class uchAttributes(QDialog,  Ui_uchAttributes):
                         else: 
                             QMessageBox.warning(self.iface.mainWindow(), u'Ошибка удаления', 
                                                                          u'Произошла ошибка при удалении кадастрового номера')
+                    elif itemText == u'Смежные ЗУ':
+                        if deleteById('pb_parcel_neighbour', itemData): 
+                            self.dlgFill()
+                        else: 
+                            QMessageBox.warning(self.iface.mainWindow(), u'Ошибка удаления', 
+                                                                         u'Произошла ошибка при удалении смежного ЗУ')
                     else:
                         QMessageBox.warning(self.iface.mainWindow(), u'Ошибка редактирования атрибутов', 
                                                                      u'Не определён тип атрибута, выбранного в списке элемента.')

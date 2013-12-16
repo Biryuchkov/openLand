@@ -54,12 +54,12 @@ class fillAreaUpdate(QDialog,  Ui_fillAreaUpdate):
                     QMessageBox.information(self.iface.mainWindow(), u'Ошибка обработки контура', 
                                                                      u'Не найден многоконтурный участок\nНе обработан участок с обозначением ' + everyParcel['oboznachenie_na_plane'])
                 else:
-                    roundArea = int(self.spinBoxRoundArea.value())
+                    roundArea       = int(self.spinBoxRoundArea.value())
                     roundInaccuracy = int(self.spinBoxRoundInaccuracy.value())
                     plosh = round(float(dictArea[idContour]), roundArea)
-                    if plosh < 1:
+                    if plosh < 0.01:
                         QMessageBox.information(self.iface.mainWindow(), u'Ошибка обработки контура', 
-                                                                         u'Площадь меньше одного квадратного метра\nНе обработан участок с обозначением ' + everyParcel['oboznachenie_na_plane'])
+                                                                         u'Площадь меньше одного квадратного сантиметра\nНе обработан участок с обозначением ' + everyParcel['oboznachenie_na_plane'])
                     else:
                         pogr = round(sqrt(plosh) * 3.5 * accuracyById(idContour), roundInaccuracy)
                     
@@ -84,3 +84,4 @@ class fillAreaUpdate(QDialog,  Ui_fillAreaUpdate):
         self.close()
 
 #        QMessageBox.information(self.iface.mainWindow(), 'test', str())
+                                          
