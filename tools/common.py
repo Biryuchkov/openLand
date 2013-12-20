@@ -9,9 +9,9 @@ import os, sys, shutil, platform, codecs, subprocess
 # gv - global variable
 gv = {}
 
-gv['versionPlugin']   = '0.2.5'     # номер версии последнего релиза модуля
-gv['datePlugin']      = '2013-11-07'# дата версии последнего релиза модуля
-gv['versionDatabase'] = '15'        # номер версии последнего релиза БД
+gv['versionPlugin']   = '0.2.8'     # номер версии последнего релиза модуля
+gv['datePlugin']      = '2013-12-16'# дата версии последнего релиза модуля
+gv['versionDatabase'] = '17'        # номер версии последнего релиза БД
 
 gv['casualParcelCode']   = '01'     # код типа ЗУ по классификатору для землепользования                            class.vid_zemelnogo_uchastka
 gv['unitedParcelCode']   = '02'     # код типа ЗУ по классификатору для единого землепользования                    class.vid_zemelnogo_uchastka
@@ -56,71 +56,74 @@ gln['ln_uchastok'] = u'Участок'
 gln['ln_kvartal']  = u'Квартал'
 gln['ln_rayon']    = u'Район'
 
-gln['cl_vid_zemelnogo_uchastka']       = u'Вид земельного участка'
-gln['cl_status_zemelnogo_uchastka']    = u'Статус земельного участка'
-gln['cl_kategoriya_zemli']             = u'Категория земли'
-gln['cl_vid_ploshadi']                 = u'Вид площади'
-gln['cl_edinicy_izmereniya']           = u'Единицы измерения'
-gln['cl_ispolzovanie_zemli']           = u'Разрешенное использование'
-gln['cl_sposob_obrazovaniya_uchastka'] = u'Способ образования участка'
-gln['cl_region']                       = u'Регион'
-gln['cl_rayon']                        = u'Тип района'
-gln['cl_ato_rayonogo_podchineniya']    = u'Тип АТО районного подчинения'
-gln['cl_gorodskoy_rayon']              = u'Тип городского района'
-gln['cl_selsovet']                     = u'Тип сельсовета'
-gln['cl_naselen_punkt']                = u'Тип населенного пункта'
-gln['cl_ulica']                        = u'Тип улицы'
-gln['cl_dom']                          = u'Тип дома'
-gln['cl_korpus']                       = u'Тип корпуса'
-gln['cl_stroenie']                     = u'Тип строения'
-gln['cl_kvartira']                     = u'Тип квартиры'
-gln['cl_sposob_zakrepleniya_tochki']   = u'Способ закрепления точки'
-gln['cl_metod_opredeleniya_tochki']    = u'Метод определения точки'
-gln['cl_sistema_koordinat']            = u'Система координат'
-gln['cl_obremeneniya']                 = u'Обременения'
-gln['cl_obekt_gkn']                    = u'Объект ГКН'
-gln['cl_obekt_kadastrovyh_rabot']      = u'Тип объекта кадастровых работ'
-gln['cl_database_version']             = u'Версия БД'
-gln['cl_section_mp']                   = u'Схема разделов межевого плана'
-gln['cl_type_applied_file']            = u'Тип приложенного файла'
-gln['cl_type_document']                = u'Тип документа'
-gln['cl_kladr']  = u'kladr'         # таблица из БД kladr.db формата SQLite
-gln['cl_street'] = u'street'        # таблица из БД kladr.db формата SQLite
-gln['cl_doma']  = u'doma'           # таблица из БД kladr.db формата SQLite
-
-gln['pb_kn_document']           = u'Документы для КН'
-gln['pb_common_text']           = u'Стандартные текстовые формулировки'
-gln['pb_contractor']            = u'Кадастровый инженер'
-gln['pb_fiz_liczo']             = u'Физическое лицо'
-gln['pb_yur_liczo']             = u'Юридическое лицо'
-gln['pb_governance']            = u'Орган власти'
-gln['pb_foreign_organization']  = u'Иностранное юридическое лицо'
-gln['pb_client']                = u'Заказчик'
-gln['pb_oks']                   = u'Объект строительства'
-gln['pb_subparcel']             = u'Сведения о ЧЗУ'
-gln['pb_applied_file']          = u'Приложенный файл'
-gln['pb_document_applied_file'] = u'Приложенный файл документа'
-gln['pb_document']              = u'Документ'
-gln['pb_mp_section_data']       = u'Данные раздела межевого плана'
-gln['pb_mp']                    = u'Межевой план'
-gln['pb_parcel_parcel']         = u'Взаимосвязанные участки'
-gln['pb_kn']                    = u'Кадастровый номер'
-gln['pb_sredstva_izmereniya']   = u'Средства измерения'
-gln['pb_geo_osnova']            = u'Геодезическая основа'
-gln['pb_granica_tochka']        = u'Граница-точка'
-gln['pb_ploshad']               = u'Площадь'
-gln['pb_adres']                 = u'Адрес'
-gln['pb_rayon']                 = u'Район административный'
-gln['pb_mo']                    = u'МО'
-gln['pb_gorodskoy_rayon']       = u'Городской район'
-gln['pb_selsovet']              = u'Сельсовет'
-gln['pb_naselen_punkt']         = u'Населенный пункт'
-gln['pb_ulica']                 = u'Улица'
-gln['pb_dom']                   = u'Дом'
-gln['pb_korpus']                = u'Корпус'
-gln['pb_stroenie']              = u'Строение'
-gln['pb_kvartira']              = u'Квартира'
-gln['pb_uchastok_adres']        = u'Адрес участка'
+gln['cl_vid_zemelnogo_uchastka']        = u'Вид земельного участка'
+gln['cl_status_zemelnogo_uchastka']     = u'Статус земельного участка'
+gln['cl_kategoriya_zemli']              = u'Категория земли'
+gln['cl_vid_ploshadi']                  = u'Вид площади'
+gln['cl_edinicy_izmereniya']            = u'Единицы измерения'
+gln['cl_ispolzovanie_zemli']            = u'Разрешенное использование'
+gln['cl_sposob_obrazovaniya_uchastka']  = u'Способ образования участка'
+gln['cl_region']                        = u'Регион'
+gln['cl_rayon']                         = u'Тип района'
+gln['cl_ato_rayonogo_podchineniya']     = u'Тип АТО районного подчинения'
+gln['cl_gorodskoy_rayon']               = u'Тип городского района'
+gln['cl_selsovet']                      = u'Тип сельсовета'
+gln['cl_naselen_punkt']                 = u'Тип населенного пункта'
+gln['cl_ulica']                         = u'Тип улицы'
+gln['cl_dom']                           = u'Тип дома'
+gln['cl_korpus']                        = u'Тип корпуса'
+gln['cl_stroenie']                      = u'Тип строения'
+gln['cl_kvartira']                      = u'Тип квартиры'
+gln['cl_sposob_zakrepleniya_tochki']    = u'Способ закрепления точки'
+gln['cl_metod_opredeleniya_tochki']     = u'Метод определения точки'
+gln['cl_sistema_koordinat']             = u'Система координат'
+gln['cl_obremeneniya']                  = u'Обременения'
+gln['cl_obekt_gkn']                     = u'Объект ГКН'
+gln['cl_obekt_kadastrovyh_rabot']       = u'Тип объекта кадастровых работ'
+gln['cl_database_version']              = u'Версия БД'
+gln['cl_section_mp']                    = u'Схема разделов межевого плана'
+gln['cl_type_applied_file']             = u'Тип приложенного файла'
+gln['cl_type_document']                 = u'Тип документа'
+gln['cl_kladr']     = u'kladr'          # таблица из БД kladr.db формата SQLite
+gln['cl_street']    = u'street'         # таблица из БД kladr.db формата SQLite
+gln['cl_doma']      = u'doma'           # таблица из БД kladr.db формата SQLite
+                                        
+gln['pb_owner_neighbour_document']      = u'Документ права смежного ЗУ'
+gln['pb_owner_neighbour']               = u'Правообладатель смежного ЗУ'
+gln['pb_parcel_neighbour']              = u'Смежный ЗУ'
+gln['pb_kn_document']                   = u'Документы для КН'
+gln['pb_common_text']                   = u'Стандартные текстовые формулировки'
+gln['pb_contractor']                    = u'Кадастровый инженер'
+gln['pb_fiz_liczo']                     = u'Физическое лицо'
+gln['pb_yur_liczo']                     = u'Юридическое лицо'
+gln['pb_governance']                    = u'Орган власти'
+gln['pb_foreign_organization']          = u'Иностранное юридическое лицо'
+gln['pb_client']                        = u'Заказчик'
+gln['pb_oks']                           = u'Объект строительства'
+gln['pb_subparcel']                     = u'Сведения о ЧЗУ'
+gln['pb_applied_file']                  = u'Приложенный файл'
+gln['pb_document_applied_file']         = u'Приложенный файл документа'
+gln['pb_document']                      = u'Документ'
+gln['pb_mp_section_data']               = u'Данные раздела межевого плана'
+gln['pb_mp']                            = u'Межевой план'
+gln['pb_parcel_parcel']                 = u'Взаимосвязанные участки'
+gln['pb_kn']                            = u'Кадастровый номер'
+gln['pb_sredstva_izmereniya']           = u'Средства измерения'
+gln['pb_geo_osnova']                    = u'Геодезическая основа'
+gln['pb_granica_tochka']                = u'Граница-точка'
+gln['pb_ploshad']                       = u'Площадь'
+gln['pb_adres']                         = u'Адрес'
+gln['pb_rayon']                         = u'Район административный'
+gln['pb_mo']                            = u'МО'
+gln['pb_gorodskoy_rayon']               = u'Городской район'
+gln['pb_selsovet']                      = u'Сельсовет'
+gln['pb_naselen_punkt']                 = u'Населенный пункт'
+gln['pb_ulica']                         = u'Улица'
+gln['pb_dom']                           = u'Дом'
+gln['pb_korpus']                        = u'Корпус'
+gln['pb_stroenie']                      = u'Строение'
+gln['pb_kvartira']                      = u'Квартира'
+gln['pb_uchastok_adres']                = u'Адрес участка'
 
 gln['ds_point']     = u'Точечные'
 gln['ds_line']      = u'Линейные'
@@ -238,6 +241,13 @@ attributesNamesBorder               = ['id', 'id_uchastok', 'opisanie',
                                     'update_user', 'update_date', 'id_msk', 'pre'] 
 
 attributesNamesCreator              = ['create_user', 'create_date']
+
+attributesNamesParcelNeighbour      = ['guid', 'id_parcel', 'definition', 'cadastral_number']
+
+attributesNamesOwnerNeighbour       = ['guid', 'guid_parcel_neighbour', 'name_right', 
+                                    'name_owner', 'contact_address']
+
+attributesNamesOwnerNeighbourDoc    = ['guid', 'guid_owner_neighbour', 'guid_document']
 
 okay = QMessageBox.Ok
 cancel = QMessageBox.Cancel
@@ -977,11 +987,18 @@ def checkDoublePoint(a):
 
 ################################################################################
 def goTopInTreeView(tree, item, data, coldata):
-    v = int(item.data(coldata, 0))
+    try: 
+        v = int(item.data(coldata, 0))
+    except: 
+        v = item.data(coldata, 0)
+
     while (v != data): 
         item = tree.setCurrentItem(item.parent())
         if item != None:
-            v = int(item.data(coldata, 0))
+            try: 
+                v = int(item.data(coldata, 0))
+            except: 
+                v = item.data(coldata, 0)
         else:
             break
         

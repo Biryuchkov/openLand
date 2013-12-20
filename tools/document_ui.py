@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'document.ui'
 #
-# Created: Mon Oct 28 11:22:23 2013
+# Created: Fri Nov 08 20:21:13 2013
 #      by: PyQt4 UI code generator 4.9.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -145,7 +145,7 @@ class Ui_DialogDocument(object):
         self.formLayout_2.setWidget(14, QtGui.QFormLayout.FieldRole, self.lineEditCreateDate)
         self.toolBox.addItem(self.pageAttributes, _fromUtf8(""))
         self.pageAppliedFiles = QtGui.QWidget()
-        self.pageAppliedFiles.setGeometry(QtCore.QRect(0, 0, 502, 183))
+        self.pageAppliedFiles.setGeometry(QtCore.QRect(0, 0, 96, 79))
         self.pageAppliedFiles.setObjectName(_fromUtf8("pageAppliedFiles"))
         self.horizontalLayout_2 = QtGui.QHBoxLayout(self.pageAppliedFiles)
         self.horizontalLayout_2.setObjectName(_fromUtf8("horizontalLayout_2"))
@@ -240,10 +240,10 @@ class Ui_DialogDocument(object):
         self.treeWidget.headerItem().setText(0, QtGui.QApplication.translate("DialogDocument", "Дата", None, QtGui.QApplication.UnicodeUTF8))
         self.treeWidget.headerItem().setText(1, QtGui.QApplication.translate("DialogDocument", "Номер", None, QtGui.QApplication.UnicodeUTF8))
         self.treeWidget.headerItem().setText(2, QtGui.QApplication.translate("DialogDocument", "Наименование", None, QtGui.QApplication.UnicodeUTF8))
-        self.label.setText(QtGui.QApplication.translate("DialogDocument", "Тип документа", None, QtGui.QApplication.UnicodeUTF8))
+        self.label.setText(QtGui.QApplication.translate("DialogDocument", "<html><head/><body><p><span style=\" font-weight:600;\">Тип документа</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.label_2.setText(QtGui.QApplication.translate("DialogDocument", "Наименование документа", None, QtGui.QApplication.UnicodeUTF8))
         self.label_3.setText(QtGui.QApplication.translate("DialogDocument", "Серия документа", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_4.setText(QtGui.QApplication.translate("DialogDocument", "Номер документа", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_4.setText(QtGui.QApplication.translate("DialogDocument", "<html><head/><body><p><span style=\" font-weight:600;\">Номер документа</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.label_5.setText(QtGui.QApplication.translate("DialogDocument", "Дата выдачи документа", None, QtGui.QApplication.UnicodeUTF8))
         self.label_6.setText(QtGui.QApplication.translate("DialogDocument", "Организация, выдавшая документ", None, QtGui.QApplication.UnicodeUTF8))
         self.label_7.setText(QtGui.QApplication.translate("DialogDocument", "Номер документа в реестре", None, QtGui.QApplication.UnicodeUTF8))

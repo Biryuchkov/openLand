@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'openlandabout.ui'
 #
-# Created: Mon Oct 28 12:18:43 2013
+# Created: Fri Nov 08 20:18:27 2013
 #      by: PyQt4 UI code generator 4.9.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -123,7 +123,7 @@ class Ui_OpenLandAbout(object):
     def retranslateUi(self, OpenLandAbout):
         OpenLandAbout.setWindowTitle(QtGui.QApplication.translate("OpenLandAbout", "О модуле openLand", None, QtGui.QApplication.UnicodeUTF8))
         self.btnClose.setText(QtGui.QApplication.translate("OpenLandAbout", "Закрыть", None, QtGui.QApplication.UnicodeUTF8))
-        self.lblTitle.setText(QtGui.QApplication.translate("OpenLandAbout", "openLand", None, QtGui.QApplication.UnicodeUTF8))
+        self.lblTitle.setText(QtGui.QApplication.translate("OpenLandAbout", "<html><head/><body><p><span style=\" font-size:18pt; font-weight:600;\">openLand</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.pushButtonAboutQt.setText(QtGui.QApplication.translate("OpenLandAbout", "О Qt", None, QtGui.QApplication.UnicodeUTF8))
         self.textEdit.setHtml(QtGui.QApplication.translate("OpenLandAbout", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"

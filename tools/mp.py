@@ -856,6 +856,7 @@ class mpDialog(QDialog, Ui_DialogMP):
                         
                     listValues = []
                     for everyParcelId in listParcelId:
+                        idParcel = 0
                         idTypeParcel = everyParcelId['id_vid_uchastka']
                         if idTypeParcel == gv['casualParcelCode']:
                             idParcel = int(everyParcelId['id'])

@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+\# -*- coding: utf-8 -*-
 """
 /***************************************************************************
  openLand
@@ -22,11 +22,11 @@
 def name():
     return "openLand"
 def description():
-    return "Module for the cadastral engineer working"
+    return "Module for the cadastral engineer work"
 def category():
     return "Plugins"
 def version():
-    return "Version 0.3.0"
+    return "Version 0.2.8"
 def icon():
     return "settings/main.png"
 def qgisMinimumVersion():

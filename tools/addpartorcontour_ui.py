@@ -2,8 +2,8 @@
 
 # Form implementation generated from reading ui file 'addpartorcontour.ui'
 #
-# Created: Mon Oct 28 11:22:10 2013
-#      by: PyQt4 UI code generator 4.9.4
+# Created: Thu Dec 05 18:51:07 2013
+#      by: PyQt4 UI code generator 4.8.3
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -78,9 +78,11 @@ class Ui_addPartOrContour(object):
         self.pushButtonCancel.setObjectName(_fromUtf8("pushButtonCancel"))
         self.formLayout.setWidget(5, QtGui.QFormLayout.FieldRole, self.pushButtonCancel)
         self.progressBar = QtGui.QProgressBar(addPartOrContour)
-        self.progressBar.setProperty("value", 0)
+        self.progressBar.setProperty(_fromUtf8("value"), 0)
         self.progressBar.setObjectName(_fromUtf8("progressBar"))
-        self.formLayout.setWidget(6, QtGui.QFormLayout.SpanningRole, self.progressBar)
+        self.formLayout.setWidget(7, QtGui.QFormLayout.SpanningRole, self.progressBar)
+        spacerItem = QtGui.QSpacerItem(20, 40, QtGui.QSizePolicy.Minimum, QtGui.QSizePolicy.Expanding)
+        self.formLayout.setItem(6, QtGui.QFormLayout.LabelRole, spacerItem)
 
         self.retranslateUi(addPartOrContour)
         QtCore.QMetaObject.connectSlotsByName(addPartOrContour)

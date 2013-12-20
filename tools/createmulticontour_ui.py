@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'createmulticontour.ui'
 #
-# Created: Mon Oct 28 11:22:22 2013
+# Created: Fri Nov 08 20:20:18 2013
 #      by: PyQt4 UI code generator 4.9.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -57,7 +57,9 @@ class Ui_createMultiContour(object):
         self.progressBar = QtGui.QProgressBar(createMultiContour)
         self.progressBar.setProperty("value", 0)
         self.progressBar.setObjectName(_fromUtf8("progressBar"))
-        self.formLayout.setWidget(5, QtGui.QFormLayout.SpanningRole, self.progressBar)
+        self.formLayout.setWidget(6, QtGui.QFormLayout.SpanningRole, self.progressBar)
+        spacerItem = QtGui.QSpacerItem(20, 40, QtGui.QSizePolicy.Minimum, QtGui.QSizePolicy.Expanding)
+        self.formLayout.setItem(5, QtGui.QFormLayout.LabelRole, spacerItem)
 
         self.retranslateUi(createMultiContour)
         QtCore.QMetaObject.connectSlotsByName(createMultiContour)
