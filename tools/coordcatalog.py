@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-__name__ = 'coordCatalog'
+__name__ = 'coordcatalog'
 __version__ = '0.1'
 __author__ = 'Filippov Vladislav'
 

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-__name__ = 'createCoordCatalog'
+__name__ = 'createGeodata'
 __version__ = '0.1'
 __author__ = 'Filippov Vladislav'
 
@@ -7,18 +7,18 @@ from PyQt4 import QtCore, QtGui
 from coordcatalog import CatalogData
 import os.path
 from PyQt4.QtGui import QDialog, QMessageBox, QFileDialog
-from createCoordCatalog_ui import Ui_CoordCatalog
+from createGeodata_ui import Ui_Geodata
 
 
-# Ведомость создаётся на один ЗУ с любым количеством контуров
-class CreateCoordCatalog(QDialog, Ui_CoordCatalog):
+# Геоданные создаются на один ЗУ с любым количеством контуров
+class CreateGeodata(QDialog, Ui_Geodata):
 	def __init__(self, iface):
 		self.html_cataloga_data = u''
 		QDialog.__init__(self, iface.mainWindow())
 		self.iface = iface
 		self.setupUi(self)
 		self.curr_path = u''
-		self.connect(self.btnCreateCoord, QtCore.SIGNAL("clicked()"), self.calculate)
+		self.connect(self.btnGeodata, QtCore.SIGNAL("clicked()"), self.calculate)
 		self.connect(self.btnSave, QtCore.SIGNAL("clicked()"), self.save_catalog)
 
 	def calculate(self):
@@ -26,7 +26,7 @@ class CreateCoordCatalog(QDialog, Ui_CoordCatalog):
 			and (self.iface.mapCanvas().currentLayer().selectedFeatures() is not None):
 			#for feature in self.iface.mapCanvas().currentLayer().selectedFeatures():
 			ved = CatalogData(self.iface.mapCanvas().currentLayer().selectedFeatures(),
-			                  self.radioBtnNewPoint.isChecked(), False, self.spinBoxFontSize.value())
+			                  self.radioBtnNewPoint.isChecked(), self.radioBtnZiped.isChecked(), 1)
 			data = ved.catalog
 			self.textEdit.setHtml(data)
 			self.btnSave.setEnabled(True)
