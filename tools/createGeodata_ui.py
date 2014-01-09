@@ -23,6 +23,7 @@ except AttributeError:
     def _translate(context, text, disambig):
         return QtGui.QApplication.translate(context, text, disambig)
 
+
 class Ui_Geodata(object):
     def setupUi(self, CoordCatalog):
         CoordCatalog.setObjectName(_fromUtf8("CoordCatalog"))
