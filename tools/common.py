@@ -3,14 +3,14 @@ from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 from qgis.core import *
 
-import os, sys, shutil, platform, codecs, subprocess
+import os, sys, shutil, platform, codecs, webbrowser
 
 # Формирование словаря глобальных переменных
 # gv - global variable
 gv = {}
 
-gv['versionPlugin']   = '0.2.8'     # номер версии последнего релиза модуля
-gv['datePlugin']      = '2013-12-16'# дата версии последнего релиза модуля
+gv['versionPlugin']   = '0.2.9'     # номер версии последнего релиза модуля
+gv['datePlugin']      = '2014-03-11'# дата версии последнего релиза модуля
 gv['versionDatabase'] = '17'        # номер версии последнего релиза БД
 
 gv['casualParcelCode']   = '01'     # код типа ЗУ по классификатору для землепользования                            class.vid_zemelnogo_uchastka
@@ -336,14 +336,14 @@ def systemShowFile(currentItem):
     if 'Windows' in platform.system():
         if os.path.exists(fileName1251):
             cmd = '\"' + fileName1251 + '\"'
-            subprocess.Popen(cmd, shell = True)
+            webbrowser.open(cmd)
             return True
         else:
             return False
     else:
         if os.path.exists(fileNameUnicode):
             cmd = fileNameUnicode
-            subprocess.Popen(cmd, shell = True)
+            webbrowser.open(cmd)
             return True
         else:
             return False

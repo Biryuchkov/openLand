@@ -1,0 +1,1 @@
+xsltproc -o content.xml $1 $2

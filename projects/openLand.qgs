@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>3256239.67956486204639077</xmin>
-            <ymin>319876.9882331081898883</ymin>
-            <xmax>3469096.97144866036251187</xmax>
-            <ymax>461934.10792379756458104</ymax>
+            <xmin>3330316.52125379256904125</xmin>
+            <ymin>366766.48649895406560972</ymin>
+            <xmax>3332396.14625591412186623</xmax>
+            <ymax>367938.59066681651165709</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -23,7 +23,7 @@
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
-    <legend updateDrawingOrder="true">
+    <legend updateDrawingOrder="true" activeLayer="uchastok20121203165126098">
         <legendgroup open="false" checked="Qt::Unchecked" name="Оформление">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Точечные" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
@@ -251,7 +251,7 @@
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Unchecked" name="Классификаторы">
-            <legendgroup open="false" checked="Qt::Unchecked" name="КЛАДР">
+            <legendgroup open="true" checked="Qt::Unchecked" name="КЛАДР">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="kladr" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="kladr20130828115559105" visible="0"/>
@@ -413,7 +413,7 @@
     <projectlayers layercount="75">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>adres20121124154227016</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="adres" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="adres" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -466,7 +466,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>applied_file20130725112815132</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="applied_file" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="applied_file" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -505,7 +505,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>ato_rayonogo_podchineniya20121126182236213</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."ato_rayonogo_podchineniya" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."ato_rayonogo_podchineniya" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -542,7 +542,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>client20130725113953054</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="client" sql=false</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="client" sql=false</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -582,7 +582,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>contractor20130725114800667</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="contractor" sql=false</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="contractor" sql=false</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -626,7 +626,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>database_version20130318200219767</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."database_version" sql=True</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."database_version" sql=True</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -664,7 +664,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>document20130725112515789</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="document" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="document" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -713,7 +713,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>document_applied_file20130725112637788</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="document_applied_file" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="document_applied_file" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -751,7 +751,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>dokument20130821120458415</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."dokument" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."dokument" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -788,7 +788,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>dom20121126184519243</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."dom" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."dom" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -825,7 +825,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>dom20121126184634754</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="dom" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="dom" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -861,9 +861,9 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>doma20130828121618081</id>
-            <datasource>./data/kladr.db|layername=doma|subset="code" = '0'</datasource>
+            <datasource>./data/kladr.db|layername=doma|subset="code" = '0100000100000000001'</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -1274,7 +1274,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>duplicate_text_values20130801110148731</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="duplicate_text_values" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="duplicate_text_values" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -1312,7 +1312,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>edinicy_izmereniya20121121114413038</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."edinicy_izmereniya" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."edinicy_izmereniya" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -1349,7 +1349,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>fiz_liczo20130725114457132</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="fiz_liczo" sql=false</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="fiz_liczo" sql=false</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -1398,7 +1398,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>foreign_organization20130725114146846</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="foreign_organization" sql=false</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="foreign_organization" sql=false</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -1436,7 +1436,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>geo_osnova20130118161629757</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="geo_osnova" sql="id_sistema_koordinat" = '0e5059fb-75ef-4021-855e-8101aea729bb'</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="geo_osnova" sql="id_sistema_koordinat" = '0e5059fb-75ef-4021-855e-8101aea729bb'</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -1478,7 +1478,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>gorodskoy_rayon20121126182613700</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."gorodskoy_rayon" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."gorodskoy_rayon" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -1515,7 +1515,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>gorodskoy_rayon20121126182758194</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="gorodskoy_rayon" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="gorodskoy_rayon" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -1553,7 +1553,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>governance20130725114253621</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="governance" sql=false</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="governance" sql=false</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -1590,7 +1590,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>granica20121204184130101</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' estimatedmetadata=true srid=0 type=LINESTRING table="msk"."granica" (geom) sql="id_msk" = '0e5059fb-75ef-4021-855e-8101aea729bb'</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' estimatedmetadata=true srid=0 type=LINESTRING table="msk"."granica" (geom) sql="id_msk" = '0e5059fb-75ef-4021-855e-8101aea729bb'</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -1872,7 +1872,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>granica_tochka20121205153144727</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' estimatedmetadata=true table="granica_tochka" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' estimatedmetadata=true table="granica_tochka" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -1910,7 +1910,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>ispolzovanie_zemli20121123170447630</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."ispolzovanie_zemli" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."ispolzovanie_zemli" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -1947,7 +1947,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>kategoriya_zemli20121120165747989</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."kategoriya_zemli" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."kategoriya_zemli" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -1982,9 +1982,9 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>kladr20130828115559105</id>
-            <datasource>./data/kladr.db|layername=kladr|subset="code" = '0'</datasource>
+            <datasource>./data/kladr.db|layername=kladr|subset="code" = '0100000000000'</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2027,7 +2027,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>kn20130220201357076</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="kn" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="kn" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2066,7 +2066,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>kn_document20130827094843303</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="kn_document" sql=false</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="kn_document" sql=false</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2104,7 +2104,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>korpus20121126184729055</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."korpus" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."korpus" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2141,7 +2141,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>korpus20121126184859466</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="korpus" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="korpus" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2179,7 +2179,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>kvartal20121119101607062</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' srid=0 type=POLYGON table="msk"."kvartal" (geom) sql="id_msk" = '0e5059fb-75ef-4021-855e-8101aea729bb'</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' srid=0 type=POLYGON table="msk"."kvartal" (geom) sql="id_msk" = '0e5059fb-75ef-4021-855e-8101aea729bb'</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2390,7 +2390,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>kvartira20121126185123377</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."kvartira" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."kvartira" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2427,7 +2427,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>kvartira20121126185214432</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="kvartira" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="kvartira" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2465,7 +2465,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>metod_opredeleniya_tochki20121205171115970</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' estimatedmetadata=true table="class"."metod_opredeleniya_tochki" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' estimatedmetadata=true table="class"."metod_opredeleniya_tochki" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2502,7 +2502,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>mo20121126182443628</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="mo" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="mo" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2541,7 +2541,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>mp20130725111730376</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="mp" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="mp" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2585,7 +2585,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>mp_section_data20130725112220853</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="mp_section_data" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="mp_section_data" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2629,7 +2629,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>naselen_punkt20121126183717766</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."naselen_punkt" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."naselen_punkt" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2666,7 +2666,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>naselen_punkt20121126183808414</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="naselen_punkt" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="naselen_punkt" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2704,7 +2704,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>obekt_gkn20130226121657616</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."obekt_gkn" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."obekt_gkn" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2741,7 +2741,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>obekt_kadastrovyh_rabot20130228181852755</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."obekt_kadastrovyh_rabot" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."obekt_kadastrovyh_rabot" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2778,7 +2778,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>obremeneniya20130222123442484</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."obremeneniya" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."obremeneniya" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2815,7 +2815,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>oks20130725113516929</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="oks" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="oks" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2854,7 +2854,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>owner_neighbour20131211091218708</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="public"."owner_neighbour" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="public"."owner_neighbour" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2884,9 +2884,9 @@
                 <edittype labelontop="0" editable="1" type="0" name="name_owner"/>
                 <edittype labelontop="0" editable="1" type="0" name="name_right"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -2894,7 +2894,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>owner_neighbour_document20131211091223086</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="public"."owner_neighbour_document" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="public"."owner_neighbour_document" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2922,9 +2922,9 @@
                 <edittype labelontop="0" editable="1" type="0" name="guid_document"/>
                 <edittype labelontop="0" editable="1" type="0" name="guid_owner_neighbour"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -2932,7 +2932,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>parcel_neighbour20131211091214692</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="public"."parcel_neighbour" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="public"."parcel_neighbour" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -2961,9 +2961,9 @@
                 <edittype labelontop="0" editable="1" type="0" name="guid"/>
                 <edittype labelontop="0" editable="1" type="0" name="id_parcel"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -2971,7 +2971,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>parcel_parcel20130717192257532</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="parcel_parcel" sql=false</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="parcel_parcel" sql=false</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3009,7 +3009,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>ploshad20121120182846527</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="ploshad" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="ploshad" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3051,7 +3051,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>rayon20121119101516927</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' srid=0 type=POLYGON table="msk"."rayon" (geom) sql="id_msk" = '0e5059fb-75ef-4021-855e-8101aea729bb'</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' srid=0 type=POLYGON table="msk"."rayon" (geom) sql="id_msk" = '0e5059fb-75ef-4021-855e-8101aea729bb'</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3256,7 +3256,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>rayon20121126180734700</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."rayon" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."rayon" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3293,7 +3293,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>rayon20121126182027150</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="rayon" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="rayon" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3331,7 +3331,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>region20121126180406733</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."region" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."region" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3368,7 +3368,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>section_mp20130723110538531</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."section_mp" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."section_mp" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3409,7 +3409,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>selsovet20121126183041730</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."selsovet" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."selsovet" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3446,7 +3446,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>selsovet20121126183418928</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="selsovet" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="selsovet" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3484,7 +3484,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>sistema_koordinat20121212081704559</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."sistema_koordinat" sql="id" = '0e5059fb-75ef-4021-855e-8101aea729bb'</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."sistema_koordinat" sql="id" = '0e5059fb-75ef-4021-855e-8101aea729bb'</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3523,7 +3523,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>sposob_obrazovaniya_uchastka20121124144624146</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."sposob_obrazovaniya_uchastka" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."sposob_obrazovaniya_uchastka" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3560,7 +3560,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>sposob_zakrepleniya_tochki20121205170827020</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' estimatedmetadata=true table="class"."sposob_zakrepleniya_tochki" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' estimatedmetadata=true table="class"."sposob_zakrepleniya_tochki" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3597,7 +3597,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>sredstva_izmereniya20130118165704141</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="sredstva_izmereniya" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="sredstva_izmereniya" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3637,7 +3637,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>status_zemelnogo_uchastka20121120111609894</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."status_zemelnogo_uchastka" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."status_zemelnogo_uchastka" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3672,9 +3672,9 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>street20130828121530281</id>
-            <datasource>./data/kladr.db|layername=street|subset="code"='0'</datasource>
+            <datasource>./data/kladr.db|layername=street|subset="code" = '01000001000000100'</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3716,7 +3716,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>stroenie20121126185001409</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."stroenie" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."stroenie" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3753,7 +3753,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>stroenie20121126185043425</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="stroenie" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="stroenie" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3791,7 +3791,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>subparcel20130725113330369</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="subparcel" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="subparcel" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -3829,7 +3829,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>tochka20121205105707712</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' estimatedmetadata=true srid=0 type=POINT table="msk"."tochka" (geom) sql="id_msk" = '0e5059fb-75ef-4021-855e-8101aea729bb'</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' estimatedmetadata=true srid=0 type=POINT table="msk"."tochka" (geom) sql="id_msk" = '0e5059fb-75ef-4021-855e-8101aea729bb'</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -4089,7 +4089,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>type_applied_file20130819121317120</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."type_applied_file" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."type_applied_file" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -4126,7 +4126,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>uchastok20121203165126098</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' estimatedmetadata=true srid=0 type=POLYGON table="msk"."uchastok" (geom) sql="id_msk" = '0e5059fb-75ef-4021-855e-8101aea729bb'</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' estimatedmetadata=true srid=0 type=POLYGON table="msk"."uchastok" (geom) sql="id_msk" = '0e5059fb-75ef-4021-855e-8101aea729bb'</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -4381,7 +4381,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>uchastok_adres20121126185741814</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="uchastok_adres" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="uchastok_adres" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -4419,7 +4419,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>ulica20121126184037189</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."ulica" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."ulica" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -4456,7 +4456,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>ulica20121126184154428</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="ulica" sql=False</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="ulica" sql=False</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -4494,7 +4494,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>vid_ploshadi20121121113011289</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."vid_ploshadi" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."vid_ploshadi" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -4531,7 +4531,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>vid_zemelnogo_uchastka20121124144436104</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."vid_zemelnogo_uchastka" sql=</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='id' table="class"."vid_zemelnogo_uchastka" sql=</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -4568,7 +4568,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>yur_liczo20130725114407285</id>
-            <datasource>dbname='openland' host=85.192.132.33 port=5632 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="yur_liczo" sql=false</datasource>
+            <datasource>dbname='openland' host=oldb.ru port=5432 user='openlanduser1' password='user1pass' sslmode=disable key='guid' table="yur_liczo" sql=false</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>

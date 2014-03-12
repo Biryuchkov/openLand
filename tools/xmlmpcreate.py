@@ -907,7 +907,10 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
             self.highLightLine(u'Ошибка! Не определены атрибуты контуров многоконтурного ЗУ')
             return
 
-        listForSortByContourNumber = [[every['nomer_kontura'], every] for every in attributesContour]
+#        listForSortByContourNumber = [[every['nomer_kontura'], every] for every in attributesContour]
+#       на самом деле сортировка по коду типа объекта кадастровых работ:
+#       образуемый(включаемый); уточняемый; исключаемый
+        listForSortByContourNumber = [[every['tip_obekta_kadastrovyh_rabot'], every] for every in attributesContour]
         listForSortByContourNumber.sort()
         attributesContourSorted = [every[1] for every in listForSortByContourNumber]
         
@@ -1346,7 +1349,18 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
                     idBorder = everyFirst = everySecond
                     return  idBorder
         
-        self.highLightLine(u'Ошибка! Не определён идентификатор границы для пары идентификаторов точек ' + str(id1) + ' ' + str(id2))
+        attributesNoBorder = attributesByKeys('ln_tochka', 'id', 
+                             [id1, id2], ['prefiks_nomera', 'nomer'])
+        if len(attributesNoBorder) == 2:
+            stringPoints = ''
+            stringPoints += unicode(attributesNoBorder[0]['prefiks_nomera'])
+            stringPoints += str(attributesNoBorder[0]['nomer'])
+            stringPoints += ' - '
+            stringPoints += unicode(attributesNoBorder[1]['prefiks_nomera'])
+            stringPoints += str(attributesNoBorder[1]['nomer'])
+            self.highLightLine(u'Ошибка! Не определена граница для пары точек ' + stringPoints)
+        else:
+            self.highLightLine(u'Ошибка! Не определён идентификатор границы для пары идентификаторов точек ' + str(id1) + ' ' + str(id2))
 
     # 
     def createOldOrdinate(self, xmlSpelementUnit, listPoint):
