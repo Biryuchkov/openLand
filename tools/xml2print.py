@@ -15,7 +15,7 @@ from math import *
 from xml.etree.ElementTree import *
 from common import *
 from xml2print_ui import Ui_XML2Print
-import os, shutil, platform, codecs, subprocess, zipfile
+import os, shutil, platform, codecs, zipfile, webbrowser
 
 class xml2Print(QDialog, Ui_XML2Print):
     def __init__(self, iface):
@@ -112,7 +112,8 @@ class xml2Print(QDialog, Ui_XML2Print):
                     cmd = 'xslt_mp.cmd xslt/' + xlstFile + ' \"' + self.fileXmlName.encode('cp1251') + '\"'
                     os.system(cmd)
                 else:
-                    self.highlightLine(u'Ошибка! Для текущей операционной системы не установлен сценарий обработки XSLT трансформации.')
+                    cmd = 'sh xslt_mp.sh xslt/' + xlstFile + ' ' + self.fileXmlName
+                    os.system(cmd)
                 
                 z = zipfile.ZipFile('openlandtempdoc.zip', 'a', zipfile.ZIP_DEFLATED)
                 z.write('content.xml')
@@ -165,11 +166,11 @@ class xml2Print(QDialog, Ui_XML2Print):
                 if 'Windows' in platform.system():
                     if os.path.exists(self.fileOdtName.encode('cp1251')):
                         cmd = '\"' + self.fileOdtName.encode('cp1251') + '\"'
-                        subprocess.Popen(cmd, shell = True)
+                        webbrowser.open(cmd)
                 else:
                     if os.path.exists(self.fileOdtName):
                         cmd = self.fileOdtName
-                        subprocess.Popen(cmd, shell = True)
+                        webbrowser.open(cmd)
 
     def highlightLine(self, t):
         self.listWidgetEvents.addItem(t)                 

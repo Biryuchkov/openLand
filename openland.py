@@ -29,8 +29,8 @@ import shutil
 sys.path.append(os.path.abspath(os.path.dirname(__file__) + '/tools'))
 
 from math import sqrt
-from common import *
 from mp import mpDialog
+from common import *
 from importxml import ImportXML
 from importobject import importObject
 from importgeometry import importGeometry
@@ -316,6 +316,7 @@ class openLand:
         del d
 
     def doReNumberPoints(self):
+        # noinspection PyUnresolvedReferences
         layer = get_vector_layer_by_name(gln['ln_uchastok'])
         selection = layer.selectedFeatures()
         ls = len(selection)
@@ -596,7 +597,7 @@ class openLand:
             dbDate = dbInformation[0]['date_version'].toString(('yyyy-MM-dd'))
             self.dlgAbout.labelDbVersion.setText(u'Версия базы данных ' + dbVersion + u' от ' + dbDate)
 
-        self.dlgAbout.lblVersion.setText(u'<html><head/><body><p>Версия ' +gv['versionPlugin']+ u' <span style=\" color:#ff0000; vertical-align:sub;\">альфа</span> от ' +gv['datePlugin']+ u'</p></body></html>')
+        self.dlgAbout.lblVersion.setText(u'<html><head/><body><p>Версия ' +gv['versionPlugin']+ u' <span style=\" color:#008800; vertical-align:sub;\">бета</span> от ' +gv['datePlugin']+ u'</p></body></html>')
         self.dlgAbout.show()
 
     def doCreateCoordcatalog(self):

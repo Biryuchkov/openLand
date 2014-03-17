@@ -2,8 +2,8 @@
 
 # Form implementation generated from reading ui file 'addpartorcontour.ui'
 #
-# Created: Thu Dec 05 18:51:07 2013
-#      by: PyQt4 UI code generator 4.8.3
+# Created: Fri Dec 27 12:08:57 2013
+#      by: PyQt4 UI code generator 4.10.2
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -12,7 +12,16 @@ from PyQt4 import QtCore, QtGui
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
 except AttributeError:
-    _fromUtf8 = lambda s: s
+    def _fromUtf8(s):
+        return s
+
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
 
 class Ui_addPartOrContour(object):
     def setupUi(self, addPartOrContour):
@@ -78,7 +87,7 @@ class Ui_addPartOrContour(object):
         self.pushButtonCancel.setObjectName(_fromUtf8("pushButtonCancel"))
         self.formLayout.setWidget(5, QtGui.QFormLayout.FieldRole, self.pushButtonCancel)
         self.progressBar = QtGui.QProgressBar(addPartOrContour)
-        self.progressBar.setProperty(_fromUtf8("value"), 0)
+        self.progressBar.setProperty("value", 0)
         self.progressBar.setObjectName(_fromUtf8("progressBar"))
         self.formLayout.setWidget(7, QtGui.QFormLayout.SpanningRole, self.progressBar)
         spacerItem = QtGui.QSpacerItem(20, 40, QtGui.QSizePolicy.Minimum, QtGui.QSizePolicy.Expanding)
@@ -94,14 +103,14 @@ class Ui_addPartOrContour(object):
         addPartOrContour.setTabOrder(self.pushButtonOk, self.pushButtonCancel)
 
     def retranslateUi(self, addPartOrContour):
-        addPartOrContour.setWindowTitle(QtGui.QApplication.translate("addPartOrContour", "Добавление контура, ЧЗУ или входящего", None, QtGui.QApplication.UnicodeUTF8))
-        self.label.setText(QtGui.QApplication.translate("addPartOrContour", "<html><head/><body><p align=\"right\">Добавить выбранные<br />объекты в количестве</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_3.setText(QtGui.QApplication.translate("addPartOrContour", "<html><head/><body><p align=\"right\">в качестве</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.radioButtonIsPart.setText(QtGui.QApplication.translate("addPartOrContour", "части ЗУ", None, QtGui.QApplication.UnicodeUTF8))
-        self.radioButtonIsContour.setText(QtGui.QApplication.translate("addPartOrContour", "контура", None, QtGui.QApplication.UnicodeUTF8))
-        self.radioButtonIsNominal.setText(QtGui.QApplication.translate("addPartOrContour", "входящего в ЕЗП", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_4.setText(QtGui.QApplication.translate("addPartOrContour", "<html><head/><body><p align=\"right\">земельного участка</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButtonOk.setText(QtGui.QApplication.translate("addPartOrContour", "Добавить выбранные", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButtonCancel.setText(QtGui.QApplication.translate("addPartOrContour", "Закрыть", None, QtGui.QApplication.UnicodeUTF8))
+        addPartOrContour.setWindowTitle(_translate("addPartOrContour", "Добавление контура, ЧЗУ или входящего", None))
+        self.label.setText(_translate("addPartOrContour", "<html><head/><body><p align=\"right\">Добавить выбранные<br />объекты в количестве</p></body></html>", None))
+        self.label_3.setText(_translate("addPartOrContour", "<html><head/><body><p align=\"right\">в качестве</p></body></html>", None))
+        self.radioButtonIsPart.setText(_translate("addPartOrContour", "части ЗУ", None))
+        self.radioButtonIsContour.setText(_translate("addPartOrContour", "контура", None))
+        self.radioButtonIsNominal.setText(_translate("addPartOrContour", "входящего в ЕЗП", None))
+        self.label_4.setText(_translate("addPartOrContour", "<html><head/><body><p align=\"right\">земельного участка</p></body></html>", None))
+        self.pushButtonOk.setText(_translate("addPartOrContour", "Добавить выбранные", None))
+        self.pushButtonCancel.setText(_translate("addPartOrContour", "Закрыть", None))
 
 import resources_rc
