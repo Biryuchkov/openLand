@@ -2,8 +2,8 @@
 
 # Form implementation generated from reading ui file 'scale2area.ui'
 #
-# Created: Mon Oct 28 11:22:40 2013
-#      by: PyQt4 UI code generator 4.9.4
+# Created: Wed Apr 02 20:45:05 2014
+#      by: PyQt4 UI code generator 4.10.2
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -12,12 +12,21 @@ from PyQt4 import QtCore, QtGui
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
 except AttributeError:
-    _fromUtf8 = lambda s: s
+    def _fromUtf8(s):
+        return s
+
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
 
 class Ui_olScaleArea(object):
     def setupUi(self, olScaleArea):
         olScaleArea.setObjectName(_fromUtf8("olScaleArea"))
-        olScaleArea.resize(402, 170)
+        olScaleArea.resize(402, 164)
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap(_fromUtf8(":/plugins/openland/icons/scalearea.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         olScaleArea.setWindowIcon(icon)
@@ -76,13 +85,13 @@ class Ui_olScaleArea(object):
         olScaleArea.setTabOrder(self.pushButtonOk, self.pushButtonClose)
 
     def retranslateUi(self, olScaleArea):
-        olScaleArea.setWindowTitle(QtGui.QApplication.translate("olScaleArea", "Параметры масштабирования", None, QtGui.QApplication.UnicodeUTF8))
-        self.label.setText(QtGui.QApplication.translate("olScaleArea", "Площадь выбранного объекта (кв.м.):", None, QtGui.QApplication.UnicodeUTF8))
-        self.lineEdit.setText(QtGui.QApplication.translate("olScaleArea", "123.45", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_2.setText(QtGui.QApplication.translate("olScaleArea", "Необходимая площадь объекта (кв.м.):", None, QtGui.QApplication.UnicodeUTF8))
-        self.radioButton.setText(QtGui.QApplication.translate("olScaleArea", "Обновить выбранный объект", None, QtGui.QApplication.UnicodeUTF8))
-        self.radioButton_2.setText(QtGui.QApplication.translate("olScaleArea", "Создать новый объект", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButtonClose.setText(QtGui.QApplication.translate("olScaleArea", "Закрыть", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButtonOk.setText(QtGui.QApplication.translate("olScaleArea", "Масштабировать полигон", None, QtGui.QApplication.UnicodeUTF8))
+        olScaleArea.setWindowTitle(_translate("olScaleArea", "Параметры масштабирования", None))
+        self.label.setText(_translate("olScaleArea", "Площадь выбранного объекта (кв.м.):", None))
+        self.lineEdit.setText(_translate("olScaleArea", "123.45", None))
+        self.label_2.setText(_translate("olScaleArea", "Необходимая площадь объекта (кв.м.):", None))
+        self.radioButton.setText(_translate("olScaleArea", "Обновить выбранный объект", None))
+        self.radioButton_2.setText(_translate("olScaleArea", "Создать новый объект", None))
+        self.pushButtonClose.setText(_translate("olScaleArea", "Закрыть", None))
+        self.pushButtonOk.setText(_translate("olScaleArea", "Масштабировать полигон", None))
 
 import resources_rc

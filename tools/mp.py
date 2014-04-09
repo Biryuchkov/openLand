@@ -882,7 +882,31 @@ class mpDialog(QDialog, Ui_DialogMP):
                 # Уточнение границ смежных участков 
                 # 3 FormParcels-SpecifyRelatedParcel                           #
                 elif currentTreeItemData == 'SpecifyRelatedParcel-Form':
-                    self.showMessage(u'Невозможно выполнить операцию. Функция в разработке.')
+                    if not self.attributesValuesMP['codetype'] == '014':
+                        self.showMessage(u'Ошибка! Заполняемый раздел не соответствует типу заявления.')
+                        return
+
+                    listValues = []
+                    for everyParcelId in listParcelId:
+                        idTypeParcel = everyParcelId['id_vid_uchastka']
+                        if idTypeParcel in (gv['casualParcelCode'], 
+                                            gv['oneContourCode']):
+                            idParcel = int(everyParcelId['id'])
+                        else:
+                            self.showMessage(u'Ошибка! \
+                            Уточняемый смежный ЗУ не является землепользованием \
+                            или контуром МЗУ.')
+                            return
+
+                        if idParcel > 0:
+                            listValues.append([self.guidCurrentMP, idCurrentSection, idParcel])
+            
+                    if insertFeatures('pb_mp_section_data', ['guid_mp', 'id_section_mp', 'id_parcel'], listValues):
+                        self.showMessage(u'Выполнено добавление атрибутов смежного ЗУ')
+                        self.fillTabData(2)
+
+                    else:
+                        self.showMessage(u'Ошибка добавления атрибутов смежного ЗУ')
 
                 # Сведения об уточняемом участке, не являющемся единым землепользованием, 
                 # 4 и его частях SpecifyParcel-ExistParcel                     #
@@ -939,8 +963,32 @@ class mpDialog(QDialog, Ui_DialogMP):
                 # Уточнение границ смежных участков
                 # 6 SpecifyParcel-SpecifyRelatedParcel                         #
                 elif currentTreeItemData == 'SpecifyRelatedParcel-Specify':
-                    self.showMessage(u'Невозможно выполнить операцию. Функция в разработке.')
+                    if not self.attributesValuesMP['codetype'] == '015':
+                        self.showMessage(u'Ошибка! Заполняемый раздел не соответствует типу заявления.')
+                        return
+
+                    listValues = []
+                    for everyParcelId in listParcelId:
+                        idTypeParcel = everyParcelId['id_vid_uchastka']
+                        if idTypeParcel in (gv['casualParcelCode'], 
+                                            gv['oneContourCode']):
+                            idParcel = int(everyParcelId['id'])
+                        else:
+                            self.showMessage(u'Ошибка! \
+                            Уточняемый смежный ЗУ не является землепользованием \
+                            или контуром МЗУ.')
+                            return
+
+                        if idParcel > 0:
+                            listValues.append([self.guidCurrentMP, idCurrentSection, idParcel])
             
+                    if insertFeatures('pb_mp_section_data', ['guid_mp', 'id_section_mp', 'id_parcel'], listValues):
+                        self.showMessage(u'Выполнено добавление атрибутов смежного ЗУ')
+                        self.fillTabData(2)
+
+                    else:
+                        self.showMessage(u'Ошибка добавления атрибутов смежного ЗУ')
+
                 # Сведения об образуемых частях
                 # 7 NewSubParcel                                               #
                 elif currentTreeItemData == 'NewSubParcel':

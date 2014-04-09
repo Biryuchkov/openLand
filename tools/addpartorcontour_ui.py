@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'addpartorcontour.ui'
 #
-# Created: Fri Dec 27 12:08:57 2013
+# Created: Thu Mar 20 12:34:16 2014
 #      by: PyQt4 UI code generator 4.10.2
 #
 # WARNING! All changes made in this file will be lost!

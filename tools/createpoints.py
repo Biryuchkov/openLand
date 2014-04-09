@@ -22,10 +22,12 @@ class createPoints(QDialog,  Ui_createPoints):
         QObject.connect(self.pushButtonOk, SIGNAL("clicked()"), self.doCreate)
         QObject.connect(self.pushButtonCancel, SIGNAL("clicked()"), self.doCancel)
 
-        self.selection = []
-        self.numberRing = 0
-        self.numberPoint = 1
-        self.orderPoint = 1
+        self.selection      = []
+        self.numberRing     = 0
+        self.numberPoint    = 1
+        self.orderPoint     = 1
+        self.currentSpEl    = 0
+        self.progress       = QProgressBar()
 
         self.layerUc = get_vector_layer_by_name(gln['ln_uchastok'])
 
@@ -41,8 +43,12 @@ class createPoints(QDialog,  Ui_createPoints):
             return False
     
     def doCreate(self):
-        self.progressBar.setRange(0, 0)
-        
+        progressMessageBar = self.iface.messageBar().createMessage(u'Создание точек и границ ЗУ...')
+        self.progress.setMaximum(numberSpatialElements(self.selection))
+        self.progress.setAlignment(Qt.AlignLeft|Qt.AlignVCenter)
+        progressMessageBar.layout().addWidget(self.progress)
+        self.iface.messageBar().pushWidget(progressMessageBar, 
+                                           self.iface.messageBar().INFO)
         for every in self.selection:
             atParcel = every.attributes()
                 
@@ -77,12 +83,13 @@ class createPoints(QDialog,  Ui_createPoints):
 
                     self.doAppend(listPonts, idParcel)
 
-        self.progressBar.setRange(0, 100)
-        self.progressBar.setValue(100)                  
+        self.iface.messageBar().clearWidgets()
         self.canvas.refresh()
         self.close()
 
     def doAppend(self, listPonts, idParcel):
+        self.currentSpEl += 1
+        self.progress.setValue(self.currentSpEl)
         listPonts = checkClockWise(listPonts)
         previos = len(listPonts)
         listPonts = checkDoublePoint(listPonts)

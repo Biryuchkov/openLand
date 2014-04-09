@@ -61,14 +61,14 @@ class openLand:
         self.iface = iface
         self.canvas = self.iface.mapCanvas()
 
-        self.dlgFillAreaUpdate = None
-        self.dlgRoundCoords = None
-        self.dlgXml2Print = None
-        self.dlgFilterSet = None
-        self.dlgSettings = None
-        self.dlgAbout = None
-        self.dlgImportXML = None
-        self.dlgMP = None
+        self.dlgFillAreaUpdate  = None
+        self.dlgRoundCoords     = None
+        self.dlgXml2Print       = None
+        self.dlgFilterSet       = None
+        self.dlgSettings        = None
+        self.dlgAbout           = None
+        self.dlgImportXML       = None
+        self.dlgMP              = None
 
     def initGui(self):
         QObject.connect(self.iface, SIGNAL('currentLayerChanged(QgsMapLayer*)'), self.toggle)

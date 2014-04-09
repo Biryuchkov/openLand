@@ -2444,6 +2444,207 @@
 				<style:style style:name="Таблица31.B9" style:family="table-cell">
 					<style:table-cell-properties fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border="0.25pt solid #000000"/>
 				</style:style>
+				<style:style style:name="Таблица47" style:family="table">
+					<style:table-properties style:width="17.041cm" fo:margin-left="-0.014cm" table:align="left" style:may-break-between-rows="false"/>
+				</style:style>
+				<style:style style:name="Таблица47.A" style:family="table-column">
+					<style:table-column-properties style:column-width="2.658cm"/>
+				</style:style>
+				<style:style style:name="Таблица47.B" style:family="table-column">
+					<style:table-column-properties style:column-width="2.233cm"/>
+				</style:style>
+				<style:style style:name="Таблица47.C" style:family="table-column">
+					<style:table-column-properties style:column-width="2.117cm"/>
+				</style:style>
+				<style:style style:name="Таблица47.D" style:family="table-column">
+					<style:table-column-properties style:column-width="2.023cm"/>
+				</style:style>
+				<style:style style:name="Таблица47.F" style:family="table-column">
+					<style:table-column-properties style:column-width="3.233cm"/>
+				</style:style>
+				<style:style style:name="Таблица47.G" style:family="table-column">
+					<style:table-column-properties style:column-width="2.66cm"/>
+				</style:style>
+				<style:style style:name="Таблица47.1" style:family="table-row">
+					<style:table-row-properties style:min-row-height="0.85cm" style:use-optimal-row-height="false"/>
+				</style:style>
+				<style:style style:name="Таблица47.A1" style:family="table-cell">
+					<style:table-cell-properties style:vertical-align="bottom" style:border-line-width-left="0.018cm 0.018cm 0.018cm" style:border-line-width-right="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="1.5pt double #000000" fo:border-right="1.5pt double #000000" fo:border-top="0.25pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица47.2" style:family="table-row">
+					<style:table-row-properties style:min-row-height="1.235cm" style:use-optimal-row-height="false"/>
+				</style:style>
+				<style:style style:name="Таблица47.A2" style:family="table-cell">
+					<style:table-cell-properties style:vertical-align="middle" style:border-line-width-left="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="1.5pt double #000000" fo:border-right="0.25pt solid #000000" fo:border-top="0.25pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица47.B2" style:family="table-cell">
+					<style:table-cell-properties style:vertical-align="middle" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица47.G2" style:family="table-cell">
+					<style:table-cell-properties style:vertical-align="middle" style:border-line-width-right="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="0.25pt solid #000000" fo:border-right="1.5pt double #000000" fo:border-top="0.25pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица47.3" style:family="table-row">
+					<style:table-row-properties style:min-row-height="1.986cm" style:use-optimal-row-height="false"/>
+				</style:style>
+				<style:style style:name="Таблица47.B3" style:family="table-cell">
+					<style:table-cell-properties style:vertical-align="middle" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="0.25pt solid #000000" fo:border-right="none" fo:border-top="0.25pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица48" style:family="table">
+					<style:table-properties style:width="17.041cm" fo:margin-left="-0.014cm" table:align="left"/>
+				</style:style>
+				<style:style style:name="Таблица48.A" style:family="table-column">
+					<style:table-column-properties style:column-width="2.658cm"/>
+				</style:style>
+				<style:style style:name="Таблица48.B" style:family="table-column">
+					<style:table-column-properties style:column-width="2.233cm"/>
+				</style:style>
+				<style:style style:name="Таблица48.C" style:family="table-column">
+					<style:table-column-properties style:column-width="2.117cm"/>
+				</style:style>
+				<style:style style:name="Таблица48.D" style:family="table-column">
+					<style:table-column-properties style:column-width="2.023cm"/>
+				</style:style>
+				<style:style style:name="Таблица48.F" style:family="table-column">
+					<style:table-column-properties style:column-width="3.233cm"/>
+				</style:style>
+				<style:style style:name="Таблица48.G" style:family="table-column">
+					<style:table-column-properties style:column-width="2.66cm"/>
+				</style:style>
+				<style:style style:name="Таблица48.1" style:family="table-row">
+					<style:table-row-properties style:min-row-height="0.305cm" fo:keep-together="always" style:use-optimal-row-height="false"/>
+				</style:style>
+				<style:style style:name="Таблица48.A1" style:family="table-cell">
+					<style:table-cell-properties style:border-line-width-left="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="1.5pt double #000000" fo:border-right="0.25pt solid #000000" fo:border-top="0.25pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица48.B1" style:family="table-cell">
+					<style:table-cell-properties fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица48.G1" style:family="table-cell">
+					<style:table-cell-properties style:border-line-width-right="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="0.25pt solid #000000" fo:border-right="1.5pt double #000000" fo:border-top="0.25pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица48.A2" style:family="table-cell">
+					<style:table-cell-properties style:border-line-width-left="0.018cm 0.018cm 0.018cm" style:border-line-width-right="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="1.5pt double #000000" fo:border-right="1.5pt double #000000" fo:border-top="0.25pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица48.A3" style:family="table-cell">
+					<style:table-cell-properties style:border-line-width-left="0.018cm 0.018cm 0.018cm" style:border-line-width-right="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="1.5pt double #000000" fo:border-right="1.5pt double #000000" fo:border-top="none" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица48.A5" style:family="table-cell" style:data-style-name="N100">
+					<style:table-cell-properties style:border-line-width-left="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="1.5pt double #000000" fo:border-right="0.25pt solid #000000" fo:border-top="none" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица48.B5" style:family="table-cell" style:data-style-name="N100">
+					<style:table-cell-properties fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="0.25pt solid #000000" fo:border-right="0.25pt solid #000000" fo:border-top="none" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица48.G5" style:family="table-cell" style:data-style-name="N100">
+					<style:table-cell-properties style:border-line-width-right="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="0.25pt solid #000000" fo:border-right="1.5pt double #000000" fo:border-top="none" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица48.A7" style:family="table-cell">
+					<style:table-cell-properties style:border-line-width-left="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="1.5pt double #000000" fo:border-right="none" fo:border-top="0.05pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица48.B7" style:family="table-cell">
+					<style:table-cell-properties fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="0.05pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица48.C7" style:family="table-cell">
+					<style:table-cell-properties fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="0.05pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица48.D7" style:family="table-cell">
+					<style:table-cell-properties fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="0.05pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица48.E7" style:family="table-cell">
+					<style:table-cell-properties fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="0.05pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица48.F7" style:family="table-cell">
+					<style:table-cell-properties fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="0.05pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица48.G7" style:family="table-cell">
+					<style:table-cell-properties style:border-line-width-right="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="0.05pt solid #000000" fo:border-right="1.5pt double #000000" fo:border-top="0.05pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица49" style:family="table">
+					<style:table-properties style:width="17.041cm" fo:margin-left="-0.014cm" table:align="left" style:may-break-between-rows="false"/>
+				</style:style>
+				<style:style style:name="Таблица49.A" style:family="table-column">
+					<style:table-column-properties style:column-width="2.117cm"/>
+				</style:style>
+				<style:style style:name="Таблица49.B" style:family="table-column">
+					<style:table-column-properties style:column-width="2.367cm"/>
+				</style:style>
+				<style:style style:name="Таблица49.C" style:family="table-column">
+					<style:table-column-properties style:column-width="6.92cm"/>
+				</style:style>
+				<style:style style:name="Таблица49.D" style:family="table-column">
+					<style:table-column-properties style:column-width="5.637cm"/>
+				</style:style>
+				<style:style style:name="Таблица49.1" style:family="table-row">
+					<style:table-row-properties style:min-row-height="0.806cm" style:use-optimal-row-height="false"/>
+				</style:style>
+				<style:style style:name="Таблица49.A1" style:family="table-cell">
+					<style:table-cell-properties style:vertical-align="bottom" style:border-line-width-left="0.018cm 0.018cm 0.018cm" style:border-line-width-right="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="1.5pt double #000000" fo:border-right="1.5pt double #000000" fo:border-top="1.5pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица49.2" style:family="table-row">
+					<style:table-row-properties style:min-row-height="1.261cm" style:use-optimal-row-height="false"/>
+				</style:style>
+				<style:style style:name="Таблица49.A2" style:family="table-cell">
+					<style:table-cell-properties style:vertical-align="middle" style:border-line-width-left="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="1.5pt double #000000" fo:border-right="0.25pt solid #000000" fo:border-top="0.25pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица49.C2" style:family="table-cell">
+					<style:table-cell-properties style:vertical-align="middle" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица49.D2" style:family="table-cell">
+					<style:table-cell-properties style:vertical-align="middle" style:border-line-width-right="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="0.25pt solid #000000" fo:border-right="1.5pt double #000000" fo:border-top="0.25pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица49.3" style:family="table-row">
+					<style:table-row-properties style:min-row-height="0.254cm" style:use-optimal-row-height="false"/>
+				</style:style>
+				<style:style style:name="Таблица50" style:family="table">
+					<style:table-properties style:width="17.041cm" fo:margin-left="-0.014cm" table:align="left"/>
+				</style:style>
+				<style:style style:name="Таблица50.A" style:family="table-column">
+					<style:table-column-properties style:column-width="2.117cm"/>
+				</style:style>
+				<style:style style:name="Таблица50.B" style:family="table-column">
+					<style:table-column-properties style:column-width="2.364cm"/>
+				</style:style>
+				<style:style style:name="Таблица50.C" style:family="table-column">
+					<style:table-column-properties style:column-width="6.923cm"/>
+				</style:style>
+				<style:style style:name="Таблица50.D" style:family="table-column">
+					<style:table-column-properties style:column-width="5.637cm"/>
+				</style:style>
+				<style:style style:name="Таблица50.1" style:family="table-row">
+					<style:table-row-properties style:min-row-height="0.323cm" style:use-optimal-row-height="false"/>
+				</style:style>
+				<style:style style:name="Таблица50.A1" style:family="table-cell">
+					<style:table-cell-properties style:vertical-align="middle" style:border-line-width-left="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="1.5pt double #000000" fo:border-right="0.25pt solid #000000" fo:border-top="0.25pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица50.B1" style:family="table-cell">
+					<style:table-cell-properties style:vertical-align="middle" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица50.D1" style:family="table-cell">
+					<style:table-cell-properties style:vertical-align="middle" style:border-line-width-right="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="0.25pt solid #000000" fo:border-right="1.5pt double #000000" fo:border-top="0.25pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица50.A2" style:family="table-cell">
+					<style:table-cell-properties style:vertical-align="middle" style:border-line-width-left="0.018cm 0.018cm 0.018cm" style:border-line-width-right="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="1.5pt double #000000" fo:border-right="1.5pt double #000000" fo:border-top="0.25pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица50.A3" style:family="table-cell">
+					<style:table-cell-properties style:vertical-align="middle" style:border-line-width-left="0.018cm 0.018cm 0.018cm" style:border-line-width-right="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="1.5pt double #000000" fo:border-right="1.5pt double #000000" fo:border-top="none" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица50.A5" style:family="table-cell">
+					<style:table-cell-properties style:vertical-align="middle" style:border-line-width-left="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="1.5pt double #000000" fo:border-right="0.25pt solid #000000" fo:border-top="none" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица50.B5" style:family="table-cell">
+					<style:table-cell-properties style:vertical-align="middle" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="0.25pt solid #000000" fo:border-right="0.25pt solid #000000" fo:border-top="none" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица50.D5" style:family="table-cell">
+					<style:table-cell-properties style:vertical-align="middle" style:border-line-width-right="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="0.25pt solid #000000" fo:border-right="1.5pt double #000000" fo:border-top="none" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица50.A7" style:family="table-cell">
+					<style:table-cell-properties style:vertical-align="middle" style:border-line-width-left="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="1.5pt double #000000" fo:border-right="none" fo:border-top="0.05pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица50.B7" style:family="table-cell">
+					<style:table-cell-properties style:vertical-align="middle" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="0.05pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
+				<style:style style:name="Таблица50.D7" style:family="table-cell">
+					<style:table-cell-properties style:vertical-align="middle" style:border-line-width-right="0.018cm 0.018cm 0.018cm" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="0.05pt solid #000000" fo:border-right="1.5pt double #000000" fo:border-top="0.05pt solid #000000" fo:border-bottom="0.25pt solid #000000"/>
+				</style:style>
 				<style:style style:name="Таблица58" style:family="table">
 					<style:table-properties style:width="16.992cm" fo:margin-left="0.016cm" fo:break-before="auto" fo:break-after="auto" table:align="left" style:may-break-between-rows="false"/>
 				</style:style>
@@ -3520,22 +3721,18 @@
 					<style:text-properties officeooo:paragraph-rsid="0149f8b9"/>
 				</style:style>
 				<style:style style:name="P7" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:text-properties fo:font-weight="bold" style:font-weight-asian="bold"/>
+					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+					<style:text-properties officeooo:paragraph-rsid="01ec0418"/>
 				</style:style>
 				<style:style style:name="P8" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
 					<style:text-properties fo:font-weight="bold" style:font-weight-asian="bold"/>
 				</style:style>
 				<style:style style:name="P9" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-					<style:text-properties fo:font-weight="bold" officeooo:paragraph-rsid="018f5784" style:font-weight-asian="bold"/>
+					<style:text-properties fo:font-weight="bold" style:font-weight-asian="bold"/>
 				</style:style>
 				<style:style style:name="P10" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false">
-						<style:tab-stops>
-							<style:tab-stop style:position="4.83cm"/>
-						</style:tab-stops>
-					</style:paragraph-properties>
+					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
 					<style:text-properties fo:font-weight="bold" officeooo:paragraph-rsid="018f5784" style:font-weight-asian="bold"/>
 				</style:style>
 				<style:style style:name="P11" style:family="paragraph" style:parent-style-name="Обычный">
@@ -3544,9 +3741,17 @@
 							<style:tab-stop style:position="4.83cm"/>
 						</style:tab-stops>
 					</style:paragraph-properties>
-					<style:text-properties fo:font-weight="bold" officeooo:paragraph-rsid="01a61ee7" style:font-weight-asian="bold"/>
+					<style:text-properties fo:font-weight="bold" officeooo:paragraph-rsid="018f5784" style:font-weight-asian="bold"/>
 				</style:style>
 				<style:style style:name="P12" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false">
+						<style:tab-stops>
+							<style:tab-stop style:position="4.83cm"/>
+						</style:tab-stops>
+					</style:paragraph-properties>
+					<style:text-properties fo:font-weight="bold" officeooo:paragraph-rsid="01a61ee7" style:font-weight-asian="bold"/>
+				</style:style>
+				<style:style style:name="P13" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false">
 						<style:tab-stops>
 							<style:tab-stop style:position="4.128cm"/>
@@ -3554,109 +3759,121 @@
 					</style:paragraph-properties>
 					<style:text-properties fo:font-weight="bold" style:font-weight-asian="bold"/>
 				</style:style>
-				<style:style style:name="P13" style:family="paragraph" style:parent-style-name="Обычный">
+				<style:style style:name="P14" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false" fo:keep-together="always"/>
 					<style:text-properties fo:font-weight="bold" style:font-weight-asian="bold"/>
 				</style:style>
-				<style:style style:name="P14" style:family="paragraph" style:parent-style-name="Обычный">
+				<style:style style:name="P15" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
 					<style:text-properties fo:font-weight="bold" officeooo:paragraph-rsid="0042cd94" style:font-weight-asian="bold"/>
 				</style:style>
-				<style:style style:name="P15" style:family="paragraph" style:parent-style-name="Обычный">
+				<style:style style:name="P16" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
 					<style:text-properties fo:font-weight="bold" officeooo:paragraph-rsid="005298f7" style:font-weight-asian="bold"/>
 				</style:style>
-				<style:style style:name="P16" style:family="paragraph" style:parent-style-name="Обычный">
+				<style:style style:name="P17" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
 					<style:text-properties fo:font-weight="bold" officeooo:paragraph-rsid="00a37f72" style:font-weight-asian="bold"/>
 				</style:style>
-				<style:style style:name="P17" style:family="paragraph" style:parent-style-name="Обычный">
+				<style:style style:name="P18" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+					<style:text-properties fo:font-weight="bold" officeooo:paragraph-rsid="01ec0418" style:font-weight-asian="bold"/>
+				</style:style>
+				<style:style style:name="P19" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+					<style:text-properties fo:font-weight="bold" officeooo:paragraph-rsid="01ed0f09" style:font-weight-asian="bold"/>
+				</style:style>
+				<style:style style:name="P20" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
 					<style:text-properties fo:font-weight="bold" officeooo:rsid="004308c8" officeooo:paragraph-rsid="004308c8" style:font-weight-asian="bold"/>
 				</style:style>
-				<style:style style:name="P18" style:family="paragraph" style:parent-style-name="Обычный">
+				<style:style style:name="P21" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
 					<style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
 				</style:style>
-				<style:style style:name="P19" style:family="paragraph" style:parent-style-name="Обычный">
+				<style:style style:name="P22" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
 					<style:text-properties fo:font-weight="bold" style:font-weight-asian="bold"/>
 				</style:style>
-				<style:style style:name="P20" style:family="paragraph" style:parent-style-name="Обычный">
+				<style:style style:name="P23" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:text-properties officeooo:paragraph-rsid="018f5784"/>
 				</style:style>
-				<style:style style:name="P21" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:text-properties fo:language="en" fo:country="US"/>
-				</style:style>
-				<style:style style:name="P22" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-					<style:text-properties fo:language="en" fo:country="US"/>
-				</style:style>
-				<style:style style:name="P23" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="bold" officeooo:rsid="002f9dc8" officeooo:paragraph-rsid="002f9dc8" style:font-weight-asian="bold"/>
-				</style:style>
 				<style:style style:name="P24" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="bold" officeooo:rsid="004308c8" officeooo:paragraph-rsid="004308c8" style:font-weight-asian="bold"/>
+					<style:text-properties fo:language="en" fo:country="US"/>
 				</style:style>
 				<style:style style:name="P25" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="bold" officeooo:rsid="0035807c" officeooo:paragraph-rsid="0035807c" style:font-weight-asian="bold"/>
+					<style:text-properties fo:language="en" fo:country="US"/>
 				</style:style>
 				<style:style style:name="P26" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="bold" officeooo:rsid="0124a375" officeooo:paragraph-rsid="0124a375" style:font-weight-asian="bold"/>
+					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="bold" officeooo:rsid="002f9dc8" officeooo:paragraph-rsid="002f9dc8" style:font-weight-asian="bold"/>
 				</style:style>
 				<style:style style:name="P27" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="normal" officeooo:rsid="0057529e" officeooo:paragraph-rsid="0057529e" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="bold" officeooo:rsid="004308c8" officeooo:paragraph-rsid="004308c8" style:font-weight-asian="bold"/>
 				</style:style>
 				<style:style style:name="P28" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="normal" officeooo:rsid="00580f6a" officeooo:paragraph-rsid="00580f6a" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="bold" officeooo:rsid="0035807c" officeooo:paragraph-rsid="0035807c" style:font-weight-asian="bold"/>
 				</style:style>
 				<style:style style:name="P29" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:text-properties fo:language="en" fo:country="US" style:text-underline-style="solid" style:text-underline-type="double" style:text-underline-width="auto" style:text-underline-color="font-color"/>
+					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="bold" officeooo:rsid="0124a375" officeooo:paragraph-rsid="0124a375" style:font-weight-asian="bold"/>
 				</style:style>
 				<style:style style:name="P30" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="00532b2a" officeooo:paragraph-rsid="00532b2a"/>
+					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="normal" officeooo:rsid="0057529e" officeooo:paragraph-rsid="0057529e" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
 				</style:style>
 				<style:style style:name="P31" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="00570822" officeooo:paragraph-rsid="00570822"/>
+					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="normal" officeooo:rsid="00580f6a" officeooo:paragraph-rsid="00580f6a" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
 				</style:style>
 				<style:style style:name="P32" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="00a5ec8c" officeooo:paragraph-rsid="00a5ec8c"/>
+					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="normal" officeooo:rsid="0124a375" officeooo:paragraph-rsid="0124a375" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
 				</style:style>
 				<style:style style:name="P33" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="0124a375" officeooo:paragraph-rsid="0124a375"/>
+					<style:text-properties fo:language="en" fo:country="US" style:text-underline-style="solid" style:text-underline-type="double" style:text-underline-width="auto" style:text-underline-color="font-color"/>
 				</style:style>
 				<style:style style:name="P34" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-					<style:text-properties fo:language="en" fo:country="US" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="01a5ad5c" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous"/>
+					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="00532b2a" officeooo:paragraph-rsid="00532b2a"/>
 				</style:style>
 				<style:style style:name="P35" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-					<style:text-properties style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous"/>
+					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="00570822" officeooo:paragraph-rsid="00570822"/>
 				</style:style>
 				<style:style style:name="P36" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-					<style:text-properties fo:color="#4f81bd" fo:language="en" fo:country="US" fo:font-style="italic" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-style-asian="italic"/>
+					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="00a5ec8c" officeooo:paragraph-rsid="00a5ec8c"/>
 				</style:style>
 				<style:style style:name="P37" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:text-properties fo:color="#4f81bd" fo:font-style="italic" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-style-asian="italic"/>
+					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="0124a375" officeooo:paragraph-rsid="0124a375"/>
 				</style:style>
 				<style:style style:name="P38" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-					<style:text-properties fo:color="#4f81bd" fo:font-style="italic" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-style-asian="italic"/>
+					<style:text-properties fo:language="en" fo:country="US" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="01a5ad5c" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous"/>
 				</style:style>
 				<style:style style:name="P39" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:text-properties text:display="none"/>
+					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+					<style:text-properties style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous"/>
 				</style:style>
 				<style:style style:name="P40" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+					<style:text-properties fo:color="#4f81bd" fo:language="en" fo:country="US" fo:font-style="italic" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-style-asian="italic"/>
+				</style:style>
+				<style:style style:name="P41" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:text-properties fo:color="#4f81bd" fo:font-style="italic" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-style-asian="italic"/>
+				</style:style>
+				<style:style style:name="P42" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+					<style:text-properties fo:color="#4f81bd" fo:font-style="italic" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-style-asian="italic"/>
+				</style:style>
+				<style:style style:name="P43" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:text-properties text:display="none"/>
+				</style:style>
+				<style:style style:name="P44" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties>
 						<style:tab-stops>
 							<style:tab-stop style:position="4.83cm"/>
@@ -3664,7 +3881,7 @@
 					</style:paragraph-properties>
 					<style:text-properties officeooo:paragraph-rsid="0191777e"/>
 				</style:style>
-				<style:style style:name="P41" style:family="paragraph" style:parent-style-name="Обычный">
+				<style:style style:name="P45" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties>
 						<style:tab-stops>
 							<style:tab-stop style:position="4.83cm"/>
@@ -3672,233 +3889,283 @@
 					</style:paragraph-properties>
 					<style:text-properties officeooo:paragraph-rsid="0192546a"/>
 				</style:style>
-				<style:style style:name="P42" style:family="paragraph" style:parent-style-name="Обычный">
+				<style:style style:name="P46" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
 					<style:text-properties fo:font-style="italic" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="normal" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
 				</style:style>
-				<style:style style:name="P43" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
-				</style:style>
-				<style:style style:name="P44" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-					<style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
-				</style:style>
-				<style:style style:name="P45" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-					<style:text-properties fo:font-weight="normal" officeooo:paragraph-rsid="007a7038" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
-				</style:style>
-				<style:style style:name="P46" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-					<style:text-properties fo:font-weight="normal" officeooo:paragraph-rsid="0120506d" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
-				</style:style>
 				<style:style style:name="P47" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-					<style:text-properties fo:font-weight="normal" officeooo:paragraph-rsid="0176ec16" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+					<style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
 				</style:style>
 				<style:style style:name="P48" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-					<style:text-properties fo:font-style="normal" fo:font-weight="normal" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+					<style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
 				</style:style>
 				<style:style style:name="P49" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:text-align="end" style:justify-single-word="false"/>
+					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+					<style:text-properties fo:font-weight="normal" officeooo:paragraph-rsid="007a7038" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
 				</style:style>
 				<style:style style:name="P50" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:text-properties officeooo:paragraph-rsid="00a5ec8c"/>
+					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+					<style:text-properties fo:font-weight="normal" officeooo:paragraph-rsid="0120506d" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
 				</style:style>
 				<style:style style:name="P51" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+					<style:text-properties fo:font-weight="normal" officeooo:paragraph-rsid="0176ec16" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+				</style:style>
+				<style:style style:name="P52" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+					<style:text-properties fo:font-style="normal" fo:font-weight="normal" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+				</style:style>
+				<style:style style:name="P53" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:text-align="end" style:justify-single-word="false"/>
+				</style:style>
+				<style:style style:name="P54" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:text-align="end" style:justify-single-word="false"/>
+					<style:text-properties officeooo:paragraph-rsid="01ec0418"/>
+				</style:style>
+				<style:style style:name="P55" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:text-properties officeooo:paragraph-rsid="00a5ec8c"/>
+				</style:style>
+				<style:style style:name="P56" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:text-properties officeooo:paragraph-rsid="012d7da6"/>
 				</style:style>
-				<style:style style:name="P52" style:family="paragraph" style:parent-style-name="Standard">
+				<style:style style:name="P57" style:family="paragraph" style:parent-style-name="Standard">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
 					<style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
 				</style:style>
-				<style:style style:name="P53" style:family="paragraph" style:parent-style-name="Standard">
+				<style:style style:name="P58" style:family="paragraph" style:parent-style-name="Standard">
 					<style:text-properties officeooo:paragraph-rsid="018f5784"/>
 				</style:style>
-				<style:style style:name="P54" style:family="paragraph" style:parent-style-name="Standard">
+				<style:style style:name="P59" style:family="paragraph" style:parent-style-name="Standard">
 					<style:text-properties officeooo:paragraph-rsid="00a37f72"/>
 				</style:style>
-				<style:style style:name="P55" style:family="paragraph" style:parent-style-name="Standard">
+				<style:style style:name="P60" style:family="paragraph" style:parent-style-name="Standard">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
 					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="015ba078" officeooo:paragraph-rsid="015ba078"/>
 				</style:style>
-				<style:style style:name="P56" style:family="paragraph" style:parent-style-name="Header">
+				<style:style style:name="P61" style:family="paragraph" style:parent-style-name="Standard">
+					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="015ba078" officeooo:paragraph-rsid="01ec0418"/>
+				</style:style>
+				<style:style style:name="P62" style:family="paragraph" style:parent-style-name="Standard">
+					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="015ba078" officeooo:paragraph-rsid="01ed0f09"/>
+				</style:style>
+				<style:style style:name="P63" style:family="paragraph" style:parent-style-name="Standard">
+					<style:text-properties officeooo:paragraph-rsid="01ec0418"/>
+				</style:style>
+				<style:style style:name="P64" style:family="paragraph" style:parent-style-name="Standard">
+					<style:text-properties officeooo:paragraph-rsid="01ed0f09"/>
+				</style:style>
+				<style:style style:name="P65" style:family="paragraph" style:parent-style-name="Header">
 					<style:text-properties fo:font-size="1pt" style:font-size-asian="1pt" style:font-size-complex="1pt"/>
 				</style:style>
-				<style:style style:name="P57" style:family="paragraph" style:parent-style-name="Header">
+				<style:style style:name="P66" style:family="paragraph" style:parent-style-name="Header">
 					<style:text-properties style:font-size-complex="1pt"/>
 				</style:style>
-				<style:style style:name="P58" style:family="paragraph" style:parent-style-name="Обычный">
+				<style:style style:name="P67" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:margin-left="0cm" fo:margin-right="-0.365cm" fo:text-indent="0cm" style:auto-text-indent="false"/>
 				</style:style>
-				<style:style style:name="P59" style:family="paragraph" style:parent-style-name="Обычный">
+				<style:style style:name="P68" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:margin-left="0cm" fo:margin-right="-1.191cm" fo:text-indent="0cm" style:auto-text-indent="false"/>
 				</style:style>
-				<style:style style:name="P60" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
-						<style:tab-stops/>
-					</style:paragraph-properties>
-					<style:text-properties fo:font-weight="bold" style:font-weight-asian="bold"/>
-				</style:style>
-				<style:style style:name="P61" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
-						<style:tab-stops/>
-					</style:paragraph-properties>
-				</style:style>
-				<style:style style:name="P62" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
-						<style:tab-stops/>
-					</style:paragraph-properties>
-					<style:text-properties officeooo:paragraph-rsid="007aa256"/>
-				</style:style>
-				<style:style style:name="P63" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
-						<style:tab-stops/>
-					</style:paragraph-properties>
-					<style:text-properties officeooo:paragraph-rsid="01312073"/>
-				</style:style>
-				<style:style style:name="P64" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
-						<style:tab-stops/>
-					</style:paragraph-properties>
-					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="bold" style:font-weight-asian="bold"/>
-				</style:style>
-				<style:style style:name="P65" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
-						<style:tab-stops/>
-					</style:paragraph-properties>
-					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="normal" officeooo:rsid="008535e8" officeooo:paragraph-rsid="008535e8" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
-				</style:style>
-				<style:style style:name="P66" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
-						<style:tab-stops/>
-					</style:paragraph-properties>
-					<style:text-properties fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="008535e8" officeooo:paragraph-rsid="008535e8" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
-				</style:style>
-				<style:style style:name="P67" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
-						<style:tab-stops/>
-					</style:paragraph-properties>
-					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="01312073" officeooo:paragraph-rsid="01312073"/>
-				</style:style>
-				<style:style style:name="P68" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="start" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
-						<style:tab-stops/>
-					</style:paragraph-properties>
-				</style:style>
 				<style:style style:name="P69" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false" fo:break-before="page">
+					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
 						<style:tab-stops/>
 					</style:paragraph-properties>
 					<style:text-properties fo:font-weight="bold" style:font-weight-asian="bold"/>
 				</style:style>
 				<style:style style:name="P70" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:break-before="page"/>
+					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
+						<style:tab-stops/>
+					</style:paragraph-properties>
+					<style:text-properties fo:font-weight="bold" officeooo:paragraph-rsid="01ec0418" style:font-weight-asian="bold"/>
 				</style:style>
 				<style:style style:name="P71" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
+						<style:tab-stops/>
+					</style:paragraph-properties>
+					<style:text-properties fo:font-weight="bold" officeooo:paragraph-rsid="01ed0f09" style:font-weight-asian="bold"/>
+				</style:style>
+				<style:style style:name="P72" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
+						<style:tab-stops/>
+					</style:paragraph-properties>
+				</style:style>
+				<style:style style:name="P73" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
+						<style:tab-stops/>
+					</style:paragraph-properties>
+					<style:text-properties officeooo:paragraph-rsid="007aa256"/>
+				</style:style>
+				<style:style style:name="P74" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
+						<style:tab-stops/>
+					</style:paragraph-properties>
+					<style:text-properties officeooo:paragraph-rsid="01312073"/>
+				</style:style>
+				<style:style style:name="P75" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
+						<style:tab-stops/>
+					</style:paragraph-properties>
+					<style:text-properties officeooo:paragraph-rsid="01ec0418"/>
+				</style:style>
+				<style:style style:name="P76" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
+						<style:tab-stops/>
+					</style:paragraph-properties>
+					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="bold" style:font-weight-asian="bold"/>
+				</style:style>
+				<style:style style:name="P77" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
+						<style:tab-stops/>
+					</style:paragraph-properties>
+					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="bold" officeooo:paragraph-rsid="01ec0418" style:font-weight-asian="bold"/>
+				</style:style>
+				<style:style style:name="P78" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
+						<style:tab-stops/>
+					</style:paragraph-properties>
+					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="normal" officeooo:rsid="008535e8" officeooo:paragraph-rsid="008535e8" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+				</style:style>
+				<style:style style:name="P79" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
+						<style:tab-stops/>
+					</style:paragraph-properties>
+					<style:text-properties fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="008535e8" officeooo:paragraph-rsid="008535e8" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+				</style:style>
+				<style:style style:name="P80" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
+						<style:tab-stops/>
+					</style:paragraph-properties>
+					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="01312073" officeooo:paragraph-rsid="01312073"/>
+				</style:style>
+				<style:style style:name="P81" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="start" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
+						<style:tab-stops/>
+					</style:paragraph-properties>
+				</style:style>
+				<style:style style:name="P82" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:margin-left="0.191cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false" fo:break-before="page">
+						<style:tab-stops/>
+					</style:paragraph-properties>
+					<style:text-properties fo:font-weight="bold" style:font-weight-asian="bold"/>
+				</style:style>
+				<style:style style:name="P83" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:break-before="page"/>
+				</style:style>
+				<style:style style:name="P84" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:break-before="page"/>
 					<style:text-properties fo:font-weight="bold" style:font-weight-asian="bold"/>
 				</style:style>
-				<style:style style:name="P72" style:family="paragraph" style:parent-style-name="Обычный">
+				<style:style style:name="P85" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false" fo:break-before="page"/>
 					<style:text-properties fo:font-weight="bold" style:font-weight-asian="bold"/>
 				</style:style>
-				<style:style style:name="P73" style:family="paragraph" style:parent-style-name="Обычный">
+				<style:style style:name="P86" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false" fo:break-before="page"/>
 					<style:text-properties fo:font-weight="bold" officeooo:paragraph-rsid="00a37f72" style:font-weight-asian="bold"/>
 				</style:style>
-				<style:style style:name="P74" style:family="paragraph" style:parent-style-name="Text_20_body">
+				<style:style style:name="P87" style:family="paragraph" style:parent-style-name="Text_20_body">
 					<style:paragraph-properties fo:break-before="page"/>
 					<style:text-properties officeooo:paragraph-rsid="0163f546"/>
 				</style:style>
-				<style:style style:name="P75" style:family="paragraph" style:parent-style-name="Обычный">
+				<style:style style:name="P88" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:margin-left="1.199cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
 						<style:tab-stops/>
 					</style:paragraph-properties>
 				</style:style>
-				<style:style style:name="P76" style:family="paragraph" style:parent-style-name="Обычный">
+				<style:style style:name="P89" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:margin-left="1.199cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
 						<style:tab-stops/>
 					</style:paragraph-properties>
 					<style:text-properties fo:font-weight="bold" style:font-weight-asian="bold"/>
 				</style:style>
-				<style:style style:name="P77" style:family="paragraph" style:parent-style-name="Обычный">
+				<style:style style:name="P90" style:family="paragraph" style:parent-style-name="Обычный">
+					<style:paragraph-properties fo:margin-left="1.199cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
+						<style:tab-stops/>
+					</style:paragraph-properties>
+					<style:text-properties fo:font-weight="bold" officeooo:paragraph-rsid="01ed0f09" style:font-weight-asian="bold"/>
+				</style:style>
+				<style:style style:name="P91" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:margin-left="0cm" fo:margin-right="-0.191cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
 				</style:style>
-				<style:style style:name="P78" style:family="paragraph" style:parent-style-name="Обычный">
+				<style:style style:name="P92" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:margin-left="1cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
 						<style:tab-stops/>
 					</style:paragraph-properties>
 					<style:text-properties officeooo:paragraph-rsid="0024d619"/>
 				</style:style>
-				<style:style style:name="P79" style:family="paragraph" style:parent-style-name="Обычный">
+				<style:style style:name="P93" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:margin-left="0.185cm" fo:margin-right="-0.213cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
 						<style:tab-stops/>
 					</style:paragraph-properties>
 				</style:style>
-				<style:style style:name="P80" style:family="paragraph" style:parent-style-name="Обычный">
+				<style:style style:name="P94" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:margin-left="-0.284cm" fo:margin-right="-0.002cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
 					<style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
 				</style:style>
-				<style:style style:name="P81" style:family="paragraph" style:parent-style-name="Ввод_20_кода">
+				<style:style style:name="P95" style:family="paragraph" style:parent-style-name="Ввод_20_кода">
 					<style:text-properties officeooo:paragraph-rsid="00a37f72"/>
 				</style:style>
-				<style:style style:name="P82" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="">
+				<style:style style:name="P96" style:family="paragraph" style:parent-style-name="Ввод_20_кода">
+					<style:text-properties officeooo:paragraph-rsid="01ec0418"/>
+				</style:style>
+				<style:style style:name="P97" style:family="paragraph" style:parent-style-name="Ввод_20_кода">
+					<style:text-properties officeooo:paragraph-rsid="01ed0f09"/>
+				</style:style>
+				<style:style style:name="P98" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="">
 					<style:paragraph-properties style:page-number="auto" fo:break-before="auto" fo:break-after="auto"/>
 					<style:text-properties officeooo:paragraph-rsid="00aa1879" text:display="none"/>
 				</style:style>
-				<style:style style:name="P83" style:family="paragraph" style:parent-style-name="Text_20_body" style:master-page-name="">
+				<style:style style:name="P99" style:family="paragraph" style:parent-style-name="Text_20_body" style:master-page-name="">
 					<style:paragraph-properties style:page-number="auto" fo:break-before="auto" fo:break-after="auto"/>
 				</style:style>
-				<style:style style:name="P84" style:family="paragraph" style:parent-style-name="Обычный">
+				<style:style style:name="P100" style:family="paragraph" style:parent-style-name="Обычный">
 					<style:paragraph-properties fo:break-before="auto" fo:break-after="auto"/>
 					<style:text-properties text:display="none"/>
 				</style:style>
-				<style:style style:name="P85" style:family="paragraph" style:parent-style-name="Text_20_body">
+				<style:style style:name="P101" style:family="paragraph" style:parent-style-name="Text_20_body">
 					<style:paragraph-properties fo:break-before="auto" fo:break-after="auto"/>
 				</style:style>
-				<style:style style:name="P86" style:family="paragraph" style:parent-style-name="Ввод_20_кода">
+				<style:style style:name="P102" style:family="paragraph" style:parent-style-name="Ввод_20_кода">
 					<style:paragraph-properties text:number-lines="false" text:line-number="0"/>
 				</style:style>
-				<style:style style:name="P87" style:family="paragraph" style:parent-style-name="Text_20_body">
+				<style:style style:name="P103" style:family="paragraph" style:parent-style-name="Text_20_body">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
 					<style:text-properties fo:language="en" fo:country="US" officeooo:paragraph-rsid="0155535c"/>
 				</style:style>
-				<style:style style:name="P88" style:family="paragraph" style:parent-style-name="Text_20_body">
+				<style:style style:name="P104" style:family="paragraph" style:parent-style-name="Text_20_body">
 					<style:text-properties officeooo:paragraph-rsid="0163f546"/>
 				</style:style>
-				<style:style style:name="P89" style:family="paragraph" style:parent-style-name="Ввод_20_кода">
+				<style:style style:name="P105" style:family="paragraph" style:parent-style-name="Ввод_20_кода">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false" fo:background-color="transparent">
 						<style:background-image/>
 					</style:paragraph-properties>
 					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="01329608" officeooo:paragraph-rsid="01329608"/>
 				</style:style>
-				<style:style style:name="P90" style:family="paragraph" style:parent-style-name="Обычный" style:list-style-name="Numbering_20_1">
+				<style:style style:name="P106" style:family="paragraph" style:parent-style-name="Обычный" style:list-style-name="Numbering_20_1">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
 				</style:style>
-				<style:style style:name="P91" style:family="paragraph" style:parent-style-name="Обычный" style:list-style-name="Numbering_20_1">
+				<style:style style:name="P107" style:family="paragraph" style:parent-style-name="Обычный" style:list-style-name="Numbering_20_1">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
 					<style:text-properties fo:language="en" fo:country="US" officeooo:paragraph-rsid="01036e49"/>
 				</style:style>
-				<style:style style:name="P92" style:family="paragraph" style:parent-style-name="Обычный" style:list-style-name="Numbering_20_1">
+				<style:style style:name="P108" style:family="paragraph" style:parent-style-name="Обычный" style:list-style-name="Numbering_20_1">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
 					<style:text-properties fo:language="en" fo:country="US" officeooo:paragraph-rsid="0113a807"/>
 				</style:style>
-				<style:style style:name="P93" style:family="paragraph" style:parent-style-name="Обычный" style:list-style-name="Numbering_20_1">
+				<style:style style:name="P109" style:family="paragraph" style:parent-style-name="Обычный" style:list-style-name="Numbering_20_1">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
 					<style:text-properties fo:language="en" fo:country="US" officeooo:paragraph-rsid="01148832"/>
 				</style:style>
-				<style:style style:name="P94" style:family="paragraph" style:parent-style-name="Обычный" style:list-style-name="Numbering_20_1">
+				<style:style style:name="P110" style:family="paragraph" style:parent-style-name="Обычный" style:list-style-name="Numbering_20_1">
 					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false">
 						<style:tab-stops/>
 					</style:paragraph-properties>
 					<style:text-properties fo:language="en" fo:country="US" officeooo:paragraph-rsid="0113a807"/>
 				</style:style>
-				<style:style style:name="P95" style:family="paragraph" style:parent-style-name="Обычный">
-					<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="normal" officeooo:rsid="0124a375" officeooo:paragraph-rsid="0124a375" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
-				</style:style>
-				<style:style style:name="P96" style:family="paragraph" style:parent-style-name="Обычный" style:master-page-name="MP0">
+				<style:style style:name="P111" style:family="paragraph" style:parent-style-name="Обычный" style:master-page-name="MP0">
 					<style:paragraph-properties fo:margin-left="0cm" fo:margin-right="-0.252cm" fo:text-indent="0cm" style:auto-text-indent="false" style:page-number="auto" fo:break-before="page"/>
 				</style:style>
 				<style:style style:name="T1" style:family="text">
@@ -3923,123 +4190,132 @@
 					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="bold" officeooo:rsid="00ca342c" style:font-weight-asian="bold"/>
 				</style:style>
 				<style:style style:name="T8" style:family="text">
-					<style:text-properties fo:language="en" fo:country="US" style:text-underline-style="none" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous"/>
+					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="bold" officeooo:rsid="01ec0418" style:font-weight-asian="bold"/>
 				</style:style>
 				<style:style style:name="T9" style:family="text">
-					<style:text-properties fo:language="en" fo:country="US" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous"/>
+					<style:text-properties fo:language="en" fo:country="US" style:text-underline-style="none" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous"/>
 				</style:style>
 				<style:style style:name="T10" style:family="text">
-					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="00a3567a"/>
+					<style:text-properties fo:language="en" fo:country="US" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous"/>
 				</style:style>
 				<style:style style:name="T11" style:family="text">
-					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="00c2cb5e"/>
+					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="00a3567a"/>
 				</style:style>
 				<style:style style:name="T12" style:family="text">
-					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="00ca342c"/>
+					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="00c2cb5e"/>
 				</style:style>
 				<style:style style:name="T13" style:family="text">
-					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="01036e49"/>
+					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="00ca342c"/>
 				</style:style>
 				<style:style style:name="T14" style:family="text">
-					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="01312073"/>
+					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="01036e49"/>
 				</style:style>
 				<style:style style:name="T15" style:family="text">
-					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="01312073"/>
 				</style:style>
 				<style:style style:name="T16" style:family="text">
-					<style:text-properties fo:font-style="italic" style:font-style-asian="italic"/>
+					<style:text-properties fo:language="en" fo:country="US" fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
 				</style:style>
 				<style:style style:name="T17" style:family="text">
-					<style:text-properties style:font-name="Times New Roman CYR" fo:font-weight="bold" style:font-weight-asian="bold" style:font-name-complex="Times New Roman CYR" style:font-weight-complex="bold"/>
+					<style:text-properties fo:language="en" fo:country="US" officeooo:rsid="01ec0418"/>
 				</style:style>
 				<style:style style:name="T18" style:family="text">
-					<style:text-properties style:font-name="Times New Roman CYR" style:font-name-complex="Times New Roman CYR" style:font-weight-complex="bold"/>
+					<style:text-properties fo:font-style="italic" style:font-style-asian="italic"/>
 				</style:style>
 				<style:style style:name="T19" style:family="text">
-					<style:text-properties style:text-position="sub 65%" fo:language="en" fo:country="US" fo:font-weight="bold" style:font-weight-asian="bold"/>
+					<style:text-properties style:font-name="Times New Roman CYR" fo:font-weight="bold" style:font-weight-asian="bold" style:font-name-complex="Times New Roman CYR" style:font-weight-complex="bold"/>
 				</style:style>
 				<style:style style:name="T20" style:family="text">
-					<style:text-properties style:text-position="super 65%" fo:font-weight="bold" style:font-weight-asian="bold"/>
+					<style:text-properties style:font-name="Times New Roman CYR" style:font-name-complex="Times New Roman CYR" style:font-weight-complex="bold"/>
 				</style:style>
 				<style:style style:name="T21" style:family="text">
-					<style:text-properties style:text-underline-style="none" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous"/>
+					<style:text-properties style:text-position="sub 65%" fo:language="en" fo:country="US" fo:font-weight="bold" style:font-weight-asian="bold"/>
 				</style:style>
 				<style:style style:name="T22" style:family="text">
-					<style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+					<style:text-properties style:text-position="super 65%" fo:font-weight="bold" style:font-weight-asian="bold"/>
 				</style:style>
 				<style:style style:name="T23" style:family="text">
-					<style:text-properties fo:font-weight="normal" officeooo:rsid="0057529e" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+					<style:text-properties style:text-underline-style="none" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous"/>
 				</style:style>
 				<style:style style:name="T24" style:family="text">
-					<style:text-properties fo:font-weight="normal" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
+					<style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
 				</style:style>
 				<style:style style:name="T25" style:family="text">
-					<style:text-properties fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+					<style:text-properties fo:font-weight="normal" officeooo:rsid="0057529e" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
 				</style:style>
 				<style:style style:name="T26" style:family="text">
-					<style:text-properties style:font-style-asian="italic" style:font-style-complex="italic"/>
+					<style:text-properties fo:font-weight="normal" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
 				</style:style>
 				<style:style style:name="T27" style:family="text">
-					<style:text-properties style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous"/>
+					<style:text-properties fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
 				</style:style>
 				<style:style style:name="T28" style:family="text">
-					<style:text-properties style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-style-asian="italic"/>
+					<style:text-properties style:font-style-asian="italic" style:font-style-complex="italic"/>
 				</style:style>
 				<style:style style:name="T29" style:family="text">
-					<style:text-properties officeooo:rsid="012d7da6" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-style-asian="italic"/>
+					<style:text-properties style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous"/>
 				</style:style>
 				<style:style style:name="T30" style:family="text">
-					<style:text-properties officeooo:rsid="00a5ec8c"/>
+					<style:text-properties style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-style-asian="italic"/>
 				</style:style>
 				<style:style style:name="T31" style:family="text">
-					<style:text-properties fo:language="ru" fo:country="RU"/>
+					<style:text-properties officeooo:rsid="012d7da6" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-style-asian="italic"/>
 				</style:style>
 				<style:style style:name="T32" style:family="text">
-					<style:text-properties fo:language="ru" fo:country="RU" officeooo:rsid="00f339d2"/>
+					<style:text-properties officeooo:rsid="00a5ec8c"/>
 				</style:style>
 				<style:style style:name="T33" style:family="text">
-					<style:text-properties fo:language="ru" fo:country="RU" officeooo:rsid="012d7da6" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-style-asian="italic"/>
+					<style:text-properties fo:language="ru" fo:country="RU"/>
 				</style:style>
 				<style:style style:name="T34" style:family="text">
-					<style:text-properties fo:font-size="10pt" fo:font-weight="normal" officeooo:rsid="0057529e" style:font-size-asian="10pt" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-weight-complex="normal"/>
+					<style:text-properties fo:language="ru" fo:country="RU" officeooo:rsid="00f339d2"/>
 				</style:style>
 				<style:style style:name="T35" style:family="text">
-					<style:text-properties fo:font-size="10pt" fo:language="en" fo:country="US" fo:font-weight="normal" officeooo:rsid="0149f8b9" style:font-size-asian="10pt" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-weight-complex="normal"/>
+					<style:text-properties fo:language="ru" fo:country="RU" officeooo:rsid="012d7da6" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-style-asian="italic"/>
 				</style:style>
 				<style:style style:name="T36" style:family="text">
-					<style:text-properties fo:font-size="10pt" fo:language="en" fo:country="US" officeooo:rsid="0149f8b9" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+					<style:text-properties fo:language="ru" fo:country="RU" officeooo:rsid="01ed0f09"/>
 				</style:style>
 				<style:style style:name="T37" style:family="text">
-					<style:text-properties fo:font-size="10pt" officeooo:rsid="0057529e" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+					<style:text-properties fo:font-size="10pt" fo:font-weight="normal" officeooo:rsid="0057529e" style:font-size-asian="10pt" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-weight-complex="normal"/>
 				</style:style>
 				<style:style style:name="T38" style:family="text">
-					<style:text-properties fo:font-size="9pt" officeooo:rsid="0057529e" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+					<style:text-properties fo:font-size="10pt" fo:language="en" fo:country="US" fo:font-weight="normal" officeooo:rsid="0149f8b9" style:font-size-asian="10pt" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-weight-complex="normal"/>
 				</style:style>
 				<style:style style:name="T39" style:family="text">
-					<style:text-properties officeooo:rsid="012d7da6"/>
+					<style:text-properties fo:font-size="10pt" fo:language="en" fo:country="US" officeooo:rsid="0149f8b9" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
 				</style:style>
 				<style:style style:name="T40" style:family="text">
-					<style:text-properties style:text-position="sub 58%"/>
+					<style:text-properties fo:font-size="10pt" officeooo:rsid="0057529e" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
 				</style:style>
 				<style:style style:name="T41" style:family="text">
-					<style:text-properties style:text-position="super 80%"/>
+					<style:text-properties fo:font-size="9pt" officeooo:rsid="0057529e" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
 				</style:style>
 				<style:style style:name="T42" style:family="text">
-					<style:text-properties style:text-position="0% 100%" fo:font-size="10pt" fo:language="en" fo:country="US" fo:font-weight="normal" officeooo:rsid="00532b2a" style:font-size-asian="10pt" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-weight-complex="normal"/>
+					<style:text-properties officeooo:rsid="012d7da6"/>
 				</style:style>
 				<style:style style:name="T43" style:family="text">
-					<style:text-properties style:text-position="0% 100%" fo:font-size="10pt" fo:language="en" fo:country="US" fo:font-weight="normal" officeooo:rsid="0149f8b9" style:font-size-asian="10pt" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-weight-complex="normal"/>
+					<style:text-properties style:text-position="sub 58%"/>
 				</style:style>
 				<style:style style:name="T44" style:family="text">
-					<style:text-properties style:text-position="0% 100%" fo:font-size="10pt" fo:language="en" fo:country="US" officeooo:rsid="00532b2a" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+					<style:text-properties style:text-position="super 80%"/>
 				</style:style>
 				<style:style style:name="T45" style:family="text">
-					<style:text-properties style:text-position="0% 100%" fo:font-size="10pt" fo:language="en" fo:country="US" officeooo:rsid="0149f8b9" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+					<style:text-properties style:text-position="0% 100%" fo:font-size="10pt" fo:language="en" fo:country="US" fo:font-weight="normal" officeooo:rsid="00532b2a" style:font-size-asian="10pt" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-weight-complex="normal"/>
 				</style:style>
 				<style:style style:name="T46" style:family="text">
+					<style:text-properties style:text-position="0% 100%" fo:font-size="10pt" fo:language="en" fo:country="US" fo:font-weight="normal" officeooo:rsid="0149f8b9" style:font-size-asian="10pt" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-weight-complex="normal"/>
+				</style:style>
+				<style:style style:name="T47" style:family="text">
+					<style:text-properties style:text-position="0% 100%" fo:font-size="10pt" fo:language="en" fo:country="US" officeooo:rsid="00532b2a" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+				</style:style>
+				<style:style style:name="T48" style:family="text">
+					<style:text-properties style:text-position="0% 100%" fo:font-size="10pt" fo:language="en" fo:country="US" officeooo:rsid="0149f8b9" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+				</style:style>
+				<style:style style:name="T49" style:family="text">
 					<style:text-properties officeooo:rsid="015f8065"/>
 				</style:style>
-				<style:style style:name="T47" style:family="text"/>
+				<style:style style:name="T50" style:family="text"/>
 				<style:style style:name="Sect1" style:family="section">
 					<style:section-properties style:writing-mode="lr-tb" fo:margin-left="0cm" fo:margin-right="0.252cm" style:editable="false">
 						<style:columns fo:column-count="1" fo:column-gap="0cm"/>
@@ -4060,7 +4336,7 @@
 						<text:sequence-decl text:display-outline-level="0" text:name="Table"/>
 						<text:sequence-decl text:display-outline-level="0" text:name="Text"/>
 						<text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
-					</text:sequence-decls><text:p text:style-name="P96"/><table:table table:name="Таблица8" table:style-name="Таблица8">
+					</text:sequence-decls><text:p text:style-name="P111"/><table:table table:name="Таблица8" table:style-name="Таблица8">
 						<table:table-column table:style-name="Таблица8.A"/>
 						<table:table-column table:style-name="Таблица8.B"/>
 						<table:table-column table:style-name="Таблица8.C"/>
@@ -4077,7 +4353,7 @@
 								<text:p text:style-name="Обычный"/>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица8.D1" office:value-type="string">
-								<text:p text:style-name="P59">Всего листов <text:s/></text:p>
+								<text:p text:style-name="P68">Всего листов <text:s/></text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица8.A1" office:value-type="string">
 								<text:p text:style-name="Обычный"/>
@@ -4085,7 +4361,7 @@
 						</table:table-row>
 						<table:table-row table:style-name="Таблица8.2">
 							<table:table-cell table:style-name="Таблица8.A2" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P60">МЕЖЕВОЙ ПЛАН</text:p>
+								<text:p text:style-name="P69">МЕЖЕВОЙ ПЛАН</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица8.B2" table:number-columns-spanned="3" office:value-type="string">
 								<text:p text:style-name="Обычный">Заполняется специалистом органа кадастрового учета</text:p>
@@ -4109,13 +4385,13 @@
 						</table:table-row>
 						<table:table-row table:style-name="Таблица8.4">
 							<table:table-cell table:style-name="Таблица8.A4" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P60">Титульный лист</text:p>
+								<text:p text:style-name="P69">Титульный лист</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица8.B4" table:number-columns-spanned="2" office:value-type="string">
-								<text:p text:style-name="P22">
+								<text:p text:style-name="P25">
 									<text:s/>
 								</text:p>
-								<text:p text:style-name="P22"/>
+								<text:p text:style-name="P25"/>
 								<text:p text:style-name="P1">__________________________(подпись)</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
@@ -4141,13 +4417,13 @@
 						</table:table-row>
 						<table:table-row table:style-name="Таблица8.6">
 							<table:table-cell table:style-name="Таблица8.A6" table:number-columns-spanned="4" office:value-type="string">
-								<text:p text:style-name="P8"><text:bookmark-start text:name="Оглавление_ТитульныйЛист"/>Титульный лист<text:bookmark-end text:name="Оглавление_ТитульныйЛист"/></text:p>
+								<text:p text:style-name="P9"><text:bookmark-start text:name="Оглавление_ТитульныйЛист"/>Титульный лист<text:bookmark-end text:name="Оглавление_ТитульныйЛист"/></text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица8.A1" office:value-type="string">
-								<text:p text:style-name="P8"/>
+								<text:p text:style-name="P9"/>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
@@ -4186,18 +4462,18 @@
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица8.A1" office:value-type="string">
-								<text:p text:style-name="P22"/>
+								<text:p text:style-name="P25"/>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
 							<table:table-cell table:style-name="Таблица8.A9" table:number-columns-spanned="4" office:value-type="string">
-								<text:p text:style-name="P8">2. Цель кадастровых работ:</text:p>
+								<text:p text:style-name="P9">2. Цель кадастровых работ:</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица8.A1" office:value-type="string">
-								<text:p text:style-name="P8"/>
+								<text:p text:style-name="P9"/>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
@@ -4220,18 +4496,18 @@
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица8.A1" office:value-type="string">
-								<text:p text:style-name="P22"/>
+								<text:p text:style-name="P25"/>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
 							<table:table-cell table:style-name="Таблица8.A11" table:number-columns-spanned="4" office:value-type="string">
-								<text:p text:style-name="P8">3. Сведения о заказчике кадастровых работ:</text:p>
+								<text:p text:style-name="P9">3. Сведения о заказчике кадастровых работ:</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица8.A1" office:value-type="string">
-								<text:p text:style-name="P8"/>
+								<text:p text:style-name="P9"/>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
@@ -4254,7 +4530,7 @@
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица8.A1" office:value-type="string">
-								<text:p text:style-name="P22"/>
+								<text:p text:style-name="P25"/>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
@@ -4272,40 +4548,40 @@
 						<table:table-row table:style-name="Таблица8.14">
 							<table:table-cell table:style-name="Таблица8.A14" table:number-columns-spanned="3" office:value-type="string">
 								<text:p text:style-name="Обычный">Подпись ______________________________________________</text:p>
-								<text:p text:style-name="P34"/>
-								<text:p text:style-name="P34"><xsl:if test="/.//Person">
+								<text:p text:style-name="P38"/>
+								<text:p text:style-name="P38"><xsl:if test="/.//Person">
 <xsl:call-template name="mp_client"/>
 </xsl:if>
 <xsl:if test="not(/.//Person)">
 <xsl:call-template name="mp_client_agent"/>
 </xsl:if></text:p>
-								<text:p text:style-name="P35"/>
+								<text:p text:style-name="P39"/>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица8.D14" office:value-type="string">
-								<text:p text:style-name="P21"/>
-								<text:p text:style-name="P21"/>
-								<text:p text:style-name="P21"/>
+								<text:p text:style-name="P24"/>
+								<text:p text:style-name="P24"/>
+								<text:p text:style-name="P24"/>
 								<text:p text:style-name="Обычный">Дата <text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T9">
+										<text:span text:style-name="T10">
 											<text:s text:c="2"/>
 										</text:span>
 									</text:span><text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T8"><xsl:call-template name="mp_client_date"/></text:span>
+										<text:span text:style-name="T9"><xsl:call-template name="mp_client_date"/></text:span>
 									</text:span><text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T8"> </text:span>
+										<text:span text:style-name="T9"> </text:span>
 									</text:span></text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица8.A1" office:value-type="string">
-								<text:p text:style-name="P21"/>
+								<text:p text:style-name="P24"/>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row table:style-name="Таблица8.15">
 							<table:table-cell table:style-name="Таблица8.A15" table:number-columns-spanned="4" office:value-type="string">
 								<text:p text:style-name="Обычный">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T16">Место для оттиска печати заказчика кадастровых работ</text:span>
+										<text:span text:style-name="T18">Место для оттиска печати заказчика кадастровых работ</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 								</text:p>
@@ -4336,20 +4612,20 @@
 						<table:table-row>
 							<table:table-cell table:style-name="Таблица8.A17" table:number-columns-spanned="4" office:value-type="string">
 								<text:p text:style-name="Обычный">
-									<text:span text:style-name="T22">Фамилия, имя, отчество (при наличии отчества</text:span>
+									<text:span text:style-name="T24">Фамилия, имя, отчество (при наличии отчества</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T22">) </text:span>
+										<text:span text:style-name="T24">) </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T24">
+										<text:span text:style-name="T26">
 											<text:s text:c="2"/>
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T24"><xsl:apply-templates select="//Contractor/FIO"/></text:span>
+										<text:span text:style-name="T26"><xsl:apply-templates select="//Contractor/FIO"/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T24">
+										<text:span text:style-name="T26">
 											<text:s text:c="2"/>
 										</text:span>
 									</text:span>
@@ -4359,19 +4635,19 @@
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица8.A1" office:value-type="string">
-								<text:p text:style-name="P43"/>
+								<text:p text:style-name="P47"/>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
 							<table:table-cell table:style-name="Таблица8.A18" table:number-columns-spanned="4" office:value-type="string">
 								<text:p text:style-name="Обычный">№ квалификационного аттестата кадастрового инженера <text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T26">
+										<text:span text:style-name="T28">
 											<text:s text:c="2"/>
 										</text:span>
 									</text:span><text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T26"><xsl:apply-templates select="//Contractor/N_Certificate"/></text:span>
+										<text:span text:style-name="T28"><xsl:apply-templates select="//Contractor/N_Certificate"/></text:span>
 									</text:span><text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T26">
+										<text:span text:style-name="T28">
 											<text:s/>
 										</text:span>
 									</text:span></text:p>
@@ -4388,17 +4664,17 @@
 								<text:p text:style-name="Обычный">Контактный <text:span text:style-name="Основной_20_шрифт_20_абзаца">
 										<text:s/>
 									</text:span>телефон<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span><text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T8">
+										<text:span text:style-name="T9">
 											<text:s/>
 										</text:span>
 									</text:span><text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T9">
+										<text:span text:style-name="T10">
 											<text:s text:c="2"/>
 										</text:span>
 									</text:span><text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T9"><xsl:apply-templates select="//Contractor/Telephone"/></text:span>
+										<text:span text:style-name="T10"><xsl:apply-templates select="//Contractor/Telephone"/></text:span>
 									</text:span><text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T9">
+										<text:span text:style-name="T10">
 											<text:s/>
 										</text:span>
 									</text:span></text:p>
@@ -4407,7 +4683,7 @@
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица8.A1" office:value-type="string">
-								<text:p text:style-name="P21"/>
+								<text:p text:style-name="P24"/>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
@@ -4415,18 +4691,18 @@
 								<text:p text:style-name="Обычный">Почтовый адрес и адрес электронной почты, по которым осуществляется связь с кадастровым инженером</text:p>
 								<text:p text:style-name="P1">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T27">
+										<text:span text:style-name="T29">
 											<text:s/>
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T27"><xsl:apply-templates select="//Contractor"/></text:span>
+										<text:span text:style-name="T29"><xsl:apply-templates select="//Contractor"/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T27"> </text:span>
+										<text:span text:style-name="T29"> </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T9">
+										<text:span text:style-name="T10">
 											<text:s/>
 										</text:span>
 									</text:span>
@@ -4436,23 +4712,23 @@
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица8.A1" office:value-type="string">
-								<text:p text:style-name="P21"/>
+								<text:p text:style-name="P24"/>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
 							<table:table-cell table:style-name="Таблица8.A21" table:number-columns-spanned="4" office:value-type="string">
 								<text:p text:style-name="Обычный">Сокращенное наименование юридического лица, если кадастровый инженер является работником юридического лица<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span><text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T21">
+										<text:span text:style-name="T23">
 											<text:s/>
 										</text:span>
 									</text:span><text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T27">
+										<text:span text:style-name="T29">
 											<text:s/>
 										</text:span>
 									</text:span><text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T27"><xsl:apply-templates select="//Contractor/Organization"/></text:span>
+										<text:span text:style-name="T29"><xsl:apply-templates select="//Contractor/Organization"/></text:span>
 									</text:span><text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T27">
+										<text:span text:style-name="T29">
 											<text:s/>
 										</text:span>
 									</text:span></text:p>
@@ -4471,27 +4747,27 @@
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица8.C22" table:number-columns-spanned="2" office:value-type="string">
 								<text:p text:style-name="Обычный">Дата<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span><text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T9">
+										<text:span text:style-name="T10">
 											<text:s text:c="2"/>
 										</text:span>
 									</text:span><text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T9"><xsl:call-template name="mp_cad_date"/></text:span>
+										<text:span text:style-name="T10"><xsl:call-template name="mp_cad_date"/></text:span>
 									</text:span><text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T9">
+										<text:span text:style-name="T10">
 											<text:s/>
 										</text:span>
 									</text:span></text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица8.A1" office:value-type="string">
-								<text:p text:style-name="P21"/>
+								<text:p text:style-name="P24"/>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row table:style-name="Таблица8.23">
 							<table:table-cell table:style-name="Таблица8.A23" table:number-columns-spanned="4" office:value-type="string">
 								<text:p text:style-name="Обычный">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T16">Место для оттиска печати кадастрового инженера</text:span>
+										<text:span text:style-name="T18">Место для оттиска печати кадастрового инженера</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 								</text:p>
@@ -4504,7 +4780,7 @@
 							</table:table-cell>
 						</table:table-row>
 					</table:table><text:p text:style-name="Обычный"/><text:p text:style-name="Обычный"/><text:section text:style-name="Sect1" text:name="Sect1">
-						<text:p text:style-name="P70"/>
+						<text:p text:style-name="P83"/>
 						<table:table table:name="Таблица9" table:style-name="Таблица9"><table:table-column table:style-name="Таблица9.A"/><table:table-column table:style-name="Таблица9.B"/><table:table-column table:style-name="Таблица9.C"/><table:table-row table:style-name="Таблица9.1">
 								<table:table-cell table:style-name="Таблица9.A1" office:value-type="string">
 									<text:p text:style-name="Обычный"/>
@@ -4519,41 +4795,41 @@
 								</table:table-cell>
 							</table:table-row><table:table-row table:style-name="Таблица9.2">
 								<table:table-cell table:style-name="Таблица9.A2" table:number-columns-spanned="3" office:value-type="string">
-									<text:p text:style-name="P18">МЕЖЕВОЙ ПЛАН</text:p>
+									<text:p text:style-name="P21">МЕЖЕВОЙ ПЛАН</text:p>
 								</table:table-cell>
 								<table:covered-table-cell/>
 								<table:covered-table-cell/>
 							</table:table-row><table:table-row table:style-name="Таблица9.3">
 								<table:table-cell table:style-name="Таблица9.A3" table:number-columns-spanned="3" office:value-type="string">
-									<text:p text:style-name="P8"><text:bookmark-start text:name="Оглавление_Содержание"/>Содержание<text:bookmark-end text:name="Оглавление_Содержание"/></text:p>
+									<text:p text:style-name="P9"><text:bookmark-start text:name="Оглавление_Содержание"/>Содержание<text:bookmark-end text:name="Оглавление_Содержание"/></text:p>
 								</table:table-cell>
 								<table:covered-table-cell/>
 								<table:covered-table-cell/>
 							</table:table-row><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A4" office:value-type="string">
-									<text:p text:style-name="P18">№ п/п</text:p>
+									<text:p text:style-name="P21">№ п/п</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица9.B4" office:value-type="string">
-									<text:p text:style-name="P18">Разделы межевого плана</text:p>
+									<text:p text:style-name="P21">Разделы межевого плана</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица9.C4" office:value-type="string">
-									<text:p text:style-name="P18">Номера листов</text:p>
+									<text:p text:style-name="P21">Номера листов</text:p>
 								</table:table-cell>
 							</table:table-row><table:table-row table:style-name="Таблица9.5">
 								<table:table-cell table:style-name="Таблица9.A5" office:value-type="string">
-									<text:p text:style-name="P18">1</text:p>
+									<text:p text:style-name="P21">1</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица9.B5" office:value-type="string">
-									<text:p text:style-name="P18">2</text:p>
+									<text:p text:style-name="P21">2</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица9.C5" office:value-type="string">
-									<text:p text:style-name="P80">3</text:p>
+									<text:p text:style-name="P94">3</text:p>
 								</table:table-cell>
 							</table:table-row><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A19" office:value-type="string">
-									<text:list xml:id="list8646304714553330748" text:style-name="Numbering_20_1">
+									<text:list xml:id="list2755943877183364547" text:style-name="Numbering_20_1">
 										<text:list-item>
-											<text:p text:style-name="P90">
+											<text:p text:style-name="P106">
 												<text:span text:style-name="User_20_Entry"/>
 											</text:p>
 										</text:list-item>
@@ -4562,25 +4838,25 @@
 								<table:table-cell table:style-name="Таблица9.B6" office:value-type="string">
 									<text:p text:style-name="Обычный">
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28">
+											<text:span text:style-name="T30">
 												<text:bookmark-ref text:reference-format="text" text:ref-name="Оглавление_ИсходныеДанные">Исходные данные</text:bookmark-ref>
 											</text:span>
 										</text:span>
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28"> </text:span>
+											<text:span text:style-name="T30"> </text:span>
 										</text:span>
 									</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица9.C6" office:value-type="string">
-									<text:p text:style-name="P36">
+									<text:p text:style-name="P40">
 										<text:span text:style-name="User_20_Entry">3</text:span>
 									</text:p>
 								</table:table-cell>
 							</table:table-row><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A19" office:value-type="string">
-									<text:list xml:id="list192222489141769" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list195730975147293" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
-											<text:p text:style-name="P91">
+											<text:p text:style-name="P107">
 												<text:span text:style-name="User_20_Entry"/>
 											</text:p>
 										</text:list-item>
@@ -4589,33 +4865,33 @@
 								<table:table-cell table:style-name="Таблица9.B7" office:value-type="string">
 									<text:p text:style-name="Обычный">
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28">
+											<text:span text:style-name="T30">
 												<text:bookmark-ref text:reference-format="text" text:ref-name="Оглавление_Сведения">Сведения о выполненных измерениях и расчетах</text:bookmark-ref>
 											</text:span>
 										</text:span>
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28"> </text:span>
+											<text:span text:style-name="T30"> </text:span>
 										</text:span>
 									</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица9.C7" office:value-type="string">
 									<text:p text:style-name="P1">
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28">
+											<text:span text:style-name="T30">
 												<text:bookmark-ref text:reference-format="page" text:ref-name="Оглавление_Сведения">4</text:bookmark-ref>
 											</text:span>
 										</text:span>
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28"> </text:span>
+											<text:span text:style-name="T30"> </text:span>
 										</text:span>
 									</text:p>
 								</table:table-cell>
 							</table:table-row><!--row-code-->
 <xsl:if test="/.//NewParcel"><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A9" office:value-type="string">
-									<text:list xml:id="list192222489132052" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list195730975167758" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
-											<text:p text:style-name="P94">
+											<text:p text:style-name="P110">
 												<text:span text:style-name="User_20_Entry"/>
 											</text:p>
 										</text:list-item>
@@ -4624,24 +4900,24 @@
 								<table:table-cell table:style-name="Таблица9.B9" office:value-type="string">
 									<text:p text:style-name="Обычный">
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28">
+											<text:span text:style-name="T30">
 												<text:bookmark-ref text:reference-format="text" text:ref-name="Оглавление_ОбразуемыеУчастки">Сведения об образуемых земельных участках и их частях</text:bookmark-ref>
 											</text:span>
 										</text:span>
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28"> </text:span>
+											<text:span text:style-name="T30"> </text:span>
 										</text:span>
 									</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица9.C9" office:value-type="string">
 									<text:p text:style-name="P1">
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28">
+											<text:span text:style-name="T30">
 												<text:bookmark-ref text:reference-format="page" text:ref-name="Оглавление_ОбразуемыеУчастки">6</text:bookmark-ref>
 											</text:span>
 										</text:span>
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28"> </text:span>
+											<text:span text:style-name="T30"> </text:span>
 										</text:span>
 									</text:p>
 								</table:table-cell>
@@ -4649,9 +4925,9 @@
 </xsl:if>
 <xsl:if test="/.//ExistEZParcels"><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A19" office:value-type="string">
-									<text:list xml:id="list192222499158044" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list195730975160275" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
-											<text:p text:style-name="P92">
+											<text:p text:style-name="P108">
 												<text:span text:style-name="User_20_Entry"/>
 											</text:p>
 										</text:list-item>
@@ -4660,24 +4936,24 @@
 								<table:table-cell table:style-name="Таблица9.B11" office:value-type="string">
 									<text:p text:style-name="Обычный">
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28">
+											<text:span text:style-name="T30">
 												<text:bookmark-ref text:reference-format="text" text:ref-name="Оглавление_ИзмененныеУчастки">Сведения об измененных земельных участках</text:bookmark-ref>
 											</text:span>
 										</text:span>
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28"> </text:span>
+											<text:span text:style-name="T30"> </text:span>
 										</text:span>
 									</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица9.C11" office:value-type="string">
 									<text:p text:style-name="P1">
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28">
+											<text:span text:style-name="T30">
 												<text:bookmark-ref text:reference-format="page" text:ref-name="Оглавление_ИзмененныеУчастки">9</text:bookmark-ref>
 											</text:span>
 										</text:span>
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28"> </text:span>
+											<text:span text:style-name="T30"> </text:span>
 										</text:span>
 									</text:p>
 								</table:table-cell>
@@ -4685,9 +4961,9 @@
 </xsl:if>
 <xsl:if test="/.//NewParcel/Providing_Pass_CadastralNumbers"><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A19" office:value-type="string">
-									<text:list xml:id="list192222499142527" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list195730975161258" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
-											<text:p text:style-name="P92">
+											<text:p text:style-name="P108">
 												<text:span text:style-name="User_20_Entry"/>
 											</text:p>
 										</text:list-item>
@@ -4696,24 +4972,24 @@
 								<table:table-cell table:style-name="Таблица9.B13" office:value-type="string">
 									<text:p text:style-name="Обычный">
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28">
+											<text:span text:style-name="T30">
 												<text:bookmark-ref text:reference-format="text" text:ref-name="Оглавление_Доступ">Сведения о земельных участках, посредством которых обеспечивается доступ к образуемым или изменяемым земельным участкам</text:bookmark-ref>
 											</text:span>
 										</text:span>
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28"> </text:span>
+											<text:span text:style-name="T30"> </text:span>
 										</text:span>
 									</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица9.C13" office:value-type="string">
 									<text:p text:style-name="P1">
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28">
-												<text:bookmark-ref text:reference-format="page" text:ref-name="Оглавление_Доступ">10</text:bookmark-ref>
+											<text:span text:style-name="T30">
+												<text:bookmark-ref text:reference-format="page" text:ref-name="Оглавление_Доступ">11</text:bookmark-ref>
 											</text:span>
 										</text:span>
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28"> </text:span>
+											<text:span text:style-name="T30"> </text:span>
 										</text:span>
 									</text:p>
 								</table:table-cell>
@@ -4721,11 +4997,11 @@
 </xsl:if>
 <xsl:if test="/.//ExistParcel[not(Composition_EZ)]"><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A19" office:value-type="string">
-									<text:list xml:id="list192222499154067" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list195730975145951" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
-											<text:p text:style-name="P92">
+											<text:p text:style-name="P108">
 												<text:span text:style-name="User_20_Entry">
-													<text:span text:style-name="T13"/>
+													<text:span text:style-name="T14"/>
 												</text:span>
 											</text:p>
 										</text:list-item>
@@ -4734,24 +5010,24 @@
 								<table:table-cell table:style-name="Таблица9.B15" office:value-type="string">
 									<text:p text:style-name="Обычный">
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28">
+											<text:span text:style-name="T30">
 												<text:bookmark-ref text:reference-format="text" text:ref-name="Оглавление_УточняемыеУчастки">Сведения об уточняемых земельных участках и их частях</text:bookmark-ref>
 											</text:span>
 										</text:span>
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28"> </text:span>
+											<text:span text:style-name="T30"> </text:span>
 										</text:span>
 									</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица9.C15" office:value-type="string">
 									<text:p text:style-name="P1">
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28">
-												<text:bookmark-ref text:reference-format="page" text:ref-name="Оглавление_УточняемыеУчастки">11</text:bookmark-ref>
+											<text:span text:style-name="T30">
+												<text:bookmark-ref text:reference-format="page" text:ref-name="Оглавление_УточняемыеУчастки">12</text:bookmark-ref>
 											</text:span>
 										</text:span>
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28"> </text:span>
+											<text:span text:style-name="T30"> </text:span>
 										</text:span>
 									</text:p>
 								</table:table-cell>
@@ -4759,9 +5035,9 @@
 </xsl:if>
 <xsl:if test="/.//NewSubParcel"><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A19" office:value-type="string">
-									<text:list xml:id="list192222499144203" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list195730975147906" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
-											<text:p text:style-name="P92">
+											<text:p text:style-name="P108">
 												<text:span text:style-name="User_20_Entry"/>
 											</text:p>
 										</text:list-item>
@@ -4770,24 +5046,24 @@
 								<table:table-cell table:style-name="Таблица9.B17" office:value-type="string">
 									<text:p text:style-name="Обычный">
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28">
+											<text:span text:style-name="T30">
 												<text:bookmark-ref text:reference-format="text" text:ref-name="Оглавление_ОбразуемыеЧасти">Сведения об образуемых частях земельного участка</text:bookmark-ref>
 											</text:span>
 										</text:span>
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28"> </text:span>
+											<text:span text:style-name="T30"> </text:span>
 										</text:span>
 									</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица9.C17" office:value-type="string">
 									<text:p text:style-name="P1">
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28">
-												<text:bookmark-ref text:reference-format="page" text:ref-name="Оглавление_ОбразуемыеЧасти">14</text:bookmark-ref>
+											<text:span text:style-name="T30">
+												<text:bookmark-ref text:reference-format="page" text:ref-name="Оглавление_ОбразуемыеЧасти">15</text:bookmark-ref>
 											</text:span>
 										</text:span>
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28"> </text:span>
+											<text:span text:style-name="T30"> </text:span>
 										</text:span>
 									</text:p>
 								</table:table-cell>
@@ -4795,9 +5071,9 @@
 </xsl:if>
 <xsl:if test="/.//Conclusion"><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A19" office:value-type="string">
-									<text:list xml:id="list192222499160121" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list195730975172996" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
-											<text:p text:style-name="P93">
+											<text:p text:style-name="P109">
 												<text:span text:style-name="User_20_Entry"/>
 											</text:p>
 										</text:list-item>
@@ -4806,24 +5082,24 @@
 								<table:table-cell table:style-name="Таблица9.B19" office:value-type="string">
 									<text:p text:style-name="Обычный">
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28">
+											<text:span text:style-name="T30">
 												<text:bookmark-ref text:reference-format="text" text:ref-name="Оглавление_ЗаключениеКадастровогоИнженера">Заключение кадастрового инженера</text:bookmark-ref>
 											</text:span>
 										</text:span>
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28"> </text:span>
+											<text:span text:style-name="T30"> </text:span>
 										</text:span>
 									</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица9.C19" office:value-type="string">
 									<text:p text:style-name="P1">
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28">
-												<text:bookmark-ref text:reference-format="page" text:ref-name="Оглавление_ЗаключениеКадастровогоИнженера">15</text:bookmark-ref>
+											<text:span text:style-name="T30">
+												<text:bookmark-ref text:reference-format="page" text:ref-name="Оглавление_ЗаключениеКадастровогоИнженера">16</text:bookmark-ref>
 											</text:span>
 										</text:span>
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28"> </text:span>
+											<text:span text:style-name="T30"> </text:span>
 										</text:span>
 									</text:p>
 								</table:table-cell>
@@ -4832,16 +5108,16 @@
 <xsl:if test="/.//Scheme_Geodesic_Plotting">
 <table:table-row>
 								<table:table-cell table:style-name="Таблица9.A21">
-									<text:list xml:id="list192222499151837" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list195730975160236" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
-											<text:p text:style-name="P92"/>
+											<text:p text:style-name="P108"/>
 										</text:list-item>
 									</text:list>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица9.B21" office:value-type="string">
-									<text:p text:style-name="P51">
+									<text:p text:style-name="P56">
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T33">Схема геодезических построений</text:span>
+											<text:span text:style-name="T35">Схема геодезических построений</text:span>
 										</text:span>
 										<text:span text:style-name="User_20_Entry"> </text:span>
 									</text:p>
@@ -4849,7 +5125,7 @@
 								<table:table-cell table:style-name="Таблица9.C21" office:value-type="string">
 									<text:p text:style-name="P1">
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28">
+											<text:span text:style-name="T30">
 												<text:s text:c="7"/>
 											</text:span>
 										</text:span>
@@ -4859,20 +5135,20 @@
 </xsl:if>
 <xsl:if test="/.//Scheme_Disposition_Parcels"><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A23" office:value-type="string">
-									<text:list xml:id="list192222509144853" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list195730991151063" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
-											<text:p text:style-name="P92">
+											<text:p text:style-name="P108">
 												<text:span text:style-name="User_20_Entry">
-													<text:span text:style-name="T13"/>
+													<text:span text:style-name="T14"/>
 												</text:span>
 											</text:p>
 										</text:list-item>
 									</text:list>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица9.B23" office:value-type="string">
-									<text:p text:style-name="P51">
+									<text:p text:style-name="P56">
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T29">Схема расположения земельных участков</text:span>
+											<text:span text:style-name="T31">Схема расположения земельных участков</text:span>
 										</text:span>
 										<text:span text:style-name="User_20_Entry"> </text:span>
 									</text:p>
@@ -4880,7 +5156,7 @@
 								<table:table-cell table:style-name="Таблица9.C23" office:value-type="string">
 									<text:p text:style-name="P1">
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28">
+											<text:span text:style-name="T30">
 												<text:s text:c="5"/>
 											</text:span>
 										</text:span>
@@ -4890,20 +5166,20 @@
 </xsl:if>
 <xsl:if test="/.//Diagram_Parcels_SubParcels"><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A25" office:value-type="string">
-									<text:list xml:id="list192222509149043" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list195730991146463" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
-											<text:p text:style-name="P92">
+											<text:p text:style-name="P108">
 												<text:span text:style-name="User_20_Entry">
-													<text:span text:style-name="T13"/>
+													<text:span text:style-name="T14"/>
 												</text:span>
 											</text:p>
 										</text:list-item>
 									</text:list>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица9.B25" office:value-type="string">
-									<text:p text:style-name="P51">
+									<text:p text:style-name="P56">
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T29">Чертеж земельных участков и их частей</text:span>
+											<text:span text:style-name="T31">Чертеж земельных участков и их частей</text:span>
 										</text:span>
 										<text:span text:style-name="User_20_Entry"> </text:span>
 									</text:p>
@@ -4911,7 +5187,7 @@
 								<table:table-cell table:style-name="Таблица9.C25" office:value-type="string">
 									<text:p text:style-name="P1">
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T28">
+											<text:span text:style-name="T30">
 												<text:s text:c="4"/>
 											</text:span>
 										</text:span>
@@ -4921,23 +5197,23 @@
 </xsl:if>
 <xsl:if test="/.//Agreement_Document"><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A27" office:value-type="string">
-									<text:list xml:id="list192222509146745" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list195730991141087" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
-											<text:p text:style-name="P92">
+											<text:p text:style-name="P108">
 												<text:span text:style-name="User_20_Entry">
-													<text:span text:style-name="T13"/>
+													<text:span text:style-name="T14"/>
 												</text:span>
 											</text:p>
 										</text:list-item>
 									</text:list>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица9.B27" office:value-type="string">
-									<text:p text:style-name="P37">
+									<text:p text:style-name="P41">
 										<text:span text:style-name="User_20_Entry">Акт согласования местоположения границ земельного участка</text:span>
 									</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица9.C27" office:value-type="string">
-									<text:p text:style-name="P38">
+									<text:p text:style-name="P42">
 										<text:span text:style-name="User_20_Entry">, стр.2</text:span>
 									</text:p>
 								</table:table-cell>
@@ -4945,21 +5221,21 @@
 </xsl:if>
 <xsl:if test="/.//Appendix"><table:table-row>
 								<table:table-cell table:style-name="Таблица9.A29" office:value-type="string">
-									<text:list xml:id="list192222509160950" text:continue-numbering="true" text:style-name="Numbering_20_1">
+									<text:list xml:id="list195730991151746" text:continue-numbering="true" text:style-name="Numbering_20_1">
 										<text:list-item>
-											<text:p text:style-name="P92">
+											<text:p text:style-name="P108">
 												<text:span text:style-name="User_20_Entry">
-													<text:span text:style-name="T13"/>
+													<text:span text:style-name="T14"/>
 												</text:span>
 											</text:p>
 										</text:list-item>
 									</text:list>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица9.B29" office:value-type="string">
-									<text:p text:style-name="P37">
+									<text:p text:style-name="P41">
 										<text:span text:style-name="User_20_Entry">Приложени</text:span>
 										<text:span text:style-name="User_20_Entry">
-											<text:span text:style-name="T39">е</text:span>
+											<text:span text:style-name="T42">е</text:span>
 										</text:span>
 										<text:span text:style-name="User_20_Entry"> </text:span>
 									</text:p>
@@ -4972,7 +5248,7 @@
 							</table:table-row><!--row-code-->
 </xsl:if></table:table>
 						<text:p text:style-name="Обычный"/>
-						<text:p text:style-name="P29"/>
+						<text:p text:style-name="P33"/>
 					</text:section><table:table table:name="Таблица11" table:style-name="Таблица11">
 						<table:table-column table:style-name="Таблица11.A"/>
 						<table:table-column table:style-name="Таблица11.B"/>
@@ -4980,7 +5256,7 @@
 						<table:table-header-rows>
 							<table:table-row table:style-name="Таблица11.1">
 								<table:table-cell table:style-name="Таблица11.A1" table:number-columns-spanned="3" office:value-type="string">
-									<text:p text:style-name="P69"><text:bookmark-start text:name="Оглавление_ИсходныеДанные"/>Исходные данные<text:bookmark-end text:name="Оглавление_ИсходныеДанные"/></text:p>
+									<text:p text:style-name="P82"><text:bookmark-start text:name="Оглавление_ИсходныеДанные"/>Исходные данные<text:bookmark-end text:name="Оглавление_ИсходныеДанные"/></text:p>
 								</table:table-cell>
 								<table:covered-table-cell/>
 								<table:covered-table-cell/>
@@ -4988,7 +5264,7 @@
 						</table:table-header-rows>
 						<table:table-row>
 							<table:table-cell table:style-name="Таблица11.A2" table:number-columns-spanned="3" office:value-type="string">
-								<text:p text:style-name="P79">
+								<text:p text:style-name="P93">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
 										<text:span text:style-name="T2">1. Перечень документов, использованных при подготовке межевого плана</text:span>
 									</text:span>
@@ -5000,32 +5276,32 @@
 						</table:table-row>
 						<table:table-row>
 							<table:table-cell table:style-name="Таблица11.A3" office:value-type="string">
-								<text:p text:style-name="P60">№ п/п</text:p>
+								<text:p text:style-name="P69">№ п/п</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица11.B3" office:value-type="string">
-								<text:p text:style-name="P60">Наименование документа</text:p>
+								<text:p text:style-name="P69">Наименование документа</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица11.C3" office:value-type="string">
-								<text:p text:style-name="P60">Реквизиты документа</text:p>
+								<text:p text:style-name="P69">Реквизиты документа</text:p>
 							</table:table-cell>
 						</table:table-row>
 					</table:table><table:table table:name="Таблица20" table:style-name="Таблица20"><table:table-column table:style-name="Таблица20.A"/><table:table-column table:style-name="Таблица20.B"/><table:table-column table:style-name="Таблица20.C"/><table:table-header-rows>
 							<table:table-row table:style-name="Таблица20.1">
 								<table:table-cell table:style-name="Таблица20.A1" office:value-type="string">
-									<text:p text:style-name="P60">1</text:p>
+									<text:p text:style-name="P69">1</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица20.B1" office:value-type="string">
-									<text:p text:style-name="P60">2</text:p>
+									<text:p text:style-name="P69">2</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица20.C1" office:value-type="string">
-									<text:p text:style-name="P60">3</text:p>
+									<text:p text:style-name="P69">3</text:p>
 								</table:table-cell>
 							</table:table-row>
 						</table:table-header-rows><!--row-code-->
 	<xsl:for-each select="/.//Input_Data/Documents/Document | /STD_MP[not(/.//Input_Data/Documents/Document)]">
 <table:table-row table:style-name="Таблица20.1">
 							<table:table-cell table:style-name="Таблица20.A3" office:value-type="string">
-								<text:p text:style-name="P60">
+								<text:p text:style-name="P69">
 									<text:span text:style-name="User_20_Entry">		<xsl:if test="ancestor-or-self::Document">
 			<xsl:value-of select="position()"/>
 		</xsl:if>
@@ -5089,16 +5365,16 @@
 						</table:table-row>
 						<table:table-row table:style-name="Таблица21.2">
 							<table:table-cell table:style-name="Таблица21.A2" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">№ п/п</text:p>
+								<text:p text:style-name="P9">№ п/п</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица21.B2" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">Название пункта и тип знака геодезической сети</text:p>
+								<text:p text:style-name="P9">Название пункта и тип знака геодезической сети</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица21.B2" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">Класс геодезической сети</text:p>
+								<text:p text:style-name="P9">Класс геодезической сети</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица21.D2" table:number-columns-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">Координаты, м</text:p>
+								<text:p text:style-name="P9">Координаты, м</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 						</table:table-row>
@@ -5107,7 +5383,7 @@
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица21.B2" office:value-type="string">
-								<text:p text:style-name="P8">Х</text:p>
+								<text:p text:style-name="P9">Х</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица21.D2" office:value-type="string">
 								<text:p text:style-name="P1">
@@ -5121,19 +5397,19 @@
 					</table:table><table:table table:name="Таблица23" table:style-name="Таблица23"><table:table-column table:style-name="Таблица23.A"/><table:table-column table:style-name="Таблица23.B"/><table:table-column table:style-name="Таблица23.C" table:number-columns-repeated="2"/><table:table-column table:style-name="Таблица23.E"/><table:table-header-rows>
 							<table:table-row table:style-name="Таблица23.1">
 								<table:table-cell table:style-name="Таблица23.A1" office:value-type="string">
-									<text:p text:style-name="P8">1</text:p>
+									<text:p text:style-name="P9">1</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица23.B1" office:value-type="string">
-									<text:p text:style-name="P8">2</text:p>
+									<text:p text:style-name="P9">2</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица23.B1" office:value-type="string">
-									<text:p text:style-name="P8">3</text:p>
+									<text:p text:style-name="P9">3</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица23.B1" office:value-type="string">
-									<text:p text:style-name="P8">4</text:p>
+									<text:p text:style-name="P9">4</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица23.E1" office:value-type="string">
-									<text:p text:style-name="P8">5</text:p>
+									<text:p text:style-name="P9">5</text:p>
 								</table:table-cell>
 							</table:table-row>
 						</table:table-header-rows><!--row-code-->
@@ -5214,7 +5490,7 @@
 						<table:table-column table:style-name="Таблица24.D"/>
 						<table:table-row table:style-name="Таблица24.1">
 							<table:table-cell table:style-name="Таблица24.A1" table:number-columns-spanned="4" office:value-type="string">
-								<text:p text:style-name="P15">3. Сведения о средствах измерений</text:p>
+								<text:p text:style-name="P16">3. Сведения о средствах измерений</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
@@ -5222,40 +5498,40 @@
 						</table:table-row>
 						<table:table-row table:style-name="Таблица24.2">
 							<table:table-cell table:style-name="Таблица24.A2" office:value-type="string">
-								<text:p text:style-name="P8">№ п/п</text:p>
+								<text:p text:style-name="P9">№ п/п</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица24.B2" office:value-type="string">
-								<text:p text:style-name="P8">Наименование прибора</text:p>
-								<text:p text:style-name="P8">(инструмента, аппаратуры)</text:p>
+								<text:p text:style-name="P9">Наименование прибора</text:p>
+								<text:p text:style-name="P9">(инструмента, аппаратуры)</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица24.B2" office:value-type="string">
-								<text:p text:style-name="P8">Реквизиты сертификата прибора</text:p>
-								<text:p text:style-name="P8">(инструмента, аппаратуры), при наличии такого сертификата</text:p>
+								<text:p text:style-name="P9">Реквизиты сертификата прибора</text:p>
+								<text:p text:style-name="P9">(инструмента, аппаратуры), при наличии такого сертификата</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица24.D2" office:value-type="string">
-								<text:p text:style-name="P8">Реквизиты свидетельства о поверке прибора</text:p>
-								<text:p text:style-name="P8">(инструмента, аппаратуры)</text:p>
+								<text:p text:style-name="P9">Реквизиты свидетельства о поверке прибора</text:p>
+								<text:p text:style-name="P9">(инструмента, аппаратуры)</text:p>
 							</table:table-cell>
 						</table:table-row>
 					</table:table><table:table table:name="Таблица25" table:style-name="Таблица25"><table:table-column table:style-name="Таблица25.A"/><table:table-column table:style-name="Таблица25.B"/><table:table-column table:style-name="Таблица25.C"/><table:table-column table:style-name="Таблица25.D"/><table:table-header-rows>
 							<table:table-row table:style-name="Таблица25.1">
 								<table:table-cell table:style-name="Таблица25.A1" office:value-type="string">
-									<text:p text:style-name="P8">1</text:p>
+									<text:p text:style-name="P9">1</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица25.B1" office:value-type="string">
-									<text:p text:style-name="P8">2</text:p>
+									<text:p text:style-name="P9">2</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица25.B1" office:value-type="string">
-									<text:p text:style-name="P8">3</text:p>
+									<text:p text:style-name="P9">3</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица25.D1" office:value-type="string">
-									<text:p text:style-name="P8">4</text:p>
+									<text:p text:style-name="P9">4</text:p>
 								</table:table-cell>
 							</table:table-row>
 						</table:table-header-rows><!--row-code-->
 <xsl:for-each select="/.//Input_Data/Means_Survey/Means_Survey | STD_MP[not(/.//Input_Data/Means_Survey/Means_Survey)]"><table:table-row table:style-name="Таблица25.1">
 							<table:table-cell table:style-name="Таблица25.A3" office:value-type="string">
-								<text:p text:style-name="P44">
+								<text:p text:style-name="P48">
 									<text:span text:style-name="User_20_Entry">	<xsl:if test="ancestor-or-self::Means_Survey">
 			<xsl:value-of select="position()"/>
 		</xsl:if>
@@ -5265,7 +5541,7 @@
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица25.B3" office:value-type="string">
-								<text:p text:style-name="P44">
+								<text:p text:style-name="P48">
 									<text:span text:style-name="User_20_Entry">	<xsl:if test="ancestor-or-self::Means_Survey">
 <xsl:value-of select="Name"/>
 		</xsl:if>
@@ -5275,7 +5551,7 @@
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица25.B3" office:value-type="string">
-								<text:p text:style-name="P44">
+								<text:p text:style-name="P48">
 									<text:span text:style-name="User_20_Entry">
 
 	<xsl:if test="ancestor-or-self::Means_Survey">
@@ -5287,7 +5563,7 @@
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица25.D3" office:value-type="string">
-								<text:p text:style-name="P44">
+								<text:p text:style-name="P48">
 									<text:span text:style-name="User_20_Entry">
 	<xsl:if test="ancestor-or-self::Means_Survey">
 <xsl:value-of select="Certificate_Verification"/>
@@ -5305,23 +5581,23 @@
 						<table:table-column table:style-name="Таблица26.C"/>
 						<table:table-row table:style-name="Таблица26.1">
 							<table:table-cell table:style-name="Таблица26.A1" table:number-columns-spanned="3" office:value-type="string">
-								<text:p text:style-name="P8">4. Сведения о наличии зданий, сооружений, объектов незавершенного строительства на исходных или измененных земельных участках</text:p>
+								<text:p text:style-name="P9">4. Сведения о наличии зданий, сооружений, объектов незавершенного строительства на исходных или измененных земельных участках</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
 						</table:table-row>
 						<table:table-row table:style-name="Таблица26.2">
 							<table:table-cell table:style-name="Таблица26.A2" office:value-type="string">
-								<text:p text:style-name="P8">№ п/п</text:p>
+								<text:p text:style-name="P9">№ п/п</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица26.B2" office:value-type="string">
-								<text:p text:style-name="P8">Кадастровый номер</text:p>
-								<text:p text:style-name="P8">земельного участка</text:p>
+								<text:p text:style-name="P9">Кадастровый номер</text:p>
+								<text:p text:style-name="P9">земельного участка</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица26.C2" office:value-type="string">
 								<text:p text:style-name="P1">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T17">Кадастровые или иные номера зданий, сооружений, объектов незавершенного строительства, расположенных на земельном участке</text:span>
+										<text:span text:style-name="T19">Кадастровые или иные номера зданий, сооружений, объектов незавершенного строительства, расположенных на земельном участке</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 								</text:p>
@@ -5330,19 +5606,19 @@
 					</table:table><table:table table:name="Таблица27" table:style-name="Таблица27"><table:table-column table:style-name="Таблица27.A"/><table:table-column table:style-name="Таблица27.B"/><table:table-column table:style-name="Таблица27.C"/><table:table-header-rows>
 							<table:table-row table:style-name="Таблица27.1">
 								<table:table-cell table:style-name="Таблица27.A1" office:value-type="string">
-									<text:p text:style-name="P8">1</text:p>
+									<text:p text:style-name="P9">1</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица27.B1" office:value-type="string">
-									<text:p text:style-name="P8">2</text:p>
+									<text:p text:style-name="P9">2</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица27.C1" office:value-type="string">
-									<text:p text:style-name="P8">3</text:p>
+									<text:p text:style-name="P9">3</text:p>
 								</table:table-cell>
 							</table:table-row>
 						</table:table-header-rows><!--row-code-->
 <xsl:for-each select="/.//Input_Data/Realty/OKS | STD_MP[not(/.//Input_Data/Realty/OKS)]"><table:table-row table:style-name="Таблица27.1">
 							<table:table-cell table:style-name="Таблица27.A3" office:value-type="string">
-								<text:p text:style-name="P44">
+								<text:p text:style-name="P48">
 									<text:span text:style-name="User_20_Entry">	<xsl:if test="CadastralNumber">
 			<xsl:value-of select="position()"/>
 		</xsl:if>
@@ -5353,7 +5629,7 @@
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица27.B3" office:value-type="string">
-								<text:p text:style-name="P44">
+								<text:p text:style-name="P48">
 									<text:span text:style-name="User_20_Entry"><xsl:if test="CadastralNumber">
 <xsl:value-of select="CadastralNumber"/>
 </xsl:if>
@@ -5364,7 +5640,7 @@
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица27.C3" office:value-type="string">
-								<text:p text:style-name="P44">
+								<text:p text:style-name="P48">
 									<text:span text:style-name="User_20_Entry"><xsl:if test="CadastralNumber">
     <xsl:value-of select="CadastralNumber_OtherNumber"/>
 </xsl:if>
@@ -5382,39 +5658,39 @@
 						<table:table-column table:style-name="Таблица28.C"/>
 						<table:table-row table:style-name="Таблица28.1">
 							<table:table-cell table:style-name="Таблица28.A1" table:number-columns-spanned="3" office:value-type="string">
-								<text:p text:style-name="P8">5. Сведения о частях исходных, измененных или уточняемых земельных участков</text:p>
+								<text:p text:style-name="P9">5. Сведения о частях исходных, измененных или уточняемых земельных участков</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
 						</table:table-row>
 						<table:table-row table:style-name="Таблица28.2">
 							<table:table-cell table:style-name="Таблица28.A2" office:value-type="string">
-								<text:p text:style-name="P8">№ п/п</text:p>
+								<text:p text:style-name="P9">№ п/п</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица28.B2" office:value-type="string">
-								<text:p text:style-name="P8">Кадастровый номер</text:p>
-								<text:p text:style-name="P8">земельного участка</text:p>
+								<text:p text:style-name="P9">Кадастровый номер</text:p>
+								<text:p text:style-name="P9">земельного участка</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица28.C2" office:value-type="string">
-								<text:p text:style-name="P8">Учетные номера частей земельного участка</text:p>
+								<text:p text:style-name="P9">Учетные номера частей земельного участка</text:p>
 							</table:table-cell>
 						</table:table-row>
 					</table:table><table:table table:name="Таблица29" table:style-name="Таблица29"><table:table-column table:style-name="Таблица29.A"/><table:table-column table:style-name="Таблица29.B"/><table:table-column table:style-name="Таблица29.C"/><table:table-header-rows>
 							<table:table-row table:style-name="Таблица29.1">
 								<table:table-cell table:style-name="Таблица29.A1" office:value-type="string">
-									<text:p text:style-name="P8">1</text:p>
+									<text:p text:style-name="P9">1</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица29.B1" office:value-type="string">
-									<text:p text:style-name="P8">2</text:p>
+									<text:p text:style-name="P9">2</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица29.C1" office:value-type="string">
-									<text:p text:style-name="P8">3</text:p>
+									<text:p text:style-name="P9">3</text:p>
 								</table:table-cell>
 							</table:table-row>
 						</table:table-header-rows><!--row-code-->
 <xsl:for-each select="/.//NewParcel[SubParcels] | ChangeParcel[SubParcels] | /STD_MP[not(/.//NewParcel[SubParcels] | ChangeParcel[SubParcels])]"><table:table-row table:style-name="Таблица29.3">
 							<table:table-cell table:style-name="Таблица29.A3" office:value-type="string">
-								<text:p text:style-name="P44">	<xsl:if test="SubParcels">
+								<text:p text:style-name="P48">	<xsl:if test="SubParcels">
 			<xsl:value-of select="position()"/>
 		</xsl:if>
 		<xsl:if test="not(SubParcels)">
@@ -5422,7 +5698,7 @@
 		</xsl:if></text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица29.B3" office:value-type="string">
-								<text:p text:style-name="P44">
+								<text:p text:style-name="P48">
 									<text:span text:style-name="User_20_Entry">	<xsl:if test="SubParcels">
 			<xsl:value-of select="@CadastralNumber | @Definition"/>
 		</xsl:if>
@@ -5433,7 +5709,7 @@
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица29.C3" office:value-type="string">
-								<text:p text:style-name="P44">
+								<text:p text:style-name="P48">
 									<text:span text:style-name="User_20_Entry"><xsl:if test="SubParcels">
   <xsl:for-each select="SubParcels/FormSubParcel">
     <xsl:value-of select="@Definition"/>  
@@ -5454,14 +5730,14 @@
 						<table:table-column table:style-name="Таблица17.C"/>
 						<table:table-row table:style-name="Таблица17.1">
 							<table:table-cell table:style-name="Таблица17.A1" table:number-columns-spanned="3" office:value-type="string">
-								<text:p text:style-name="P71"><text:bookmark-start text:name="Оглавление_Сведения"/>Сведения о выполненных измерениях и расчетах<text:bookmark-end text:name="Оглавление_Сведения"/></text:p>
+								<text:p text:style-name="P84"><text:bookmark-start text:name="Оглавление_Сведения"/>Сведения о выполненных измерениях и расчетах<text:bookmark-end text:name="Оглавление_Сведения"/></text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
 						</table:table-row>
 						<table:table-row table:style-name="Таблица17.2">
 							<table:table-cell table:style-name="Таблица17.A2" table:number-columns-spanned="3" office:value-type="string">
-								<text:p text:style-name="P78">
+								<text:p text:style-name="P92">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
 										<text:span text:style-name="T2">1. Метод определения координат <text:s/>характерных точек границ земельных участков и их частей</text:span>
 									</text:span>
@@ -5473,31 +5749,33 @@
 						</table:table-row>
 						<table:table-row table:style-name="Таблица17.2">
 							<table:table-cell table:style-name="Таблица17.A3" office:value-type="string">
-								<text:p text:style-name="P60">№ п/п</text:p>
+								<text:p text:style-name="P69">№ п/п</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица17.B3" office:value-type="string">
-								<text:p text:style-name="P8">Кадастровый номер или обозначение</text:p>
-								<text:p text:style-name="P60">земельного участка</text:p>
+								<text:p text:style-name="P9">Кадастровый номер или обозначение</text:p>
+								<text:p text:style-name="P69">земельного участка</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица17.C3" office:value-type="string">
-								<text:p text:style-name="P60">Метод определения координат</text:p>
+								<text:p text:style-name="P69">Метод определения координат</text:p>
 							</table:table-cell>
 						</table:table-row>
 					</table:table><table:table table:name="Таблица30" table:style-name="Таблица30"><table:table-column table:style-name="Таблица30.A"/><table:table-column table:style-name="Таблица30.B"/><table:table-column table:style-name="Таблица30.C"/><table:table-header-rows>
 							<table:table-row table:style-name="Таблица30.1">
 								<table:table-cell table:style-name="Таблица30.A1" office:value-type="string">
-									<text:p text:style-name="P60">1</text:p>
+									<text:p text:style-name="P69">1</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица30.B1" office:value-type="string">
-									<text:p text:style-name="P12">2</text:p>
+									<text:p text:style-name="P13">2</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица30.C1" office:value-type="string">
-									<text:p text:style-name="P60">3</text:p>
+									<text:p text:style-name="P69">3</text:p>
 								</table:table-cell>
 							</table:table-row>
 						</table:table-header-rows><!--row-code-->
 <xsl:for-each select="STD_MP/Package/FormParcels/NewParcel | STD_MP/Package/FormParcels/ChangeParcel | STD_MP/Package/SpecifyParcel/ExistParcel |
 STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZParcels |
+STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZParcels/Composition_EZ/InsertEntryParcels/InsertEntryParcel/ExistEntryParcel |
+STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZParcels/Composition_EZ/InsertEntryParcels/InsertEntryParcel/NewEntryParcel |
 STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZEntryParcels/ExistEZEntryParcel |
 STD_MP/Package/SpecifyParcelsApproximal/ExistParcel |
 STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels |
@@ -5529,22 +5807,24 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZEntryParcels/ExistEZEntry
 </xsl:for-each>
 <xsl:if test="not(STD_MP/Package/FormParcels/NewParcel | STD_MP/Package/FormParcels/ChangeParcel | STD_MP/Package/SpecifyParcel/ExistParcel |
 STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZParcels |
+STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZParcels/Composition_EZ/InsertEntryParcels/InsertEntryParcel/ExistEntryParcel |
+STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZParcels/Composition_EZ/InsertEntryParcels/InsertEntryParcel/NewEntryParcel |
 STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZEntryParcels/ExistEZEntryParcel |
 STD_MP/Package/SpecifyParcelsApproximal/ExistParcel |
 STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels |
 STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZEntryParcels/ExistEZEntryParcel)"><table:table-row table:style-name="Таблица30.3">
 							<table:table-cell table:style-name="Таблица30.A3" office:value-type="string">
-								<text:p text:style-name="P65">
+								<text:p text:style-name="P78">
 									<text:span text:style-name="User_20_Entry">-</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица30.B3" office:value-type="string">
-								<text:p text:style-name="P66">
+								<text:p text:style-name="P79">
 									<text:span text:style-name="User_20_Entry">-</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица30.C3" office:value-type="string">
-								<text:p text:style-name="P65">
+								<text:p text:style-name="P78">
 									<text:span text:style-name="User_20_Entry">-</text:span>
 								</text:p>
 							</table:table-cell>
@@ -5555,18 +5835,18 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZEntryParcels/ExistEZEntry
 						<table:table-column table:style-name="Таблица32.C"/>
 						<table:table-row table:style-name="Таблица32.1">
 							<table:table-cell table:style-name="Таблица32.A1" table:number-columns-spanned="3" office:value-type="string">
-								<text:p text:style-name="P8">2. Точность положения характерных точек границ земельных участков</text:p>
+								<text:p text:style-name="P9">2. Точность положения характерных точек границ земельных участков</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
 						</table:table-row>
 						<table:table-row table:style-name="Таблица32.2">
 							<table:table-cell table:style-name="Таблица32.A2" office:value-type="string">
-								<text:p text:style-name="P8">№ п/п</text:p>
+								<text:p text:style-name="P9">№ п/п</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица32.B2" office:value-type="string">
-								<text:p text:style-name="P8">Кадастровый номер или обозначение</text:p>
-								<text:p text:style-name="P8">земельного участка</text:p>
+								<text:p text:style-name="P9">Кадастровый номер или обозначение</text:p>
+								<text:p text:style-name="P9">земельного участка</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица32.C2" office:value-type="string">
 								<text:p text:style-name="P1">
@@ -5576,7 +5856,7 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZEntryParcels/ExistEZEntry
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T19">t</text:span>
+										<text:span text:style-name="T21">t</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
@@ -5590,18 +5870,20 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZEntryParcels/ExistEZEntry
 					</table:table><table:table table:name="Таблица33" table:style-name="Таблица33"><table:table-column table:style-name="Таблица33.A"/><table:table-column table:style-name="Таблица33.B"/><table:table-column table:style-name="Таблица33.C"/><table:table-header-rows>
 							<table:table-row table:style-name="Таблица33.1">
 								<table:table-cell table:style-name="Таблица33.A1" office:value-type="string">
-									<text:p text:style-name="P8">1</text:p>
+									<text:p text:style-name="P9">1</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица33.B1" office:value-type="string">
-									<text:p text:style-name="P8">2</text:p>
+									<text:p text:style-name="P9">2</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица33.C1" office:value-type="string">
-									<text:p text:style-name="P8">3</text:p>
+									<text:p text:style-name="P9">3</text:p>
 								</table:table-cell>
 							</table:table-row>
 						</table:table-header-rows><!--row-code-->
 <xsl:for-each select="STD_MP/Package/FormParcels/NewParcel | STD_MP/Package/FormParcels/ChangeParcel | STD_MP/Package/SpecifyParcel/ExistParcel |
 STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZParcels |
+STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZParcels/Composition_EZ/InsertEntryParcels/InsertEntryParcel/ExistEntryParcel |
+STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZParcels/Composition_EZ/InsertEntryParcels/InsertEntryParcel/NewEntryParcel |
 STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZEntryParcels/ExistEZEntryParcel |
 STD_MP/Package/SpecifyParcelsApproximal/ExistParcel |
 STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels |
@@ -5614,7 +5896,7 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZEntryParcels/ExistEZEntry
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица33.B3" office:value-type="string">
-								<text:p text:style-name="P42">
+								<text:p text:style-name="P46">
 									<text:span text:style-name="User_20_Entry">
 										<text:s/>
 									</text:span>
@@ -5623,44 +5905,44 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZEntryParcels/ExistEZEntry
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица33.C3" office:value-type="string">
-								<text:p text:style-name="P87">
+								<text:p text:style-name="P103">
 									<text:span text:style-name="User_20_Entry">Mt=√ (m</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T40">0</text:span>
+										<text:span text:style-name="T43">0</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T41">2</text:span>
+										<text:span text:style-name="T44">2</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry"> + m</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T40">1</text:span>
+										<text:span text:style-name="T43">1</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T41">2</text:span>
+										<text:span text:style-name="T44">2</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry"> )</text:span>
 								</text:p>
-								<text:p text:style-name="P87">
+								<text:p text:style-name="P103">
 									<text:span text:style-name="User_20_Entry">Mt=√ (</text:span>
 									<text:span text:style-name="User_20_Entry"><xsl:call-template name="get_m"/></text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T41">2</text:span>
+										<text:span text:style-name="T44">2</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry"> + </text:span>
 									<text:span text:style-name="User_20_Entry"><xsl:call-template name="get_m"/></text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T41">2</text:span>
+										<text:span text:style-name="T44">2</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry"> ) = </text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T46"><xsl:value-of select="format-number( number(/.//*[1]/*/@Delta_Geopoint),'#0.00')"/></text:span>
+										<text:span text:style-name="T49"><xsl:value-of select="format-number( number(/.//*[1]/*/@Delta_Geopoint),'#0.00')"/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T46"> </text:span>
+										<text:span text:style-name="T49"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
@@ -5668,22 +5950,24 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZEntryParcels/ExistEZEntry
 </xsl:for-each>
 <xsl:if test="not(STD_MP/Package/FormParcels/NewParcel | STD_MP/Package/FormParcels/ChangeParcel | STD_MP/Package/SpecifyParcel/ExistParcel |
 STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZParcels |
+STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZParcels/Composition_EZ/InsertEntryParcels/InsertEntryParcel/ExistEntryParcel |
+STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZParcels/Composition_EZ/InsertEntryParcels/InsertEntryParcel/NewEntryParcel |
 STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZEntryParcels/ExistEZEntryParcel |
 STD_MP/Package/SpecifyParcelsApproximal/ExistParcel |
 STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels |
 STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZEntryParcels/ExistEZEntryParcel)"><table:table-row table:style-name="Таблица33.3">
 							<table:table-cell table:style-name="Таблица33.A5" office:value-type="string">
-								<text:p text:style-name="P30">
+								<text:p text:style-name="P34">
 									<text:span text:style-name="User_20_Entry">-</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица33.B5" office:value-type="string">
-								<text:p text:style-name="P30">
+								<text:p text:style-name="P34">
 									<text:span text:style-name="User_20_Entry">-</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица33.C5" office:value-type="string">
-								<text:p text:style-name="P30">
+								<text:p text:style-name="P34">
 									<text:span text:style-name="User_20_Entry">-</text:span>
 								</text:p>
 							</table:table-cell>
@@ -5694,7 +5978,7 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZEntryParcels/ExistEZEntry
 						<table:table-column table:style-name="Таблица34.D"/>
 						<table:table-row table:style-name="Таблица34.1">
 							<table:table-cell table:style-name="Таблица34.A1" table:number-columns-spanned="4" office:value-type="string">
-								<text:p text:style-name="P8">3. Точность положения характерных точек границ частей земельных участков</text:p>
+								<text:p text:style-name="P9">3. Точность положения характерных точек границ частей земельных участков</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
@@ -5702,14 +5986,14 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZEntryParcels/ExistEZEntry
 						</table:table-row>
 						<table:table-row table:style-name="Таблица34.2">
 							<table:table-cell table:style-name="Таблица34.A2" office:value-type="string">
-								<text:p text:style-name="P8">№ п/п</text:p>
+								<text:p text:style-name="P9">№ п/п</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица34.B2" office:value-type="string">
-								<text:p text:style-name="P8">Кадастровый номер или обозначение</text:p>
-								<text:p text:style-name="P8">земельного участка</text:p>
+								<text:p text:style-name="P9">Кадастровый номер или обозначение</text:p>
+								<text:p text:style-name="P9">земельного участка</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица34.B2" office:value-type="string">
-								<text:p text:style-name="P8">Учетный номер или обозначение части</text:p>
+								<text:p text:style-name="P9">Учетный номер или обозначение части</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица34.D2" office:value-type="string">
 								<text:p text:style-name="P1">
@@ -5719,7 +6003,7 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZEntryParcels/ExistEZEntry
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T19">t</text:span>
+										<text:span text:style-name="T21">t</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
@@ -5733,16 +6017,16 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZEntryParcels/ExistEZEntry
 					</table:table><table:table table:name="Таблица37" table:style-name="Таблица37"><table:table-column table:style-name="Таблица37.A"/><table:table-column table:style-name="Таблица37.B"/><table:table-column table:style-name="Таблица37.C"/><table:table-column table:style-name="Таблица37.D"/><table:table-header-rows>
 							<table:table-row table:style-name="Таблица37.1">
 								<table:table-cell table:style-name="Таблица37.A1" office:value-type="string">
-									<text:p text:style-name="P8">1</text:p>
+									<text:p text:style-name="P9">1</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица37.B1" office:value-type="string">
-									<text:p text:style-name="P8">2</text:p>
+									<text:p text:style-name="P9">2</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица37.B1" office:value-type="string">
-									<text:p text:style-name="P8">3</text:p>
+									<text:p text:style-name="P9">3</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица37.D1" office:value-type="string">
-									<text:p text:style-name="P8">4</text:p>
+									<text:p text:style-name="P9">4</text:p>
 								</table:table-cell>
 							</table:table-row>
 						</table:table-header-rows><!--row-code-->
@@ -5754,7 +6038,7 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZEntryParcels/ExistEZEntry
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица37.B3" office:value-type="string">
-								<text:p text:style-name="P44">
+								<text:p text:style-name="P48">
 									<text:span text:style-name="User_20_Entry">
 										<text:s text:c="4"/>
 									</text:span>
@@ -5770,44 +6054,44 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZEntryParcels/ExistEZEntry
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица37.D3" office:value-type="string">
-								<text:p text:style-name="P87">
+								<text:p text:style-name="P103">
 									<text:span text:style-name="User_20_Entry">Mt=√ (m</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T40">0</text:span>
+										<text:span text:style-name="T43">0</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T41">2</text:span>
+										<text:span text:style-name="T44">2</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry"> + m</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T40">1</text:span>
+										<text:span text:style-name="T43">1</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T41">2</text:span>
+										<text:span text:style-name="T44">2</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry"> )</text:span>
 								</text:p>
-								<text:p text:style-name="P87">
+								<text:p text:style-name="P103">
 									<text:span text:style-name="User_20_Entry">Mt=√ (</text:span>
 									<text:span text:style-name="User_20_Entry"><xsl:call-template name="get_m"/></text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T41">2</text:span>
+										<text:span text:style-name="T44">2</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry"> + </text:span>
 									<text:span text:style-name="User_20_Entry"><xsl:call-template name="get_m"/></text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T41">2</text:span>
+										<text:span text:style-name="T44">2</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry"> ) = </text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T46"><xsl:value-of select="format-number( number(/.//*[1]/*/@Delta_Geopoint),'#0.00')"/></text:span>
+										<text:span text:style-name="T49"><xsl:value-of select="format-number( number(/.//*[1]/*/@Delta_Geopoint),'#0.00')"/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T46"> </text:span>
+										<text:span text:style-name="T49"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
@@ -5815,22 +6099,22 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZEntryParcels/ExistEZEntry
 </xsl:for-each>
 <xsl:if test="not(/.//SubParcels/FormSubParcel | /.//NewSubParcel)"><table:table-row table:style-name="Таблица37.3">
 							<table:table-cell table:style-name="Таблица37.A5" office:value-type="string">
-								<text:p text:style-name="P31">
+								<text:p text:style-name="P35">
 									<text:span text:style-name="User_20_Entry">-</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица37.B5" office:value-type="string">
-								<text:p text:style-name="P31">
+								<text:p text:style-name="P35">
 									<text:span text:style-name="User_20_Entry">-</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица37.C5" office:value-type="string">
-								<text:p text:style-name="P31">
+								<text:p text:style-name="P35">
 									<text:span text:style-name="User_20_Entry">-</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица37.D5" office:value-type="string">
-								<text:p text:style-name="P31">
+								<text:p text:style-name="P35">
 									<text:span text:style-name="User_20_Entry">-</text:span>
 								</text:p>
 							</table:table-cell>
@@ -5841,7 +6125,7 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZEntryParcels/ExistEZEntry
 						<table:table-column table:style-name="Таблица38.D"/>
 						<table:table-row table:style-name="Таблица38.1">
 							<table:table-cell table:style-name="Таблица38.A1" table:number-columns-spanned="4" office:value-type="string">
-								<text:p text:style-name="P8">4. Точность определения площади земельных участков</text:p>
+								<text:p text:style-name="P9">4. Точность определения площади земельных участков</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
@@ -5849,14 +6133,14 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZEntryParcels/ExistEZEntry
 						</table:table-row>
 						<table:table-row table:style-name="Таблица38.2">
 							<table:table-cell table:style-name="Таблица38.A2" office:value-type="string">
-								<text:p text:style-name="P8">№ п/п</text:p>
+								<text:p text:style-name="P9">№ п/п</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица38.B2" office:value-type="string">
-								<text:p text:style-name="P8">Кадастровый номер или обозначение</text:p>
-								<text:p text:style-name="P8">земельного участка</text:p>
+								<text:p text:style-name="P9">Кадастровый номер или обозначение</text:p>
+								<text:p text:style-name="P9">земельного участка</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица38.B2" office:value-type="string">
-								<text:p text:style-name="P7"/>
+								<text:p text:style-name="P8"/>
 								<text:p text:style-name="P1">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
 										<text:span text:style-name="T2">Площадь (Р), м</text:span>
@@ -5864,11 +6148,11 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZEntryParcels/ExistEZEntry
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T20">2</text:span>
+										<text:span text:style-name="T22">2</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 								</text:p>
-								<text:p text:style-name="P8"/>
+								<text:p text:style-name="P9"/>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица38.D2" office:value-type="string">
 								<text:p text:style-name="P1">
@@ -5878,7 +6162,7 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZEntryParcels/ExistEZEntry
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T20">2</text:span>
+										<text:span text:style-name="T22">2</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 								</text:p>
@@ -5887,32 +6171,34 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZEntryParcels/ExistEZEntry
 					</table:table><table:table table:name="Таблица39" table:style-name="Таблица39"><table:table-column table:style-name="Таблица39.A"/><table:table-column table:style-name="Таблица39.B"/><table:table-column table:style-name="Таблица39.C"/><table:table-column table:style-name="Таблица39.D"/><table:table-header-rows>
 							<table:table-row table:style-name="Таблица39.1">
 								<table:table-cell table:style-name="Таблица39.A1" office:value-type="string">
-									<text:p text:style-name="P8">1</text:p>
+									<text:p text:style-name="P9">1</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица39.B1" office:value-type="string">
-									<text:p text:style-name="P8">2</text:p>
+									<text:p text:style-name="P9">2</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица39.B1" office:value-type="string">
-									<text:p text:style-name="P8">3</text:p>
+									<text:p text:style-name="P9">3</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица39.D1" office:value-type="string">
-									<text:p text:style-name="P8">4</text:p>
+									<text:p text:style-name="P9">4</text:p>
 								</table:table-cell>
 							</table:table-row>
 						</table:table-header-rows><!--row-code-->
 <xsl:for-each select="STD_MP/Package/FormParcels/NewParcel | STD_MP/Package/FormParcels/ChangeParcel | STD_MP/Package/SpecifyParcel/ExistParcel |
 STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZParcels |
+STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZParcels/Composition_EZ/InsertEntryParcels/InsertEntryParcel/ExistEntryParcel |
+STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZParcels/Composition_EZ/InsertEntryParcels/InsertEntryParcel/NewEntryParcel |
 STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZEntryParcels/ExistEZEntryParcel |
 STD_MP/Package/SpecifyParcelsApproximal/ExistParcel |
 STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels"><table:table-row table:style-name="Таблица39.1">
 							<table:table-cell table:style-name="Таблица39.A3" office:value-type="string">
-								<text:p text:style-name="P44">
+								<text:p text:style-name="P48">
 									<text:span text:style-name="User_20_Entry"><xsl:value-of select="position()"/></text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица39.B3" office:value-type="string">
-								<text:p text:style-name="P48">
+								<text:p text:style-name="P52">
 									<text:span text:style-name="User_20_Entry">
 										<text:s text:c="4"/>
 									</text:span>
@@ -5923,7 +6209,7 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels"><table:table-row
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица39.B3" office:value-type="string">
-								<text:p text:style-name="P44">
+								<text:p text:style-name="P48">
 									<text:span text:style-name="User_20_Entry"><xsl:value-of select="Area/Area"/></text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 								</text:p>
@@ -5931,42 +6217,42 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels"><table:table-row
 							<table:table-cell table:style-name="Таблица39.D3" office:value-type="string">
 								<text:p text:style-name="P6">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T34">∆Р </text:span>
+										<text:span text:style-name="T37">∆Р </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T35">= 3.5 * </text:span>
+										<text:span text:style-name="T38">= 3.5 * </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T35"><xsl:value-of select="format-number(/.//*[1]/*/@Delta_Geopoint,'#0.00')"/></text:span>
+										<text:span text:style-name="T38"><xsl:value-of select="format-number(/.//*[1]/*/@Delta_Geopoint,'#0.00')"/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T35"><text:s/>* </text:span>
+										<text:span text:style-name="T38"><text:s/>* </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T42">√ <text:s/></text:span>
+										<text:span text:style-name="T45">√ <text:s/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T42"><xsl:value-of select="Area/Area"/></text:span>
+										<text:span text:style-name="T45"><xsl:value-of select="Area/Area"/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T42">
+										<text:span text:style-name="T45">
 											<text:s/>
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T43">=</text:span>
+										<text:span text:style-name="T46">=</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T23">
+										<text:span text:style-name="T25">
 											<text:s/>
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T23"><xsl:value-of select="Area/Innccuracy"/></text:span>
+										<text:span text:style-name="T25"><xsl:value-of select="Area/Innccuracy"/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T23">
+										<text:span text:style-name="T25">
 											<text:s/>
 										</text:span>
 									</text:span>
@@ -5976,26 +6262,28 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels"><table:table-row
 </xsl:for-each>
 <xsl:if test="not(STD_MP/Package/FormParcels/NewParcel | STD_MP/Package/FormParcels/ChangeParcel | STD_MP/Package/SpecifyParcel/ExistParcel |
 STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZParcels |
+STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZParcels/Composition_EZ/InsertEntryParcels/InsertEntryParcel/ExistEntryParcel |
+STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZParcels/Composition_EZ/InsertEntryParcels/InsertEntryParcel/NewEntryParcel |
 STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZEntryParcels/ExistEZEntryParcel |
 STD_MP/Package/SpecifyParcelsApproximal/ExistParcel |
 STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-row table:style-name="Таблица39.1">
 							<table:table-cell table:style-name="Таблица39.A5" office:value-type="string">
-								<text:p text:style-name="P27">
+								<text:p text:style-name="P30">
 									<text:span text:style-name="User_20_Entry">-</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица39.B5" office:value-type="string">
-								<text:p text:style-name="P27">
+								<text:p text:style-name="P30">
 									<text:span text:style-name="User_20_Entry">-</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица39.B5" office:value-type="string">
-								<text:p text:style-name="P27">
+								<text:p text:style-name="P30">
 									<text:span text:style-name="User_20_Entry">-</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица39.D5" office:value-type="string">
-								<text:p text:style-name="P27">
+								<text:p text:style-name="P30">
 									<text:span text:style-name="User_20_Entry">-</text:span>
 								</text:p>
 							</table:table-cell>
@@ -6007,7 +6295,7 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 						<table:table-column table:style-name="Таблица40.E"/>
 						<table:table-row table:style-name="Таблица40.1">
 							<table:table-cell table:style-name="Таблица40.A1" table:number-columns-spanned="5" office:value-type="string">
-								<text:p text:style-name="P8">5. Точность определения площади частей земельных участков</text:p>
+								<text:p text:style-name="P9">5. Точность определения площади частей земельных участков</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
@@ -6016,14 +6304,14 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 						</table:table-row>
 						<table:table-row table:style-name="Таблица40.2">
 							<table:table-cell table:style-name="Таблица40.A2" office:value-type="string">
-								<text:p text:style-name="P8">№ п/п</text:p>
+								<text:p text:style-name="P9">№ п/п</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица40.B2" office:value-type="string">
-								<text:p text:style-name="P8">Кадастровый номер или обозначение</text:p>
-								<text:p text:style-name="P8">земельного участка</text:p>
+								<text:p text:style-name="P9">Кадастровый номер или обозначение</text:p>
+								<text:p text:style-name="P9">земельного участка</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица40.B2" office:value-type="string">
-								<text:p text:style-name="P8">Учетный номер или обозначение части</text:p>
+								<text:p text:style-name="P9">Учетный номер или обозначение части</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица40.B2" office:value-type="string">
 								<text:p text:style-name="P1">
@@ -6033,11 +6321,11 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T20">2</text:span>
+										<text:span text:style-name="T22">2</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 								</text:p>
-								<text:p text:style-name="P8"/>
+								<text:p text:style-name="P9"/>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица40.E2" office:value-type="string">
 								<text:p text:style-name="P1">
@@ -6047,7 +6335,7 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T20">2</text:span>
+										<text:span text:style-name="T22">2</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 								</text:p>
@@ -6056,31 +6344,31 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 					</table:table><table:table table:name="Таблица41" table:style-name="Таблица41"><table:table-column table:style-name="Таблица41.A"/><table:table-column table:style-name="Таблица41.B"/><table:table-column table:style-name="Таблица41.C"/><table:table-column table:style-name="Таблица41.D"/><table:table-column table:style-name="Таблица41.E"/><table:table-header-rows>
 							<table:table-row table:style-name="Таблица41.1">
 								<table:table-cell table:style-name="Таблица41.A1" office:value-type="string">
-									<text:p text:style-name="P8">1</text:p>
+									<text:p text:style-name="P9">1</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица41.B1" office:value-type="string">
-									<text:p text:style-name="P8">2</text:p>
+									<text:p text:style-name="P9">2</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица41.B1" office:value-type="string">
-									<text:p text:style-name="P8">3</text:p>
+									<text:p text:style-name="P9">3</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица41.B1" office:value-type="string">
-									<text:p text:style-name="P8">4</text:p>
+									<text:p text:style-name="P9">4</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица41.E1" office:value-type="string">
-									<text:p text:style-name="P8">5</text:p>
+									<text:p text:style-name="P9">5</text:p>
 								</table:table-cell>
 							</table:table-row>
 						</table:table-header-rows><!--row-code-->
 <xsl:for-each select="/.//SubParcels/FormSubParcel | /.//NewSubParcel"><table:table-row table:style-name="Таблица41.1">
 							<table:table-cell table:style-name="Таблица41.A3" office:value-type="string">
-								<text:p text:style-name="P44">
+								<text:p text:style-name="P48">
 									<text:span text:style-name="User_20_Entry"><xsl:value-of select="position()"/></text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица41.B3" office:value-type="string">
-								<text:p text:style-name="P46">
+								<text:p text:style-name="P50">
 									<text:span text:style-name="User_20_Entry">
 										<text:s text:c="4"/>
 									</text:span>
@@ -6091,56 +6379,56 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица41.B3" office:value-type="string">
-								<text:p text:style-name="P44">
+								<text:p text:style-name="P48">
 									<text:span text:style-name="User_20_Entry"><xsl:value-of select="@Definition"/></text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица41.B3" office:value-type="string">
-								<text:p text:style-name="P44">
+								<text:p text:style-name="P48">
 									<text:span text:style-name="User_20_Entry"><xsl:value-of select="Area/Area"/></text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица41.E3" office:value-type="string">
-								<text:p text:style-name="P47">
+								<text:p text:style-name="P51">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T37">∆Р </text:span>
+										<text:span text:style-name="T40">∆Р </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T36">= 3.5 * </text:span>
+										<text:span text:style-name="T39">= 3.5 * </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T36"><xsl:value-of select="format-number(/.//*[1]/*/@Delta_Geopoint,'#0.00')"/></text:span>
+										<text:span text:style-name="T39"><xsl:value-of select="format-number(/.//*[1]/*/@Delta_Geopoint,'#0.00')"/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T36"><text:s/>* </text:span>
+										<text:span text:style-name="T39"><text:s/>* </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T44">√ <text:s/></text:span>
+										<text:span text:style-name="T47">√ <text:s/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T44"><xsl:value-of select="Area/Area"/></text:span>
+										<text:span text:style-name="T47"><xsl:value-of select="Area/Area"/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T44">
+										<text:span text:style-name="T47">
 											<text:s/>
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T45">=</text:span>
+										<text:span text:style-name="T48">=</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T38">
+										<text:span text:style-name="T41">
 											<text:s/>
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T38"><xsl:value-of select="Area/Innccuracy"/></text:span>
+										<text:span text:style-name="T41"><xsl:value-of select="Area/Innccuracy"/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T38">
+										<text:span text:style-name="T41">
 											<text:s/>
 										</text:span>
 									</text:span>
@@ -6150,27 +6438,27 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 </xsl:for-each>
 <xsl:if test="not(/.//SubParcels/FormSubParcel | /.//NewSubParcel)"><table:table-row table:style-name="Таблица41.1">
 							<table:table-cell table:style-name="Таблица41.A5" office:value-type="string">
-								<text:p text:style-name="P28">
+								<text:p text:style-name="P31">
 									<text:span text:style-name="User_20_Entry">-</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица41.B5" office:value-type="string">
-								<text:p text:style-name="P28">
+								<text:p text:style-name="P31">
 									<text:span text:style-name="User_20_Entry">-</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица41.B5" office:value-type="string">
-								<text:p text:style-name="P28">
+								<text:p text:style-name="P31">
 									<text:span text:style-name="User_20_Entry">-</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица41.B5" office:value-type="string">
-								<text:p text:style-name="P28">
+								<text:p text:style-name="P31">
 									<text:span text:style-name="User_20_Entry">-</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица41.E5" office:value-type="string">
-								<text:p text:style-name="P28">
+								<text:p text:style-name="P31">
 									<text:span text:style-name="User_20_Entry">-</text:span>
 								</text:p>
 							</table:table-cell>
@@ -6179,7 +6467,7 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 						<table:table-column table:style-name="Таблица22.A"/>
 						<table:table-row table:style-name="Таблица22.1">
 							<table:table-cell table:style-name="Таблица22.A1" office:value-type="string">
-								<text:p text:style-name="P72"><text:bookmark-start text:name="Оглавление_ОбразуемыеУчастки"/>Сведения об образуемых земельных участках и их частях<text:bookmark-end text:name="Оглавление_ОбразуемыеУчастки"/></text:p>
+								<text:p text:style-name="P85"><text:bookmark-start text:name="Оглавление_ОбразуемыеУчастки"/>Сведения об образуемых земельных участках и их частях<text:bookmark-end text:name="Оглавление_ОбразуемыеУчастки"/></text:p>
 							</table:table-cell>
 						</table:table-row>
 					</table:table>	<!--row-code-->
@@ -6216,7 +6504,7 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">
+										<text:span text:style-name="T24">
 											<text:s/>
 										</text:span>
 									</text:span>
@@ -6235,10 +6523,10 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 						</table:table-row>
 						<table:table-row table:style-name="Таблица15.3">
 							<table:table-cell table:style-name="Таблица15.A3" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">Обозначение характерных точек границы</text:p>
+								<text:p text:style-name="P9">Обозначение характерных точек границы</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица15.B3" table:number-columns-spanned="2" office:value-type="string">
-								<text:p text:style-name="P14">Координаты, м</text:p>
+								<text:p text:style-name="P15">Координаты, м</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица15.B3" table:number-rows-spanned="2" office:value-type="string">
@@ -6249,7 +6537,7 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T19">t</text:span>
+										<text:span text:style-name="T21">t</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
@@ -6260,7 +6548,7 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица15.E3" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">Описание закрепления точки</text:p>
+								<text:p text:style-name="P9">Описание закрепления точки</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row table:style-name="Таблица15.4">
@@ -6287,26 +6575,26 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 					</table:table><table:table table:name="Таблица12" table:style-name="Таблица12"><table:table-column table:style-name="Таблица12.A"/><table:table-column table:style-name="Таблица12.B"/><table:table-column table:style-name="Таблица12.C"/><table:table-column table:style-name="Таблица12.D"/><table:table-column table:style-name="Таблица12.E"/><table:table-header-rows>
 							<table:table-row table:style-name="Таблица12.1">
 								<table:table-cell table:style-name="Таблица12.A1" office:value-type="string">
-									<text:p text:style-name="P8">1</text:p>
+									<text:p text:style-name="P9">1</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица12.B1" office:value-type="string">
-									<text:p text:style-name="P8">2</text:p>
+									<text:p text:style-name="P9">2</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица12.B1" office:value-type="string">
-									<text:p text:style-name="P8">3</text:p>
+									<text:p text:style-name="P9">3</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица12.B1" office:value-type="string">
-									<text:p text:style-name="P8">4</text:p>
+									<text:p text:style-name="P9">4</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица12.E1" office:value-type="string">
-									<text:p text:style-name="P8">5</text:p>
+									<text:p text:style-name="P9">5</text:p>
 								</table:table-cell>
 							</table:table-row>
 						</table:table-header-rows><!--row-code-->
 			<xsl:for-each select="Contours/NewContour/Entity_Spatial | Entity_Spatial">
 				<xsl:if test="(ancestor::NewContour)"><table:table-row table:style-name="Таблица12.1">
 							<table:table-cell table:style-name="Таблица12.A2" table:number-columns-spanned="5" office:value-type="string">
-								<text:p text:style-name="P23">
+								<text:p text:style-name="P26">
 									<text:span text:style-name="User_20_Entry"><xsl:value-of select="ancestor::NewContour/@Definition"/> </text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 								</text:p>
@@ -6323,13 +6611,13 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 <xsl:sort select="$v_element_pos*position()" data-type="number" order="descending"/>
 <table:table-row table:style-name="Таблица12.5">
 							<table:table-cell table:style-name="Таблица12.A5" office:value-type="float" office:value="0">
-								<text:p text:style-name="P61">
+								<text:p text:style-name="P72">
 									<text:span text:style-name="User_20_Entry"><xsl:call-template name="point_name"/></text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица12.B5" office:value-type="float" office:value="0">
-								<text:p text:style-name="P49">
+								<text:p text:style-name="P53">
 									<text:span text:style-name="User_20_Entry"><xsl:if test="@X">
 <xsl:value-of select="format-number(@X,'#0.00')"/>
 </xsl:if>
@@ -6340,7 +6628,7 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица12.C5" office:value-type="float" office:value="0">
-								<text:p text:style-name="P49">
+								<text:p text:style-name="P53">
 									<text:span text:style-name="User_20_Entry"><xsl:if test="@Y">
 <xsl:value-of select="format-number(@Y,'#0.00')"/>
 </xsl:if>
@@ -6370,7 +6658,7 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 </xsl:for-each>	
 <xsl:if test="position() != last()"><table:table-row table:style-name="Таблица12.5">
 							<table:table-cell table:style-name="Таблица12.A2" table:number-columns-spanned="5" office:value-type="string">
-								<text:p text:style-name="P61">
+								<text:p text:style-name="P72">
 									<text:span text:style-name="User_20_Entry"/>
 								</text:p>
 							</table:table-cell>
@@ -6386,31 +6674,31 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 <!--row-code-->
 <xsl:if test="not(/.//NewParcel)"><table:table-row table:style-name="Таблица12.5">
 							<table:table-cell table:style-name="Таблица12.A10" office:value-type="string">
-								<text:p text:style-name="P63">
+								<text:p text:style-name="P74">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T14">-</text:span>
+										<text:span text:style-name="T15">-</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица12.B10" office:value-type="string">
-								<text:p text:style-name="P67">-</text:p>
+								<text:p text:style-name="P80">-</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица12.B10" office:value-type="string">
-								<text:p text:style-name="P67">-</text:p>
+								<text:p text:style-name="P80">-</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица12.B10" office:value-type="string">
-								<text:p text:style-name="P67">-</text:p>
+								<text:p text:style-name="P80">-</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица12.E10" office:value-type="string">
-								<text:p text:style-name="P67">-</text:p>
+								<text:p text:style-name="P80">-</text:p>
 							</table:table-cell>
 						</table:table-row><!--row-code-->
 </xsl:if></table:table><!--/xsl:for-each-->				<table:table table:name="Таблица14" table:style-name="Таблица14">
 						<table:table-column table:style-name="Таблица14.A"/>
 						<table:table-row table:style-name="Таблица14.1">
 							<table:table-cell table:style-name="Таблица14.A1" office:value-type="string">
-								<text:p text:style-name="P75">
+								<text:p text:style-name="P88">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
 										<text:span text:style-name="T2">2. Сведения о частях границ образуемых земельных участков</text:span>
 									</text:span>
@@ -6431,7 +6719,7 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 										<text:span text:style-name="T2">Обозначение земельного участка </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">
+										<text:span text:style-name="T24">
 											<text:s/>
 										</text:span>
 									</text:span>
@@ -6454,7 +6742,7 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 						</table:table-row>
 						<table:table-row table:style-name="Таблица16.2">
 							<table:table-cell table:style-name="Таблица16.A2" table:number-columns-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">Обозначение части границы</text:p>
+								<text:p text:style-name="P9">Обозначение части границы</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица16.C2" table:number-rows-spanned="2" office:value-type="string">
@@ -6473,15 +6761,15 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица16.D2" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">Описание прохождения части границы</text:p>
+								<text:p text:style-name="P9">Описание прохождения части границы</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row table:style-name="Таблица16.3">
 							<table:table-cell table:style-name="Таблица16.A3" office:value-type="string">
-								<text:p text:style-name="P8">от т.</text:p>
+								<text:p text:style-name="P9">от т.</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица16.B3" office:value-type="string">
-								<text:p text:style-name="P8">до т.</text:p>
+								<text:p text:style-name="P9">до т.</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
@@ -6489,23 +6777,23 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 					</table:table><table:table table:name="Таблица13" table:style-name="Таблица13"><table:table-column table:style-name="Таблица13.A"/><table:table-column table:style-name="Таблица13.B"/><table:table-column table:style-name="Таблица13.C"/><table:table-column table:style-name="Таблица13.D"/><table:table-header-rows>
 							<table:table-row table:style-name="Таблица13.1">
 								<table:table-cell table:style-name="Таблица13.A1" office:value-type="string">
-									<text:p text:style-name="P8">1</text:p>
+									<text:p text:style-name="P9">1</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица13.B1" office:value-type="string">
-									<text:p text:style-name="P8">2</text:p>
+									<text:p text:style-name="P9">2</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица13.B1" office:value-type="string">
-									<text:p text:style-name="P8">3</text:p>
+									<text:p text:style-name="P9">3</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица13.D1" office:value-type="string">
-									<text:p text:style-name="P8">4</text:p>
+									<text:p text:style-name="P9">4</text:p>
 								</table:table-cell>
 							</table:table-row>
 						</table:table-header-rows><!--row-code-->
 		<xsl:for-each select="Contours/NewContour/Entity_Spatial | Entity_Spatial  | /STD_MP[not(/.//NewParcel)]">
 			<xsl:if test="(ancestor::NewContour)"><table:table-row table:style-name="Таблица13.1">
 							<table:table-cell table:style-name="Таблица13.A2" table:number-columns-spanned="4" office:value-type="string">
-								<text:p text:style-name="P7">
+								<text:p text:style-name="P8">
 									<text:span text:style-name="User_20_Entry"><xsl:value-of select="ancestor::NewContour/@Definition"/> </text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 								</text:p>
@@ -6520,53 +6808,53 @@ STD_MP/Package/SpecifyParcelsApproximal/ExistEZ/ExistEZParcels)"><table:table-ro
 <xsl:variable name="curr_spatial" select="./@Spatial"/>
 <table:table-row table:style-name="Таблица13.1">
 							<table:table-cell table:style-name="Таблица13.A5" office:value-type="string">
-								<text:p text:style-name="P8">
+								<text:p text:style-name="P9">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:call-template name="border_point_name"><xsl:with-param name="p1">1</xsl:with-param></xsl:call-template></text:span>
+										<text:span text:style-name="T24"><xsl:call-template name="border_point_name"><xsl:with-param name="p1">1</xsl:with-param></xsl:call-template></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
-									</text:span>
-								</text:p>
-							</table:table-cell>
-							<table:table-cell table:style-name="Таблица13.B5" office:value-type="string">
-								<text:p text:style-name="P8">
-									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:call-template name="border_point_name"><xsl:with-param name="p2">1</xsl:with-param></xsl:call-template></text:span>
-									</text:span>
-									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица13.B5" office:value-type="string">
-								<text:p text:style-name="P8">
+								<text:p text:style-name="P9">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">
+										<text:span text:style-name="T24"><xsl:call-template name="border_point_name"><xsl:with-param name="p2">1</xsl:with-param></xsl:call-template></text:span>
+									</text:span>
+									<text:span text:style-name="User_20_Entry">
+										<text:span text:style-name="T24"> </text:span>
+									</text:span>
+								</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица13.B5" office:value-type="string">
+								<text:p text:style-name="P9">
+									<text:span text:style-name="User_20_Entry">
+										<text:span text:style-name="T24">
 											<text:s/>
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:for-each select="Edge | /STD_MP[not(/.//NewParcel)]">
+										<text:span text:style-name="T24"><xsl:for-each select="Edge | /STD_MP[not(/.//NewParcel)]">
 <xsl:call-template name="get_value"><xsl:with-param name="p_name">Length</xsl:with-param></xsl:call-template>	
 </xsl:for-each>		</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">
+										<text:span text:style-name="T24">
 											<text:s/>
 										</text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица13.D5" office:value-type="string">
-								<text:p text:style-name="P25">
+								<text:p text:style-name="P28">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:for-each select="Edge | /STD_MP[not(/.//NewParcel)]">
+										<text:span text:style-name="T24"><xsl:for-each select="Edge | /STD_MP[not(/.//NewParcel)]">
 <xsl:call-template name="get_value"><xsl:with-param name="p_name">Definition</xsl:with-param></xsl:call-template>									
 </xsl:for-each>					</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
@@ -6578,7 +6866,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 
 <table:table-row table:style-name="Таблица13.1">
 							<table:table-cell table:style-name="Таблица13.A2" table:number-columns-spanned="4" office:value-type="string">
-								<text:p text:style-name="P45">
+								<text:p text:style-name="P49">
 									<text:span text:style-name="User_20_Entry"/>
 								</text:p>
 							</table:table-cell>
@@ -6610,21 +6898,21 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">
+										<text:span text:style-name="T24">
 											<text:s/>
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:value-of select="@Definition"/>
+										<text:span text:style-name="T24"><xsl:value-of select="@Definition"/>
 <xsl:if test="not(@Definition)">
 <xsl:value-of select="'-'"/>
 </xsl:if></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T25">
+										<text:span text:style-name="T27">
 											<text:s text:c="2"/>
 										</text:span>
 									</text:span>
@@ -6645,7 +6933,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">
+										<text:span text:style-name="T24">
 											<text:s/>
 										</text:span>
 									</text:span>
@@ -6667,10 +6955,10 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 						</table:table-row>
 						<table:table-row table:style-name="Таблица53.2">
 							<table:table-cell table:style-name="Таблица53.A2" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">Обозначение характерных точек границы</text:p>
+								<text:p text:style-name="P9">Обозначение характерных точек границы</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица53.B2" table:number-columns-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">Координаты, м</text:p>
+								<text:p text:style-name="P9">Координаты, м</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица53.B2" table:number-rows-spanned="2" office:value-type="string">
@@ -6681,7 +6969,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T19">t</text:span>
+										<text:span text:style-name="T21">t</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
@@ -6692,7 +6980,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица53.E2" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">Описание закрепления точки</text:p>
+								<text:p text:style-name="P9">Описание закрепления точки</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row table:style-name="Таблица53.3">
@@ -6719,32 +7007,32 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 					</table:table><table:table table:name="Таблица54" table:style-name="Таблица54"><table:table-column table:style-name="Таблица54.A"/><table:table-column table:style-name="Таблица54.B"/><table:table-column table:style-name="Таблица54.C"/><table:table-column table:style-name="Таблица54.D"/><table:table-column table:style-name="Таблица54.E"/><table:table-header-rows>
 							<table:table-row table:style-name="Таблица54.1">
 								<table:table-cell table:style-name="Таблица54.A1" office:value-type="string">
-									<text:p text:style-name="P8">1</text:p>
+									<text:p text:style-name="P9">1</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица54.B1" office:value-type="string">
-									<text:p text:style-name="P8">2</text:p>
+									<text:p text:style-name="P9">2</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица54.B1" office:value-type="string">
-									<text:p text:style-name="P8">3</text:p>
+									<text:p text:style-name="P9">3</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица54.B1" office:value-type="string">
-									<text:p text:style-name="P8">4</text:p>
+									<text:p text:style-name="P9">4</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица54.E1" office:value-type="string">
-									<text:p text:style-name="P8">5</text:p>
+									<text:p text:style-name="P9">5</text:p>
 								</table:table-cell>
 							</table:table-row>
 						</table:table-header-rows><!--row-code-->
 <xsl:for-each select="Entity_Spatial/Spatial_Element">
 <xsl:for-each select="Spelement_Unit/NewOrdinate | /STD_MP[not(/.//NewParcel[SubParcels])]"><table:table-row table:style-name="Таблица54.3">
 							<table:table-cell table:style-name="Таблица54.A3" office:value-type="float" office:value="0">
-								<text:p text:style-name="P61">
+								<text:p text:style-name="P72">
 									<text:span text:style-name="User_20_Entry"><xsl:call-template name="point_name"/></text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица54.B3" office:value-type="float" office:value="0">
-								<text:p text:style-name="P49">
+								<text:p text:style-name="P53">
 									<text:span text:style-name="User_20_Entry"><xsl:if test="@X">
 <xsl:value-of select="format-number(@X,'#0.00')"/>
 </xsl:if>
@@ -6755,7 +7043,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица54.C3" office:value-type="float" office:value="0">
-								<text:p text:style-name="P49">
+								<text:p text:style-name="P53">
 									<text:span text:style-name="User_20_Entry"><xsl:if test="@Y">
 <xsl:value-of select="format-number(@Y,'#0.00')"/>
 </xsl:if>
@@ -6789,7 +7077,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 <xsl:if test="position() != last()">
 <table:table-row table:style-name="Таблица54.3">
 							<table:table-cell table:style-name="Таблица54.A5" table:number-columns-spanned="5" office:value-type="string">
-								<text:p text:style-name="P62">
+								<text:p text:style-name="P73">
 									<text:span text:style-name="User_20_Entry"/>
 								</text:p>
 							</table:table-cell>
@@ -6805,25 +7093,25 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 
 <text:soft-page-break/><table:table-row table:style-name="Таблица54.3">
 							<table:table-cell table:style-name="Таблица54.A7" office:value-type="string">
-								<text:p text:style-name="P89">-</text:p>
+								<text:p text:style-name="P105">-</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица54.B7" office:value-type="string">
-								<text:p text:style-name="P89">-</text:p>
+								<text:p text:style-name="P105">-</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица54.C7" office:value-type="string">
-								<text:p text:style-name="P89">-</text:p>
+								<text:p text:style-name="P105">-</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица54.D7" office:value-type="string">
-								<text:p text:style-name="P89">-</text:p>
+								<text:p text:style-name="P105">-</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица54.E7" office:value-type="string">
-								<text:p text:style-name="P89">-</text:p>
+								<text:p text:style-name="P105">-</text:p>
 							</table:table-cell>
 						</table:table-row><!--row-code-->
 </xsl:if></table:table>	</xsl:for-each>
 	<!--/xsl:for-each--><table:table table:name="Таблица18" table:style-name="Таблица18"><table:table-column table:style-name="Таблица18.A"/><table:table-column table:style-name="Таблица18.B"/><table:table-column table:style-name="Таблица18.C"/><table:table-row table:style-name="Таблица18.1">
 							<table:table-cell table:style-name="Таблица18.A1" table:number-columns-spanned="3" office:value-type="string">
-								<text:p text:style-name="P8">4. Общие сведения об образуемых земельных участках</text:p>
+								<text:p text:style-name="P9">4. Общие сведения об образуемых земельных участках</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
@@ -6836,15 +7124,15 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">
+										<text:span text:style-name="T24">
 											<text:s text:c="3"/>
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:value-of select="@Definition"/></text:span>
+										<text:span text:style-name="T24"><xsl:value-of select="@Definition"/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">
+										<text:span text:style-name="T24">
 											<text:s/>
 										</text:span>
 									</text:span>
@@ -6854,23 +7142,23 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 							<table:covered-table-cell/>
 						</table:table-row><table:table-row table:style-name="Таблица18.4">
 							<table:table-cell table:style-name="Таблица18.A4" office:value-type="string">
-								<text:p text:style-name="P8">№ п/п</text:p>
+								<text:p text:style-name="P9">№ п/п</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица18.B4" office:value-type="string">
-								<text:p text:style-name="P8">Наименование характеристик земельного участка</text:p>
+								<text:p text:style-name="P9">Наименование характеристик земельного участка</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица18.C4" office:value-type="string">
-								<text:p text:style-name="P8">Значение характеристики</text:p>
+								<text:p text:style-name="P9">Значение характеристики</text:p>
 							</table:table-cell>
 						</table:table-row><table:table-row table:style-name="Таблица18.5">
 							<table:table-cell table:style-name="Таблица18.A4" office:value-type="string">
-								<text:p text:style-name="P8">1</text:p>
+								<text:p text:style-name="P9">1</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица18.B4" office:value-type="string">
-								<text:p text:style-name="P8">2</text:p>
+								<text:p text:style-name="P9">2</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица18.C4" office:value-type="string">
-								<text:p text:style-name="P8">3</text:p>
+								<text:p text:style-name="P9">3</text:p>
 							</table:table-cell>
 						</table:table-row><table:table-row table:style-name="Таблица18.6">
 							<table:table-cell table:style-name="Таблица18.A4" office:value-type="string">
@@ -6916,7 +7204,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 								<text:p text:style-name="Обычный">Площадь земельного <text:s/>участка ± величина погрешности определения площади <text:s text:c="2"/><text:span text:style-name="Основной_20_шрифт_20_абзаца">
 										<text:span text:style-name="T2">(Р±∆Р), м</text:span>
 									</text:span><text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span><text:s text:c="2"/><text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T20">2</text:span>
+										<text:span text:style-name="T22">2</text:span>
 									</text:span><text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span></text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица18.C4" office:value-type="string">
@@ -6949,11 +7237,11 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 								<text:p text:style-name="Обычный">Предельный минимальный и максимальный размер земельного участка<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span><text:span text:style-name="Основной_20_шрифт_20_абзаца">
 										<text:span text:style-name="T2"><text:s text:c="2"/>(Рмин и Рмакс), м</text:span>
 									</text:span><text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span><text:s text:c="2"/><text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T20">2</text:span>
+										<text:span text:style-name="T22">2</text:span>
 									</text:span><text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span></text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица18.C4" office:value-type="string">
-								<text:p text:style-name="P17"><xsl:if test="Min_Area">
+								<text:p text:style-name="P20"><xsl:if test="Min_Area">
 <xsl:value-of select="Min_Area/Area"/>
 <xsl:text> </xsl:text>
 <!--xsl:value-of select="'м2'"/-->
@@ -6975,13 +7263,13 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 							<table:table-cell table:style-name="Таблица18.B11" office:value-type="string">
 								<text:p text:style-name="Обычный">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T18">Кадастровые или иные номера зданий, сооружений, объектов незавершенного строительства, расположенных на земельном участке</text:span>
+										<text:span text:style-name="T20">Кадастровые или иные номера зданий, сооружений, объектов незавершенного строительства, расположенных на земельном участке</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица18.C4" office:value-type="string">
-								<text:p text:style-name="P8"><xsl:for-each select="Inner_CadastralNumbers/CadastralNumber">
+								<text:p text:style-name="P9"><xsl:for-each select="Inner_CadastralNumbers/CadastralNumber">
 <xsl:value-of select="."/>
 <xsl:value-of select="' '"/>
 </xsl:for-each>
@@ -6998,7 +7286,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 								<text:p text:style-name="Обычный">Иные сведения</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица18.C4" office:value-type="string">
-								<text:p text:style-name="P24">-</text:p>
+								<text:p text:style-name="P27">-</text:p>
 							</table:table-cell>
 						</table:table-row><!--row-code-->
 <!--/xsl:for-each-->
@@ -7027,15 +7315,15 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 										<text:span text:style-name="T2">Обозначение земельного участка <text:s text:c="2"/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T25">
+										<text:span text:style-name="T27">
 											<text:s text:c="3"/>
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T25"><xsl:value-of select="@Definition"/></text:span>
+										<text:span text:style-name="T27"><xsl:value-of select="@Definition"/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T25"> </text:span>
+										<text:span text:style-name="T27"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
@@ -7046,10 +7334,10 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 						</table:table-row>
 						<table:table-row table:style-name="Таблица56.2">
 							<table:table-cell table:style-name="Таблица56.A2" office:value-type="string">
-								<text:p text:style-name="P8">№ п/п</text:p>
+								<text:p text:style-name="P9">№ п/п</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица56.B2" office:value-type="string">
-								<text:p text:style-name="P8">Учетный номер или обозначение части</text:p>
+								<text:p text:style-name="P9">Учетный номер или обозначение части</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица56.B2" office:value-type="string">
 								<text:p text:style-name="P1">
@@ -7059,11 +7347,11 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T20">2</text:span>
+										<text:span text:style-name="T22">2</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 								</text:p>
-								<text:p text:style-name="P8"/>
+								<text:p text:style-name="P9"/>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица56.B2" office:value-type="string">
 								<text:p text:style-name="P1">
@@ -7073,37 +7361,37 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T20">2</text:span>
+										<text:span text:style-name="T22">2</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица56.E2" office:value-type="string">
-								<text:p text:style-name="P8">Характеристика части</text:p>
+								<text:p text:style-name="P9">Характеристика части</text:p>
 							</table:table-cell>
 						</table:table-row>
 					</table:table><table:table table:name="Таблица57" table:style-name="Таблица57"><table:table-column table:style-name="Таблица57.A"/><table:table-column table:style-name="Таблица57.B"/><table:table-column table:style-name="Таблица57.C"/><table:table-column table:style-name="Таблица57.D"/><table:table-column table:style-name="Таблица57.E"/><table:table-row table:style-name="Таблица57.1">
 							<table:table-cell table:style-name="Таблица57.A1" office:value-type="string">
-								<text:p text:style-name="P8">1</text:p>
+								<text:p text:style-name="P9">1</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица57.B1" office:value-type="string">
-								<text:p text:style-name="P8">2</text:p>
+								<text:p text:style-name="P9">2</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица57.B1" office:value-type="string">
-								<text:p text:style-name="P8">3</text:p>
+								<text:p text:style-name="P9">3</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица57.B1" office:value-type="string">
-								<text:p text:style-name="P8">4</text:p>
+								<text:p text:style-name="P9">4</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица57.E1" office:value-type="string">
-								<text:p text:style-name="P8">5</text:p>
+								<text:p text:style-name="P9">5</text:p>
 							</table:table-cell>
 						</table:table-row><!--row-code-->
 <xsl:for-each select="SubParcels/FormSubParcel | /STD_MP[not(/.//NewParcel[SubParcels])]"><table:table-row table:style-name="Таблица57.1">
 							<table:table-cell table:style-name="Таблица57.A3" office:value-type="string">
-								<text:p text:style-name="P8">
+								<text:p text:style-name="P9">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:if test="../FormSubParcel">
+										<text:span text:style-name="T24"><xsl:if test="../FormSubParcel">
 <xsl:value-of select="position()"/>
 </xsl:if>
 <xsl:if test="not(../FormSubParcel)">
@@ -7112,14 +7400,14 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица57.B3" office:value-type="string">
-								<text:p text:style-name="P8">
+								<text:p text:style-name="P9">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:if test="../FormSubParcel">
+										<text:span text:style-name="T24"><xsl:if test="../FormSubParcel">
 <xsl:value-of select="@Definition"/>
 </xsl:if>
 <xsl:if test="not(../FormSubParcel)">
@@ -7127,27 +7415,27 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 </xsl:if></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица57.B3" office:value-type="string">
-								<text:p text:style-name="P8">
+								<text:p text:style-name="P9">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:value-of select="Area/Area"/>
+										<text:span text:style-name="T24"><xsl:value-of select="Area/Area"/>
 <xsl:if test="not(Area/Area)">
   <xsl:value-of select="'-'"/>
 </xsl:if></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица57.B3" office:value-type="string">
-								<text:p text:style-name="P8">
+								<text:p text:style-name="P9">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:if test="../FormSubParcel">
+										<text:span text:style-name="T24"><xsl:if test="../FormSubParcel">
 <xsl:value-of select="Area/Innccuracy"/>
 </xsl:if>
 <xsl:if test="not(../FormSubParcel)">
@@ -7155,14 +7443,14 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 </xsl:if></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица57.E3" office:value-type="string">
-								<text:p text:style-name="P8">
+								<text:p text:style-name="P9">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:if test="../FormSubParcel">
+										<text:span text:style-name="T24"><xsl:if test="../FormSubParcel">
 <xsl:value-of select="Encumbrance/Name"/>
 </xsl:if>
 <xsl:if test="not(../FormSubParcel)">
@@ -7170,7 +7458,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 </xsl:if></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
@@ -7178,16 +7466,16 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 </xsl:for-each>
 
 
-</table:table><xsl:if test="following-sibling::NewParcel"><text:p text:style-name="P88"/><text:p text:style-name="P74"/></xsl:if>
-</xsl:for-each></xsl:if><xsl:if test="/.//ExistEZParcels/Compozition_EZ"><table:table table:name="Таблица31" table:style-name="Таблица31"><table:table-column table:style-name="Таблица31.A"/><table:table-column table:style-name="Таблица31.B"/><table:table-column table:style-name="Таблица31.C"/><table:table-row table:style-name="Таблица31.1">
+</table:table><xsl:if test="following-sibling::NewParcel"><text:p text:style-name="P104"/><text:p text:style-name="P87"/></xsl:if>
+</xsl:for-each></xsl:if><xsl:if test="/.//ExistEZParcels/Composition_EZ"><table:table table:name="Таблица31" table:style-name="Таблица31"><table:table-column table:style-name="Таблица31.A"/><table:table-column table:style-name="Таблица31.B"/><table:table-column table:style-name="Таблица31.C"/><table:table-row table:style-name="Таблица31.1">
 							<table:table-cell table:style-name="Таблица31.A1" table:number-columns-spanned="3" office:value-type="string">
-								<text:p text:style-name="P72"><text:bookmark-start text:name="Оглавление_ИзмененныеУчастки"/>Сведения об измененных земельных участках<text:bookmark-end text:name="Оглавление_ИзмененныеУчастки"/></text:p>
+								<text:p text:style-name="P85"><text:bookmark-start text:name="Оглавление_ИзмененныеУчастки"/>Сведения об измененных земельных участках<text:bookmark-end text:name="Оглавление_ИзмененныеУчастки"/></text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
 						</table:table-row><table:table-row>
 							<table:table-cell table:style-name="Таблица31.A2" table:number-columns-spanned="3" office:value-type="string">
-								<text:p text:style-name="P8">1. Общие сведения об измененных земельных участках</text:p>
+								<text:p text:style-name="P9">1. Общие сведения об измененных земельных участках</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
@@ -7201,18 +7489,18 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 										<text:span text:style-name="T2">Кадастровый номер земельного участка </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">
+										<text:span text:style-name="T24">
 											<text:s text:c="2"/>
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:value-of select="@CadastralNumber"/></text:span>
+										<text:span text:style-name="T24"><xsl:value-of select="@CadastralNumber"/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T25">
+										<text:span text:style-name="T27">
 											<text:s/>
 										</text:span>
 									</text:span>
@@ -7222,23 +7510,23 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 							<table:covered-table-cell/>
 						</table:table-row><table:table-row>
 							<table:table-cell table:style-name="Таблица31.A5" office:value-type="string">
-								<text:p text:style-name="P8">№ п/п</text:p>
+								<text:p text:style-name="P9">№ п/п</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица31.B5" office:value-type="string">
-								<text:p text:style-name="P8">Наименование характеристик земельного участка</text:p>
+								<text:p text:style-name="P9">Наименование характеристик земельного участка</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица31.C5" office:value-type="string">
-								<text:p text:style-name="P8">Значение характеристики</text:p>
+								<text:p text:style-name="P9">Значение характеристики</text:p>
 							</table:table-cell>
 						</table:table-row><table:table-row>
 							<table:table-cell table:style-name="Таблица31.A5" office:value-type="string">
-								<text:p text:style-name="P8">1</text:p>
+								<text:p text:style-name="P9">1</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица31.B5" office:value-type="string">
-								<text:p text:style-name="P8">2</text:p>
+								<text:p text:style-name="P9">2</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица31.C5" office:value-type="string">
-								<text:p text:style-name="P8">3</text:p>
+								<text:p text:style-name="P9">3</text:p>
 							</table:table-cell>
 						</table:table-row><table:table-row>
 							<table:table-cell table:style-name="Таблица31.A5" office:value-type="string">
@@ -7262,14 +7550,14 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 							</table:table-cell>
 						</table:table-row><table:table-row>
 							<table:table-cell table:style-name="Таблица31.A8" office:value-type="string">
-								<text:p text:style-name="P32">2</text:p>
+								<text:p text:style-name="P36">2</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица31.B8" office:value-type="string">
-								<text:p text:style-name="P50">Кадастровые номера земельных участков, <text:span text:style-name="T30">вкл</text:span>ючаемых <text:span text:style-name="T30">в</text:span> состав измененного земельного участка, представляющего собой единое землепользование</text:p>
+								<text:p text:style-name="P55">Кадастровые номера земельных участков, <text:span text:style-name="T32">вкл</text:span>ючаемых <text:span text:style-name="T32">в</text:span> состав измененного земельного участка, представляющего собой единое землепользование</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица31.C8" office:value-type="string">
 								<text:p text:style-name="P1">
-									<text:span text:style-name="User_20_Entry"><xsl:for-each select="Composition_EZ/InsertEntryParcels/InsertEntryParcel/ExistEntryParcel/@CadastralNumber | Composition_EZ/InsertEntryParcels/InsertEntryParcel/NewEntryParcel/@Definition">
+									<text:span text:style-name="User_20_Entry"><xsl:for-each select="Composition_EZ/InsertEntryParcels/InsertEntryParcel/ExistEntryParcel/@CadastralNumber">
 	<xsl:value-of select="."/>
 	<xsl:if test="position() != last()">
 		<xsl:value-of select="','"/><xsl:value-of select="$crlf"/>
@@ -7281,18 +7569,18 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 							</table:table-cell>
 						</table:table-row><table:table-row>
 							<table:table-cell table:style-name="Таблица31.A5" office:value-type="string">
-								<text:p text:style-name="P32">3</text:p>
+								<text:p text:style-name="P36">3</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица31.B9" office:value-type="string">
 								<text:p text:style-name="Обычный">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T18">Кадастровые или иные номера зданий, сооружений, объектов незавершенного строительства, расположенных на земельном участке</text:span>
+										<text:span text:style-name="T20">Кадастровые или иные номера зданий, сооружений, объектов незавершенного строительства, расположенных на земельном участке</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица31.C5" office:value-type="string">
-								<text:p text:style-name="P8">
+								<text:p text:style-name="P9">
 									<text:span text:style-name="User_20_Entry">	<xsl:for-each select="Inner_CadastralNumbers/CadastralNumber">
 	<xsl:value-of select="."/>
 	<xsl:if test="position() != last()">
@@ -7305,22 +7593,417 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 							</table:table-cell>
 						</table:table-row><table:table-row>
 							<table:table-cell table:style-name="Таблица31.A5" office:value-type="string">
-								<text:p text:style-name="P32">4</text:p>
+								<text:p text:style-name="P36">4</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица31.B5" office:value-type="string">
 								<text:p text:style-name="Обычный">Иные сведения</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица31.C5" office:value-type="string">
-								<text:p text:style-name="P8"/>
+								<text:p text:style-name="P9"/>
 							</table:table-cell>
 						</table:table-row><!--row-code-->
-</xsl:for-each></table:table><text:p text:style-name="Text_20_body"/><table:table table:name="Таблица58" table:style-name="Таблица58">
+</xsl:for-each></table:table><text:p text:style-name="Text_20_body"/><!--row-code-->
+<xsl:for-each select="STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZParcels">
+
+<table:table table:name="Таблица47" table:style-name="Таблица47">
+						<table:table-column table:style-name="Таблица47.A"/>
+						<table:table-column table:style-name="Таблица47.B"/>
+						<table:table-column table:style-name="Таблица47.C"/>
+						<table:table-column table:style-name="Таблица47.D"/>
+						<table:table-column table:style-name="Таблица47.C"/>
+						<table:table-column table:style-name="Таблица47.F"/>
+						<table:table-column table:style-name="Таблица47.G"/>
+						<table:table-row table:style-name="Таблица47.1">
+							<table:table-cell table:style-name="Таблица47.A1" table:number-columns-spanned="7" office:value-type="string">
+								<text:p text:style-name="P71"><text:span text:style-name="T17">2</text:span>. Сведения о характерных точках границы измененн<text:span text:style-name="T36">ого</text:span> земельного участка</text:p>
+								<text:p text:style-name="P75">
+									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
+										<text:span text:style-name="T2">с кадастровым номером </text:span>
+									</text:span>
+									<text:span text:style-name="User_20_Entry">
+										<text:span text:style-name="T24">
+											<text:s/>
+										</text:span>
+									</text:span>
+									<text:span text:style-name="User_20_Entry">
+										<text:span text:style-name="T24"><xsl:call-template name="get_value">
+<xsl:with-param name="p_name">CadastralNumber</xsl:with-param> 
+</xsl:call-template></text:span>
+									</text:span>
+									<text:span text:style-name="User_20_Entry">
+										<text:span text:style-name="T24">
+											<text:s/>
+										</text:span>
+									</text:span>
+								</text:p>
+							</table:table-cell>
+							<table:covered-table-cell/>
+							<table:covered-table-cell/>
+							<table:covered-table-cell/>
+							<table:covered-table-cell/>
+							<table:covered-table-cell/>
+							<table:covered-table-cell/>
+						</table:table-row>
+						<table:table-row table:style-name="Таблица47.2">
+							<table:table-cell table:style-name="Таблица47.A2" table:number-rows-spanned="2" office:value-type="string">
+								<text:p text:style-name="P70">Обозначение характерных точек границы</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица47.B2" table:number-columns-spanned="2" office:value-type="string">
+								<text:p text:style-name="P70">Существующие координаты, м</text:p>
+							</table:table-cell>
+							<table:covered-table-cell/>
+							<table:table-cell table:style-name="Таблица47.B2" table:number-columns-spanned="2" office:value-type="string">
+								<text:p text:style-name="P70">Уточненные координаты, м</text:p>
+							</table:table-cell>
+							<table:covered-table-cell/>
+							<table:table-cell table:style-name="Таблица47.B2" table:number-rows-spanned="2" office:value-type="string">
+								<text:p text:style-name="P75">
+									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
+										<text:span text:style-name="T2">Средняя квадратическая погрешность положения характерной точки (М</text:span>
+									</text:span>
+									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
+									<text:s text:c="2"/>
+									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
+										<text:span text:style-name="T21">t</text:span>
+									</text:span>
+									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
+									<text:s text:c="2"/>
+									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
+										<text:span text:style-name="T2">), м</text:span>
+									</text:span>
+									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
+								</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица47.G2" table:number-rows-spanned="2" office:value-type="string">
+								<text:p text:style-name="P70">Описание закрепления точки</text:p>
+							</table:table-cell>
+						</table:table-row>
+						<table:table-row table:style-name="Таблица47.3">
+							<table:covered-table-cell/>
+							<table:table-cell table:style-name="Таблица47.B3" office:value-type="string">
+								<text:p text:style-name="P77">X</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица47.B3" office:value-type="string">
+								<text:p text:style-name="P77">Y</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица47.B3" office:value-type="string">
+								<text:p text:style-name="P77">X</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица47.B3" office:value-type="string">
+								<text:p text:style-name="P77">Y</text:p>
+							</table:table-cell>
+							<table:covered-table-cell/>
+							<table:covered-table-cell/>
+						</table:table-row>
+					</table:table><table:table table:name="Таблица48" table:style-name="Таблица48"><table:table-column table:style-name="Таблица48.A"/><table:table-column table:style-name="Таблица48.B"/><table:table-column table:style-name="Таблица48.C"/><table:table-column table:style-name="Таблица48.D"/><table:table-column table:style-name="Таблица48.C"/><table:table-column table:style-name="Таблица48.F"/><table:table-column table:style-name="Таблица48.G"/><table:table-row table:style-name="Таблица48.1">
+							<table:table-cell table:style-name="Таблица48.A1" office:value-type="string">
+								<text:p text:style-name="P70">1</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица48.B1" office:value-type="string">
+								<text:p text:style-name="P18">2</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица48.B1" office:value-type="string">
+								<text:p text:style-name="P18">3</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица48.B1" office:value-type="string">
+								<text:p text:style-name="P18">4</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица48.B1" office:value-type="string">
+								<text:p text:style-name="P18">5</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица48.B1" office:value-type="string">
+								<text:p text:style-name="P18">6</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица48.G1" office:value-type="string">
+								<text:p text:style-name="P70">7</text:p>
+							</table:table-cell>
+						</table:table-row><!--row-code-->
+<xsl:for-each select="Composition_EZ/InsertEntryParcels/InsertEntryParcel/NewEntryParcel"><table:table-row table:style-name="Таблица48.1">
+							<table:table-cell table:style-name="Таблица48.A3" table:number-columns-spanned="7" office:value-type="string">
+								<text:p text:style-name="P75">
+									<text:span text:style-name="User_20_Entry"><xsl:value-of select="@Definition "/>
+</text:span>
+									<text:span text:style-name="User_20_Entry"> </text:span>
+								</text:p>
+							</table:table-cell>
+							<table:covered-table-cell/>
+							<table:covered-table-cell/>
+							<table:covered-table-cell/>
+							<table:covered-table-cell/>
+							<table:covered-table-cell/>
+							<table:covered-table-cell/>
+						</table:table-row><!--row-code-->
+<xsl:for-each select="Entity_Spatial/Spatial_Element">
+<xsl:variable name="v_element_pos" select="number(1.5 - position())"/>
+<xsl:for-each select="Spelement_Unit/NewOrdinate">
+<xsl:sort select="$v_element_pos*position()" data-type="number" order="descending"/>
+<table:table-row table:style-name="Таблица48.1">
+							<table:table-cell table:style-name="Таблица48.A5" office:value-type="float" office:value="0">
+								<text:p text:style-name="P75">
+									<text:span text:style-name="User_20_Entry"><xsl:call-template name="point_name"/></text:span>
+									<text:span text:style-name="User_20_Entry"> </text:span>
+								</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица48.B5" office:value-type="float" office:value="0">
+								<text:p text:style-name="P7">
+									<text:span text:style-name="User_20_Entry"><xsl:call-template name="point_coord">
+	<xsl:with-param name="o">1</xsl:with-param>
+    <xsl:with-param name="x">1</xsl:with-param>
+</xsl:call-template></text:span>
+									<text:span text:style-name="User_20_Entry"> </text:span>
+								</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица48.B5" office:value-type="float" office:value="0">
+								<text:p text:style-name="P7">
+									<text:span text:style-name="User_20_Entry"><xsl:call-template name="point_coord">
+	<xsl:with-param name="o">1</xsl:with-param>
+	<xsl:with-param name="y">1</xsl:with-param>
+</xsl:call-template></text:span>
+									<text:span text:style-name="User_20_Entry"> </text:span>
+								</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица48.B5" office:value-type="float" office:value="0">
+								<text:p text:style-name="P54">
+									<text:span text:style-name="User_20_Entry"><xsl:call-template name="point_coord">
+	<xsl:with-param name="n">1</xsl:with-param>
+	<xsl:with-param name="x">1</xsl:with-param>
+</xsl:call-template></text:span>
+									<text:span text:style-name="User_20_Entry"> </text:span>
+								</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица48.B5" office:value-type="float" office:value="0">
+								<text:p text:style-name="P54">
+									<text:span text:style-name="User_20_Entry"><xsl:call-template name="point_coord">
+	<xsl:with-param name="n">1</xsl:with-param>
+	<xsl:with-param name="y">1</xsl:with-param>
+</xsl:call-template></text:span>
+									<text:span text:style-name="User_20_Entry"> </text:span>
+								</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица48.B5" office:value-type="float" office:value="0">
+								<text:p text:style-name="P7">
+									<text:span text:style-name="User_20_Entry"><xsl:call-template name="get_value">
+  <xsl:with-param name="p_name">Delta_Geopoint</xsl:with-param>
+</xsl:call-template>	</text:span>
+									<text:span text:style-name="User_20_Entry"> </text:span>
+								</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица48.G5" office:value-type="float" office:value="0">
+								<text:p text:style-name="P75">
+									<text:span text:style-name="User_20_Entry"><xsl:call-template name="get_dict">
+<xsl:with-param name="p_code">
+<xsl:value-of select="@Geopoint_Zacrep"/>
+</xsl:with-param>
+</xsl:call-template></text:span>
+									<text:span text:style-name="User_20_Entry"> </text:span>
+								</text:p>
+							</table:table-cell>
+						</table:table-row><!--row-code-->								
+</xsl:for-each>
+</xsl:for-each>
+</xsl:for-each>
+<xsl:if test="not(/.//NewEntryParcel)">
+
+<table:table-row table:style-name="Таблица48.1">
+							<table:table-cell table:style-name="Таблица48.A7" office:value-type="string">
+								<text:p text:style-name="P61">-</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица48.B7" office:value-type="string">
+								<text:p text:style-name="P61">-</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица48.C7" office:value-type="string">
+								<text:p text:style-name="P61">-</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица48.D7" office:value-type="string">
+								<text:p text:style-name="P61">-</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица48.E7" office:value-type="string">
+								<text:p text:style-name="P61">-</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица48.F7" office:value-type="string">
+								<text:p text:style-name="P61">-</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица48.G7" office:value-type="string">
+								<text:p text:style-name="P61">-</text:p>
+							</table:table-cell>
+						</table:table-row><!--row-code-->
+</xsl:if></table:table><!--row-code-->
+</xsl:for-each>
+<xsl:for-each select="STD_MP/Package/SpecifyParcel/ExistEZ/ExistEZParcels"><table:table table:name="Таблица49" table:style-name="Таблица49">
+						<table:table-column table:style-name="Таблица49.A"/>
+						<table:table-column table:style-name="Таблица49.B"/>
+						<table:table-column table:style-name="Таблица49.C"/>
+						<table:table-column table:style-name="Таблица49.D"/>
+						<table:table-row table:style-name="Таблица49.1">
+							<table:table-cell table:style-name="Таблица49.A1" table:number-columns-spanned="4" office:value-type="string">
+								<text:p text:style-name="P90"><text:span text:style-name="T17">3</text:span>. Сведения о частях границы измененн<text:span text:style-name="T36">ого</text:span> земельного участка</text:p>
+								<text:p text:style-name="P7">
+									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
+										<text:span text:style-name="T2">с кадастровым номером </text:span>
+									</text:span>
+									<text:span text:style-name="User_20_Entry">
+										<text:span text:style-name="T24">
+											<text:s text:c="2"/>
+										</text:span>
+									</text:span>
+									<text:span text:style-name="User_20_Entry">
+										<text:span text:style-name="T24"><xsl:call-template name="get_value"><xsl:with-param name="p_name">CadastralNumber</xsl:with-param></xsl:call-template></text:span>
+									</text:span>
+									<text:span text:style-name="User_20_Entry">
+										<text:span text:style-name="T24"> </text:span>
+									</text:span>
+								</text:p>
+							</table:table-cell>
+							<table:covered-table-cell/>
+							<table:covered-table-cell/>
+							<table:covered-table-cell/>
+						</table:table-row>
+						<table:table-row table:style-name="Таблица49.2">
+							<table:table-cell table:style-name="Таблица49.A2" table:number-columns-spanned="2" office:value-type="string">
+								<text:p text:style-name="P18">Обозначение части границы</text:p>
+							</table:table-cell>
+							<table:covered-table-cell/>
+							<table:table-cell table:style-name="Таблица49.C2" table:number-rows-spanned="2" office:value-type="string">
+								<text:p text:style-name="P7">
+									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
+										<text:span text:style-name="T2">Горизонтальное проложение (</text:span>
+									</text:span>
+									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
+									<text:s text:c="2"/>
+									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
+										<text:span text:style-name="T6">S</text:span>
+									</text:span>
+									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
+									<text:s text:c="2"/>
+									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
+										<text:span text:style-name="T2">), м</text:span>
+									</text:span>
+									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
+								</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица49.D2" table:number-rows-spanned="2" office:value-type="string">
+								<text:p text:style-name="P18">Описание прохождения части границы</text:p>
+							</table:table-cell>
+						</table:table-row>
+						<table:table-row table:style-name="Таблица49.3">
+							<table:table-cell table:style-name="Таблица49.A2" office:value-type="string">
+								<text:p text:style-name="P18">от т.</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица49.C2" office:value-type="string">
+								<text:p text:style-name="P18">до т.</text:p>
+							</table:table-cell>
+							<table:covered-table-cell/>
+							<table:covered-table-cell/>
+						</table:table-row>
+					</table:table><table:table table:name="Таблица50" table:style-name="Таблица50"><table:table-column table:style-name="Таблица50.A"/><table:table-column table:style-name="Таблица50.B"/><table:table-column table:style-name="Таблица50.C"/><table:table-column table:style-name="Таблица50.D"/><table:table-row table:style-name="Таблица50.1">
+							<table:table-cell table:style-name="Таблица50.A1" office:value-type="string">
+								<text:p text:style-name="P19">1</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица50.B1" office:value-type="string">
+								<text:p text:style-name="P19">2</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица50.B1" office:value-type="string">
+								<text:p text:style-name="P19">3</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица50.D1" office:value-type="string">
+								<text:p text:style-name="P19">4</text:p>
+							</table:table-cell>
+						</table:table-row><!--row-code-->
+<xsl:for-each select="Composition_EZ/InsertEntryParcels/InsertEntryParcel/NewEntryParcel"><table:table-row table:style-name="Таблица50.1">
+							<table:table-cell table:style-name="Таблица50.A3" table:number-columns-spanned="4" office:value-type="string">
+								<text:p text:style-name="P19">
+									<text:span text:style-name="User_20_Entry">
+										<text:span text:style-name="T24"><xsl:value-of select="@Definition"/> 
+</text:span>
+									</text:span>
+									<text:span text:style-name="User_20_Entry">
+										<text:span text:style-name="T24"> </text:span>
+									</text:span>
+								</text:p>
+							</table:table-cell>
+							<table:covered-table-cell/>
+							<table:covered-table-cell/>
+							<table:covered-table-cell/>
+						</table:table-row><!--row-code-->
+
+<xsl:for-each select="Entity_Spatial/Borders/Border">
+<xsl:sort select="(1.5 - @Spatial)*position()" data-type="number" order="descending"/>
+<xsl:variable name="curr_spatial" select="./@Spatial"/>
+<table:table-row table:style-name="Таблица50.1">
+							<table:table-cell table:style-name="Таблица50.A5" office:value-type="string">
+								<text:p text:style-name="P19">
+									<text:span text:style-name="User_20_Entry">
+										<text:span text:style-name="T24"><xsl:call-template name="border_point_name"><xsl:with-param name="p1">1</xsl:with-param></xsl:call-template></text:span>
+									</text:span>
+									<text:span text:style-name="User_20_Entry">
+										<text:span text:style-name="T24"> </text:span>
+									</text:span>
+								</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица50.B5" office:value-type="string">
+								<text:p text:style-name="P19">
+									<text:span text:style-name="User_20_Entry">
+										<text:span text:style-name="T24"><xsl:call-template name="border_point_name"><xsl:with-param name="p2">1</xsl:with-param></xsl:call-template></text:span>
+									</text:span>
+									<text:span text:style-name="User_20_Entry">
+										<text:span text:style-name="T24"> </text:span>
+									</text:span>
+								</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица50.B5" office:value-type="string">
+								<text:p text:style-name="P19">
+									<text:span text:style-name="User_20_Entry">
+										<text:span text:style-name="T24"><xsl:for-each select="Edge | /STD_MP[not(/.//ExistEZParcels | /.//ExistEZEntryParcels/ExistEZEntryParcel | /.//ExistParcel)]">
+<xsl:call-template name="get_value"><xsl:with-param name="p_name">Length</xsl:with-param></xsl:call-template>	
+							</xsl:for-each>			</text:span>
+									</text:span>
+									<text:span text:style-name="User_20_Entry">
+										<text:span text:style-name="T24"> </text:span>
+									</text:span>
+								</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица50.D5" office:value-type="string">
+								<text:p text:style-name="P19">
+									<text:span text:style-name="User_20_Entry">
+										<text:span text:style-name="T24"><xsl:for-each select="Edge | /STD_MP[not(/.//ExistEZParcels | /.//ExistEZEntryParcels/ExistEZEntryParcel | /.//ExistParcel)]">
+							<xsl:call-template name="get_value"><xsl:with-param name="p_name">Definition</xsl:with-param></xsl:call-template>									
+							</xsl:for-each>				</text:span>
+									</text:span>
+									<text:span text:style-name="User_20_Entry">
+										<text:span text:style-name="T24"> </text:span>
+									</text:span>
+								</text:p>
+							</table:table-cell>
+						</table:table-row><!--row-code-->
+</xsl:for-each>
+</xsl:for-each>		
+<xsl:if test="not(Composition_EZ/InsertEntryParcels/InsertEntryParcel/NewEntryParcel)">
+
+<table:table-row table:style-name="Таблица50.1">
+							<table:table-cell table:style-name="Таблица50.A7" office:value-type="string">
+								<text:p text:style-name="P62">-</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица50.B7" office:value-type="string">
+								<text:p text:style-name="P62">-</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица50.B7" office:value-type="string">
+								<text:p text:style-name="P62">-</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица50.D7" office:value-type="string">
+								<text:p text:style-name="P62">-</text:p>
+							</table:table-cell>
+						</table:table-row><!--row-code-->
+</xsl:if></table:table><!--row-code-->
+</xsl:for-each><text:p text:style-name="P63"/><table:table table:name="Таблица58" table:style-name="Таблица58">
 						<table:table-column table:style-name="Таблица58.A"/>
 						<table:table-row table:style-name="Таблица58.1">
 							<table:table-cell table:style-name="Таблица58.A1" office:value-type="string">
 								<text:p text:style-name="P1">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T2">2. Общие сведения о частях измененных земельных участков</text:span>
+										<text:span text:style-name="T8">4</text:span>
+									</text:span>
+									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
+										<text:span text:style-name="T2">. Общие сведения о частях измененных земельных участков</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 								</text:p>
@@ -7332,6 +8015,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 						<table:table-column table:style-name="Таблица59.C"/>
 						<table:table-column table:style-name="Таблица59.D"/>
 						<table:table-column table:style-name="Таблица59.E"/>
+						<text:soft-page-break/>
 						<table:table-row table:style-name="Таблица59.1">
 							<table:table-cell table:style-name="Таблица59.A1" table:number-columns-spanned="5" office:value-type="string">
 								<text:p text:style-name="Обычный">
@@ -7339,7 +8023,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 										<text:span text:style-name="T2">Кадастровый номер земельного участка <text:s text:c="2"/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T25">
+										<text:span text:style-name="T27">
 											<text:s/>
 										</text:span>
 									</text:span>
@@ -7358,10 +8042,10 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 						</table:table-row>
 						<table:table-row table:style-name="Таблица59.2">
 							<table:table-cell table:style-name="Таблица59.A2" office:value-type="string">
-								<text:p text:style-name="P8">№ п/п</text:p>
+								<text:p text:style-name="P9">№ п/п</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица59.B2" office:value-type="string">
-								<text:p text:style-name="P8">Учетный номер или обозначение части</text:p>
+								<text:p text:style-name="P9">Учетный номер или обозначение части</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица59.B2" office:value-type="string">
 								<text:p text:style-name="P1">
@@ -7371,11 +8055,11 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T20">2</text:span>
+										<text:span text:style-name="T22">2</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 								</text:p>
-								<text:p text:style-name="P8"/>
+								<text:p text:style-name="P9"/>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица59.B2" office:value-type="string">
 								<text:p text:style-name="P1">
@@ -7385,109 +8069,101 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T20">2</text:span>
+										<text:span text:style-name="T22">2</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица59.E2" office:value-type="string">
-								<text:p text:style-name="P8">Характеристика части</text:p>
+								<text:p text:style-name="P9">Характеристика части</text:p>
 							</table:table-cell>
 						</table:table-row>
 					</table:table><table:table table:name="Таблица60" table:style-name="Таблица60"><table:table-column table:style-name="Таблица60.A"/><table:table-column table:style-name="Таблица60.B"/><table:table-column table:style-name="Таблица60.C"/><table:table-column table:style-name="Таблица60.D"/><table:table-column table:style-name="Таблица60.E"/><table:table-header-rows>
 							<table:table-row table:style-name="Таблица60.1">
 								<table:table-cell table:style-name="Таблица60.A1" office:value-type="string">
-									<text:p text:style-name="P8">1</text:p>
+									<text:p text:style-name="P9">1</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица60.B1" office:value-type="string">
-									<text:p text:style-name="P8">2</text:p>
+									<text:p text:style-name="P9">2</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица60.B1" office:value-type="string">
-									<text:p text:style-name="P8">3</text:p>
+									<text:p text:style-name="P9">3</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица60.B1" office:value-type="string">
-									<text:p text:style-name="P8">4</text:p>
+									<text:p text:style-name="P9">4</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица60.E1" office:value-type="string">
-									<text:p text:style-name="P8">5</text:p>
+									<text:p text:style-name="P9">5</text:p>
 								</table:table-cell>
 							</table:table-row>
 						</table:table-header-rows><!--row-code-->				
 <xsl:for-each select="SubParcels/FormSubParcel | SubParcels/ExistSubParcel | 
 SubParcels/InvariableSubParcel |
-Composition_EZ/InsertEntryParcels/InsertEntryParcel/NewEntryParcel |
-Composition_EZ/InsertEntryParcels/InsertEntryParcel/ExistEntryParcel |
 /STD_MP[not(/.//ExistEZParcels[SubParcels])]"><table:table-row table:style-name="Таблица60.1">
 							<table:table-cell table:style-name="Таблица60.A1" office:value-type="string">
-								<text:p text:style-name="P8">
+								<text:p text:style-name="P9">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:if test="../SubParcels"><xsl:value-of select="position()"/> </xsl:if>
+										<text:span text:style-name="T24"><xsl:if test="../SubParcels"><xsl:value-of select="position()"/> </xsl:if>
 					<xsl:if test="not(../SubParcels)"><xsl:value-of select="'-'"/> </xsl:if></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица60.B1" office:value-type="string">
-								<text:p text:style-name="P8">
+								<text:p text:style-name="P9">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:call-template name="get_value">
-<xsl:with-param name="p_name">
-Definition
-</xsl:with-param>
-</xsl:call-template>
-<xsl:call-template name="get_value">
-<xsl:with-param name="p_name">
-Number_Record</xsl:with-param>
-</xsl:call-template>
-<xsl:call-template name="get_value">
-<xsl:with-param name="p_name">
-CadastralNumber</xsl:with-param>
-</xsl:call-template></text:span>
+										<text:span text:style-name="T24"><xsl:if test="not(../SubParcels)"><xsl:value-of select="'-'"/></xsl:if>
+<xsl:value-of select="@Definition"/>
+<xsl:value-of select="@Number_Record"/>
+</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица60.B1" office:value-type="string">
-								<text:p text:style-name="P8">
+								<text:p text:style-name="P9">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:for-each select="Area ">
+										<text:span text:style-name="T24"><xsl:for-each select="Area ">
 	<xsl:call-template name="get_value">
 	<xsl:with-param name="p_name">Area</xsl:with-param>
 	</xsl:call-template>
-</xsl:for-each></text:span>
+</xsl:for-each>
+<xsl:if test="not(Area)"><xsl:value-of select="'-'"/></xsl:if></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица60.B1" office:value-type="string">
-								<text:p text:style-name="P8">
+								<text:p text:style-name="P9">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:for-each select="Area">
+										<text:span text:style-name="T24"><xsl:for-each select="Area">
 	<xsl:call-template name="get_value">
 	<xsl:with-param name="p_name">Innccuracy</xsl:with-param>
 	</xsl:call-template>
-</xsl:for-each></text:span>
+</xsl:for-each>
+<xsl:if test="not(Area)"><xsl:value-of select="'-'"/></xsl:if></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица60.E1" office:value-type="string">
-								<text:p text:style-name="P8">
+								<text:p text:style-name="P9">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">	<xsl:for-each select="Encumbrance">
+										<text:span text:style-name="T24">	<xsl:for-each select="Encumbrance">
 											<xsl:call-template name="get_value"><xsl:with-param name="p_name">Type</xsl:with-param></xsl:call-template>
-					</xsl:for-each></text:span>
+					</xsl:for-each>
+<xsl:if test="not(Encumbrance)"><xsl:value-of select="'-'"/></xsl:if></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
@@ -7499,7 +8175,10 @@ CadastralNumber</xsl:with-param>
 							<table:table-cell table:style-name="Таблица61.A1" office:value-type="string">
 								<text:p text:style-name="P1">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T2">3. Сведения о местоположении границ <text:s/>частей измененных земельных участков</text:span>
+										<text:span text:style-name="T8">5</text:span>
+									</text:span>
+									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
+										<text:span text:style-name="T2">. Сведения о местоположении границ <text:s/>частей измененных земельных участков</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 								</text:p>
@@ -7515,7 +8194,7 @@ CadastralNumber</xsl:with-param>
 										<text:span text:style-name="T2">Кадастровый номер земельного участка </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">
+										<text:span text:style-name="T24">
 											<text:s text:c="2"/>
 										</text:span>
 									</text:span>
@@ -7529,7 +8208,8 @@ CadastralNumber</xsl:with-param>
 							</table:table-cell>
 						</table:table-row>
 					</table:table>			<xsl:for-each select="SubParcels/FormSubParcel  |
-SubParcels/ExistSubParcel">
+SubParcels/ExistSubParcel | SubParcels/InvariableSubParcel |
+/STD_MP[not(/.//SubParcels)]">
 
 <table:table table:name="Таблица63" table:style-name="Таблица63">
 						<table:table-column table:style-name="Таблица63.A"/>
@@ -7544,12 +8224,12 @@ SubParcels/ExistSubParcel">
 										<text:span text:style-name="T2">Учетный номер или обозначение части <text:s text:c="2"/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">
+										<text:span text:style-name="T24">
 											<text:s/>
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T25">
+										<text:span text:style-name="T27">
 											<text:s/>
 										</text:span>
 									</text:span>
@@ -7569,10 +8249,10 @@ SubParcels/ExistSubParcel">
 						</table:table-row>
 						<table:table-row table:style-name="Таблица63.2">
 							<table:table-cell table:style-name="Таблица63.A2" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">Обозначение характерных точек границы</text:p>
+								<text:p text:style-name="P9">Обозначение характерных точек границы</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица63.B2" table:number-columns-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">Координаты, м</text:p>
+								<text:p text:style-name="P9">Координаты, м</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица63.B2" table:number-rows-spanned="2" office:value-type="string">
@@ -7583,7 +8263,7 @@ SubParcels/ExistSubParcel">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T19">t</text:span>
+										<text:span text:style-name="T21">t</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
@@ -7594,7 +8274,7 @@ SubParcels/ExistSubParcel">
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица63.E2" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">Описание закрепления точки</text:p>
+								<text:p text:style-name="P9">Описание закрепления точки</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row table:style-name="Таблица63.3">
@@ -7621,19 +8301,19 @@ SubParcels/ExistSubParcel">
 					</table:table><table:table table:name="Таблица64" table:style-name="Таблица64"><table:table-column table:style-name="Таблица64.A"/><table:table-column table:style-name="Таблица64.B"/><table:table-column table:style-name="Таблица64.C"/><table:table-column table:style-name="Таблица64.D"/><table:table-column table:style-name="Таблица64.E"/><table:table-header-rows>
 							<table:table-row table:style-name="Таблица64.1">
 								<table:table-cell table:style-name="Таблица64.A1" office:value-type="string">
-									<text:p text:style-name="P8">1</text:p>
+									<text:p text:style-name="P9">1</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица64.B1" office:value-type="string">
-									<text:p text:style-name="P8">2</text:p>
+									<text:p text:style-name="P9">2</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица64.B1" office:value-type="string">
-									<text:p text:style-name="P8">3</text:p>
+									<text:p text:style-name="P9">3</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица64.B1" office:value-type="string">
-									<text:p text:style-name="P8">4</text:p>
+									<text:p text:style-name="P9">4</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица64.E1" office:value-type="string">
-									<text:p text:style-name="P8">5</text:p>
+									<text:p text:style-name="P9">5</text:p>
 								</table:table-cell>
 							</table:table-row>
 						</table:table-header-rows><!--row-code-->				
@@ -7643,19 +8323,19 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 							<xsl:for-each select="Spelement_Unit/Ordinate | /STD_MP[not(/.//ExistParcel[Composition_EZ][SubParcels])]">
 <table:table-row table:style-name="Таблица64.3">
 							<table:table-cell table:style-name="Таблица64.A3" office:value-type="float" office:value="0">
-								<text:p text:style-name="P61">
+								<text:p text:style-name="P72">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:call-template name="point_name"/></text:span>
+										<text:span text:style-name="T24"><xsl:call-template name="point_name"/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица64.B3" office:value-type="float" office:value="0">
-								<text:p text:style-name="P49">
+								<text:p text:style-name="P53">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:if test="@X">
+										<text:span text:style-name="T24"><xsl:if test="@X">
 <xsl:value-of select="format-number(@X,'#0.00')"/>
 </xsl:if>
 <xsl:if test="not(@X)">
@@ -7663,14 +8343,14 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 </xsl:if></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица64.C3" office:value-type="float" office:value="0">
-								<text:p text:style-name="P49">
+								<text:p text:style-name="P53">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:if test="@Y">
+										<text:span text:style-name="T24"><xsl:if test="@Y">
 <xsl:value-of select="format-number(@Y,'#0.00')"/>
 </xsl:if>
 <xsl:if test="not(@Y)">
@@ -7678,27 +8358,27 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 </xsl:if></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица64.D3" office:value-type="float" office:value="0">
 								<text:p text:style-name="P1">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:call-template name="get_value"><xsl:with-param name="p_name">Delta_Geopoint</xsl:with-param></xsl:call-template></text:span>
+										<text:span text:style-name="T24"><xsl:call-template name="get_value"><xsl:with-param name="p_name">Delta_Geopoint</xsl:with-param></xsl:call-template></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица64.E3" office:value-type="float" office:value="0">
 								<text:p text:style-name="P1">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:call-template name="get_value"><xsl:with-param name="p_name">Geopoint_Zacrep</xsl:with-param></xsl:call-template></text:span>
+										<text:span text:style-name="T24"><xsl:call-template name="get_value"><xsl:with-param name="p_name">Geopoint_Zacrep</xsl:with-param></xsl:call-template></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
@@ -7707,7 +8387,7 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 <xsl:if test="position() != last()">
 <table:table-row table:style-name="Таблица64.3">
 							<table:table-cell table:style-name="Таблица64.A6" table:number-columns-spanned="5" office:value-type="string">
-								<text:p text:style-name="P61">
+								<text:p text:style-name="P72">
 									<text:span text:style-name="User_20_Entry"/>
 								</text:p>
 							</table:table-cell>
@@ -7721,38 +8401,38 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 
 
 </table:table></xsl:for-each>
-</xsl:for-each></xsl:if><xsl:if test="/.//NewParcel/Providing_Pass_CadastralNumbers"><text:p text:style-name="P82"/><table:table table:name="Таблица10" table:style-name="Таблица10">
+</xsl:for-each></xsl:if><xsl:if test="/.//NewParcel/Providing_Pass_CadastralNumbers"><text:p text:style-name="P98"/><table:table table:name="Таблица10" table:style-name="Таблица10">
 						<table:table-column table:style-name="Таблица10.A"/>
 						<table:table-column table:style-name="Таблица10.B"/>
 						<table:table-column table:style-name="Таблица10.C"/>
 						<table:table-row table:style-name="Таблица10.1">
 							<table:table-cell table:style-name="Таблица10.A1" table:number-columns-spanned="3" office:value-type="string">
-								<text:p text:style-name="P73"><text:bookmark-start text:name="Оглавление_Доступ"/><text:span text:style-name="T32">Св</text:span><text:span text:style-name="T31">едения</text:span> о земельных участках, посредством которых обеспечивается доступ к образуемым или изменяемым земельным участкам<text:bookmark-end text:name="Оглавление_Доступ"/></text:p>
+								<text:p text:style-name="P86"><text:bookmark-start text:name="Оглавление_Доступ"/><text:span text:style-name="T34">Св</text:span><text:span text:style-name="T33">едения</text:span> о земельных участках, посредством которых обеспечивается доступ к образуемым или изменяемым земельным участкам<text:bookmark-end text:name="Оглавление_Доступ"/></text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
 						</table:table-row>
 						<table:table-row table:style-name="Таблица10.2">
 							<table:table-cell table:style-name="Таблица10.A2" office:value-type="string">
-								<text:p text:style-name="P16">№ п/п</text:p>
+								<text:p text:style-name="P17">№ п/п</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица10.B2" office:value-type="string">
-								<text:p text:style-name="P16">Кадастровый номер или обозначение земельного участка, для которого обеспечивается доступ</text:p>
+								<text:p text:style-name="P17">Кадастровый номер или обозначение земельного участка, для которого обеспечивается доступ</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица10.C2" office:value-type="string">
-								<text:p text:style-name="P16">Кадастровый номер или обозначение земельного участка, посредством которого обеспечивается доступ</text:p>
+								<text:p text:style-name="P17">Кадастровый номер или обозначение земельного участка, посредством которого обеспечивается доступ</text:p>
 							</table:table-cell>
 						</table:table-row>
 					</table:table><table:table table:name="Таблица65" table:style-name="Таблица65"><table:table-column table:style-name="Таблица65.A"/><table:table-column table:style-name="Таблица65.B"/><table:table-column table:style-name="Таблица65.C"/><table:table-header-rows>
 							<table:table-row table:style-name="Таблица65.1">
 								<table:table-cell table:style-name="Таблица65.A1" office:value-type="string">
-									<text:p text:style-name="P16">1</text:p>
+									<text:p text:style-name="P17">1</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица65.B1" office:value-type="string">
-									<text:p text:style-name="P16">2</text:p>
+									<text:p text:style-name="P17">2</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица65.C1" office:value-type="string">
-									<text:p text:style-name="P16">3</text:p>
+									<text:p text:style-name="P17">3</text:p>
 								</table:table-cell>
 							</table:table-row>
 						</table:table-header-rows><!--row-code-->
@@ -7760,30 +8440,30 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 							<table:table-cell table:style-name="Таблица65.A3" office:value-type="string">
 								<text:p text:style-name="P4">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:value-of select="position()"/></text:span>
+										<text:span text:style-name="T24"><xsl:value-of select="position()"/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица65.B3" office:value-type="string">
 								<text:p text:style-name="P4">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:value-of select="./../../@Definition"/></text:span>
+										<text:span text:style-name="T24"><xsl:value-of select="./../../@Definition"/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица65.C3" office:value-type="string">
 								<text:p text:style-name="P4">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:value-of select="."/></text:span>
+										<text:span text:style-name="T24"><xsl:value-of select="."/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
@@ -7793,7 +8473,7 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 							<table:table-cell table:style-name="Таблица65.A3" office:value-type="string">
 								<text:p text:style-name="P4">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T10">-</text:span>
+										<text:span text:style-name="T11">-</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 								</text:p>
@@ -7801,7 +8481,7 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 							<table:table-cell table:style-name="Таблица65.B3" office:value-type="string">
 								<text:p text:style-name="P4">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T10">-</text:span>
+										<text:span text:style-name="T11">-</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 								</text:p>
@@ -7809,17 +8489,17 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 							<table:table-cell table:style-name="Таблица65.C3" office:value-type="string">
 								<text:p text:style-name="P4">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T10">-</text:span>
+										<text:span text:style-name="T11">-</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 								</text:p>
 							</table:table-cell>
 						</table:table-row><!--row-code-->
-</xsl:if></table:table><text:p text:style-name="P54"/></xsl:if><xsl:if test="/.//ExistEZEntryParcel | /.//ExistParcel "><table:table table:name="Таблица35" table:style-name="Таблица35">
+</xsl:if></table:table><text:p text:style-name="P59"/></xsl:if><xsl:if test="/.//ExistEZEntryParcel | /.//ExistParcel "><table:table table:name="Таблица35" table:style-name="Таблица35">
 						<table:table-column table:style-name="Таблица35.A"/>
 						<table:table-row table:style-name="Таблица35.1">
 							<table:table-cell table:style-name="Таблица35.A1" office:value-type="string">
-								<text:p text:style-name="P69"><text:bookmark-start text:name="Оглавление_УточняемыеУчастки"/>Сведения об уточняемых земельных участках и их частях<text:bookmark-end text:name="Оглавление_УточняемыеУчастки"/></text:p>
+								<text:p text:style-name="P82"><text:bookmark-start text:name="Оглавление_УточняемыеУчастки"/>Сведения об уточняемых земельных участках и их частях<text:bookmark-end text:name="Оглавление_УточняемыеУчастки"/></text:p>
 							</table:table-cell>
 						</table:table-row>
 					</table:table><xsl:for-each select="/.//ExistEZParcels | /.//ExistEZEntryParcels/ExistEZEntryParcel | /.//ExistParcel">
@@ -7833,23 +8513,23 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 						<table:table-column table:style-name="Таблица66.G"/>
 						<table:table-row table:style-name="Таблица66.1">
 							<table:table-cell table:style-name="Таблица66.A1" table:number-columns-spanned="7" office:value-type="string">
-								<text:p text:style-name="P60">1. Сведения о характерных точках границы уточняемого земельного участка</text:p>
-								<text:p text:style-name="P61">
+								<text:p text:style-name="P69">1. Сведения о характерных точках границы уточняемого земельного участка</text:p>
+								<text:p text:style-name="P72">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
 										<text:span text:style-name="T2">с кадастровым номером </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">
+										<text:span text:style-name="T24">
 											<text:s/>
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:call-template name="get_value">
+										<text:span text:style-name="T24"><xsl:call-template name="get_value">
 <xsl:with-param name="p_name">CadastralNumber</xsl:with-param> 
 </xsl:call-template></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">
+										<text:span text:style-name="T24">
 											<text:s/>
 										</text:span>
 									</text:span>
@@ -7864,25 +8544,25 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 						</table:table-row>
 						<table:table-row table:style-name="Таблица66.2">
 							<table:table-cell table:style-name="Таблица66.A2" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P60">Обозначение характерных точек границы</text:p>
+								<text:p text:style-name="P69">Обозначение характерных точек границы</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица66.B2" table:number-columns-spanned="2" office:value-type="string">
-								<text:p text:style-name="P60">Существующие координаты, м</text:p>
+								<text:p text:style-name="P69">Существующие координаты, м</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица66.B2" table:number-columns-spanned="2" office:value-type="string">
-								<text:p text:style-name="P60">Уточненные координаты, м</text:p>
+								<text:p text:style-name="P69">Уточненные координаты, м</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица66.B2" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P61">
+								<text:p text:style-name="P72">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
 										<text:span text:style-name="T2">Средняя квадратическая погрешность положения характерной точки (М</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T19">t</text:span>
+										<text:span text:style-name="T21">t</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
@@ -7893,22 +8573,22 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица66.G2" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P60">Описание закрепления точки</text:p>
+								<text:p text:style-name="P69">Описание закрепления точки</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row table:style-name="Таблица66.3">
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица66.B3" office:value-type="string">
-								<text:p text:style-name="P64">X</text:p>
+								<text:p text:style-name="P76">X</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица66.B3" office:value-type="string">
-								<text:p text:style-name="P64">Y</text:p>
+								<text:p text:style-name="P76">Y</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица66.B3" office:value-type="string">
-								<text:p text:style-name="P64">X</text:p>
+								<text:p text:style-name="P76">X</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица66.B3" office:value-type="string">
-								<text:p text:style-name="P64">Y</text:p>
+								<text:p text:style-name="P76">Y</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
@@ -7925,23 +8605,23 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 						<table:table-column table:style-name="Таблица45.G"/>
 						<table:table-row>
 							<table:table-cell table:style-name="Таблица45.A1" table:number-columns-spanned="7" office:value-type="string">
-								<text:p text:style-name="P60">1. Сведения о характерных точках границы уточняемого земельного участка</text:p>
-								<text:p text:style-name="P61">
+								<text:p text:style-name="P69">1. Сведения о характерных точках границы уточняемого земельного участка</text:p>
+								<text:p text:style-name="P72">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
 										<text:span text:style-name="T2">с кадастровым номером </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">
+										<text:span text:style-name="T24">
 											<text:s/>
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:call-template name="get_value">
+										<text:span text:style-name="T24"><xsl:call-template name="get_value">
 <xsl:with-param name="p_name">CadastralNumber</xsl:with-param> 
 </xsl:call-template></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">
+										<text:span text:style-name="T24">
 											<text:s/>
 										</text:span>
 									</text:span>
@@ -7956,25 +8636,25 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 						</table:table-row>
 						<table:table-row table:style-name="Таблица45.2">
 							<table:table-cell table:style-name="Таблица45.A2" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P60">Обозначение характерных точек границы</text:p>
+								<text:p text:style-name="P69">Обозначение характерных точек границы</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица45.B2" table:number-columns-spanned="2" office:value-type="string">
-								<text:p text:style-name="P60">Существующие координаты, м</text:p>
+								<text:p text:style-name="P69">Существующие координаты, м</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица45.D2" table:number-columns-spanned="2" office:value-type="string">
-								<text:p text:style-name="P60">Уточненные координаты, м</text:p>
+								<text:p text:style-name="P69">Уточненные координаты, м</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица45.F2" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P61">
+								<text:p text:style-name="P72">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
 										<text:span text:style-name="T2">Средняя квадратическая погрешность положения характерной точки (М</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T19">t</text:span>
+										<text:span text:style-name="T21">t</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
@@ -7985,22 +8665,22 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица45.G2" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P60">Описание закрепления точки</text:p>
+								<text:p text:style-name="P69">Описание закрепления точки</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row table:style-name="Таблица45.3">
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица45.F2" office:value-type="string">
-								<text:p text:style-name="P64">X</text:p>
+								<text:p text:style-name="P76">X</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица45.F2" office:value-type="string">
-								<text:p text:style-name="P64">Y</text:p>
+								<text:p text:style-name="P76">Y</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица45.F2" office:value-type="string">
-								<text:p text:style-name="P64">X</text:p>
+								<text:p text:style-name="P76">X</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица45.F2" office:value-type="string">
-								<text:p text:style-name="P64">Y</text:p>
+								<text:p text:style-name="P76">Y</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
@@ -8008,31 +8688,31 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 					</table:table><!--row-code-->
 </xsl:if><table:table table:name="Таблица36" table:style-name="Таблица36"><table:table-column table:style-name="Таблица36.A"/><table:table-column table:style-name="Таблица36.B"/><table:table-column table:style-name="Таблица36.C"/><table:table-column table:style-name="Таблица36.D"/><table:table-column table:style-name="Таблица36.C"/><table:table-column table:style-name="Таблица36.F"/><table:table-column table:style-name="Таблица36.G"/><table:table-row table:style-name="Таблица36.1">
 							<table:table-cell table:style-name="Таблица36.A1" office:value-type="string">
-								<text:p text:style-name="P60">1</text:p>
+								<text:p text:style-name="P69">1</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица36.B1" office:value-type="string">
-								<text:p text:style-name="P8">2</text:p>
+								<text:p text:style-name="P9">2</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица36.B1" office:value-type="string">
-								<text:p text:style-name="P8">3</text:p>
+								<text:p text:style-name="P9">3</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица36.B1" office:value-type="string">
-								<text:p text:style-name="P8">4</text:p>
+								<text:p text:style-name="P9">4</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица36.B1" office:value-type="string">
-								<text:p text:style-name="P8">5</text:p>
+								<text:p text:style-name="P9">5</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица36.B1" office:value-type="string">
-								<text:p text:style-name="P8">6</text:p>
+								<text:p text:style-name="P9">6</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица36.G1" office:value-type="string">
-								<text:p text:style-name="P60">7</text:p>
+								<text:p text:style-name="P69">7</text:p>
 							</table:table-cell>
 						</table:table-row><!--row-code-->
 			<xsl:for-each select="Contours/NewContour/Entity_Spatial | Contours/ExistContour/Entity_Spatial | Entity_Spatial">
 				<xsl:if test="ancestor::NewContour | ancestor::ExistContour"><table:table-row table:style-name="Таблица36.1">
 							<table:table-cell table:style-name="Таблица36.A3" table:number-columns-spanned="7" office:value-type="string">
-								<text:p text:style-name="P68">
+								<text:p text:style-name="P81">
 									<text:span text:style-name="User_20_Entry">(<xsl:value-of select="ancestor::NewContour/@Definition | ancestor::ExistContour/@Number_Record"/>)
 </text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
@@ -8052,13 +8732,13 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 <xsl:sort select="$v_element_pos*position()" data-type="number" order="descending"/>
 <table:table-row table:style-name="Таблица36.1">
 							<table:table-cell table:style-name="Таблица36.A5" office:value-type="float" office:value="0">
-								<text:p text:style-name="P61">
+								<text:p text:style-name="P72">
 									<text:span text:style-name="User_20_Entry"><xsl:call-template name="point_name"/></text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица36.B5" office:value-type="float" office:value="0">
-								<text:p text:style-name="P49">
+								<text:p text:style-name="P53">
 									<text:span text:style-name="User_20_Entry"><xsl:call-template name="point_coord">
 	<xsl:with-param name="o">1</xsl:with-param>
     <xsl:with-param name="x">1</xsl:with-param>
@@ -8067,7 +8747,7 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица36.B5" office:value-type="float" office:value="0">
-								<text:p text:style-name="P49">
+								<text:p text:style-name="P53">
 									<text:span text:style-name="User_20_Entry"><xsl:call-template name="point_coord">
 	<xsl:with-param name="o">1</xsl:with-param>
 	<xsl:with-param name="y">1</xsl:with-param>
@@ -8076,7 +8756,7 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица36.B5" office:value-type="float" office:value="0">
-								<text:p text:style-name="P49">
+								<text:p text:style-name="P53">
 									<text:span text:style-name="User_20_Entry"><xsl:call-template name="point_coord">
 	<xsl:with-param name="n">1</xsl:with-param>
 	<xsl:with-param name="x">1</xsl:with-param>
@@ -8085,7 +8765,7 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица36.B5" office:value-type="float" office:value="0">
-								<text:p text:style-name="P49">
+								<text:p text:style-name="P53">
 									<text:span text:style-name="User_20_Entry"><xsl:call-template name="point_coord">
 	<xsl:with-param name="n">1</xsl:with-param>
 	<xsl:with-param name="y">1</xsl:with-param>
@@ -8102,7 +8782,7 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица36.G5" office:value-type="float" office:value="0">
-								<text:p text:style-name="P61">
+								<text:p text:style-name="P72">
 									<text:span text:style-name="User_20_Entry"><xsl:call-template name="get_dict">
 <xsl:with-param name="p_code">
 <xsl:value-of select="@Geopoint_Zacrep"/>
@@ -8116,7 +8796,7 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 <xsl:if test="position() != last()">
 <table:table-row table:style-name="Таблица36.1">
 							<table:table-cell table:style-name="Таблица36.A3" table:number-columns-spanned="7" office:value-type="string">
-								<text:p text:style-name="P68">
+								<text:p text:style-name="P81">
 									<text:span text:style-name="User_20_Entry"/>
 								</text:p>
 							</table:table-cell>
@@ -8135,25 +8815,25 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 
 <table:table-row table:style-name="Таблица36.1">
 							<table:table-cell table:style-name="Таблица36.A9" office:value-type="string">
-								<text:p text:style-name="P55">-</text:p>
+								<text:p text:style-name="P60">-</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица36.B9" office:value-type="string">
-								<text:p text:style-name="P55">-</text:p>
+								<text:p text:style-name="P60">-</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица36.C9" office:value-type="string">
-								<text:p text:style-name="P55">-</text:p>
+								<text:p text:style-name="P60">-</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица36.D9" office:value-type="string">
-								<text:p text:style-name="P55">-</text:p>
+								<text:p text:style-name="P60">-</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица36.E9" office:value-type="string">
-								<text:p text:style-name="P55">-</text:p>
+								<text:p text:style-name="P60">-</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица36.F9" office:value-type="string">
-								<text:p text:style-name="P55">-</text:p>
+								<text:p text:style-name="P60">-</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица36.G9" office:value-type="string">
-								<text:p text:style-name="P55">-</text:p>
+								<text:p text:style-name="P60">-</text:p>
 							</table:table-cell>
 						</table:table-row><!--row-code-->
 </xsl:if></table:table><table:table table:name="Таблица67" table:style-name="Таблица67">
@@ -8163,21 +8843,21 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 						<table:table-column table:style-name="Таблица67.D"/>
 						<table:table-row table:style-name="Таблица67.1">
 							<table:table-cell table:style-name="Таблица67.A1" table:number-columns-spanned="4" office:value-type="string">
-								<text:p text:style-name="P76">2. Сведения о частях границы уточняемого земельного участка</text:p>
+								<text:p text:style-name="P89">2. Сведения о частях границы уточняемого земельного участка</text:p>
 								<text:p text:style-name="P1">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
 										<text:span text:style-name="T2">с кадастровым номером </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">
+										<text:span text:style-name="T24">
 											<text:s text:c="2"/>
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:call-template name="get_value"><xsl:with-param name="p_name">CadastralNumber</xsl:with-param></xsl:call-template></text:span>
+										<text:span text:style-name="T24"><xsl:call-template name="get_value"><xsl:with-param name="p_name">CadastralNumber</xsl:with-param></xsl:call-template></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
@@ -8187,7 +8867,7 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 						</table:table-row>
 						<table:table-row table:style-name="Таблица67.2">
 							<table:table-cell table:style-name="Таблица67.A2" table:number-columns-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">Обозначение части границы</text:p>
+								<text:p text:style-name="P9">Обозначение части границы</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица67.C2" table:number-rows-spanned="2" office:value-type="string">
@@ -8209,43 +8889,43 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица67.D2" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">Описание прохождения части границы</text:p>
+								<text:p text:style-name="P9">Описание прохождения части границы</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row table:style-name="Таблица67.3">
 							<table:table-cell table:style-name="Таблица67.A2" office:value-type="string">
-								<text:p text:style-name="P8">от т.</text:p>
+								<text:p text:style-name="P9">от т.</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица67.C2" office:value-type="string">
-								<text:p text:style-name="P8">до т.</text:p>
+								<text:p text:style-name="P9">до т.</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
 						</table:table-row>
 					</table:table><table:table table:name="Таблица68" table:style-name="Таблица68"><table:table-column table:style-name="Таблица68.A"/><table:table-column table:style-name="Таблица68.B"/><table:table-column table:style-name="Таблица68.C"/><table:table-column table:style-name="Таблица68.D"/><table:table-row table:style-name="Таблица68.1">
 							<table:table-cell table:style-name="Таблица68.A1" office:value-type="string">
-								<text:p text:style-name="P8">1</text:p>
+								<text:p text:style-name="P9">1</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица68.B1" office:value-type="string">
-								<text:p text:style-name="P8">2</text:p>
+								<text:p text:style-name="P9">2</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица68.B1" office:value-type="string">
-								<text:p text:style-name="P8">3</text:p>
+								<text:p text:style-name="P9">3</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица68.D1" office:value-type="string">
-								<text:p text:style-name="P8">4</text:p>
+								<text:p text:style-name="P9">4</text:p>
 							</table:table-cell>
 						</table:table-row><!--row-code-->
 		<xsl:for-each select="Contours/NewContour/Entity_Spatial | Contours/ExistContour/Entity_Spatial | Entity_Spatial">
 			<xsl:if test="(ancestor::NewContour) or (ancestor::ExistContourContour)"><table:table-row table:style-name="Таблица68.1">
 							<table:table-cell table:style-name="Таблица68.A3" table:number-columns-spanned="4" office:value-type="string">
-								<text:p text:style-name="P19">
+								<text:p text:style-name="P22">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:value-of select="ancestor::Contour/@Definition"/> 
+										<text:span text:style-name="T24"><xsl:value-of select="ancestor::Contour/@Definition"/> 
 </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
@@ -8259,46 +8939,46 @@ Contours/Contour/Entity_Spatial/Spatial_Element |
 <xsl:variable name="curr_spatial" select="./@Spatial"/>
 <table:table-row table:style-name="Таблица68.1">
 							<table:table-cell table:style-name="Таблица68.A5" office:value-type="string">
-								<text:p text:style-name="P8">
+								<text:p text:style-name="P9">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:call-template name="border_point_name"><xsl:with-param name="p1">1</xsl:with-param></xsl:call-template></text:span>
+										<text:span text:style-name="T24"><xsl:call-template name="border_point_name"><xsl:with-param name="p1">1</xsl:with-param></xsl:call-template></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
-									</text:span>
-								</text:p>
-							</table:table-cell>
-							<table:table-cell table:style-name="Таблица68.B5" office:value-type="string">
-								<text:p text:style-name="P8">
-									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:call-template name="border_point_name"><xsl:with-param name="p2">1</xsl:with-param></xsl:call-template></text:span>
-									</text:span>
-									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица68.B5" office:value-type="string">
-								<text:p text:style-name="P8">
+								<text:p text:style-name="P9">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:for-each select="Edge | /STD_MP[not(/.//ExistEZParcels | /.//ExistEZEntryParcels/ExistEZEntryParcel | /.//ExistParcel)]">
+										<text:span text:style-name="T24"><xsl:call-template name="border_point_name"><xsl:with-param name="p2">1</xsl:with-param></xsl:call-template></text:span>
+									</text:span>
+									<text:span text:style-name="User_20_Entry">
+										<text:span text:style-name="T24"> </text:span>
+									</text:span>
+								</text:p>
+							</table:table-cell>
+							<table:table-cell table:style-name="Таблица68.B5" office:value-type="string">
+								<text:p text:style-name="P9">
+									<text:span text:style-name="User_20_Entry">
+										<text:span text:style-name="T24"><xsl:for-each select="Edge | /STD_MP[not(/.//ExistEZParcels | /.//ExistEZEntryParcels/ExistEZEntryParcel | /.//ExistParcel)]">
 <xsl:call-template name="get_value"><xsl:with-param name="p_name">Length</xsl:with-param></xsl:call-template>	
 							</xsl:for-each>			</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица68.D5" office:value-type="string">
-								<text:p text:style-name="P8">
+								<text:p text:style-name="P9">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:for-each select="Edge | /STD_MP[not(/.//ExistEZParcels | /.//ExistEZEntryParcels/ExistEZEntryParcel | /.//ExistParcel)]">
+										<text:span text:style-name="T24"><xsl:for-each select="Edge | /STD_MP[not(/.//ExistEZParcels | /.//ExistEZEntryParcels/ExistEZEntryParcel | /.//ExistParcel)]">
 							<xsl:call-template name="get_value"><xsl:with-param name="p_name">Definition</xsl:with-param></xsl:call-template>									
 							</xsl:for-each>				</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
@@ -8309,7 +8989,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 ">
 <table:table-row table:style-name="Таблица68.1">
 							<table:table-cell table:style-name="Таблица68.A3" table:number-columns-spanned="4" office:value-type="string">
-								<text:p text:style-name="P19">
+								<text:p text:style-name="P22">
 									<text:span text:style-name="User_20_Entry"/>
 								</text:p>
 							</table:table-cell>
@@ -8323,16 +9003,16 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 <!--xsl:if test="descendant::Composition_EZ"-->
 <xsl:if test="not(Contours/NewContour/Entity_Spatial | Contours/ExistContour/Entity_Spatial | Entity_Spatial)"><table:table-row table:style-name="Таблица68.1">
 							<table:table-cell table:style-name="Таблица68.A9" office:value-type="string">
-								<text:p text:style-name="P55">-</text:p>
+								<text:p text:style-name="P60">-</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица68.B9" office:value-type="string">
-								<text:p text:style-name="P55">-</text:p>
+								<text:p text:style-name="P60">-</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица68.B9" office:value-type="string">
-								<text:p text:style-name="P55">-</text:p>
+								<text:p text:style-name="P60">-</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица68.D9" office:value-type="string">
-								<text:p text:style-name="P55">-</text:p>
+								<text:p text:style-name="P60">-</text:p>
 							</table:table-cell>
 						</table:table-row><!--row-code-->
 </xsl:if></table:table><!--/xsl:for-each>			
@@ -8340,21 +9020,21 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 						<table:table-column table:style-name="Таблица69.A"/>
 						<table:table-row table:style-name="Таблица69.1">
 							<table:table-cell table:style-name="Таблица69.A1" office:value-type="string">
-								<text:p text:style-name="P8">3. Сведения о местоположении границы части уточняемого земельного участка</text:p>
+								<text:p text:style-name="P9">3. Сведения о местоположении границы части уточняемого земельного участка</text:p>
 								<text:p text:style-name="P1">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
 										<text:span text:style-name="T2">с кадастровым номером </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">
+										<text:span text:style-name="T24">
 											<text:s/>
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:call-template name="get_value"><xsl:with-param name="p_name">CadastralNumber</xsl:with-param></xsl:call-template></text:span>
+										<text:span text:style-name="T24"><xsl:call-template name="get_value"><xsl:with-param name="p_name">CadastralNumber</xsl:with-param></xsl:call-template></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
@@ -8374,12 +9054,12 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 										<text:span text:style-name="T2">Учетный номер или обозначение <text:s/>части <text:s/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">
+										<text:span text:style-name="T24">
 											<text:s/>
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T25">
+										<text:span text:style-name="T27">
 											<text:s/>
 										</text:span>
 									</text:span>
@@ -8398,10 +9078,10 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 						</table:table-row>
 						<table:table-row table:style-name="Таблица70.2">
 							<table:table-cell table:style-name="Таблица70.A2" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">Обозначение характерных точек границы</text:p>
+								<text:p text:style-name="P9">Обозначение характерных точек границы</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица70.B2" table:number-columns-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">Координаты, м</text:p>
+								<text:p text:style-name="P9">Координаты, м</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица70.B2" table:number-rows-spanned="2" office:value-type="string">
@@ -8412,7 +9092,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T19">t</text:span>
+										<text:span text:style-name="T21">t</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
@@ -8423,7 +9103,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица70.E2" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">Описание закрепления точки</text:p>
+								<text:p text:style-name="P9">Описание закрепления точки</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row table:style-name="Таблица70.3">
@@ -8449,19 +9129,19 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 						</table:table-row>
 					</table:table><table:table table:name="Таблица71" table:style-name="Таблица71"><table:table-column table:style-name="Таблица71.A"/><table:table-column table:style-name="Таблица71.B"/><table:table-column table:style-name="Таблица71.C"/><table:table-column table:style-name="Таблица71.D"/><table:table-column table:style-name="Таблица71.E"/><table:table-row table:style-name="Таблица71.1">
 							<table:table-cell table:style-name="Таблица71.A1" office:value-type="string">
-								<text:p text:style-name="P8">1</text:p>
+								<text:p text:style-name="P9">1</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица71.B1" office:value-type="string">
-								<text:p text:style-name="P8">2</text:p>
+								<text:p text:style-name="P9">2</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица71.B1" office:value-type="string">
-								<text:p text:style-name="P8">3</text:p>
+								<text:p text:style-name="P9">3</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица71.B1" office:value-type="string">
-								<text:p text:style-name="P8">4</text:p>
+								<text:p text:style-name="P9">4</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица71.E1" office:value-type="string">
-								<text:p text:style-name="P8">5</text:p>
+								<text:p text:style-name="P9">5</text:p>
 							</table:table-cell>
 						</table:table-row><!--row-code-->
 			<xsl:for-each select="Spatial_Element | /STD_MP[not(/.//ExistParcel[SubParcels])]">
@@ -8469,13 +9149,13 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 							<xsl:sort select="@Ord_Nmb" data-type="number"/>			
 <table:table-row table:style-name="Таблица71.2">
 							<table:table-cell table:style-name="Таблица71.A3" office:value-type="float" office:value="0">
-								<text:p text:style-name="P61">
+								<text:p text:style-name="P72">
 									<text:span text:style-name="User_20_Entry"><xsl:call-template name="point_name"/></text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица71.B3" office:value-type="float" office:value="0">
-								<text:p text:style-name="P49">
+								<text:p text:style-name="P53">
 									<text:span text:style-name="User_20_Entry"><xsl:if test="@X">
 <xsl:value-of select="format-number(@X,'#0.00')"/>
 </xsl:if>
@@ -8486,7 +9166,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица71.C3" office:value-type="float" office:value="0">
-								<text:p text:style-name="P49">
+								<text:p text:style-name="P53">
 									<text:span text:style-name="User_20_Entry"><xsl:if test="@Y">
 <xsl:value-of select="format-number(@Y,'#0.00')"/>
 </xsl:if>
@@ -8512,7 +9192,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 					</xsl:for-each>
 					<xsl:if test="position() != last()"><table:table-row table:style-name="Таблица71.2">
 							<table:table-cell table:style-name="Таблица71.A6" table:number-columns-spanned="5" office:value-type="string">
-								<text:p text:style-name="P61"/>
+								<text:p text:style-name="P72"/>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
@@ -8525,7 +9205,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 <table:table table:name="Таблица72" table:style-name="Таблица72"><table:table-column table:style-name="Таблица72.A"/><table:table-column table:style-name="Таблица72.B"/><table:table-column table:style-name="Таблица72.C"/><!--row-code-->
 <!--xsl:for-each select="/.//ExistParcel[not(Composition_EZ)] | /STD_MP[not(/.//ExistParcel[not(Composition_EZ)])]"--><text:soft-page-break/><table:table-row table:style-name="Таблица72.2">
 							<table:table-cell table:style-name="Таблица72.A2" table:number-columns-spanned="3" office:value-type="string">
-								<text:p text:style-name="P8"><text:span text:style-name="T11">4</text:span>. Общие сведения об уточняемом земельном участке</text:p>
+								<text:p text:style-name="P9"><text:span text:style-name="T12">4</text:span>. Общие сведения об уточняемом земельном участке</text:p>
 								<text:p text:style-name="P1">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
 										<text:span text:style-name="T2">с кадастровым номером </text:span>
@@ -8536,15 +9216,15 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T15">
+										<text:span text:style-name="T16">
 											<text:s/>
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T15"><xsl:call-template name="get_value"><xsl:with-param name="p_name">CadastralNumber</xsl:with-param></xsl:call-template>		</text:span>
+										<text:span text:style-name="T16"><xsl:call-template name="get_value"><xsl:with-param name="p_name">CadastralNumber</xsl:with-param></xsl:call-template>		</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T15"> </text:span>
+										<text:span text:style-name="T16"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
@@ -8552,23 +9232,23 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 							<table:covered-table-cell/>
 						</table:table-row><table:table-row table:style-name="Таблица72.3">
 							<table:table-cell table:style-name="Таблица72.A3" office:value-type="string">
-								<text:p text:style-name="P8">№ п/п</text:p>
+								<text:p text:style-name="P9">№ п/п</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица72.B3" office:value-type="string">
-								<text:p text:style-name="P8">Наименование характеристик земельного участка</text:p>
+								<text:p text:style-name="P9">Наименование характеристик земельного участка</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица72.C3" office:value-type="string">
-								<text:p text:style-name="P8">Значение характеристики</text:p>
+								<text:p text:style-name="P9">Значение характеристики</text:p>
 							</table:table-cell>
 						</table:table-row><table:table-row table:style-name="Таблица72.4">
 							<table:table-cell table:style-name="Таблица72.A3" office:value-type="string">
-								<text:p text:style-name="P8">1</text:p>
+								<text:p text:style-name="P9">1</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица72.B3" office:value-type="string">
-								<text:p text:style-name="P8">2</text:p>
+								<text:p text:style-name="P9">2</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица72.C3" office:value-type="string">
-								<text:p text:style-name="P8">3</text:p>
+								<text:p text:style-name="P9">3</text:p>
 							</table:table-cell>
 						</table:table-row><table:table-row table:style-name="Таблица72.5">
 							<table:table-cell table:style-name="Таблица72.A3" office:value-type="string">
@@ -8578,7 +9258,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 								<text:p text:style-name="Обычный">Площадь земельного <text:s/>участка ± величина погрешности определения площади <text:s text:c="2"/><text:span text:style-name="Основной_20_шрифт_20_абзаца">
 										<text:span text:style-name="T2">(Р±∆Р), м</text:span>
 									</text:span><text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span><text:s text:c="2"/><text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T20">2</text:span>
+										<text:span text:style-name="T22">2</text:span>
 									</text:span><text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span></text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица72.C3" office:value-type="string">
@@ -8615,11 +9295,11 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 								<text:p text:style-name="Обычный">Площадь земельного участка по сведениям государственного кадастра недвижимости <text:s text:c="2"/><text:span text:style-name="Основной_20_шрифт_20_абзаца">
 										<text:span text:style-name="T2">(Ркад), м</text:span>
 									</text:span><text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span><text:s text:c="2"/><text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T20">2</text:span>
+										<text:span text:style-name="T22">2</text:span>
 									</text:span><text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span></text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица72.C3" office:value-type="string">
-								<text:p text:style-name="P33"><xsl:call-template name="get_value"><xsl:with-param name="p_name">Area_In_GKN</xsl:with-param></xsl:call-template>
+								<text:p text:style-name="P37"><xsl:call-template name="get_value"><xsl:with-param name="p_name">Area_In_GKN</xsl:with-param></xsl:call-template>
 <xsl:if test="not(Area_In_GKN)">-</xsl:if>
 
 </text:p>
@@ -8632,11 +9312,11 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 								<text:p text:style-name="Обычный">Оценка расхождения<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span><text:span text:style-name="Основной_20_шрифт_20_абзаца">
 										<text:span text:style-name="T2"><text:s text:c="2"/>Р и Р кад (Р-Ркад), м</text:span>
 									</text:span><text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span><text:s text:c="2"/><text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T20">2</text:span>
+										<text:span text:style-name="T22">2</text:span>
 									</text:span><text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span></text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица72.C3" office:value-type="string">
-								<text:p text:style-name="P33"><xsl:call-template name="get_value"><xsl:with-param name="p_name">Delta_Area</xsl:with-param></xsl:call-template>
+								<text:p text:style-name="P37"><xsl:call-template name="get_value"><xsl:with-param name="p_name">Delta_Area</xsl:with-param></xsl:call-template>
 
 
 </text:p>
@@ -8649,11 +9329,11 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 								<text:p text:style-name="Обычный">Предельный минимальный и максимальный размер земельного участка<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span><text:span text:style-name="Основной_20_шрифт_20_абзаца">
 										<text:span text:style-name="T2"><text:s text:c="2"/>(Рмин и Рмакс), м</text:span>
 									</text:span><text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span><text:s text:c="2"/><text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T20">2</text:span>
+										<text:span text:style-name="T22">2</text:span>
 									</text:span><text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span></text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица72.C3" office:value-type="string">
-								<text:p text:style-name="P26"><xsl:if test="Min_Area">
+								<text:p text:style-name="P29"><xsl:if test="Min_Area">
 <xsl:value-of select="Min_Area/Area"/>
 <xsl:if test="not(Min_Area)">-</xsl:if>
 <xsl:text> </xsl:text>
@@ -8674,13 +9354,13 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 							<table:table-cell table:style-name="Таблица72.B9" office:value-type="string">
 								<text:p text:style-name="Обычный">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T18">Кадастровые или иные номера зданий, сооружений, объектов незавершенного строительства, <text:s/>расположенных на земельном участке</text:span>
+										<text:span text:style-name="T20">Кадастровые или иные номера зданий, сооружений, объектов незавершенного строительства, <text:s/>расположенных на земельном участке</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица72.C3" office:value-type="string">
-								<text:p text:style-name="P44">
+								<text:p text:style-name="P48">
 									<text:span text:style-name="User_20_Entry"><xsl:for-each select="Inner_CadastralNumbers">
 				<xsl:call-template name="get_value"><xsl:with-param name="p_name">CadastralNumber</xsl:with-param></xsl:call-template>
 				<xsl:if test="position() != last()">
@@ -8701,7 +9381,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 								<text:p text:style-name="Обычный">Иные сведения</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица72.C3" office:value-type="string">
-								<text:p text:style-name="P95"><xsl:call-template name="get_value"><xsl:with-param name="p_name">Note</xsl:with-param></xsl:call-template>
+								<text:p text:style-name="P32"><xsl:call-template name="get_value"><xsl:with-param name="p_name">Note</xsl:with-param></xsl:call-template>
 <xsl:if test="not(Note)">-</xsl:if>
 </text:p>
 							</table:table-cell>
@@ -8715,22 +9395,22 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 						<table:table-column table:style-name="Таблица73.E"/>
 						<table:table-row table:style-name="Таблица73.1">
 							<table:table-cell table:style-name="Таблица73.A1" table:number-columns-spanned="5" office:value-type="string">
-								<text:p text:style-name="P13">5. Общие сведения о частях уточняемого земельного участка</text:p>
+								<text:p text:style-name="P14">5. Общие сведения о частях уточняемого земельного участка</text:p>
 								<text:p text:style-name="P2">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
 										<text:span text:style-name="T2">с кадастровым номером</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">
+										<text:span text:style-name="T24">
 											<text:s/>
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:call-template name="get_value"><xsl:with-param name="p_name">CadastralNumber</xsl:with-param></xsl:call-template>		</text:span>
+										<text:span text:style-name="T24"><xsl:call-template name="get_value"><xsl:with-param name="p_name">CadastralNumber</xsl:with-param></xsl:call-template>		</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
@@ -8741,10 +9421,10 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 						</table:table-row>
 						<table:table-row table:style-name="Таблица73.2">
 							<table:table-cell table:style-name="Таблица73.A2" office:value-type="string">
-								<text:p text:style-name="P13">№ п/п</text:p>
+								<text:p text:style-name="P14">№ п/п</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица73.B2" office:value-type="string">
-								<text:p text:style-name="P13">Учетный номер или обозначение части</text:p>
+								<text:p text:style-name="P14">Учетный номер или обозначение части</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица73.B2" office:value-type="string">
 								<text:p text:style-name="P2">
@@ -8754,11 +9434,11 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T20">2</text:span>
+										<text:span text:style-name="T22">2</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 								</text:p>
-								<text:p text:style-name="P13"/>
+								<text:p text:style-name="P14"/>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица73.B2" office:value-type="string">
 								<text:p text:style-name="P2">
@@ -8768,92 +9448,92 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T20">2</text:span>
+										<text:span text:style-name="T22">2</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица73.E2" office:value-type="string">
-								<text:p text:style-name="P13">Характеристика части</text:p>
+								<text:p text:style-name="P14">Характеристика части</text:p>
 							</table:table-cell>
 						</table:table-row>
 					</table:table><table:table table:name="Таблица74" table:style-name="Таблица74"><table:table-column table:style-name="Таблица74.A"/><table:table-column table:style-name="Таблица74.B"/><table:table-column table:style-name="Таблица74.C"/><table:table-column table:style-name="Таблица74.D"/><table:table-column table:style-name="Таблица74.E"/><table:table-header-rows>
 							<table:table-row table:style-name="Таблица74.1">
 								<table:table-cell table:style-name="Таблица74.A1" office:value-type="string">
-									<text:p text:style-name="P13">1</text:p>
+									<text:p text:style-name="P14">1</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица74.B1" office:value-type="string">
-									<text:p text:style-name="P13">2</text:p>
+									<text:p text:style-name="P14">2</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица74.B1" office:value-type="string">
-									<text:p text:style-name="P13">3</text:p>
+									<text:p text:style-name="P14">3</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица74.B1" office:value-type="string">
-									<text:p text:style-name="P13">4</text:p>
+									<text:p text:style-name="P14">4</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица74.E1" office:value-type="string">
-									<text:p text:style-name="P13">5</text:p>
+									<text:p text:style-name="P14">5</text:p>
 								</table:table-cell>
 							</table:table-row>
 						</table:table-header-rows><!--row-code-->
 <xsl:for-each select="SubParcels/SubParcel | /STD_MP[not(/.//ExistParcel[not(Composition_EZ)][SubParcels])]"><table:table-row table:style-name="Таблица74.1">
 							<table:table-cell table:style-name="Таблица74.A1" office:value-type="string">
-								<text:p text:style-name="P13">
+								<text:p text:style-name="P14">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">	<xsl:if test="self::SubParcel"><xsl:value-of select="position()"/></xsl:if>
+										<text:span text:style-name="T24">	<xsl:if test="self::SubParcel"><xsl:value-of select="position()"/></xsl:if>
 	<xsl:if test="not(self::SubParcel)"><xsl:value-of select="'-'"/></xsl:if>
 </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица74.B1" office:value-type="string">
-								<text:p text:style-name="P13">
+								<text:p text:style-name="P14">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">	<xsl:call-template name="get_value"><xsl:with-param name="p_name">Definition</xsl:with-param></xsl:call-template></text:span>
+										<text:span text:style-name="T24">	<xsl:call-template name="get_value"><xsl:with-param name="p_name">Definition</xsl:with-param></xsl:call-template></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица74.B1" office:value-type="string">
-								<text:p text:style-name="P13">
+								<text:p text:style-name="P14">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:for-each select="Area  | /STD_MP[not(/.//ExistParcel[SubParcels])]">
+										<text:span text:style-name="T24"><xsl:for-each select="Area  | /STD_MP[not(/.//ExistParcel[SubParcels])]">
 				<xsl:call-template name="get_value"><xsl:with-param name="p_name">Area</xsl:with-param></xsl:call-template>
 		</xsl:for-each></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица74.B1" office:value-type="string">
-								<text:p text:style-name="P13">
+								<text:p text:style-name="P14">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:for-each select="Area  | /STD_MP[not(/.//ExistParcel[SubParcels])]">				
+										<text:span text:style-name="T24"><xsl:for-each select="Area  | /STD_MP[not(/.//ExistParcel[SubParcels])]">				
 				<xsl:call-template name="get_value"><xsl:with-param name="p_name">Innccuracy</xsl:with-param></xsl:call-template>
 		</xsl:for-each>
 </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица74.E1" office:value-type="string">
-								<text:p text:style-name="P13">
+								<text:p text:style-name="P14">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:for-each select="Encumbrance  | /STD_MP[not(/.//ExistParcel[SubParcels])]">				
+										<text:span text:style-name="T24"><xsl:for-each select="Encumbrance  | /STD_MP[not(/.//ExistParcel[SubParcels])]">				
 				<xsl:call-template name="get_value"><xsl:with-param name="p_name">Type</xsl:with-param></xsl:call-template>
 		</xsl:for-each>
 </text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
@@ -8864,8 +9544,8 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 						<table:table-column table:style-name="Таблица75.C"/>
 						<table:table-row table:style-name="Таблица75.1">
 							<table:table-cell table:style-name="Таблица75.A1" table:number-columns-spanned="3" office:value-type="string">
-								<text:p text:style-name="P8">6. Сведения о земельных участках, смежных с уточняемым земельным участком</text:p>
-								<text:p text:style-name="P61">
+								<text:p text:style-name="P9">6. Сведения о земельных участках, смежных с уточняемым земельным участком</text:p>
+								<text:p text:style-name="P72">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
 										<text:span text:style-name="T2">с кадастровым номером (обозначением) <text:s text:c="2"/></text:span>
 									</text:span>
@@ -8887,31 +9567,31 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 						</table:table-row>
 						<table:table-row table:style-name="Таблица75.2">
 							<table:table-cell table:style-name="Таблица75.A2" office:value-type="string">
-								<text:p text:style-name="P8">Обозначение характерной точки или части границы</text:p>
+								<text:p text:style-name="P9">Обозначение характерной точки или части границы</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица75.B2" office:value-type="string">
-								<text:p text:style-name="P8">Кадастровые номера земельных участков, смежных с уточняемым (образуемым) земельным участком</text:p>
+								<text:p text:style-name="P9">Кадастровые номера земельных участков, смежных с уточняемым (образуемым) земельным участком</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица75.C2" office:value-type="string">
-								<text:p text:style-name="P8">Сведения о правообладателях смежных земельных участков</text:p>
+								<text:p text:style-name="P9">Сведения о правообладателях смежных земельных участков</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row table:style-name="Таблица75.3">
 							<table:table-cell table:style-name="Таблица75.A2" office:value-type="string">
-								<text:p text:style-name="P8">1</text:p>
+								<text:p text:style-name="P9">1</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица75.B2" office:value-type="string">
-								<text:p text:style-name="P8">2</text:p>
+								<text:p text:style-name="P9">2</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица75.C3" office:value-type="string">
-								<text:p text:style-name="P8">3</text:p>
+								<text:p text:style-name="P9">3</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row table:style-name="Таблица75.4">
 							<table:table-cell table:style-name="Таблица75.A2" office:value-type="string">
 								<text:p text:style-name="P5">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T12">-</text:span>
+										<text:span text:style-name="T13">-</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 								</text:p>
@@ -8919,7 +9599,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 							<table:table-cell table:style-name="Таблица75.B2" office:value-type="string">
 								<text:p text:style-name="P5">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T12">-</text:span>
+										<text:span text:style-name="T13">-</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 								</text:p>
@@ -8927,7 +9607,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 							<table:table-cell table:style-name="Таблица75.C4" office:value-type="string">
 								<text:p text:style-name="P5">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T12">-</text:span>
+										<text:span text:style-name="T13">-</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry"> </text:span>
 								</text:p>
@@ -8937,11 +9617,11 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 </xsl:if>
 <xsl:if test="/.//NewSubParcel"><text:p text:style-name="Text_20_body">
 						<text:s/>
-					</text:p><text:p text:style-name="P39"/><text:p text:style-name="P39"/><table:table table:name="Таблица42" table:style-name="Таблица42">
+					</text:p><text:p text:style-name="P43"/><text:p text:style-name="P43"/><table:table table:name="Таблица42" table:style-name="Таблица42">
 						<table:table-column table:style-name="Таблица42.A"/>
 						<table:table-row table:style-name="Таблица42.1">
 							<table:table-cell table:style-name="Таблица42.A1" office:value-type="string">
-								<text:p text:style-name="P71"><text:bookmark-start text:name="Оглавление_ОбразуемыеЧасти"/>Сведения об образуемых частях земельного участка<text:bookmark-end text:name="Оглавление_ОбразуемыеЧасти"/></text:p>
+								<text:p text:style-name="P84"><text:bookmark-start text:name="Оглавление_ОбразуемыеЧасти"/>Сведения об образуемых частях земельного участка<text:bookmark-end text:name="Оглавление_ОбразуемыеЧасти"/></text:p>
 							</table:table-cell>
 						</table:table-row>
 					</table:table>	<xsl:for-each select="/.//NewSubParcel[not(CadastralNumber_Parcel = preceding::CadastralNumber_Parcel)] | /STD_MP[not(/.//NewSubParcel)]"><table:table table:name="Таблица79" table:style-name="Таблица79">
@@ -8953,12 +9633,12 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 										<text:span text:style-name="T2">Кадастровый номер земельного участка <text:s/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">
+										<text:span text:style-name="T24">
 											<text:s/>
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T25">
+										<text:span text:style-name="T27">
 											<text:s/>
 										</text:span>
 									</text:span>
@@ -8973,7 +9653,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 						</table:table-row>
 						<table:table-row table:style-name="Таблица79.2">
 							<table:table-cell table:style-name="Таблица79.A2" office:value-type="string">
-								<text:p text:style-name="P8">1. Сведения о местоположении границы образуемой части земельного участка</text:p>
+								<text:p text:style-name="P9">1. Сведения о местоположении границы образуемой части земельного участка</text:p>
 							</table:table-cell>
 						</table:table-row>
 					</table:table>		<xsl:for-each select="/.//NewSubParcel[CadastralNumber_Parcel = ./CadastralNumber_Parcel] | /STD_MP[not(/.//NewSubParcel)]"><table:table table:name="Таблица80" table:style-name="Таблица80">
@@ -8989,12 +9669,12 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 										<text:span text:style-name="T2">Обозначение части <text:s/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22">
+										<text:span text:style-name="T24">
 											<text:s/>
 										</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T25">
+										<text:span text:style-name="T27">
 											<text:s/>
 										</text:span>
 									</text:span>
@@ -9013,10 +9693,10 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 						</table:table-row>
 						<table:table-row table:style-name="Таблица80.2">
 							<table:table-cell table:style-name="Таблица80.A2" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">Обозначение характерных точек границы</text:p>
+								<text:p text:style-name="P9">Обозначение характерных точек границы</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица80.B2" table:number-columns-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">Координаты, м</text:p>
+								<text:p text:style-name="P9">Координаты, м</text:p>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:table-cell table:style-name="Таблица80.B2" table:number-rows-spanned="2" office:value-type="string">
@@ -9027,7 +9707,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T19">t</text:span>
+										<text:span text:style-name="T21">t</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
@@ -9038,7 +9718,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица80.E2" table:number-rows-spanned="2" office:value-type="string">
-								<text:p text:style-name="P8">Описание закрепления точки</text:p>
+								<text:p text:style-name="P9">Описание закрепления точки</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row table:style-name="Таблица80.3">
@@ -9065,19 +9745,19 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 					</table:table><table:table table:name="Таблица78" table:style-name="Таблица78"><table:table-column table:style-name="Таблица78.A"/><table:table-column table:style-name="Таблица78.B"/><table:table-column table:style-name="Таблица78.C"/><table:table-column table:style-name="Таблица78.D"/><table:table-column table:style-name="Таблица78.E"/><table:table-header-rows>
 							<table:table-row table:style-name="Таблица78.1">
 								<table:table-cell table:style-name="Таблица78.A1" office:value-type="string">
-									<text:p text:style-name="P8">1</text:p>
+									<text:p text:style-name="P9">1</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица78.B1" office:value-type="string">
-									<text:p text:style-name="P8">2</text:p>
+									<text:p text:style-name="P9">2</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица78.B1" office:value-type="string">
-									<text:p text:style-name="P8">3</text:p>
+									<text:p text:style-name="P9">3</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица78.B1" office:value-type="string">
-									<text:p text:style-name="P8">4</text:p>
+									<text:p text:style-name="P9">4</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Таблица78.E1" office:value-type="string">
-									<text:p text:style-name="P8">5</text:p>
+									<text:p text:style-name="P9">5</text:p>
 								</table:table-cell>
 							</table:table-row>
 						</table:table-header-rows><!--row-code-->
@@ -9087,19 +9767,19 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 <xsl:sort select="$v_element_pos*position()" data-type="number" order="descending"/>
 <table:table-row table:style-name="Таблица78.2">
 							<table:table-cell table:style-name="Таблица78.A3" office:value-type="float" office:value="0">
-								<text:p text:style-name="P61">
+								<text:p text:style-name="P72">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:call-template name="point_name"/></text:span>
+										<text:span text:style-name="T24"><xsl:call-template name="point_name"/></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица78.B3" office:value-type="float" office:value="0">
-								<text:p text:style-name="P49">
+								<text:p text:style-name="P53">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:if test="@X">
+										<text:span text:style-name="T24"><xsl:if test="@X">
 <xsl:value-of select="format-number(@X,'#0.00')"/>
 </xsl:if>
 <xsl:if test="not(@X)">
@@ -9107,14 +9787,14 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 </xsl:if></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица78.C3" office:value-type="float" office:value="0">
-								<text:p text:style-name="P49">
+								<text:p text:style-name="P53">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:if test="@Y">
+										<text:span text:style-name="T24"><xsl:if test="@Y">
 <xsl:value-of select="format-number(@Y,'#0.00')"/>
 </xsl:if>
 <xsl:if test="not(@Y)">
@@ -9122,24 +9802,24 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 </xsl:if></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица78.D3" office:value-type="float" office:value="0">
 								<text:p text:style-name="P1">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:call-template name="get_value"><xsl:with-param name="p_name">Delta_Geopoint</xsl:with-param></xsl:call-template></text:span>
+										<text:span text:style-name="T24"><xsl:call-template name="get_value"><xsl:with-param name="p_name">Delta_Geopoint</xsl:with-param></xsl:call-template></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица78.E3" office:value-type="float" office:value="0">
 								<text:p text:style-name="P1">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><!--xsl:call-template name="get_value"><xsl:with-param name="p_name">Geopoint_Zacrep</xsl:with-param></xsl:call-template-->
+										<text:span text:style-name="T24"><!--xsl:call-template name="get_value"><xsl:with-param name="p_name">Geopoint_Zacrep</xsl:with-param></xsl:call-template-->
 
 <xsl:call-template name="get_dict">
 <xsl:with-param name="p_code">
@@ -9148,7 +9828,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 </xsl:call-template></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
@@ -9156,7 +9836,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 				</xsl:for-each>
 		<xsl:if test="position() != last()"><table:table-row table:style-name="Таблица78.2">
 							<table:table-cell table:style-name="Таблица78.A6" table:number-columns-spanned="5" office:value-type="string">
-								<text:p text:style-name="P61"/>
+								<text:p text:style-name="P72"/>
 							</table:table-cell>
 							<table:covered-table-cell/>
 							<table:covered-table-cell/>
@@ -9174,7 +9854,7 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 						<table:table-column table:style-name="Таблица77.E"/>
 						<table:table-row table:style-name="Таблица77.1">
 							<table:table-cell table:style-name="Таблица77.A1" table:number-columns-spanned="5" office:value-type="string">
-								<text:p text:style-name="P77">
+								<text:p text:style-name="P91">
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
 										<text:span text:style-name="T2">2. Общие сведения о частях земельного участка</text:span>
 									</text:span>
@@ -9188,10 +9868,10 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 						</table:table-row>
 						<table:table-row table:style-name="Таблица77.2">
 							<table:table-cell table:style-name="Таблица77.A2" office:value-type="string">
-								<text:p text:style-name="P8">№ п/п</text:p>
+								<text:p text:style-name="P9">№ п/п</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица77.B2" office:value-type="string">
-								<text:p text:style-name="P8">Учетный номер или обозначение части</text:p>
+								<text:p text:style-name="P9">Учетный номер или обозначение части</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица77.B2" office:value-type="string">
 								<text:p text:style-name="P1">
@@ -9201,11 +9881,11 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T20">2</text:span>
+										<text:span text:style-name="T22">2</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 								</text:p>
-								<text:p text:style-name="P8"/>
+								<text:p text:style-name="P9"/>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица77.B2" office:value-type="string">
 								<text:p text:style-name="P1">
@@ -9215,37 +9895,37 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 									<text:s text:c="2"/>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца">
-										<text:span text:style-name="T20">2</text:span>
+										<text:span text:style-name="T22">2</text:span>
 									</text:span>
 									<text:span text:style-name="Основной_20_шрифт_20_абзаца"> </text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица77.E2" office:value-type="string">
-								<text:p text:style-name="P8">Характеристика части</text:p>
+								<text:p text:style-name="P9">Характеристика части</text:p>
 							</table:table-cell>
 						</table:table-row>
 					</table:table><table:table table:name="Таблица76" table:style-name="Таблица76"><table:table-column table:style-name="Таблица76.A"/><table:table-column table:style-name="Таблица76.B"/><table:table-column table:style-name="Таблица76.C"/><table:table-column table:style-name="Таблица76.D"/><table:table-column table:style-name="Таблица76.E"/><table:table-row table:style-name="Таблица76.1">
 							<table:table-cell table:style-name="Таблица76.A1" office:value-type="string">
-								<text:p text:style-name="P8">1</text:p>
+								<text:p text:style-name="P9">1</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица76.B1" office:value-type="string">
-								<text:p text:style-name="P8">2</text:p>
+								<text:p text:style-name="P9">2</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица76.B1" office:value-type="string">
-								<text:p text:style-name="P8">3</text:p>
+								<text:p text:style-name="P9">3</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица76.B1" office:value-type="string">
-								<text:p text:style-name="P8">4</text:p>
+								<text:p text:style-name="P9">4</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица76.E1" office:value-type="string">
-								<text:p text:style-name="P8">5</text:p>
+								<text:p text:style-name="P9">5</text:p>
 							</table:table-cell>
 						</table:table-row><!--row-code-->
 	<xsl:for-each select="STD_MP/Package/NewSubParcel | /STD_MP[not(/.//NewSubParcel)]"><table:table-row table:style-name="Таблица76.1">
 							<table:table-cell table:style-name="Таблица76.A3" office:value-type="string">
-								<text:p text:style-name="P8">
+								<text:p text:style-name="P9">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:if test="self::NewSubParcel">
+										<text:span text:style-name="T24"><xsl:if test="self::NewSubParcel">
 <xsl:value-of select="position()"/>
 </xsl:if>
 <xsl:if test="not(self::NewSubParcel)">
@@ -9253,48 +9933,48 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 </xsl:if></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица76.B3" office:value-type="string">
-								<text:p text:style-name="P8">
+								<text:p text:style-name="P9">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:call-template name="get_value"><xsl:with-param name="p_name">Definition</xsl:with-param></xsl:call-template>	</text:span>
+										<text:span text:style-name="T24"><xsl:call-template name="get_value"><xsl:with-param name="p_name">Definition</xsl:with-param></xsl:call-template>	</text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица76.B3" office:value-type="string">
-								<text:p text:style-name="P8">
+								<text:p text:style-name="P9">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:for-each select="Area">
+										<text:span text:style-name="T24"><xsl:for-each select="Area">
 <xsl:call-template name="get_value"><xsl:with-param name="p_name">Area</xsl:with-param></xsl:call-template>	
 </xsl:for-each></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица76.B3" office:value-type="string">
-								<text:p text:style-name="P8">
+								<text:p text:style-name="P9">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:for-each select="Area">
+										<text:span text:style-name="T24"><xsl:for-each select="Area">
 <xsl:call-template name="get_value"><xsl:with-param name="p_name">Innccuracy</xsl:with-param></xsl:call-template>	
 </xsl:for-each></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица76.E3" office:value-type="string">
-								<text:p text:style-name="P8">
+								<text:p text:style-name="P9">
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"><xsl:for-each select="Encumbrance">
+										<text:span text:style-name="T24"><xsl:for-each select="Encumbrance">
 <xsl:call-template name="get_dict">
 <xsl:with-param name="p_code">
 <xsl:value-of select="Type"/>
@@ -9303,29 +9983,29 @@ count(following-sibling::*[@Spatial = $curr_spatial+1]) ) >0)
 </xsl:for-each></text:span>
 									</text:span>
 									<text:span text:style-name="User_20_Entry">
-										<text:span text:style-name="T22"> </text:span>
+										<text:span text:style-name="T24"> </text:span>
 									</text:span>
 								</text:p>
 							</table:table-cell>
 						</table:table-row><!--row-code-->	
 	</xsl:for-each>
-</table:table></xsl:if><text:p text:style-name="Text_20_body"/><text:p text:style-name="P84"/><text:p text:style-name="P39"/><table:table table:name="Таблица44" table:style-name="Таблица44">
+</table:table></xsl:if><text:p text:style-name="Text_20_body"/><text:p text:style-name="P100"/><text:p text:style-name="P43"/><table:table table:name="Таблица44" table:style-name="Таблица44">
 						<table:table-column table:style-name="Таблица44.A"/>
 						<table:table-column table:style-name="Таблица44.B"/>
 						<table:table-row table:style-name="Таблица44.1">
 							<table:table-cell table:style-name="Таблица44.A1" office:value-type="string">
-								<text:p text:style-name="P11"><text:bookmark-start text:name="Оглавление_ЗаключениеКадастровогоИнженера"/>Заключение кадастрового инженера<text:bookmark-end text:name="Оглавление_ЗаключениеКадастровогоИнженера"/></text:p>
+								<text:p text:style-name="P12"><text:bookmark-start text:name="Оглавление_ЗаключениеКадастровогоИнженера"/>Заключение кадастрового инженера<text:bookmark-end text:name="Оглавление_ЗаключениеКадастровогоИнженера"/></text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица44.B1" office:value-type="string">
-								<text:p text:style-name="P40"/>
+								<text:p text:style-name="P44"/>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row table:style-name="Таблица44.2">
 							<table:table-cell table:style-name="Таблица44.A2" office:value-type="string">
-								<text:p text:style-name="P41"><xsl:value-of select="STD_MP/Conclusion"/></text:p>
+								<text:p text:style-name="P45"><xsl:value-of select="STD_MP/Conclusion"/></text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Таблица44.B2" office:value-type="string">
-								<text:p text:style-name="P40"/>
+								<text:p text:style-name="P44"/>
 							</table:table-cell>
 						</table:table-row>
 					</table:table><text:p text:style-name="Text_20_body"/></office:text>

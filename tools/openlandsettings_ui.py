@@ -2,8 +2,8 @@
 
 # Form implementation generated from reading ui file 'openlandsettings.ui'
 #
-# Created: Mon Oct 28 11:22:36 2013
-#      by: PyQt4 UI code generator 4.9.4
+# Created: Thu Mar 20 12:46:49 2014
+#      by: PyQt4 UI code generator 4.10.2
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -12,7 +12,16 @@ from PyQt4 import QtCore, QtGui
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
 except AttributeError:
-    _fromUtf8 = lambda s: s
+    def _fromUtf8(s):
+        return s
+
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
 
 class Ui_OpenLandSettings(object):
     def setupUi(self, OpenLandSettings):
@@ -122,19 +131,21 @@ class Ui_OpenLandSettings(object):
         self.verticalLayout_5.addWidget(self.groupBox_3)
         self.tabWidget.addTab(self.tabDataBase, _fromUtf8(""))
         self.tabInterface = QtGui.QWidget()
-        self.tabInterface.setMaximumSize(QtCore.QSize(439, 268))
+        self.tabInterface.setMaximumSize(QtCore.QSize(16777215, 16777215))
         self.tabInterface.setObjectName(_fromUtf8("tabInterface"))
         self.verticalLayout = QtGui.QVBoxLayout(self.tabInterface)
         self.verticalLayout.setObjectName(_fromUtf8("verticalLayout"))
         self.groupBox = QtGui.QGroupBox(self.tabInterface)
         self.groupBox.setObjectName(_fromUtf8("groupBox"))
+        self.verticalLayout_3 = QtGui.QVBoxLayout(self.groupBox)
+        self.verticalLayout_3.setObjectName(_fromUtf8("verticalLayout_3"))
         self.radioButtonMultiCont = QtGui.QRadioButton(self.groupBox)
-        self.radioButtonMultiCont.setGeometry(QtCore.QRect(10, 20, 188, 18))
         self.radioButtonMultiCont.setChecked(True)
         self.radioButtonMultiCont.setObjectName(_fromUtf8("radioButtonMultiCont"))
+        self.verticalLayout_3.addWidget(self.radioButtonMultiCont)
         self.radioButtonOneCont = QtGui.QRadioButton(self.groupBox)
-        self.radioButtonOneCont.setGeometry(QtCore.QRect(11, 48, 411, 18))
         self.radioButtonOneCont.setObjectName(_fromUtf8("radioButtonOneCont"))
+        self.verticalLayout_3.addWidget(self.radioButtonOneCont)
         self.verticalLayout.addWidget(self.groupBox)
         self.checkBoxIsSortAttributes = QtGui.QCheckBox(self.tabInterface)
         self.checkBoxIsSortAttributes.setChecked(True)
@@ -193,35 +204,35 @@ class Ui_OpenLandSettings(object):
         OpenLandSettings.setTabOrder(self.tabWidget, self.buttonBox)
 
     def retranslateUi(self, OpenLandSettings):
-        OpenLandSettings.setWindowTitle(QtGui.QApplication.translate("OpenLandSettings", "Настройки openLand", None, QtGui.QApplication.UnicodeUTF8))
-        self.groupBox_2.setTitle(QtGui.QApplication.translate("OpenLandSettings", "Базовый проект и параметры БД", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_8.setText(QtGui.QApplication.translate("OpenLandSettings", "Сервер", None, QtGui.QApplication.UnicodeUTF8))
-        self.lineEditProjectFile.setText(QtGui.QApplication.translate("OpenLandSettings", "Не указан", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_13.setText(QtGui.QApplication.translate("OpenLandSettings", "Автоматически обновляемый<br />файл проекта", None, QtGui.QApplication.UnicodeUTF8))
-        self.checkBoxIsUseDefaultConnection.setText(QtGui.QApplication.translate("OpenLandSettings", "Использовать для обновления проекта openLand.qgs", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_9.setText(QtGui.QApplication.translate("OpenLandSettings", "Порт", None, QtGui.QApplication.UnicodeUTF8))
-        self.lineEditDataBase.setText(QtGui.QApplication.translate("OpenLandSettings", "openland", None, QtGui.QApplication.UnicodeUTF8))
-        self.lineEditPort.setText(QtGui.QApplication.translate("OpenLandSettings", "5432", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_11.setText(QtGui.QApplication.translate("OpenLandSettings", "Пользователь", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_10.setText(QtGui.QApplication.translate("OpenLandSettings", "База данных", None, QtGui.QApplication.UnicodeUTF8))
-        self.lineEditUserName.setText(QtGui.QApplication.translate("OpenLandSettings", "openlanduser1", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_12.setText(QtGui.QApplication.translate("OpenLandSettings", "Пароль", None, QtGui.QApplication.UnicodeUTF8))
-        self.lineEditUserPassword.setText(QtGui.QApplication.translate("OpenLandSettings", "user1pass", None, QtGui.QApplication.UnicodeUTF8))
-        self.lineEditServer.setText(QtGui.QApplication.translate("OpenLandSettings", "localhost", None, QtGui.QApplication.UnicodeUTF8))
-        self.groupBox_4.setTitle(QtGui.QApplication.translate("OpenLandSettings", "XML схемы", None, QtGui.QApplication.UnicodeUTF8))
-        self.label.setText(QtGui.QApplication.translate("OpenLandSettings", "Номер версии XML схемы межевого плана", None, QtGui.QApplication.UnicodeUTF8))
-        self.groupBox_3.setTitle(QtGui.QApplication.translate("OpenLandSettings", "Каталоги, используемые по умолчанию", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_14.setText(QtGui.QApplication.translate("OpenLandSettings", "<html><head/><body><p align=\"right\">Каталог для создаваемых<br />XML файлов МП</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.lineEditPathToXmlCreate.setText(QtGui.QApplication.translate("OpenLandSettings", "Не указан", None, QtGui.QApplication.UnicodeUTF8))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tabDataBase), QtGui.QApplication.translate("OpenLandSettings", "Данные", None, QtGui.QApplication.UnicodeUTF8))
-        self.groupBox.setTitle(QtGui.QApplication.translate("OpenLandSettings", "При выборе одного полигона слоя  «Участок» производить операции с", None, QtGui.QApplication.UnicodeUTF8))
-        self.radioButtonMultiCont.setText(QtGui.QApplication.translate("OpenLandSettings", "Земельным участком полностью", None, QtGui.QApplication.UnicodeUTF8))
-        self.radioButtonOneCont.setText(QtGui.QApplication.translate("OpenLandSettings", "Только выбранным контуром МЗУ (входящим в ЕЗП, ЧЗУ)", None, QtGui.QApplication.UnicodeUTF8))
-        self.checkBoxIsSortAttributes.setText(QtGui.QApplication.translate("OpenLandSettings", "Сортировать атрибуты земельного участка в списке ", None, QtGui.QApplication.UnicodeUTF8))
-        self.checkBoxIsPointsShow.setText(QtGui.QApplication.translate("OpenLandSettings", "Отображать точки и границы ЗУ в списке окна атрибутов", None, QtGui.QApplication.UnicodeUTF8))
-        self.checkBoxIsShowOnlyUserData.setText(QtGui.QApplication.translate("OpenLandSettings", "Отображать МП и документы только текущего пользователя БД", None, QtGui.QApplication.UnicodeUTF8))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tabInterface), QtGui.QApplication.translate("OpenLandSettings", "Интерфейс", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_7.setText(QtGui.QApplication.translate("OpenLandSettings", "Система координат", None, QtGui.QApplication.UnicodeUTF8))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tabCoordSystem), QtGui.QApplication.translate("OpenLandSettings", "Система координат", None, QtGui.QApplication.UnicodeUTF8))
+        OpenLandSettings.setWindowTitle(_translate("OpenLandSettings", "Настройки openLand", None))
+        self.groupBox_2.setTitle(_translate("OpenLandSettings", "Базовый проект и параметры БД", None))
+        self.label_8.setText(_translate("OpenLandSettings", "Сервер", None))
+        self.lineEditProjectFile.setText(_translate("OpenLandSettings", "Не указан", None))
+        self.label_13.setText(_translate("OpenLandSettings", "Автоматически обновляемый<br />файл проекта", None))
+        self.checkBoxIsUseDefaultConnection.setText(_translate("OpenLandSettings", "Использовать для обновления проекта openLand.qgs", None))
+        self.label_9.setText(_translate("OpenLandSettings", "Порт", None))
+        self.lineEditDataBase.setText(_translate("OpenLandSettings", "openland", None))
+        self.lineEditPort.setText(_translate("OpenLandSettings", "5432", None))
+        self.label_11.setText(_translate("OpenLandSettings", "Пользователь", None))
+        self.label_10.setText(_translate("OpenLandSettings", "База данных", None))
+        self.lineEditUserName.setText(_translate("OpenLandSettings", "openlanduser1", None))
+        self.label_12.setText(_translate("OpenLandSettings", "Пароль", None))
+        self.lineEditUserPassword.setText(_translate("OpenLandSettings", "user1pass", None))
+        self.lineEditServer.setText(_translate("OpenLandSettings", "localhost", None))
+        self.groupBox_4.setTitle(_translate("OpenLandSettings", "XML схемы", None))
+        self.label.setText(_translate("OpenLandSettings", "Номер версии XML схемы межевого плана", None))
+        self.groupBox_3.setTitle(_translate("OpenLandSettings", "Каталоги, используемые по умолчанию", None))
+        self.label_14.setText(_translate("OpenLandSettings", "<html><head/><body><p align=\"right\">Каталог для создаваемых<br />XML файлов МП</p></body></html>", None))
+        self.lineEditPathToXmlCreate.setText(_translate("OpenLandSettings", "Не указан", None))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tabDataBase), _translate("OpenLandSettings", "Данные", None))
+        self.groupBox.setTitle(_translate("OpenLandSettings", "При выборе одного полигона слоя  «Участок» производить операции с", None))
+        self.radioButtonMultiCont.setText(_translate("OpenLandSettings", "Земельным участком полностью", None))
+        self.radioButtonOneCont.setText(_translate("OpenLandSettings", "Только выбранным контуром МЗУ (входящим в ЕЗП, ЧЗУ)", None))
+        self.checkBoxIsSortAttributes.setText(_translate("OpenLandSettings", "Сортировать атрибуты земельного участка в списке ", None))
+        self.checkBoxIsPointsShow.setText(_translate("OpenLandSettings", "Отображать точки и границы ЗУ в списке окна атрибутов", None))
+        self.checkBoxIsShowOnlyUserData.setText(_translate("OpenLandSettings", "Отображать МП и документы только текущего пользователя БД", None))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tabInterface), _translate("OpenLandSettings", "Интерфейс", None))
+        self.label_7.setText(_translate("OpenLandSettings", "Система координат", None))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tabCoordSystem), _translate("OpenLandSettings", "Система координат", None))
 
 import resources_rc

@@ -37,6 +37,7 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
         self.settings = QSettings("openLand", "openLand")   # парамеры пользователя из реестра
         self.attributesMpSectionData = []                   # атрибуты разделов межевого плана
         self.attributesParcel = []                          # атрибуты земельных участков
+        self.attributesRelatedParcel = []                   # атрибуты смежного ЗУ с уточняемыми границами
         self.dictXmlIdSection = {}                          # Словарь соответствия [имя XML] => [ID] для разделов(подразделов) межевового плана
 
         self.rootXml = None                                 # корневой элемент XML
@@ -69,20 +70,20 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
         self.listWidgetEvents.addItem(u'Глобальный уникальный идентификатор пакета ' + str(self.guidNew))
         self.listWidgetEvents.addItem(u'Начало подготовки данных')                 
 
-        self.rootXml = None
-        self.eDocument = None
-        self.Title = None
-        self.Package = None
-        self.CoordSystems = None
-        self.InputData = None
-        self.Survey = None
-        self.Conclusion = None
-        self.SchemeGeodesicPlotting = None
-        self.SchemeDispositionParcels = None
-        self.DiagramParcelsSubParcels = None
-        self.AgreementDocument = None
-        self.NodalPointSchemes = None
-        self.Appendix = None
+        self.rootXml                    = None
+        self.eDocument                  = None
+        self.Title                      = None
+        self.Package                    = None
+        self.CoordSystems               = None
+        self.InputData                  = None
+        self.Survey                     = None
+        self.Conclusion                 = None
+        self.SchemeGeodesicPlotting     = None
+        self.SchemeDispositionParcels   = None
+        self.DiagramParcelsSubParcels   = None
+        self.AgreementDocument          = None
+        self.NodalPointSchemes          = None
+        self.Appendix                   = None
 
         self.pathXmlFile = self.settings.value('database/pathCreateXmlMp', '')
         self.tmpDirectoryXml = self.pathXmlFile + '/GKUZU_' + self.guidNew
@@ -395,65 +396,66 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
 
         self.Package = SubElement(self.rootXml, u'Package')
 
-        listIdFormNewParcel = []
-        listIdFormChangeParcel = []
-        listIdFormRelatedParcel = []
-        listIdSpecifyExistParcel = []
-        listIdSpecifyExistEZ = []
-        listIdSpecifyRelatedParcel = []
-        listIdNewSubParcel = []
+        listIdFormNewParcel         = []
+        listIdFormChangeParcel      = []
+        listIdFormRelatedParcel     = []
+        listIdSpecifyExistParcel    = []
+        listIdSpecifyExistEZ        = []
+        listIdSpecifyRelatedParcel  = []
+        listIdNewSubParcel          = []
         listIdApproximalExistParcel = []
-        listIdApproximalExistEZ = []
+        listIdApproximalExistEZ     = []
 
         for every in self.attributesMpSectionData:
             if every['id_section_mp'] == self.dictXmlIdSection['NewParcel']:
                 listIdFormNewParcel.append(every['id_parcel'])
             
-            elif every['id_section_mp'] == self.dictXmlIdSection['ChangeParcel']:
+            if every['id_section_mp'] == self.dictXmlIdSection['ChangeParcel']:
                 listIdFormChangeParcel.append(every['id_parcel'])
 
-            elif every['id_section_mp'] == self.dictXmlIdSection['SpecifyRelatedParcel-Form']:
+            if every['id_section_mp'] == self.dictXmlIdSection['SpecifyRelatedParcel-Form']:
                 listIdFormRelatedParcel.append(every['id_parcel'])
 
-            elif every['id_section_mp'] == self.dictXmlIdSection['ExistParcel']:
+            if every['id_section_mp'] == self.dictXmlIdSection['ExistParcel']:
                 listIdSpecifyExistParcel.append(every['id_parcel'])
 
-            elif every['id_section_mp'] == self.dictXmlIdSection['ExistEZ']:
+            if every['id_section_mp'] == self.dictXmlIdSection['ExistEZ']:
                 listIdSpecifyExistEZ.append(every['id_parcel'])
             
-            elif every['id_section_mp'] == self.dictXmlIdSection['SpecifyRelatedParcel-Specify']:
+            if every['id_section_mp'] == self.dictXmlIdSection['SpecifyRelatedParcel-Specify']:
                 listIdSpecifyRelatedParcel.append(every['id_parcel'])
             
-            elif every['id_section_mp'] == self.dictXmlIdSection['NewSubParcel']:
+            if every['id_section_mp'] == self.dictXmlIdSection['NewSubParcel']:
                 listIdNewSubParcel.append(every['id_parcel'])
             
-            elif every['id_section_mp'] == self.dictXmlIdSection['ExistParcel-Approximal']:
+            if every['id_section_mp'] == self.dictXmlIdSection['ExistParcel-Approximal']:
                 listIdApproximalExistParcel.append(every['id_parcel'])
             
-            elif every['id_section_mp'] == self.dictXmlIdSection['ExistEZ-Approximal']:
+            if every['id_section_mp'] == self.dictXmlIdSection['ExistEZ-Approximal']:
                 listIdApproximalExistEZ.append(every['id_parcel'])
 
         #
         if len(listIdFormNewParcel) > 0:        
             self.createFormNewParcel(listIdFormNewParcel)
 
-        elif len(listIdFormChangeParcel) > 0:
-            self.highLightLine(u'Ошибка! Извините, формирование раздела МП пока не поддерживается в openLand')
-            return
+            if len(listIdFormChangeParcel) > 0:
+                self.highLightLine(u'Ошибка! Извините, формирование раздела МП пока не поддерживается в openLand')
+                return
 
-        elif len(listIdFormRelatedParcel) > 0:
-            self.highLightLine(u'Ошибка! Извините, формирование раздела МП пока не поддерживается в openLand')
-            return
+            if len(listIdFormRelatedParcel) > 0:
+                self.createSpecifyRelatedParcel(listIdFormRelatedParcel)
 
         elif len(listIdSpecifyExistParcel) > 0:
             self.createSpecifyExistParcel(listIdSpecifyExistParcel)
 
+            if len(listIdSpecifyRelatedParcel) > 0:
+                self.createSpecifyRelatedParcel(listIdSpecifyRelatedParcel)
+
         elif len(listIdSpecifyExistEZ) > 0:
             self.createSpecifyExistEZ(listIdSpecifyExistEZ)
 
-        elif len(listIdSpecifyRelatedParcel) > 0:
-            self.highLightLine(u'Ошибка! Извините, формирование раздела МП пока не поддерживается в openLand')
-            return
+            if len(listIdSpecifyRelatedParcel) > 0:
+                self.createSpecifyRelatedParcel(listIdSpecifyRelatedParcel)
 
         elif len(listIdNewSubParcel) > 0:
             self.createNewSubParcel(listIdNewSubParcel)
@@ -605,7 +607,154 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
         else:
             self.highLightLine(u'Ошибка! В обработке более одного уточняемого ЗУ.')
 
+    # Уточнение границ смежных участков
+    def createSpecifyRelatedParcel(self, listIdParcel):        
+        self.attributesRelatedParcel = attributesByKeys('ln_uchastok', 'id', 
+                                        listIdParcel, attributesNamesParcel)
+        if len(self.attributesRelatedParcel) > 0 and len(self.Package.getchildren()) == 1:
+            xmlParentSection = self.Package.getchildren()[0]
             
+            for everyParcel in self.attributesRelatedParcel:
+                idParcel = int(everyParcel['id'])
+                Kn = everyParcel['kn']
+                if not Kn > ' ' :
+                    self.highLightLine(u'Ошибка! \
+                                       Не определен кадастровый номер смежного ЗУ')
+                    return
+
+                xmlSpecifyRelatedParcel = SubElement(xmlParentSection, 
+                                                    u'SpecifyRelatedParcel', 
+                                                    {'CadastralNumber':Kn})
+
+                NumberRecord = everyParcel['nomer_kontura']
+                if NumberRecord > 0:
+                    xmlSpecifyRelatedParcel.set(u'Number_Record', str(NumberRecord))
+                
+                attributesAllPoints = attributesByKeys('ln_tochka', 'id_uchastok', 
+                                                       [idParcel], 
+                                                       attributesNamesPoint)
+                if len(attributesAllPoints) < 3:
+                    self.highLightLine(u'Ошибка! Менее трёх точек у пространственного элемента ЗУ с id=' + str(idParcel))
+                    return
+
+                listByNumberSpatialElement = [[every['nomer_chasti'], every]
+                                              for every in attributesAllPoints]
+                listByNumberSpatialElement.sort()
+                listOneSpatialElement = []
+                numberSpatialElement  = 1
+                for every in listByNumberSpatialElement:
+                    if every[0] == numberSpatialElement:
+                        listOneSpatialElement.append(every[1])
+                    else:
+                        self.createChangeBorder(listOneSpatialElement)
+                        listOneSpatialElement = []
+                        numberSpatialElement  = every[0]
+                
+                self.createChangeBorder(xmlSpecifyRelatedParcel, 
+                                        listOneSpatialElement,
+                                        idParcel, everyParcel['id_msk'])
+
+    # изменение части границы
+    def createChangeBorder(self, xmlSpecifyRelatedParcel, listOneSpatialElement, idParcel, idMsk):
+        listByOrderPoints = [[every['poryadok_obhoda'], every]
+                             for every in listOneSpatialElement]
+        listByOrderPoints.sort()
+        listDeletedPoints = []
+        listPoints        = []  
+        for every in listByOrderPoints:
+            # для прекращающих существование точек порядок обхода равен 0
+            if every[0] == 0:
+                listDeletedPoints.append(every[1])
+            else:
+                listPoints.append(every[1])
+
+        addPoint = listPoints[0]
+        listPoints.append(addPoint)
+
+        listXY = [[every['y'], every['x']] for every in listPoints]
+        if not self.inClockwiseDirection(listXY):
+            listPoints.reverse()
+        listPoints.pop()
+
+        firstExistPoint = None
+        lastExistPoint  = None
+        listNewPoints   = []
+        for i in range(len(listPoints)):
+            if listPoints[i]['prefiks_nomera'] == u'н':
+                if firstExistPoint == None:
+                    firstExistPoint = listPoints[i-1]
+                
+                listNewPoints.append(listPoints[i])
+                    
+            else:
+                if firstExistPoint != None:
+                    if lastExistPoint == None:
+                        lastExistPoint = listPoints[i]
+                        minNumber = min([firstExistPoint['nomer'], 
+                                        lastExistPoint['nomer']])
+                        maxNumber = max([firstExistPoint['nomer'], 
+                                        lastExistPoint['nomer']])
+                        xmlChangeBorder = SubElement(xmlSpecifyRelatedParcel, 
+                                                    u'ChangeBorder')
+                        self.createOldOrdinate(xmlChangeBorder, firstExistPoint)
+                        self.createNewOrdinate(xmlChangeBorder, firstExistPoint)
+                        
+                        for every in listDeletedPoints:
+                            if minNumber < every['nomer'] < maxNumber:
+                                xmlChangeBorder = SubElement(xmlSpecifyRelatedParcel, 
+                                                            u'ChangeBorder')
+                                self.createOldOrdinate(xmlChangeBorder, every)
+
+                        for every in listNewPoints:
+                            xmlChangeBorder = SubElement(xmlSpecifyRelatedParcel, 
+                                                        u'ChangeBorder')
+                            self.createNewOrdinate(xmlChangeBorder, every)
+                        
+                        xmlChangeBorder = SubElement(xmlSpecifyRelatedParcel, 
+                                                    u'ChangeBorder')
+                        self.createOldOrdinate(xmlChangeBorder, lastExistPoint)
+                        self.createNewOrdinate(xmlChangeBorder, lastExistPoint)
+                        
+                        firstExistPoint = None
+                        lastExistPoint  = None
+                        listNewPoints   = []
+
+        # если остаётся менее двух точек, а остальные удаляются и плюс новые
+        if (len(listPoints) - len(listDeletedPoints) - len(listNewPoints)) < 2:
+            # Полное описание границы смежного участка (контура многоконтурного участка)
+            # да, два прохода - иначе не всё удаляет :( БМП почему
+            for every in xmlSpecifyRelatedParcel:
+                xmlSpecifyRelatedParcel.remove(every)
+                
+            for every in xmlSpecifyRelatedParcel:
+                xmlSpecifyRelatedParcel.remove(every)
+                
+            xmlAllBorder = SubElement(xmlSpecifyRelatedParcel, u'AllBorder')
+            self.createEntitySpatial(xmlAllBorder, idParcel, idMsk)
+            return
+
+        if len(xmlSpecifyRelatedParcel.getchildren()) == 0:
+            lastExistPoint = listPoints[0]
+            xmlChangeBorder = SubElement(xmlSpecifyRelatedParcel, 
+                                        u'ChangeBorder')
+            self.createOldOrdinate(xmlChangeBorder, firstExistPoint)
+            self.createNewOrdinate(xmlChangeBorder, firstExistPoint)
+                        
+            for every in listDeletedPoints:
+                xmlChangeBorder = SubElement(xmlSpecifyRelatedParcel, 
+                                            u'ChangeBorder')
+                self.createOldOrdinate(xmlChangeBorder, every)
+
+            for every in listNewPoints:
+                xmlChangeBorder = SubElement(xmlSpecifyRelatedParcel, 
+                                            u'ChangeBorder')
+                self.createNewOrdinate(xmlChangeBorder, every)
+                        
+            xmlChangeBorder = SubElement(xmlSpecifyRelatedParcel, 
+                                        u'ChangeBorder')
+            self.createOldOrdinate(xmlChangeBorder, lastExistPoint)
+            self.createNewOrdinate(xmlChangeBorder, lastExistPoint)
+                        
     # Уточнение границ нескольких смежных земельных участков
     def createApproximalExistParcel(self, listIdParcel):
         self.attributesParcel = attributesByKeys('ln_uchastok', 'id', listIdParcel, attributesNamesParcel)
@@ -616,7 +765,6 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
 
         else:
             self.highLightLine(u'Ошибка! Не найдено нескольких смежных земельных участков.')
-
             
     # Сведения об уточняемом едином землепользовании и его частях
     def createSpecifyExistEZ(self, listIdParcel):
@@ -671,10 +819,12 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
                     # код типа для включаемого в ЕЗ участка
                     if str(everyEntryParcel['tip_obekta_kadastrovyh_rabot']) == gv['insertEntryParcels']:
                         KnEntryParcel = everyEntryParcel['kn']
+                        # в состав ЕЗ включается существующий(!) ЗУ
                         if KnEntryParcel > ' ' :
                             xmlInsertEntryParcel = SubElement(xmlInsertEntryParcels, u'InsertEntryParcel')
                             xmlExistEntryParcel = SubElement(xmlInsertEntryParcel, u'ExistEntryParcel', 
                                                              {'CadastralNumber':KnEntryParcel})
+                        # в состав ЕЗ включается образуемый(!) ЗУ
                         else:
                             xmlInsertEntryParcel = SubElement(xmlInsertEntryParcels, u'InsertEntryParcel')
                             self.createNewEntryParcel(xmlInsertEntryParcel, everyEntryParcel)
@@ -727,7 +877,8 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
     def createNewEntryParcel(self, xmlParentElement, entryParcel):
         Name = entryParcel['id_vid_uchastka']
         if not Name in ('03', '04'):
-            self.highLightLine(u'Ошибка! Название входящего участка не соответсвует схеме: обособленный(03) или условный(04)')
+            self.highLightLine(u'Ошибка! Название входящего участка не соответсвует схеме:\
+                                 обособленный(03) или условный(04)')
             return
         
         Definition = entryParcel['oboznachenie_na_plane']
@@ -941,7 +1092,7 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
         searchCondition = '\"id_uchastok\" = ' + str(idParcel) + ' AND \"id_vid_ploshadi\" = \'' + gv['accurateArea'] + '\''
         attributesArea = attributesBySearchCondition('pb_ploshad', searchCondition, attributesNamesArea)
         if len(attributesArea) != 1:
-            self.highLightLine(u'Ошибка! Не определена однозначно уточнённая площадь ЗУ или контура')
+            self.highLightLine(u'Ошибка! Не определена однозначно уточнённая площадь ЗУ или контура id=' + str(idParcel))
             return
 
         xmlArea = SubElement(xmlParentElement, u'Area')
@@ -1881,6 +2032,7 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
                 self.highLightLine(u'Ошибка! Не выполнено копирование файла ' + absPath)
                 return
 
+    #
     def createAppliedFile(self, xmlParentSection, nameSection):
         idSection = self.dictXmlIdSection[nameSection]
         listGuidFile = []

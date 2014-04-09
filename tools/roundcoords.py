@@ -9,6 +9,7 @@
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 from qgis.core import *
+from common import *
 from roundcoords_ui import Ui_dlRoundCoords
 
 class RoundCoords(QDialog,  Ui_dlRoundCoords):
@@ -17,6 +18,9 @@ class RoundCoords(QDialog,  Ui_dlRoundCoords):
         self.iface = iface
         self.canvas = self.iface.mapCanvas()
         self.setupUi(self)
+
+        self.currentSpEl    = 0
+        self.progress       = QProgressBar()
 
         QObject.connect(self.pushButtonOk, SIGNAL("clicked()"), self.doRound)
         QObject.connect(self.pushButtonCancel, SIGNAL("clicked()"), self.doCancel)
@@ -27,7 +31,6 @@ class RoundCoords(QDialog,  Ui_dlRoundCoords):
         l = len(selection)
         if l >= 1:
             self.lineEdit.setText(str(l))
-            self.progressBar.setValue(0)
             return True
         else:
             QMessageBox.warning(self.iface.mainWindow(), u"Ошибка выбора данных", 
@@ -45,25 +48,42 @@ class RoundCoords(QDialog,  Ui_dlRoundCoords):
                                                          u"Необходимо указать параметр округления не менее 0")
             return
 
-        allFeats = int(self.lineEdit.text())
-        n = 1
-
+        self.progress       = QProgressBar()
+        progressMessageBar  = self.iface.messageBar().createMessage(u'Округление координат точек полигонов ЗУ...')
+        self.progress.setMaximum(numberSpatialElements(selection))
+        self.progress.setAlignment(Qt.AlignLeft|Qt.AlignVCenter)
+        progressMessageBar.layout().addWidget(self.progress)
+        self.iface.messageBar().pushWidget(progressMessageBar, 
+                                           self.iface.messageBar().INFO)
         for s in selection:
-            fid = s.id()
-            geom = QgsGeometry(s.geometry())
+            fid     = s.id()
+            geom    = QgsGeometry(s.geometry())
             polygon1 = True
-            ring1 = True
+            ring1   = True
+            xprev   = 0.0
+            yprev   = 0.0
             if geom.isMultipart():
                 polygons = geom.asMultiPolygon()
                 for poly in polygons:
                     ring1 = True
                     for ring in poly:
+                        self.currentSpEl += 1
+                        self.progress.setValue(self.currentSpEl)
+
                         polygon = []
                         for i in ring:
                             xnew = round(i.x(), iround)
                             ynew = round(i.y(), iround)
                             point = QgsGeometry.fromPoint(QgsPoint(xnew, ynew))
-                            polygon.append(point.asPoint())
+                            
+                            if self.checkBoxDeleteDouble.isChecked():
+                                if xnew != xprev or ynew != yprev:
+                                    polygon.append(point.asPoint())
+                                    xprev = xnew
+                                    yprev = ynew
+
+                            else:
+                                polygon.append(point.asPoint())
 
                         if (ring1):
                             geompart = QgsGeometry().fromPolygon([polygon])
@@ -79,12 +99,23 @@ class RoundCoords(QDialog,  Ui_dlRoundCoords):
             else:
                 rings = geom.asPolygon()
                 for ring in rings:
+                    self.currentSpEl += 1
+                    self.progress.setValue(self.currentSpEl)
+                    
                     polygon = []
                     for i in ring:
                         xnew = round(i.x(), iround)
                         ynew = round(i.y(), iround)
                         point = QgsGeometry.fromPoint(QgsPoint(xnew, ynew))
-                        polygon.append(point.asPoint())
+
+                        if self.checkBoxDeleteDouble.isChecked():
+                            if xnew != xprev or ynew != yprev:
+                                polygon.append(point.asPoint())
+                                xprev = xnew
+                                yprev = ynew
+
+                        else:
+                            polygon.append(point.asPoint())
 
                     if (ring1):
                         geomnew = QgsGeometry().fromPolygon([polygon])
@@ -103,10 +134,9 @@ class RoundCoords(QDialog,  Ui_dlRoundCoords):
             else:
                 QMessageBox.warning(self.iface.mainWindow(), u"Ошибка редактирования векторного слоя", 
                                                              u"Невозможно редактирование/добавление объекта для выбранного слоя")
-
-            self.progressBar.setValue(int(n / allFeats * 100))
-            n += 1
-        
+        del self.progress
+        del progressMessageBar
+        self.iface.messageBar().clearWidgets()
         self.canvas.refresh()
         self.close()
 

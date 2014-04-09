@@ -9,8 +9,8 @@ import os, sys, shutil, platform, codecs, webbrowser
 # gv - global variable
 gv = {}
 
-gv['versionPlugin']   = '0.2.9'     # номер версии последнего релиза модуля
-gv['datePlugin']      = '2014-03-11'# дата версии последнего релиза модуля
+gv['versionPlugin']   = '0.2.10'    # номер версии последнего релиза модуля
+gv['datePlugin']      = '2014-04-09'# дата версии последнего релиза модуля
 gv['versionDatabase'] = '17'        # номер версии последнего релиза БД
 
 gv['casualParcelCode']   = '01'     # код типа ЗУ по классификатору для землепользования                            class.vid_zemelnogo_uchastka
@@ -42,7 +42,7 @@ gv['deleteContour']       = '3'     # код типа для исключаем�
 gv['newSubParcel']        = '4'     # код типа для образуемой ЧЗУ                  class.obekt_kadastrovyh_rabot
 gv['specifySubParcel']    = '5'     # код типа для уточняемой ЧЗУ                  class.obekt_kadastrovyh_rabot
 gv['invariableSubParcel'] = '6'     # код типа для неизменяемая ЧЗУ                class.obekt_kadastrovyh_rabot
-gv['insertEntryParcels']  = '7'     # код типа для включаемого в ЕЗ участка        class.obekt_kadastrovyh_rabot
+gv['insertEntryParcels']  = '7'     # код типа для включаемого в ЕЗ сущ-го(!) ЗУ   class.obekt_kadastrovyh_rabot
 gv['existEntryParcels']   = '8'     # код типа для уточняемого ЗУ, входящего в ЕЗ  class.obekt_kadastrovyh_rabot
 gv['deleteEntryParcels']  = '9'     # код типа для исключаемого из ЕЗ участка      class.obekt_kadastrovyh_rabot
 
@@ -249,8 +249,29 @@ attributesNamesOwnerNeighbour       = ['guid', 'guid_parcel_neighbour', 'name_ri
 
 attributesNamesOwnerNeighbourDoc    = ['guid', 'guid_owner_neighbour', 'guid_document']
 
-okay = QMessageBox.Ok
-cancel = QMessageBox.Cancel
+okay    = QMessageBox.Ok
+cancel  = QMessageBox.Cancel
+
+################################################################################
+def numberSpatialElements(selectedPolygones):
+    '''
+    Посчёт количества частей-колец выбранных полигонов(мультполигонов)
+    selectedPolygones:          QgsFeatureList
+    numberSpatialElements():    Integer
+    '''
+    n = 0
+    for e in selectedPolygones:
+        g = e.geometry()
+        if g.isMultipart():
+            ps = g.asMultiPolygon()
+            for p in ps:
+                for r in p:
+                    n += 1
+        else:
+            rs = g.asPolygon()
+            for r in rs:
+                n += 1
+    return n
 
 ################################################################################
 def reNull(v, n):
@@ -313,7 +334,7 @@ def calculatedArea(idParcel):
 
     calculatedArea = 0.0
     for feat in provider.getFeatures(QgsFeatureRequest()):
-        if feat.geometry().isGeosValid():
+        if feat.geometry().isGeosValid() and feat.attribute('pre') <> 1:
             calculatedArea += feat.geometry().area()
 
     layer.setSubsetString(pre)
@@ -826,7 +847,6 @@ def listIdChildByIdParent(idParent):
     listIntIdParcel = [int(e['id_children']) for e in listParent]
     attributesContour = attributesByKeys('ln_uchastok', 'id', 
                                          listIntIdParcel, ['nomer_kontura', 'id'])
-    
     listForSort = []
     for e in attributesContour:
         try:  
