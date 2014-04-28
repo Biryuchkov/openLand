@@ -62,8 +62,8 @@
     <property key="labeling/bufferTransp" value="0"/>
     <property key="labeling/centroidWhole" value="false"/>
     <property key="labeling/dataDefined/Italic" value="1~~0~~~~pre"/>
-    <property key="labeling/dataDefined/PositionX" value="1~~1~~tostring(&quot;podpis_x&quot;)~~podpis_x"/>
-    <property key="labeling/dataDefined/PositionY" value="1~~1~~tostring(&quot;podpis_y&quot;)~~podpis_y"/>
+    <property key="labeling/dataDefined/PositionX" value="1~~0~~~~podpis_x"/>
+    <property key="labeling/dataDefined/PositionY" value="1~~0~~~~podpis_y"/>
     <property key="labeling/dataDefined/Underline" value="1~~0~~~~pre"/>
     <property key="labeling/decimals" value="0"/>
     <property key="labeling/displayAll" value="true"/>

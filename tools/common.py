@@ -9,9 +9,9 @@ import os, sys, shutil, platform, codecs, webbrowser
 # gv - global variable
 gv = {}
 
-gv['versionPlugin']   = '0.2.10'    # номер версии последнего релиза модуля
-gv['datePlugin']      = '2014-04-09'# дата версии последнего релиза модуля
-gv['versionDatabase'] = '17'        # номер версии последнего релиза БД
+gv['versionPlugin']   = '0.2.11'    # номер версии последнего релиза модуля
+gv['datePlugin']      = '2014-04-28'# дата версии последнего релиза модуля
+gv['versionDatabase'] = '19'        # номер версии последнего релиза БД
 
 gv['casualParcelCode']   = '01'     # код типа ЗУ по классификатору для землепользования                            class.vid_zemelnogo_uchastka
 gv['unitedParcelCode']   = '02'     # код типа ЗУ по классификатору для единого землепользования                    class.vid_zemelnogo_uchastka
@@ -128,6 +128,7 @@ gln['pb_uchastok_adres']                = u'Адрес участка'
 gln['ds_point']     = u'Точечные'
 gln['ds_line']      = u'Линейные'
 gln['ds_polygone']  = u'Площадные'
+gln['ds_tochka_uni']= u'Точки неповторяющиеся'
 
 # Формирование списка слоёв для которых в проекте установлен фильтр данных
 # gpre - global previous

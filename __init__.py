@@ -26,7 +26,7 @@ def description():
 def category():
     return "Plugins"
 def version():
-    return "Version 0.2.10"
+    return "Version 0.2.11"
 def icon():
     return "settings/main.png"
 def qgisMinimumVersion():

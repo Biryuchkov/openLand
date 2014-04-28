@@ -1075,6 +1075,9 @@ class uchAttributes(QDialog,  Ui_uchAttributes):
         
 ################################################################################
     def editMode(self, isEdit):
+        if type(isEdit) <> bool: 
+            isEdit = True
+
         if isEdit:
             self.pushButtonSave.setEnabled(True)
             self.pushButtonAdd.setEnabled(False)
