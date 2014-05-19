@@ -9,8 +9,8 @@ import os, sys, shutil, platform, codecs, webbrowser
 # gv - global variable
 gv = {}
 
-gv['versionPlugin']   = '0.2.11'    # номер версии последнего релиза модуля
-gv['datePlugin']      = '2014-04-28'# дата версии последнего релиза модуля
+gv['versionPlugin']   = '0.2.12'    # номер версии последнего релиза модуля
+gv['datePlugin']      = '2014-05-19'# дата версии последнего релиза модуля
 gv['versionDatabase'] = '19'        # номер версии последнего релиза БД
 
 gv['casualParcelCode']   = '01'     # код типа ЗУ по классификатору для землепользования                            class.vid_zemelnogo_uchastka
@@ -141,6 +141,19 @@ gpre.append('ln_kvartal')
 gpre.append('ln_rayon')
 gpre.append('cl_sistema_koordinat')
 gpre.append('pb_geo_osnova')
+
+# Словарь полей таблиц для формирования структурированного адреса
+gfsa = {}
+gfsa['pb_rayon']            = 'id_rayon'
+gfsa['pb_mo']               = 'id_ato_rayon_pod'
+gfsa['pb_gorodskoy_rayon']  = 'id_gorod_rayon'
+gfsa['pb_selsovet']         = 'id_selsovet'
+gfsa['pb_naselen_punkt']    = 'id_naselen_punkt'
+gfsa['pb_ulica']            = 'id_ulica'
+gfsa['pb_dom']              = 'id_dom'
+gfsa['pb_korpus']           = 'id_korpus'
+gfsa['pb_stroenie']         = 'id_stroenie'
+gfsa['pb_kvartira']         = 'id_kvartira'
 
 # Списки атрибутов = имена полей таблиц БД
 attributesNamesMP                   = ['guid', 'codetype', 'version', 'date_work', 

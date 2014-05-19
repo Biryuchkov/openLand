@@ -470,7 +470,6 @@ class openLand:
                 d = uchAttributes(self.iface)
                 d.idParcel = int(selection[0].id())
                 d.geom = QgsGeometry(selection[0].geometry())
-#                d.row = row
                 d.sumArea = 0
 
                 if paramByName([['interface/isEditMultiContour', 'bool']])[0]:
@@ -486,7 +485,6 @@ class openLand:
                             d.idParcel = d.idParent
                             d.geom = QgsGeometry()
                             d.sumArea = calculatedArea(d.idParent)
-#                            d.row = selection[0].attributes()
 
                 d.dlgFill()
                 d.layerUc.removeSelection() 

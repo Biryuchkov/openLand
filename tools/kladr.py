@@ -19,12 +19,17 @@ class Kladr(QDialog, Ui_DialogKladr):
         self.canvas = self.iface.mapCanvas()
         self.setupUi(self)
 
-        self.idRegion = ''
-        self.kladr = ''
-        self.okato = ''
-        self.index = ''
-        self.forSpeed = ''
-
+        self.idRegion   = ''
+        self.kladr      = ''
+        self.okato      = ''
+        self.index      = ''
+        self.forSpeed   = ''
+        '''
+        self.npSocr     = ''
+        self.npName     = ''
+        self.ulSocr     = ''
+        self.ulName     = ''
+        '''
         self.connect(self.comboBox1, SIGNAL("currentIndexChanged(int)"), self.selectItem)        
         self.connect(self.comboBox2, SIGNAL("currentIndexChanged(int)"), self.selectItem)        
         self.connect(self.comboBox3, SIGNAL("currentIndexChanged(int)"), self.selectItem)        
@@ -60,7 +65,7 @@ class Kladr(QDialog, Ui_DialogKladr):
             self.comboBox3.setEnabled(False)
             self.comboBox4.clear()
             self.comboBox4.setEnabled(False)
-    
+
     def selectItem(self, itemIndex):
         if itemIndex >= 0:
             data = self.sender().itemData(itemIndex)

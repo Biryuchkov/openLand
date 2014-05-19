@@ -20,7 +20,6 @@ class RoundCoords(QDialog,  Ui_dlRoundCoords):
         self.setupUi(self)
 
         self.currentSpEl    = 0
-        self.progress       = QProgressBar()
 
         QObject.connect(self.pushButtonOk, SIGNAL("clicked()"), self.doRound)
         QObject.connect(self.pushButtonCancel, SIGNAL("clicked()"), self.doCancel)

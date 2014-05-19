@@ -504,10 +504,10 @@ class ImportXML(QDialog, Ui_ImportXMLDialog):
                         else:
                             self.highLightLine(u'Ошибка контура ' + nomer_kontura + u' ЗУ с кадастровым номером ' + kn)                 
 
-            # МЗУ и ЧЗУ
+            # ЕЗУ и ЧЗУ
             elif (SubParcels != None):                                          
                 isOnlyUpdateEZ = False
-                geomNew = None
+                geomNew   = None
                 pointsAll = []
 
                 Entity_Spatial = Parcel.find('Entity_Spatial')
@@ -681,7 +681,7 @@ class ImportXML(QDialog, Ui_ImportXMLDialog):
                         else:
                             self.listWidgetEvents.addItem(u'Ошибка добавления местоположения ЕЗ с КН ' + kn)                 
 
-                    # Для каждой входящего или ЧЗУ
+                    # Для каждой входящего, обособленного или ЧЗУ
                     for SubParcel in SubParcels.iter('SubParcel'):
                         chGuid = str(uuid.uuid4())
 
@@ -756,24 +756,26 @@ class ImportXML(QDialog, Ui_ImportXMLDialog):
                         feat.initAttributes(len(self.layerUc.dataProvider().attributeIndexes()))
                         if (geomNew == None) or not geomNew.isGeosValid():
                             feat.setGeometry(QgsGeometry())
+                            idch = 0
                         else:
                             feat.setGeometry(geomNew)
                             
-                        feat.setAttribute(self.layerUc.fieldNameIndex('kn'), kn)
-                        feat.setAttribute(self.layerUc.fieldNameIndex('id_kategoriya'), kategoriya)
-                        feat.setAttribute(self.layerUc.fieldNameIndex('id_vid_uchastka'), vid_uchastka)
-                        feat.setAttribute(self.layerUc.fieldNameIndex('nomer_kontura'), nomer_kontura)
-                        feat.setAttribute(self.layerUc.fieldNameIndex('oboznachenie_na_plane'), oboznachenie_na_plane)
-                        feat.setAttribute(self.layerUc.fieldNameIndex('id_tip_chasti'), id_tip_chasti)
-                        feat.setAttribute(self.layerUc.fieldNameIndex('vid_obremeneniya'), vid_obremeneniya)
-                        feat.setAttribute(self.layerUc.fieldNameIndex('id_obremeneniya'), id_obremeneniya)
-                        feat.setAttribute(self.layerUc.fieldNameIndex('guid'), chGuid)
-                        feat.setAttribute(self.layerUc.fieldNameIndex('id_msk'), self.idMSK)
-                        feat.setAttribute(self.layerUc.fieldNameIndex('area_in_gkn'), ploshad)
-                            
-                        self.layerUc.dataProvider().addFeatures([feat])
+                            feat.setAttribute(self.layerUc.fieldNameIndex('kn'), kn)
+                            feat.setAttribute(self.layerUc.fieldNameIndex('id_kategoriya'), kategoriya)
+                            feat.setAttribute(self.layerUc.fieldNameIndex('id_vid_uchastka'), vid_uchastka)
+                            feat.setAttribute(self.layerUc.fieldNameIndex('nomer_kontura'), nomer_kontura)
+                            feat.setAttribute(self.layerUc.fieldNameIndex('oboznachenie_na_plane'), oboznachenie_na_plane)
+                            feat.setAttribute(self.layerUc.fieldNameIndex('id_tip_chasti'), id_tip_chasti)
+                            feat.setAttribute(self.layerUc.fieldNameIndex('vid_obremeneniya'), vid_obremeneniya)
+                            feat.setAttribute(self.layerUc.fieldNameIndex('id_obremeneniya'), id_obremeneniya)
+                            feat.setAttribute(self.layerUc.fieldNameIndex('guid'), chGuid)
+                            feat.setAttribute(self.layerUc.fieldNameIndex('id_msk'), self.idMSK)
+                            feat.setAttribute(self.layerUc.fieldNameIndex('area_in_gkn'), ploshad)
+                                
+                            self.layerUc.dataProvider().addFeatures([feat])
 
-                        idch = valueByFieldValue('ln_uchastok', 'id', 'i', 'guid', chGuid, 's')
+                            idch = valueByFieldValue('ln_uchastok', 'id', 'i', 'guid', chGuid, 's')
+
                         if idch > 0:
                             feat = QgsFeature()
                             feat.initAttributes(len(self.layerPP.dataProvider().attributeIndexes()))
@@ -804,7 +806,7 @@ class ImportXML(QDialog, Ui_ImportXMLDialog):
                                 allFeatIds.append(idch)
 
                         else:
-                            self.highLightLine(u'Ошибка объекта с кадастровым номером ' + kn)                 
+                            self.listWidgetEvents.addItem(u'Не импортирован объект с кадастровым номером ' + kn)                 
 
             # Одноконтурный ЗУ без частей, возможно с кольцами
             else:                                           

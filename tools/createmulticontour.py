@@ -26,17 +26,24 @@ class createMultiContour(QDialog,  Ui_createMultiContour):
         fillComboBox(self.comboBoxKvr, 'ln_kvartal', 'id', 'kn', 0)
         self.comboBoxKvr.setCurrentIndex(0)
         self.selectionCount = 0
-        self.idKv = 0
-        self.idParent = 0
-        self.guid = str(uuid.uuid4())
+        self.idKv           = 0
+        self.idParent       = 0
+        self.guid           = str(uuid.uuid4())
+        self.progress       = QProgressBar()
 
     def doCreate(self):
-        self.progressBar.setValue(0)
+        progressMessageBar = self.iface.messageBar().createMessage(u'Создание МЗУ...')
+        self.progress.setMaximum(self.selectionCount * 2)
+        self.progress.setAlignment(Qt.AlignLeft|Qt.AlignVCenter)
+        progressMessageBar.layout().addWidget(self.progress)
+        self.iface.messageBar().pushWidget(progressMessageBar, 
+                                           self.iface.messageBar().INFO)
 
         self.idKv = self.comboBoxKvr.itemData(self.comboBoxKvr.currentIndex())
         if self.idKv < 1:
             QMessageBox.warning(self.iface.mainWindow(), u'Ошибка', 
                                                          u'Не выбран кадастровый квартал.')
+            self.iface.messageBar().clearWidgets()
             return
 
         dicAttributesSelection = attributesFromSelection('ln_uchastok', ['id'])
@@ -49,6 +56,7 @@ class createMultiContour(QDialog,  Ui_createMultiContour):
         if len(listParent) > 0:
             QMessageBox.warning(self.iface.mainWindow(), u'Ошибка', 
                                                          u'Один или несколько из выбранных ЗУ уже входят в состав другого ЗУ')
+            self.iface.messageBar().clearWidgets()
             return
         
         listValues = []
@@ -79,6 +87,8 @@ class createMultiContour(QDialog,  Ui_createMultiContour):
 
             if insertFeatures('pb_parcel_parcel', ['id_parent', 'id_children'], 
                               listAllValues):
+                n += 1
+                self.progress.setValue(n)
 
                 for every in dicAttributesSelection:
                     idOne = int(every['id'])
@@ -92,12 +102,13 @@ class createMultiContour(QDialog,  Ui_createMultiContour):
                                      listValues):
                         i += 1
 
-                    self.progressBar.setValue(int(n / self.selectionCount * 100))
                     n += 1
+                    self.progress.setValue(n)
 
         else:
             QMessageBox.warning(self.iface.mainWindow(), u'Ошибка', 
                                                          u'Ошибка определения идентификатора многоконтурного участка')
+        self.iface.messageBar().clearWidgets()
         self.close()
             
     def doCancel(self):

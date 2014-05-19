@@ -519,7 +519,6 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
                 idLocation = attributesParcelAddress[0]['id_adres']
                 self.createLocation(xmlNewParcel, idLocation)
 
-
                 # Категория земель
                 xmlCategory = SubElement(xmlNewParcel, u'Category', {'Category':everyParcel['id_kategoriya']})
                 
@@ -1571,6 +1570,27 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
         xmlRegion = SubElement(xmlLocation, u'Region')
         xmlRegion.text = Region
 
+        self.createElementLocation(attributesLocation['id_rayon'],
+                                   'pb_rayon', xmlLocation, 'District')
+        self.createElementLocation(attributesLocation['id_mo'], 
+                                   'pb_mo', xmlLocation, 'City')
+        self.createElementLocation(attributesLocation['id_gorod_rayon'], 
+                                   'pb_gorodskoy_rayon', xmlLocation, 'Urban_District')
+        self.createElementLocation(attributesLocation['id_selsovet'], 
+                                   'pb_selsovet', xmlLocation, 'Soviet_Village')
+        self.createElementLocation(attributesLocation['id_naselen_punkt'], 
+                                   'pb_naselen_punkt', xmlLocation, 'Locality')
+        self.createElementLocation(attributesLocation['id_ulica'], 
+                                   'pb_ulica', xmlLocation, 'Street')
+        self.createElementLocation(attributesLocation['id_dom'], 
+                                   'pb_dom', xmlLocation, 'Level1')
+        self.createElementLocation(attributesLocation['id_korpus'], 
+                                   'pb_korpus', xmlLocation, 'Level2')
+        self.createElementLocation(attributesLocation['id_stroenie'], 
+                                   'pb_stroenie', xmlLocation, 'Level3')
+        self.createElementLocation(attributesLocation['id_kvartira'], 
+                                   'pb_kvartira', xmlLocation, 'Apartment')
+        
         Other = attributesLocation['inoe']
         if Other > ' ':
             xmlOther = SubElement(xmlLocation, u'Other')
@@ -1587,6 +1607,23 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
             # self.createDocumentByListGuid(xmlDocument, [guidDocument])
             self.createDocumentByListGuid(xmlLocation, [guidDocument], u'Document')
 
+    '''
+    Формирование элемента структурированого адреса
+    '''
+    def createElementLocation(self, idElement, publicTable,  
+                              xmlParentSection, xmlElementName):
+        if idElement > 0:
+            atsPublic = attributesByKeys(publicTable, 'id', [idElement], 
+                                         [gfsa[publicTable], 'naimenovanie'])
+            if len(atsPublic) == 1:
+                ats = atsPublic[0]
+                Type = unicode(ats[gfsa[publicTable]])
+                Name = unicode(ats['naimenovanie'])
+
+                if Type > ' ' and Name > ' ':
+                    xmlElement = SubElement(xmlParentSection, xmlElementName, 
+                                            {'Name':Name, 'Type':Type})
+    
     '''
     Формирование раздела «Система координат»
     '''
