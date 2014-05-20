@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>300</width>
-    <height>137</height>
+    <height>100</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -20,7 +20,7 @@
    <string>Объединение ЗУ</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="..\resources.qrc">
+   <iconset resource="../resources.qrc">
     <normaloff>:/plugins/openland/icons/unionparcels.png</normaloff>:/plugins/openland/icons/unionparcels.png</iconset>
   </property>
   <property name="sizeGripEnabled">
@@ -29,10 +29,7 @@
   <property name="modal">
    <bool>true</bool>
   </property>
-  <layout class="QFormLayout" name="formLayout">
-   <property name="fieldGrowthPolicy">
-    <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
-   </property>
+  <layout class="QGridLayout" name="gridLayout">
    <item row="0" column="0">
     <widget class="QLabel" name="label">
      <property name="text">
@@ -48,34 +45,17 @@
     </widget>
    </item>
    <item row="1" column="0">
-    <widget class="QLabel" name="label_4">
-     <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;и выбрать основным ЗУ&lt;br /&gt;при объединении &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
-    </widget>
-   </item>
-   <item row="1" column="1">
-    <widget class="QComboBox" name="comboBoxZU">
-     <property name="sizePolicy">
-      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-       <horstretch>0</horstretch>
-       <verstretch>0</verstretch>
-      </sizepolicy>
-     </property>
-    </widget>
-   </item>
-   <item row="2" column="0">
     <widget class="QPushButton" name="pushButtonOk">
      <property name="text">
       <string>Объединить выбранные</string>
      </property>
      <property name="icon">
-      <iconset resource="..\resources.qrc">
+      <iconset resource="../resources.qrc">
        <normaloff>:/plugins/openland/icons/unionparcels.png</normaloff>:/plugins/openland/icons/unionparcels.png</iconset>
      </property>
     </widget>
    </item>
-   <item row="2" column="1">
+   <item row="1" column="1">
     <widget class="QPushButton" name="pushButtonCancel">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
@@ -87,22 +67,15 @@
       <string>Закрыть</string>
      </property>
      <property name="icon">
-      <iconset resource="..\resources.qrc">
+      <iconset resource="../resources.qrc">
        <normaloff>:/plugins/openland/icons/close.png</normaloff>:/plugins/openland/icons/close.png</iconset>
-     </property>
-    </widget>
-   </item>
-   <item row="3" column="0" colspan="2">
-    <widget class="QProgressBar" name="progressBar">
-     <property name="value">
-      <number>0</number>
      </property>
     </widget>
    </item>
   </layout>
  </widget>
  <resources>
-  <include location="..\resources.qrc"/>
+  <include location="../resources.qrc"/>
  </resources>
  <connections/>
 </ui>

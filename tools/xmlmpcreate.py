@@ -1618,11 +1618,16 @@ class XmlMpCreate(QDialog, Ui_XmlMpCreate):
             if len(atsPublic) == 1:
                 ats = atsPublic[0]
                 Type = unicode(ats[gfsa[publicTable]])
-                Name = unicode(ats['naimenovanie'])
-
-                if Type > ' ' and Name > ' ':
-                    xmlElement = SubElement(xmlParentSection, xmlElementName, 
-                                            {'Name':Name, 'Type':Type})
+                if publicTable in ('pb_dom', 'pb_korpus', 'pb_stroenie', 'pb_kvartira'):
+                    Value = unicode(ats['naimenovanie'])
+                    if Type > ' ' and Value > ' ':
+                        xmlElement = SubElement(xmlParentSection, xmlElementName, 
+                                                {'Value':Value, 'Type':Type})
+                else: 
+                    Name = unicode(ats['naimenovanie'])
+                    if Type > ' ' and Name > ' ':
+                        xmlElement = SubElement(xmlParentSection, xmlElementName, 
+                                                {'Name':Name, 'Type':Type})
     
     '''
     Формирование раздела «Система координат»

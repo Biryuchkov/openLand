@@ -9,8 +9,8 @@ import os, sys, shutil, platform, codecs, webbrowser
 # gv - global variable
 gv = {}
 
-gv['versionPlugin']   = '0.2.12'    # номер версии последнего релиза модуля
-gv['datePlugin']      = '2014-05-19'# дата версии последнего релиза модуля
+gv['versionPlugin']   = '0.2.13'    # номер версии последнего релиза модуля
+gv['datePlugin']      = '2014-05-20'# дата версии последнего релиза модуля
 gv['versionDatabase'] = '19'        # номер версии последнего релиза БД
 
 gv['casualParcelCode']   = '01'     # код типа ЗУ по классификатору для землепользования                            class.vid_zemelnogo_uchastka
