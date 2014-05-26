@@ -9,8 +9,8 @@ import os, sys, shutil, platform, codecs, webbrowser
 # gv - global variable
 gv = {}
 
-gv['versionPlugin']   = '0.2.13'    # номер версии последнего релиза модуля
-gv['datePlugin']      = '2014-05-20'# дата версии последнего релиза модуля
+gv['versionPlugin']   = '0.2.14'    # номер версии последнего релиза модуля
+gv['datePlugin']      = '2014-05-26'# дата версии последнего релиза модуля
 gv['versionDatabase'] = '19'        # номер версии последнего релиза БД
 
 gv['casualParcelCode']   = '01'     # код типа ЗУ по классификатору для землепользования                            class.vid_zemelnogo_uchastka
@@ -265,6 +265,74 @@ attributesNamesOwnerNeighbourDoc    = ['guid', 'guid_owner_neighbour', 'guid_doc
 
 okay    = QMessageBox.Ok
 cancel  = QMessageBox.Cancel
+
+################################################################################
+def roundPointsCoordinates(geom, decimalPlaces=2):
+    '''
+    Округление координат точек полигона
+    geom:           QgsGeometry()
+    decimalPlaces:  Integer
+    '''
+    if geom.isGeosValid():
+        isFirstPart = True
+        isFirstRing = True
+        prevX       = 0.0
+        prevX       = 0.0
+        
+        if geom.isMultipart():
+            polygons = geom.asMultiPolygon()
+            for polygon in polygons:
+                isFirstRing = True
+                for ring in polygon:
+                    points = []
+                    for i in ring:
+                        newX = round(i.x(), decimalPlaces)
+                        newY = round(i.y(), decimalPlaces)
+                        point = QgsGeometry.fromPoint(QgsPoint(newX, newY))
+                            
+                        if newX != prevX or newY != prevY:
+                            points.append(point.asPoint())
+                            prevX = newX
+                            prevY = newY
+
+                    if isFirstRing:
+                        geomPart = QgsGeometry().fromPolygon([points])
+                        isFirstRing = False
+
+                        if isFirstPart:
+                            geomNew     = geomPart
+                            isFirstPart = False
+                        else:
+                            geomNew.addPart(points)
+                    else:
+                        geomNew.addRing(points)
+        else:
+            rings = geom.asPolygon()
+            for ring in rings:
+                points = []
+                for i in ring:
+                    newX = round(i.x(), decimalPlaces)
+                    newY = round(i.y(), decimalPlaces)
+                    point = QgsGeometry.fromPoint(QgsPoint(newX, newY))
+
+                    if newX != prevX or newY != prevY:
+                        points.append(point.asPoint())
+                        prevX = newX
+                        prevY = newY
+
+                if isFirstRing:
+                    geomNew     = QgsGeometry().fromPolygon([points])
+                    isFirstRing = False
+                else:
+                    geomNew.addRing(points)
+        
+        if geomNew.isGeosValid():
+            return geomNew
+        else:
+            return None
+
+    else:
+        return None
 
 ################################################################################
 def numberSpatialElements(selectedPolygones):
