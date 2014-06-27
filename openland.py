@@ -90,16 +90,16 @@ class openLand:
         self.importMenu.addActions([self.openland_importxml, self.openland_importgeometry, self.openland_importobject])
         self.menu.addMenu(self.importMenu)
 
-        geometryMenu = QMenu()
-        geometryMenu.setTitle(u"Геометрия")
+        self.geometryMenu = QMenu()
+        self.geometryMenu.setTitle(u"Геометрия")
         self.openland_roundcoords = QAction(u"Округлить координаты", self.iface.mainWindow())
         self.openland_roundcoords.setEnabled(False)
         self.openland_roundcoords.setIcon(QIcon(":/plugins/openland/icons/coord_round.png"))
         self.openland_scale2area = QAction(u"Масштабировать полигон", self.iface.mainWindow())
         self.openland_scale2area.setEnabled(False)
         self.openland_scale2area.setIcon(QIcon(":/plugins/openland/icons/scalearea.png"))
-        geometryMenu.addActions([self.openland_roundcoords, self.openland_scale2area])
-        self.menu.addMenu(geometryMenu)
+        self.geometryMenu.addActions([self.openland_roundcoords, self.openland_scale2area])
+        self.menu.addMenu(self.geometryMenu)
 
         self.functionMenu = QMenu()
         self.functionMenu.setTitle(u"Функции")
@@ -811,8 +811,9 @@ class openLand:
             self.openland_splitparcel.setEnabled(False)
 
     def unload(self):
-#        autoFileName = os.path.abspath(os.path.dirname(__file__)) + '/projects/autosave.qgs'
-#        self.iface.actionSaveProjectAs()
+        for every in self.menu.actions():
+            del every
+
         del self.dlgFillAreaUpdate
         del self.dlgRoundCoords
         del self.dlgXml2Print
@@ -824,11 +825,6 @@ class openLand:
 
         del self.toolBar
         del self.menu
-
-#        QObject.connect(layer,SIGNAL("selectionChanged()"),self.toggle)
-#        QObject.disconnect(layer,SIGNAL("editingStarted()"),self.toggle)
-#        QObject.connect(layer,SIGNAL("editingStarted()"),self.toggle)
-#        QObject.disconnect(layer,SIGNAL("editingStopped()"),self.toggle)        
 
 #        QMessageBox.information(self.iface.mainWindow(), 'test', str())
    
