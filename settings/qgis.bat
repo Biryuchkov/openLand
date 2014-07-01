@@ -8,5 +8,5 @@ set GDAL_FILENAME_IS_UTF8=YES
 rem Set VSI cache to be used as buffer, see #6448
 set VSI_CACHE=TRUE
 set VSI_CACHE_SIZE=1000000
-start "QGIS" /B "%OSGEO4W_ROOT%"\bin\qgis-bin.exe --configpath C:\QGIS\Valmiera
+start "QGIS" /B "%OSGEO4W_ROOT%"\bin\qgis-bin.exe --configpath C:\QGIS\Chugiak
 
