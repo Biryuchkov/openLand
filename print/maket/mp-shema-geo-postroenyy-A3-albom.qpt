@@ -1,5 +1,5 @@
 <Composer title="Макет 2" visible="1">
- <Composition snapGridTolerance="2" gridVisible="0" printResolution="300" paperWidth="210" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="3" snapGridOffsetY="0" alignmentSnap="1" snapping="1" numPages="1" paperHeight="297" alignmentSnapTolerance="2" smartGuides="1" printAsRaster="0" generateWorldFile="0">
+ <Composition snapGridTolerance="2" gridVisible="0" printResolution="300" paperWidth="420" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="3" snapGridOffsetY="0" alignmentSnap="1" snapping="1" numPages="1" paperHeight="297" alignmentSnapTolerance="2" smartGuides="1" printAsRaster="0" generateWorldFile="0">
   <symbol alpha="1" type="fill" name="">
    <layer pass="0" class="SimpleFill" locked="0">
     <prop k="border_width_map_unit_scale" v="0,0"/>
@@ -15,13 +15,66 @@
     <prop k="width_border" v="0.26"/>
    </layer>
   </symbol>
-  <ComposerLegend symbolWidth="7" title="Условные обозначения" boxSpace="1" splitLayer="0" equalColumnWidth="0" titleAlignment="1" symbolHeight="1" wmsLegendHeight="25" wrapChar="/" fontColor="#000000" columnSpace="2" wmsLegendWidth="50" columnCount="1">
+  <ComposerMap mapRotation="0" keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Cache" drawCanvasItems="true">
+   <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewCentered="false" overviewInverted="false">
+    <symbol alpha="0.3" type="fill" name="">
+     <layer pass="0" class="SimpleFill" locked="0">
+      <prop k="border_width_map_unit_scale" v="0,0"/>
+      <prop k="border_width_unit" v="MM"/>
+      <prop k="color" v="255,0,0,255"/>
+      <prop k="color_border" v="0,0,0,255"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="offset" v="0,0"/>
+      <prop k="offset_map_unit_scale" v="0,0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="style" v="solid"/>
+      <prop k="style_border" v="no"/>
+      <prop k="width_border" v="0.26"/>
+     </layer>
+    </symbol>
+   </overviewFrame>
+   <Extent ymin="366792.00402713980292901" xmin="3330376.33375385357066989" ymax="367913.0731386307743378" xmax="3332336.33375585312023759"/>
+   <LayerSet/>
+   <Grid gridStyle="0" crossLength="3" gridFramePenThickness="0.5" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+    <framePenColor alpha="255" red="0" blue="0" green="0"/>
+    <frameFillColor1 alpha="255" red="255" blue="255" green="255"/>
+    <frameFillColor2 alpha="255" red="0" blue="0" green="0"/>
+    <symbol alpha="1" type="line" name="">
+     <layer pass="0" class="SimpleLine" locked="0">
+      <prop k="capstyle" v="square"/>
+      <prop k="color" v="0,0,0,255"/>
+      <prop k="customdash" v="5;2"/>
+      <prop k="customdash_map_unit_scale" v="0,0"/>
+      <prop k="customdash_unit" v="MM"/>
+      <prop k="draw_inside_polygon" v="0"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="offset" v="0"/>
+      <prop k="offset_map_unit_scale" v="0,0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="penstyle" v="solid"/>
+      <prop k="use_custom_dash" v="0"/>
+      <prop k="width" v="0"/>
+      <prop k="width_map_unit_scale" v="0,0"/>
+      <prop k="width_unit" v="MM"/>
+     </layer>
+    </symbol>
+    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0">
+     <fontColor alpha="255" red="0" blue="0" green="0"/>
+    </Annotation>
+   </Grid>
+   <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+   <ComposerItem pagey="15.15" page="1" id="" lastValidViewScaleFactor="2.63265" positionMode="0" positionLock="false" x="21" y="15.15" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="392.85" outlineWidth="0.3" uuid="{b5985aea-c802-4802-8939-dfc47a46ac26}" height="224.7" itemRotation="0" frame="true" pagex="21">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerMap>
+  <ComposerLegend symbolWidth="7" title="Условные обозначения" boxSpace="1" splitLayer="0" equalColumnWidth="0" map="0" titleAlignment="1" symbolHeight="1" wmsLegendHeight="25" wrapChar="/" fontColor="#000000" columnSpace="2" wmsLegendWidth="50" columnCount="1">
    <styles>
     <style name="title" font="Times New Roman,12,-1,5,50,0,0,0,0,0"/>
     <style name="group" font="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0"/>
-    <style name="subgroup" font="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
-    <style marginTop="2" name="symbol" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-    <style marginTop="2" marginLeft="2" name="symbolLabel" font="Times New Roman,8,-1,5,50,0,0,0,0,0"/>
+    <style name="subgroup" font="MS Shell Dlg 2,1,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="1.5" name="symbol" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="1.5" marginLeft="2" name="symbolLabel" font="Times New Roman,8,-1,5,50,0,0,0,0,0"/>
    </styles>
    <Model autoUpdate="0">
     <LayerItem layerId="dpoints20130130122450033" userText=" " style="subgroup" text=" " showFeatureCount="0">
@@ -341,39 +394,23 @@
      </VectorClassificationItemNg>
     </LayerItem>
    </Model>
-   <ComposerItem pagey="33" page="1" id="" lastValidViewScaleFactor="2.80435" positionMode="0" positionLock="false" x="24" y="33" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="173.9" outlineWidth="0.3" uuid="{5bb24ca0-d485-4378-9f91-86655c019d30}" height="59.3" itemRotation="0" frame="false" pagex="24">
+   <ComposerItem pagey="240" page="1" id="" lastValidViewScaleFactor="2.80435" positionMode="0" positionLock="false" x="24" y="240" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="183" outlineWidth="0.3" uuid="{f4bc43ae-0193-4ad9-8b6f-846d23d2e355}" height="48" itemRotation="0" frame="false" pagex="24">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>
   </ComposerLegend>
-  <ComposerLabel valign="32" labelText=":ЗУ1 - обозначение  земельных участков, образуемых путем перераспределения, а также из земель, находящихся в государственной или муниципальной собственности &#xa;:123:ЗУ1 - обозначение  земельных участков, образуемых путем раздела и выдела&#xa;:19 - обозначение исходных, измененных и уточняемых земельных участков&#xa;:123/5 - обозначение существующих частей земельных участков&#xa;:123/чзу1 - обозначение образуемых частей измененных и уточняемых  земельных участков, а также образуемых частей земельных участков при выполнении кадастровых работ исключительно в целях образования частей земельных участков&#xa;:123:ЗУ1/чзу1, :ЗУ1/чзу1 - обозначение образуемых частей образуемых земельных участков&#xa;" htmlState="0" halign="1" margin="1">
-   <LabelFont description="Times New Roman,8,-1,5,50,0,0,0,0,0"/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="94" page="1" id="" lastValidViewScaleFactor="5.6087" positionMode="0" positionLock="false" x="24" y="94" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="174" outlineWidth="0.3" uuid="{98cdf6a7-5ebc-4e92-bc06-082e99d9d266}" height="33" itemRotation="0" frame="false" pagex="24">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-   </ComposerItem>
-  </ComposerLabel>
   <ComposerLabel valign="32" labelText="Схема геодезических построений" htmlState="0" halign="4" margin="1">
    <LabelFont description="Times New Roman,12,-1,5,75,0,0,0,0,0"/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="21" page="1" id="" lastValidViewScaleFactor="6.15436" positionMode="0" positionLock="false" x="21" y="21" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="183" outlineWidth="0.15" uuid="{7e46a009-c3f6-4b6e-820d-87ee359fec7c}" height="9" itemRotation="0" frame="true" pagex="21">
+   <ComposerItem pagey="6.075" page="1" id="" lastValidViewScaleFactor="2.58601" positionMode="0" positionLock="false" x="21.075" y="6.075" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="392.85" outlineWidth="0.15" uuid="{dc564b1d-9bb5-4a43-85e9-780a3d1185d4}" height="8.85" itemRotation="0" frame="true" pagex="21.075">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerLabel valign="32" labelText="МЕЖЕВОЙ ПЛАН" htmlState="0" halign="4" margin="0.5">
-   <LabelFont description="Times New Roman,12,-1,5,75,0,0,0,0,0"/>
+  <ComposerLabel valign="32" labelText=":ЗУ1 - обозначение  земельных участков, образуемых путем перераспределения, а также из земель, находящихся &#xa;в государственной или муниципальной собственности &#xa;:123:ЗУ1 - обозначение  земельных участков, образуемых путем раздела и выдела&#xa;:19 - обозначение исходных, измененных и уточняемых земельных участков&#xa;" htmlState="0" halign="1" margin="1">
+   <LabelFont description="Times New Roman,8,-1,5,50,0,0,0,0,0"/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="12" page="1" id="" lastValidViewScaleFactor="6.15436" positionMode="0" positionLock="false" x="21" y="12" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="183" outlineWidth="0.3" uuid="{10f3ca6e-48c5-4d23-b918-53e74b52d0e2}" height="18" itemRotation="0" frame="true" pagex="21">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="32" labelText="Лист № " htmlState="0" halign="1" margin="1">
-   <LabelFont description="Times New Roman,10,-1,5,50,0,0,0,0,0"/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="6" page="1" id="" lastValidViewScaleFactor="3.07718" positionMode="0" positionLock="false" x="180" y="6" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="24" outlineWidth="0.3" uuid="{fa50a40e-5c63-4767-a259-7e8c3b38f004}" height="6" itemRotation="0" frame="true" pagex="180">
+   <ComposerItem pagey="258" page="1" id="" lastValidViewScaleFactor="5.6087" positionMode="0" positionLock="false" x="213" y="258" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="183" outlineWidth="0.3" uuid="{c0921c8f-ac6d-4a6a-ac4b-cd6821414d84}" height="18" itemRotation="0" frame="false" pagex="213">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>
@@ -394,7 +431,7 @@
      <prop k="width_border" v="0"/>
     </layer>
    </symbol>
-   <ComposerItem pagey="30" page="1" id="" lastValidViewScaleFactor="5.6087" positionMode="0" positionLock="false" x="21" y="30" zValue="1" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="183.069" outlineWidth="0" uuid="{18b4a01c-7654-43b2-b2ae-143eb73ece5b}" height="255" itemRotation="0" frame="false" pagex="21">
+   <ComposerItem pagey="30" page="1" id="" lastValidViewScaleFactor="5.6087" positionMode="0" positionLock="false" x="21" y="30" zValue="1" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="183" outlineWidth="0" uuid="{2b275075-f49e-4936-a249-f3f514b2f725}" height="255" itemRotation="0" frame="false" pagex="21">
     <FrameColor alpha="0" red="255" blue="255" green="255"/>
     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
    </ComposerItem>
