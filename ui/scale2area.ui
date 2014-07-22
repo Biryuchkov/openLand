@@ -7,14 +7,14 @@
     <x>0</x>
     <y>0</y>
     <width>402</width>
-    <height>170</height>
+    <height>164</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Параметры масштабирования</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="..\resources.qrc">
+   <iconset resource="../resources.qrc">
     <normaloff>:/plugins/openland/icons/scalearea.png</normaloff>:/plugins/openland/icons/scalearea.png</iconset>
   </property>
   <property name="sizeGripEnabled">
@@ -96,7 +96,7 @@
       <string>Закрыть</string>
      </property>
      <property name="icon">
-      <iconset resource="..\resources.qrc">
+      <iconset resource="../resources.qrc">
        <normaloff>:/plugins/openland/icons/close.png</normaloff>:/plugins/openland/icons/close.png</iconset>
      </property>
     </widget>
@@ -107,7 +107,7 @@
       <string>Масштабировать полигон</string>
      </property>
      <property name="icon">
-      <iconset resource="..\resources.qrc">
+      <iconset resource="../resources.qrc">
        <normaloff>:/plugins/openland/icons/symbol_check.png</normaloff>:/plugins/openland/icons/symbol_check.png</iconset>
      </property>
     </widget>
@@ -123,7 +123,7 @@
   <tabstop>pushButtonClose</tabstop>
  </tabstops>
  <resources>
-  <include location="..\resources.qrc"/>
+  <include location="../resources.qrc"/>
  </resources>
  <connections/>
 </ui>

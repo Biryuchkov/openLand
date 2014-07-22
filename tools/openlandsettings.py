@@ -137,7 +137,8 @@ class OpenLandSettings(QDialog, Ui_OpenLandSettings):
                 layer = get_vector_layer_by_name(gln['pb_geo_osnova'])
                 layer.setSubsetString('\"id_sistema_koordinat\" = \'' + self.idMSK + '\'')
 
-                layers = ['ln_rayon', 'ln_kvartal', 'ln_uchastok', 'ln_granica', 'ln_tochka']
+                layers = ['ln_rayon', 'ln_kvartal', 'ln_uchastok', 'ln_granica', 
+                          'ln_tochka', 'ds_tochka_uni']
                 for i in layers:
                     layer = get_vector_layer_by_name(gln[i])
                     layer.removeSelection()

@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.0.1-Dufour" minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.2.0-Valmiera" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <renderer-v2 symbollevels="0" type="singleSymbol">
     <symbols>
       <symbol alpha="1" type="fill" name="0">
@@ -15,8 +15,8 @@
         </layer>
       </symbol>
     </symbols>
-    <rotation field=""/>
-    <sizescale field="" scalemethod="area"/>
+    <rotation/>
+    <sizescale scalemethod="area"/>
   </renderer-v2>
   <customproperties>
     <property key="labeling" value="pal"/>
@@ -36,8 +36,8 @@
     <property key="labeling/bufferTransp" value="0"/>
     <property key="labeling/centroidWhole" value="false"/>
     <property key="labeling/dataDefined/Italic" value="1~~0~~~~pre"/>
-    <property key="labeling/dataDefined/PositionX" value="1~~0~~~~podpis_x"/>
-    <property key="labeling/dataDefined/PositionY" value="1~~0~~~~podpis_y"/>
+    <property key="labeling/dataDefined/PositionX" value="1~~1~~tostring(&quot;podpis_x&quot;)~~podpis_x"/>
+    <property key="labeling/dataDefined/PositionY" value="1~~1~~tostring(&quot;podpis_y&quot;)~~podpis_y"/>
     <property key="labeling/dataDefined/Underline" value="1~~0~~~~pre"/>
     <property key="labeling/decimals" value="0"/>
     <property key="labeling/displayAll" value="false"/>
@@ -72,7 +72,7 @@
     <property key="labeling/minFeatureSize" value="0"/>
     <property key="labeling/multilineAlign" value="0"/>
     <property key="labeling/multilineHeight" value="1"/>
-    <property key="labeling/namedStyle" value="Normal"/>
+    <property key="labeling/namedStyle" value="Обычный"/>
     <property key="labeling/obstacle" value="true"/>
     <property key="labeling/placeDirectionSymbol" value="0"/>
     <property key="labeling/placement" value="0"/>
@@ -206,6 +206,7 @@
   </edittypes>
   <editform>.</editform>
   <editforminit></editforminit>
+  <featformsuppress>0</featformsuppress>
   <annotationform>.</annotationform>
   <editorlayout>generatedlayout</editorlayout>
   <aliases>

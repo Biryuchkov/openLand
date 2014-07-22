@@ -1,0 +1,440 @@
+<Composer title="Макет 2" visible="1">
+ <Composition snapGridTolerance="2" gridVisible="0" printResolution="300" paperWidth="210" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="3" snapGridOffsetY="0" alignmentSnap="1" snapping="1" numPages="1" paperHeight="297" alignmentSnapTolerance="2" smartGuides="1" printAsRaster="0" generateWorldFile="0">
+  <symbol alpha="1" type="fill" name="">
+   <layer pass="0" class="SimpleFill" locked="0">
+    <prop k="border_width_map_unit_scale" v="0,0"/>
+    <prop k="border_width_unit" v="MM"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="color_border" v="0,0,0,255"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+    <prop k="style_border" v="no"/>
+    <prop k="width_border" v="0.26"/>
+   </layer>
+  </symbol>
+  <ComposerMap mapRotation="0" keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Cache" drawCanvasItems="true">
+   <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewCentered="false" overviewInverted="false">
+    <symbol alpha="0.3" type="fill" name="">
+     <layer pass="0" class="SimpleFill" locked="0">
+      <prop k="border_width_map_unit_scale" v="0,0"/>
+      <prop k="border_width_unit" v="MM"/>
+      <prop k="color" v="255,0,0,255"/>
+      <prop k="color_border" v="0,0,0,255"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="offset" v="0,0"/>
+      <prop k="offset_map_unit_scale" v="0,0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="style" v="solid"/>
+      <prop k="style_border" v="no"/>
+      <prop k="width_border" v="0.26"/>
+     </layer>
+    </symbol>
+   </overviewFrame>
+   <Extent ymin="366853.15743483492406085" xmin="3330901.33375438908115029" ymax="367847.69295497541315854" xmax="3331811.33375531760975718"/>
+   <LayerSet/>
+   <Grid gridStyle="0" crossLength="3" gridFramePenThickness="0.5" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+    <framePenColor alpha="255" red="0" blue="0" green="0"/>
+    <frameFillColor1 alpha="255" red="255" blue="255" green="255"/>
+    <frameFillColor2 alpha="255" red="0" blue="0" green="0"/>
+    <symbol alpha="1" type="line" name="">
+     <layer pass="0" class="SimpleLine" locked="0">
+      <prop k="capstyle" v="square"/>
+      <prop k="color" v="0,0,0,255"/>
+      <prop k="customdash" v="5;2"/>
+      <prop k="customdash_map_unit_scale" v="0,0"/>
+      <prop k="customdash_unit" v="MM"/>
+      <prop k="draw_inside_polygon" v="0"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="offset" v="0"/>
+      <prop k="offset_map_unit_scale" v="0,0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="penstyle" v="solid"/>
+      <prop k="use_custom_dash" v="0"/>
+      <prop k="width" v="0"/>
+      <prop k="width_map_unit_scale" v="0,0"/>
+      <prop k="width_unit" v="MM"/>
+     </layer>
+    </symbol>
+    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0">
+     <fontColor alpha="255" red="0" blue="0" green="0"/>
+    </Annotation>
+   </Grid>
+   <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+   <ComposerItem pagey="15.15" page="1" id="" lastValidViewScaleFactor="2.80435" positionMode="0" positionLock="false" x="21" y="15.15" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="183" outlineWidth="0.3" uuid="{b5985aea-c802-4802-8939-dfc47a46ac26}" height="200" itemRotation="0" frame="true" pagex="21">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerMap>
+  <ComposerLegend symbolWidth="7" title="Условные обозначения" boxSpace="1" splitLayer="0" equalColumnWidth="0" map="0" titleAlignment="1" symbolHeight="1" wmsLegendHeight="25" wrapChar="/" fontColor="#000000" columnSpace="2" wmsLegendWidth="50" columnCount="1">
+   <styles>
+    <style name="title" font="Times New Roman,12,-1,5,50,0,0,0,0,0"/>
+    <style name="group" font="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0"/>
+    <style name="subgroup" font="MS Shell Dlg 2,1,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="1.5" name="symbol" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="1.5" marginLeft="2" name="symbolLabel" font="Times New Roman,8,-1,5,50,0,0,0,0,0"/>
+   </styles>
+   <Model autoUpdate="0">
+    <LayerItem layerId="dpoints20130130122450033" userText=" " style="subgroup" text=" " showFeatureCount="0">
+     <VectorClassificationItemNg userText="" text="пункт государственной геодезической сети">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SimpleMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="color" v="255,255,255,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="horizontal_anchor_point" v="1"/>
+         <prop k="name" v="triangle"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline_style" v="solid"/>
+         <prop k="outline_width" v="0"/>
+         <prop k="outline_width_map_unit_scale" v="0,0"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="scale_method" v="area"/>
+         <prop k="size" v="3"/>
+         <prop k="size_map_unit_scale" v="0,0"/>
+         <prop k="size_unit" v="MM"/>
+         <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+        <layer pass="0" class="SimpleMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="horizontal_anchor_point" v="1"/>
+         <prop k="name" v="circle"/>
+         <prop k="offset" v="0,0.5"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline_style" v="solid"/>
+         <prop k="outline_width" v="0"/>
+         <prop k="outline_width_map_unit_scale" v="0,0"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="scale_method" v="area"/>
+         <prop k="size" v="0.3"/>
+         <prop k="size_map_unit_scale" v="0,0"/>
+         <prop k="size_unit" v="MM"/>
+         <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="пункт опорной межевой сети">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SimpleMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="color" v="255,255,255,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="horizontal_anchor_point" v="1"/>
+         <prop k="name" v="rectangle"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline_style" v="solid"/>
+         <prop k="outline_width" v="0"/>
+         <prop k="outline_width_map_unit_scale" v="0,0"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="scale_method" v="area"/>
+         <prop k="size" v="2"/>
+         <prop k="size_map_unit_scale" v="0,0"/>
+         <prop k="size_unit" v="MM"/>
+         <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+        <layer pass="0" class="SimpleMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="horizontal_anchor_point" v="1"/>
+         <prop k="name" v="circle"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline_style" v="solid"/>
+         <prop k="outline_width" v="0"/>
+         <prop k="outline_width_map_unit_scale" v="0,0"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="scale_method" v="area"/>
+         <prop k="size" v="0.416667"/>
+         <prop k="size_map_unit_scale" v="0,0"/>
+         <prop k="size_unit" v="MM"/>
+         <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="точка съемочного обоснования">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SimpleMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="color" v="255,255,255,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="horizontal_anchor_point" v="1"/>
+         <prop k="name" v="circle"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline_style" v="solid"/>
+         <prop k="outline_width" v="0"/>
+         <prop k="outline_width_map_unit_scale" v="0,0"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="scale_method" v="area"/>
+         <prop k="size" v="1"/>
+         <prop k="size_map_unit_scale" v="0,0"/>
+         <prop k="size_unit" v="MM"/>
+         <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+        <layer pass="0" class="SimpleMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="horizontal_anchor_point" v="1"/>
+         <prop k="name" v="circle"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline_style" v="solid"/>
+         <prop k="outline_width" v="0"/>
+         <prop k="outline_width_map_unit_scale" v="0,0"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="scale_method" v="area"/>
+         <prop k="size" v="0.208333"/>
+         <prop k="size_map_unit_scale" v="0,0"/>
+         <prop k="size_unit" v="MM"/>
+         <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="образуемый земельный участок (контур земельного участка), сведения о границе которого достаточны для определения ее положения на /местности, размеры которого не могут быть переданы в масштабе графической части" text="образуемый земельный участок (контур земельного участка), сведения о границе которого достаточны для определения ее положения на /местности, размеры которого не могут быть переданы в масштабе графической части">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SimpleMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="color" v="255,0,0,255"/>
+         <prop k="color_border" v="255,0,0,255"/>
+         <prop k="horizontal_anchor_point" v="1"/>
+         <prop k="name" v="rectangle"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline_style" v="solid"/>
+         <prop k="outline_width" v="0"/>
+         <prop k="outline_width_map_unit_scale" v="0,0"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="scale_method" v="area"/>
+         <prop k="size" v="3"/>
+         <prop k="size_map_unit_scale" v="0,0"/>
+         <prop k="size_unit" v="MM"/>
+         <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+    <LayerItem layerId="tochka20121205105707712" userText="" style="subgroup" text="" showFeatureCount="0">
+     <VectorClassificationItemNg userText="" text="- характерная точка границы, сведения о которой позволяют однозначно определить ее положение на местности">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SimpleMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="horizontal_anchor_point" v="1"/>
+         <prop k="name" v="circle"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline_style" v="solid"/>
+         <prop k="outline_width" v="0"/>
+         <prop k="outline_width_map_unit_scale" v="0,0"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="scale_method" v="area"/>
+         <prop k="size" v="1.5"/>
+         <prop k="size_map_unit_scale" v="0,0"/>
+         <prop k="size_unit" v="MM"/>
+         <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+    <LayerItem layerId="Линейные20130130123048442" userText=" " style="subgroup" text=" " showFeatureCount="0">
+     <VectorClassificationItemNg userText="направления геодезических&#xa;построений при создании&#xa;съемочного обоснования" text="направления геодезических&#xa;построений при создании&#xa;съемочного обоснования">
+      <symbols>
+       <symbol alpha="1" type="line" name="classificationSymbol">
+        <layer pass="0" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="square"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_map_unit_scale" v="0,0"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="draw_inside_polygon" v="0"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="solid"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width" v="0.5"/>
+         <prop k="width_map_unit_scale" v="0,0"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="направления геодезических&#xa;построений при определении&#xa;координат характерных точек&#xa;границ земельного участка" text="направления геодезических&#xa;построений при определении&#xa;координат характерных точек&#xa;границ земельного участка">
+      <symbols>
+       <symbol alpha="1" type="line" name="classificationSymbol">
+        <layer pass="0" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="square"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_map_unit_scale" v="0,0"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="draw_inside_polygon" v="0"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="solid"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width" v="0.2"/>
+         <prop k="width_map_unit_scale" v="0,0"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+        <layer pass="0" class="MarkerLine" locked="0">
+         <prop k="interval" v="3"/>
+         <prop k="interval_map_unit_scale" v="0,0"/>
+         <prop k="interval_unit" v="MM"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_along_line" v="0"/>
+         <prop k="offset_along_line_map_unit_scale" v="0,0"/>
+         <prop k="offset_along_line_unit" v="MM"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="placement" v="lastvertex"/>
+         <prop k="rotate" v="1"/>
+         <symbol alpha="1" type="marker" name="@classificationSymbol@1">
+          <layer pass="0" class="SimpleMarker" locked="0">
+           <prop k="angle" v="0"/>
+           <prop k="color" v="0,0,0,255"/>
+           <prop k="color_border" v="0,0,0,255"/>
+           <prop k="horizontal_anchor_point" v="1"/>
+           <prop k="name" v="filled_arrowhead"/>
+           <prop k="offset" v="0,5.55112e-17"/>
+           <prop k="offset_map_unit_scale" v="0,0"/>
+           <prop k="offset_unit" v="MM"/>
+           <prop k="outline_style" v="solid"/>
+           <prop k="outline_width" v="0"/>
+           <prop k="outline_width_map_unit_scale" v="0,0"/>
+           <prop k="outline_width_unit" v="MM"/>
+           <prop k="scale_method" v="area"/>
+           <prop k="size" v="1.4"/>
+           <prop k="size_map_unit_scale" v="0,0"/>
+           <prop k="size_unit" v="MM"/>
+           <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+         </symbol>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+    <LayerItem layerId="granica20121204184130101" userText="" style="subgroup" text="" showFeatureCount="0">
+     <VectorClassificationItemNg userText="" text="- вновь образованная часть границы, сведения о которой достаточны для определения ее местоположения">
+      <symbols>
+       <symbol alpha="1" type="line" name="classificationSymbol">
+        <layer pass="0" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="square"/>
+         <prop k="color" v="255,0,0,255"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_map_unit_scale" v="0,0"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="draw_inside_polygon" v="0"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="solid"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width" v="0.2"/>
+         <prop k="width_map_unit_scale" v="0,0"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="- существующая часть границы, имеющиеся в ГКН сведения о которой достаточны для определения ее местоположения">
+      <symbols>
+       <symbol alpha="1" type="line" name="classificationSymbol">
+        <layer pass="0" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="square"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_map_unit_scale" v="0,0"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="draw_inside_polygon" v="0"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="solid"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width" v="0.2"/>
+         <prop k="width_map_unit_scale" v="0,0"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+   </Model>
+   <ComposerItem pagey="216.15" page="1" id="" lastValidViewScaleFactor="2.80435" positionMode="0" positionLock="false" x="21" y="216.15" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="183" outlineWidth="0.3" uuid="{f4bc43ae-0193-4ad9-8b6f-846d23d2e355}" height="47.2" itemRotation="0" frame="false" pagex="21">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLegend>
+  <ComposerLabel valign="32" labelText="Схема геодезических построений" htmlState="0" halign="4" margin="1">
+   <LabelFont description="Times New Roman,12,-1,5,75,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="6.075" page="1" id="" lastValidViewScaleFactor="2.80435" positionMode="0" positionLock="false" x="21.075" y="6.075" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="183" outlineWidth="0.15" uuid="{dc564b1d-9bb5-4a43-85e9-780a3d1185d4}" height="8.85" itemRotation="0" frame="true" pagex="21.075">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText=":ЗУ1 - обозначение  земельных участков, образуемых путем перераспределения, а также из земель, находящихся &#xa;в государственной или муниципальной собственности &#xa;:123:ЗУ1 - обозначение  земельных участков, образуемых путем раздела и выдела&#xa;:19 - обозначение исходных, измененных и уточняемых земельных участков&#xa;" htmlState="0" halign="1" margin="1">
+   <LabelFont description="Times New Roman,8,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="264" page="1" id="" lastValidViewScaleFactor="2.80435" positionMode="0" positionLock="false" x="21" y="264" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="183" outlineWidth="0.3" uuid="{c0921c8f-ac6d-4a6a-ac4b-cd6821414d84}" height="18" itemRotation="0" frame="false" pagex="21">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0"/>
+     <prop k="border_width_unit" v="MM"/>
+     <prop k="color" v="255,255,255,0"/>
+     <prop k="color_border" v="255,255,255,0"/>
+     <prop k="joinstyle" v="bevel"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="style" v="no"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="30" page="1" id="" lastValidViewScaleFactor="5.6087" positionMode="0" positionLock="false" x="21" y="30" zValue="1" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="183" outlineWidth="0" uuid="{2b275075-f49e-4936-a249-f3f514b2f725}" height="255" itemRotation="0" frame="false" pagex="21">
+    <FrameColor alpha="0" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+ </Composition>
+</Composer>

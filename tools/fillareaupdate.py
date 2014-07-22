@@ -23,17 +23,23 @@ class fillAreaUpdate(QDialog,  Ui_fillAreaUpdate):
         QObject.connect(self.pushButtonOk, SIGNAL("clicked()"), self.doCreate)
         QObject.connect(self.pushButtonCancel, SIGNAL("clicked()"), self.doCancel)
 
-        self.selection = []
+        self.selection      = []
         self.selectionCount = 0
 
     def doCreate(self):
-        self.progressBar.setValue(0)
-        idParent = 0
-        idContour = 0
-        idKat = ''
-        idVid = ''
-        dictArea = {}
-        n = 1
+        self.progress       = QProgressBar()
+        progressMessageBar  = self.iface.messageBar().createMessage(u'Расчёт уточнённых площадей контуров...')
+        self.progress.setMaximum(self.selectionCount)
+        self.progress.setAlignment(Qt.AlignLeft|Qt.AlignVCenter)
+        progressMessageBar.layout().addWidget(self.progress)
+        self.iface.messageBar().pushWidget(progressMessageBar, 
+                                           self.iface.messageBar().INFO)
+        idParent    = 0
+        idContour   = 0
+        idKat       = ''
+        idVid       = ''
+        dictArea    = {}
+        n           = 0
         
         for everyParcel in self.selection:
             dictArea[int(everyParcel.id())] = everyParcel.geometry().area()
@@ -62,6 +68,8 @@ class fillAreaUpdate(QDialog,  Ui_fillAreaUpdate):
                                                                          u'Площадь меньше одного квадратного сантиметра\nНе обработан участок с обозначением ' + everyParcel['oboznachenie_na_plane'])
                     else:
                         pogr = round(sqrt(plosh) * 3.5 * accuracyById(idContour), roundInaccuracy)
+                        if pogr < 1: 
+                            pogr = 1
                     
                         listValues = []
                         listValues.append(idContour)
@@ -72,14 +80,17 @@ class fillAreaUpdate(QDialog,  Ui_fillAreaUpdate):
 
                         listAllValues.append(listValues)
 
-            self.progressBar.setValue(int(n / self.selectionCount * 100))
             n += 1
+            self.progress.setValue(n)
 
         if len(listAllValues) > 0:
             listNames = ['id_uchastok', 'id_vid_ploshadi', 'ploshad', 'id_edinicy_izmereniya', 'pogreshnost_izmereniya']
             if not insertFeatures('pb_ploshad', listNames, listAllValues):
                 QMessageBox.information(self.iface.mainWindow(), u'Ошибка', u'Площади контуров не добавлены.')
             
+        self.iface.messageBar().clearWidgets()
+        self.close()
+
     def doCancel(self):
         self.close()
 

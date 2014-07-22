@@ -45,7 +45,8 @@ class splitParcel(QDialog,  Ui_SplitParcel):
             listParent = attributesByKeys('pb_parcel_parcel', 'id_children', [idParcel], ['id_parent'])
             if len(listParent):
                 QMessageBox.warning(self.iface.mainWindow(), u"Ошибка выбора данных", 
-                                                             u'Выбранный полигон является контуром (входящим в ЕЗП, ЧЗУ)')
+                                                             u'Выбранный полигон является контуром \
+                                                             (входящим в ЕЗП, ЧЗУ)')
                 return False
 
             self.featParcel = selectParcel[0]
@@ -61,12 +62,11 @@ class splitParcel(QDialog,  Ui_SplitParcel):
 
         else:
             QMessageBox.warning(self.iface.mainWindow(), u"Ошибка выбора данных", 
-                                                         u'Необходимо выбрать только одну границу и один земельный участок для раздела.')
+                                                         u'Необходимо выбрать только одну границу и \
+                                                         один земельный участок для раздела.')
             return False
     
     def doSplit(self):
-        self.progressBar.setRange(0,0)
-
         attributesParcel = attributesFromSelection('ln_uchastok', 
                                                    attributesNamesParcel)
         if len(attributesParcel) == 1:
@@ -78,7 +78,7 @@ class splitParcel(QDialog,  Ui_SplitParcel):
         if splitParcelRezult[0] == 0:
             idParcelPrev =  self.featParcel.id()
 
-            geomSplitParcel1 = geomParcel
+            geomSplitParcel1 = roundPointsCoordinates(geomParcel)
             guid1 = str(uuid.uuid4())
 
             listNames  = ['id_kvartal', 'id_vid_uchastka', 'id_kategoriya', 
@@ -113,6 +113,7 @@ class splitParcel(QDialog,  Ui_SplitParcel):
                 self.doPointsFromGeometry(geomSplitParcel1, idParcel1)
             
                 for geomSplitParcel2 in splitParcelRezult[1]:
+                    geomSplitParcel2 = roundPointsCoordinates(geomSplitParcel2)
                     guid2 = str(uuid.uuid4())
 
                     listNames  = ['id_kvartal', 'id_vid_uchastka', 'id_kategoriya', 
@@ -149,23 +150,23 @@ class splitParcel(QDialog,  Ui_SplitParcel):
                     else:
                         QMessageBox.warning(self.iface.mainWindow(), u"Ошибка операции", 
                                                                      u'Не удалось создать один или более новых ЗУ')
-                if not deleteById('ln_uchastok', idParcelPrev):
-                    QMessageBox.warning(self.iface.mainWindow(), u"Ошибка операции", 
-                                                                 u'Не удалось удалить разделяемый ЗУ.')
-            
+                updateFeature('ln_uchastok', idParcelPrev, ['pre'], [1])
+
                 self.layerParcel.removeSelection()
                 self.layerBorder.removeSelection()
             
             else:
-                QMessageBox.warning(self.iface.mainWindow(), u"Ошибка операции", u'Не удалось создать один или более новых ЗУ. Выполнение операции раздела ЗУ прервано.')
+                QMessageBox.warning(self.iface.mainWindow(), u"Ошибка операции", 
+                                    u'Не удалось создать один или более новых ЗУ. \
+                                    Выполнение операции раздела ЗУ прервано.')
             
         else:
             QMessageBox.warning(self.iface.mainWindow(), u"Ошибка операции", 
-                                                         u'Не удалось произвести раздел геометрии. Проконтролируйте линию раздела! Выполнение операции раздела ЗУ прервано.')
+                                                         u'Не удалось произвести раздел геометрии. \
+                                                         Проконтролируйте линию раздела! \
+                                                         Выполнение операции раздела ЗУ прервано.')
             return
 
-        self.progressBar.setRange(0, 100)
-        self.progressBar.setValue(100)
         self.close()
 
     def doPointsFromGeometry(self, geom, idParcel):

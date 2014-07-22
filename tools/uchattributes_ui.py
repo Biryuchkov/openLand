@@ -2,8 +2,8 @@
 
 # Form implementation generated from reading ui file 'uchattributes.ui'
 #
-# Created: Mon Oct 28 11:22:42 2013
-#      by: PyQt4 UI code generator 4.9.4
+# Created: Wed May 28 18:09:37 2014
+#      by: PyQt4 UI code generator 4.10.2
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -12,7 +12,16 @@ from PyQt4 import QtCore, QtGui
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
 except AttributeError:
-    _fromUtf8 = lambda s: s
+    def _fromUtf8(s):
+        return s
+
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
 
 class Ui_uchAttributes(object):
     def setupUi(self, uchAttributes):
@@ -257,7 +266,7 @@ class Ui_uchAttributes(object):
         self.verticalLayout_2.addLayout(self.horizontalLayout_6)
         self.toolBox.addItem(self.page, _fromUtf8(""))
         self.page_2 = QtGui.QWidget()
-        self.page_2.setGeometry(QtCore.QRect(0, 0, 802, 286))
+        self.page_2.setGeometry(QtCore.QRect(0, 0, 256, 170))
         self.page_2.setObjectName(_fromUtf8("page_2"))
         self.verticalLayout_3 = QtGui.QVBoxLayout(self.page_2)
         self.verticalLayout_3.setObjectName(_fromUtf8("verticalLayout_3"))
@@ -419,43 +428,43 @@ class Ui_uchAttributes(object):
         uchAttributes.setTabOrder(self.pushButtonRefr, self.pushButtonClose)
 
     def retranslateUi(self, uchAttributes):
-        uchAttributes.setWindowTitle(QtGui.QApplication.translate("uchAttributes", "Атрибуты кадастрового участка", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_7.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p align=\"right\">Использование <br/>по документу</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_2.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p align=\"right\">Кадастровый<br/>квартал</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_6.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p align=\"right\">Использование<br />по справочнику</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_3.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p align=\"right\">Вид ЗУ</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_15.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p align=\"right\">Документ<br/>категории</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_5.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p align=\"right\">Категория<br/>земли</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_10.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p align=\"right\">Обозначение<br/>на плане</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_11.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p align=\"right\">Номер<br/>контура</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p align=\"right\">Кадастровый<br/>номер</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_17.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p align=\"right\">Документ<br/>использования</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_9.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p align=\"right\">Способ<br/>образования</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_21.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p align=\"right\">Оценка<br/>расхождения</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_20.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p align=\"right\">Площадь по<br/>сведениям ГКН</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_22.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p align=\"right\">Объект<br/>кадастровых работ</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_8.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p align=\"right\">Дополнительное<br/>наименование</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_4.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p align=\"right\">Статус ЗУ</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_16.setText(QtGui.QApplication.translate("uchAttributes", "Минимальная площадь", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_18.setText(QtGui.QApplication.translate("uchAttributes", "Максимальная площадь", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_23.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p align=\"right\">Иные<br/>сведения</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_24.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p>Создание:</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_25.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p>Последнее изменение:</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.toolBox.setItemText(self.toolBox.indexOf(self.page), QtGui.QApplication.translate("uchAttributes", "ЗУ, контур многоконтурного", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_13.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p align=\"right\">Тип ЧЗУ</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.checkBoxSubparcel4Realty.setText(QtGui.QApplication.translate("uchAttributes", "ЧЗУ под ОН", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_14.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p align=\"right\">Вид<br/>обременения</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_12.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p align=\"right\">Тип<br/>обременения</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_19.setText(QtGui.QApplication.translate("uchAttributes", "<html><head/><body><p align=\"right\">Документ<br/>обременение</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.toolBox.setItemText(self.toolBox.indexOf(self.page_2), QtGui.QApplication.translate("uchAttributes", "ЧЗУ, обременения", None, QtGui.QApplication.UnicodeUTF8))
+        uchAttributes.setWindowTitle(_translate("uchAttributes", "Атрибуты кадастрового участка", None))
+        self.label_7.setText(_translate("uchAttributes", "<html><head/><body><p align=\"right\">Использование <br/>по документу</p></body></html>", None))
+        self.label_2.setText(_translate("uchAttributes", "<html><head/><body><p align=\"right\">Кадастровый<br/>квартал</p></body></html>", None))
+        self.label_6.setText(_translate("uchAttributes", "<html><head/><body><p align=\"right\">Использование<br />по справочнику</p></body></html>", None))
+        self.label_3.setText(_translate("uchAttributes", "<html><head/><body><p align=\"right\">Вид ЗУ</p></body></html>", None))
+        self.label_15.setText(_translate("uchAttributes", "<html><head/><body><p align=\"right\">Документ<br/>категории</p></body></html>", None))
+        self.label_5.setText(_translate("uchAttributes", "<html><head/><body><p align=\"right\">Категория<br/>земли</p></body></html>", None))
+        self.label_10.setText(_translate("uchAttributes", "<html><head/><body><p align=\"right\">Обозначение<br/>на плане</p></body></html>", None))
+        self.label_11.setText(_translate("uchAttributes", "<html><head/><body><p align=\"right\">Номер<br/>контура</p></body></html>", None))
+        self.label.setText(_translate("uchAttributes", "<html><head/><body><p align=\"right\">Кадастровый<br/>номер</p></body></html>", None))
+        self.label_17.setText(_translate("uchAttributes", "<html><head/><body><p align=\"right\">Документ<br/>использования</p></body></html>", None))
+        self.label_9.setText(_translate("uchAttributes", "<html><head/><body><p align=\"right\">Способ образования<br/>(тип нумерации точек)</p></body></html>", None))
+        self.label_21.setText(_translate("uchAttributes", "<html><head/><body><p align=\"right\">Оценка<br/>расхождения</p></body></html>", None))
+        self.label_20.setText(_translate("uchAttributes", "<html><head/><body><p align=\"right\">Площадь по<br/>сведениям ГКН</p></body></html>", None))
+        self.label_22.setText(_translate("uchAttributes", "<html><head/><body><p align=\"right\">Объект<br/>кадастровых работ</p></body></html>", None))
+        self.label_8.setText(_translate("uchAttributes", "<html><head/><body><p align=\"right\">Дополнительное<br/>наименование</p></body></html>", None))
+        self.label_4.setText(_translate("uchAttributes", "<html><head/><body><p align=\"right\">Статус ЗУ</p></body></html>", None))
+        self.label_16.setText(_translate("uchAttributes", "Минимальная площадь", None))
+        self.label_18.setText(_translate("uchAttributes", "Максимальная площадь", None))
+        self.label_23.setText(_translate("uchAttributes", "<html><head/><body><p align=\"right\">Иные<br/>сведения</p></body></html>", None))
+        self.label_24.setText(_translate("uchAttributes", "<html><head/><body><p>Создание:</p></body></html>", None))
+        self.label_25.setText(_translate("uchAttributes", "<html><head/><body><p>Последнее изменение:</p></body></html>", None))
+        self.toolBox.setItemText(self.toolBox.indexOf(self.page), _translate("uchAttributes", "ЗУ, контур многоконтурного", None))
+        self.label_13.setText(_translate("uchAttributes", "<html><head/><body><p align=\"right\">Тип ЧЗУ</p></body></html>", None))
+        self.checkBoxSubparcel4Realty.setText(_translate("uchAttributes", "ЧЗУ под ОН", None))
+        self.label_14.setText(_translate("uchAttributes", "<html><head/><body><p align=\"right\">Вид<br/>обременения</p></body></html>", None))
+        self.label_12.setText(_translate("uchAttributes", "<html><head/><body><p align=\"right\">Тип<br/>обременения</p></body></html>", None))
+        self.label_19.setText(_translate("uchAttributes", "<html><head/><body><p align=\"right\">Документ<br/>обременение</p></body></html>", None))
+        self.toolBox.setItemText(self.toolBox.indexOf(self.page_2), _translate("uchAttributes", "ЧЗУ, обременения", None))
         self.treeWidgetUch.setSortingEnabled(True)
-        self.treeWidgetUch.headerItem().setText(0, QtGui.QApplication.translate("uchAttributes", "Атрибут", None, QtGui.QApplication.UnicodeUTF8))
-        self.treeWidgetUch.headerItem().setText(1, QtGui.QApplication.translate("uchAttributes", "Значение", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButtonSave.setText(QtGui.QApplication.translate("uchAttributes", "Сохранить", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButtonAdd.setText(QtGui.QApplication.translate("uchAttributes", "Добавить", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButtonEdit.setText(QtGui.QApplication.translate("uchAttributes", "Редактировать", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButtonDel.setText(QtGui.QApplication.translate("uchAttributes", "Удалить", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButtonRefr.setText(QtGui.QApplication.translate("uchAttributes", "Обновить", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButtonClose.setText(QtGui.QApplication.translate("uchAttributes", "Закрыть", None, QtGui.QApplication.UnicodeUTF8))
+        self.treeWidgetUch.headerItem().setText(0, _translate("uchAttributes", "Атрибут", None))
+        self.treeWidgetUch.headerItem().setText(1, _translate("uchAttributes", "Значение", None))
+        self.pushButtonSave.setText(_translate("uchAttributes", "Сохранить", None))
+        self.pushButtonAdd.setText(_translate("uchAttributes", "Добавить", None))
+        self.pushButtonEdit.setText(_translate("uchAttributes", "Редактировать", None))
+        self.pushButtonDel.setText(_translate("uchAttributes", "Удалить", None))
+        self.pushButtonRefr.setText(_translate("uchAttributes", "Обновить", None))
+        self.pushButtonClose.setText(_translate("uchAttributes", "Закрыть", None))
 
 import resources_rc

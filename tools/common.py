@@ -9,9 +9,9 @@ import os, sys, shutil, platform, codecs, webbrowser
 # gv - global variable
 gv = {}
 
-gv['versionPlugin']   = '0.2.9'     # номер версии последнего релиза модуля
-gv['datePlugin']      = '2014-03-11'# дата версии последнего релиза модуля
-gv['versionDatabase'] = '17'        # номер версии последнего релиза БД
+gv['versionPlugin']   = '0.2.16'    # номер версии последнего релиза модуля
+gv['datePlugin']      = '2014-07-01'# дата версии последнего релиза модуля
+gv['versionDatabase'] = '20'        # номер версии последнего релиза БД
 
 gv['casualParcelCode']   = '01'     # код типа ЗУ по классификатору для землепользования                            class.vid_zemelnogo_uchastka
 gv['unitedParcelCode']   = '02'     # код типа ЗУ по классификатору для единого землепользования                    class.vid_zemelnogo_uchastka
@@ -42,7 +42,7 @@ gv['deleteContour']       = '3'     # код типа для исключаем�
 gv['newSubParcel']        = '4'     # код типа для образуемой ЧЗУ                  class.obekt_kadastrovyh_rabot
 gv['specifySubParcel']    = '5'     # код типа для уточняемой ЧЗУ                  class.obekt_kadastrovyh_rabot
 gv['invariableSubParcel'] = '6'     # код типа для неизменяемая ЧЗУ                class.obekt_kadastrovyh_rabot
-gv['insertEntryParcels']  = '7'     # код типа для включаемого в ЕЗ участка        class.obekt_kadastrovyh_rabot
+gv['insertEntryParcels']  = '7'     # код типа для включаемого в ЕЗ сущ-го(!) ЗУ   class.obekt_kadastrovyh_rabot
 gv['existEntryParcels']   = '8'     # код типа для уточняемого ЗУ, входящего в ЕЗ  class.obekt_kadastrovyh_rabot
 gv['deleteEntryParcels']  = '9'     # код типа для исключаемого из ЕЗ участка      class.obekt_kadastrovyh_rabot
 
@@ -128,6 +128,7 @@ gln['pb_uchastok_adres']                = u'Адрес участка'
 gln['ds_point']     = u'Точечные'
 gln['ds_line']      = u'Линейные'
 gln['ds_polygone']  = u'Площадные'
+gln['ds_tochka_uni']= u'Точки неповторяющиеся'
 
 # Формирование списка слоёв для которых в проекте установлен фильтр данных
 # gpre - global previous
@@ -140,6 +141,19 @@ gpre.append('ln_kvartal')
 gpre.append('ln_rayon')
 gpre.append('cl_sistema_koordinat')
 gpre.append('pb_geo_osnova')
+
+# Словарь полей таблиц для формирования структурированного адреса
+gfsa = {}
+gfsa['pb_rayon']            = 'id_rayon'
+gfsa['pb_mo']               = 'id_ato_rayon_pod'
+gfsa['pb_gorodskoy_rayon']  = 'id_gorod_rayon'
+gfsa['pb_selsovet']         = 'id_selsovet'
+gfsa['pb_naselen_punkt']    = 'id_naselen_punkt'
+gfsa['pb_ulica']            = 'id_ulica'
+gfsa['pb_dom']              = 'id_dom'
+gfsa['pb_korpus']           = 'id_korpus'
+gfsa['pb_stroenie']         = 'id_stroenie'
+gfsa['pb_kvartira']         = 'id_kvartira'
 
 # Списки атрибутов = имена полей таблиц БД
 attributesNamesMP                   = ['guid', 'codetype', 'version', 'date_work', 
@@ -249,8 +263,97 @@ attributesNamesOwnerNeighbour       = ['guid', 'guid_parcel_neighbour', 'name_ri
 
 attributesNamesOwnerNeighbourDoc    = ['guid', 'guid_owner_neighbour', 'guid_document']
 
-okay = QMessageBox.Ok
-cancel = QMessageBox.Cancel
+okay    = QMessageBox.Ok
+cancel  = QMessageBox.Cancel
+
+################################################################################
+def roundPointsCoordinates(geom, decimalPlaces=2):
+    '''
+    Округление координат точек полигона
+    geom:           QgsGeometry()
+    decimalPlaces:  Integer
+    '''
+    if geom.isGeosValid():
+        isFirstPart = True
+        isFirstRing = True
+        prevX       = 0.0
+        prevX       = 0.0
+        
+        if geom.isMultipart():
+            polygons = geom.asMultiPolygon()
+            for polygon in polygons:
+                isFirstRing = True
+                for ring in polygon:
+                    points = []
+                    for i in ring:
+                        newX = round(i.x(), decimalPlaces)
+                        newY = round(i.y(), decimalPlaces)
+                        point = QgsGeometry.fromPoint(QgsPoint(newX, newY))
+                            
+                        if newX != prevX or newY != prevY:
+                            points.append(point.asPoint())
+                            prevX = newX
+                            prevY = newY
+
+                    if isFirstRing:
+                        geomPart = QgsGeometry().fromPolygon([points])
+                        isFirstRing = False
+
+                        if isFirstPart:
+                            geomNew     = geomPart
+                            isFirstPart = False
+                        else:
+                            geomNew.addPart(points)
+                    else:
+                        geomNew.addRing(points)
+        else:
+            rings = geom.asPolygon()
+            for ring in rings:
+                points = []
+                for i in ring:
+                    newX = round(i.x(), decimalPlaces)
+                    newY = round(i.y(), decimalPlaces)
+                    point = QgsGeometry.fromPoint(QgsPoint(newX, newY))
+
+                    if newX != prevX or newY != prevY:
+                        points.append(point.asPoint())
+                        prevX = newX
+                        prevY = newY
+
+                if isFirstRing:
+                    geomNew     = QgsGeometry().fromPolygon([points])
+                    isFirstRing = False
+                else:
+                    geomNew.addRing(points)
+        
+        if geomNew.isGeosValid():
+            return geomNew
+        else:
+            return None
+
+    else:
+        return None
+
+################################################################################
+def numberSpatialElements(selectedPolygones):
+    '''
+    Посчёт количества частей-колец выбранных полигонов(мультполигонов)
+    selectedPolygones:          QgsFeatureList
+    numberSpatialElements():    Integer
+    '''
+    n = 0
+    for e in selectedPolygones:
+        g = e.geometry()
+        if g.isMultipart():
+            ps = g.asMultiPolygon()
+            for p in ps:
+                for r in p:
+                    n += 1
+        else:
+            rs = g.asPolygon()
+            for r in rs:
+                n += 1
+    return n
 
 ################################################################################
 def reNull(v, n):
@@ -313,7 +416,7 @@ def calculatedArea(idParcel):
 
     calculatedArea = 0.0
     for feat in provider.getFeatures(QgsFeatureRequest()):
-        if feat.geometry().isGeosValid():
+        if feat.geometry().isGeosValid() and feat.attribute('pre') <> 1:
             calculatedArea += feat.geometry().area()
 
     layer.setSubsetString(pre)
@@ -826,7 +929,6 @@ def listIdChildByIdParent(idParent):
     listIntIdParcel = [int(e['id_children']) for e in listParent]
     attributesContour = attributesByKeys('ln_uchastok', 'id', 
                                          listIntIdParcel, ['nomer_kontura', 'id'])
-    
     listForSort = []
     for e in attributesContour:
         try:  

@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.0.1-Dufour" minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.2.0-Valmiera" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <renderer-v2 symbollevels="0" type="RuleRenderer">
     <rules>
       <rule scalemaxdenom="10000" description="окружность диаметром 1.5 мм" filter="&quot;uslovnyy_znak&quot; = 0" symbol="0" scalemindenom="1" label="характерная точка границы, сведения о которой не позволяют однозначно определить ее положение на местности"/>
@@ -11,14 +11,17 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="255,255,255,255"/>
           <prop k="color_border" v="0,0,0,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
+          <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="area"/>
           <prop k="size" v="1.5"/>
           <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="1">
@@ -26,14 +29,17 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="color_border" v="0,0,0,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
+          <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="area"/>
           <prop k="size" v="1.5"/>
           <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
     </symbols>
@@ -60,7 +66,7 @@
     <property key="labeling/dataDefined/PositionY" value="1~~0~~~~podpis_y"/>
     <property key="labeling/dataDefined/Underline" value="1~~0~~~~pre"/>
     <property key="labeling/decimals" value="0"/>
-    <property key="labeling/displayAll" value="false"/>
+    <property key="labeling/displayAll" value="true"/>
     <property key="labeling/dist" value="1"/>
     <property key="labeling/distInMapUnits" value="false"/>
     <property key="labeling/enabled" value="true"/>
@@ -92,7 +98,7 @@
     <property key="labeling/minFeatureSize" value="0"/>
     <property key="labeling/multilineAlign" value="0"/>
     <property key="labeling/multilineHeight" value="1"/>
-    <property key="labeling/namedStyle" value="Normal"/>
+    <property key="labeling/namedStyle" value="Обычный"/>
     <property key="labeling/obstacle" value="true"/>
     <property key="labeling/placeDirectionSymbol" value="0"/>
     <property key="labeling/placement" value="0"/>
@@ -100,7 +106,7 @@
     <property key="labeling/plussign" value="false"/>
     <property key="labeling/preserveRotation" value="true"/>
     <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-    <property key="labeling/priority" value="5"/>
+    <property key="labeling/priority" value="10"/>
     <property key="labeling/quadOffset" value="4"/>
     <property key="labeling/reverseDirectionSymbol" value="false"/>
     <property key="labeling/rightDirectionSymbol" value=">"/>
@@ -214,6 +220,7 @@
   </edittypes>
   <editform>.</editform>
   <editforminit></editforminit>
+  <featformsuppress>0</featformsuppress>
   <annotationform>.</annotationform>
   <editorlayout>generatedlayout</editorlayout>
   <aliases>

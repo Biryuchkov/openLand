@@ -26,8 +26,10 @@ from qgis.core import *
 import os.path, sys
 import string
 import shutil
+
 sys.path.append(os.path.abspath(os.path.dirname(__file__) + '/tools'))
 
+import resources_rc
 from math import sqrt
 from mp import mpDialog
 from common import *
@@ -53,9 +55,6 @@ from border import border
 from filterset import filterSet
 from openlandsettings import OpenLandSettings
 from openlandabout import OpenLandAbout
-from createCoordCatalog import CreateCoordCatalog
-from createGeodata import CreateGeodata
-from createpolygonfrompoint import CreatePolygonFromPoints
 
 class openLand:
     def __init__(self, iface):
@@ -133,7 +132,7 @@ class openLand:
         self.functionMenu.addActions([self.openland_createpoints, self.openland_renumber, self.openland_objects2pre, self.openland_linkpoint2area, self.openland_createborder])
         self.functionMenu.addActions([self.openland_createmulticontour, self.openland_selectallcontours, self.openland_fillareaupdate])
         self.menu.addMenu(self.functionMenu)
-
+        
         self.attributeMenu = QMenu()
         self.attributeMenu.setTitle(u"Атрибуты")
         self.openland_attribute = QAction(u"Атрибуты объекта", self.iface.mainWindow())
@@ -144,32 +143,6 @@ class openLand:
         self.openland_mp.setIcon(QIcon(":/plugins/openland/icons/mp.png"))
         self.attributeMenu.addActions([self.openland_attribute, self.openland_mp])
         self.menu.addMenu(self.attributeMenu)
-
-        # Землеустройство
-        self.menu_landplaning = QMenu()
-        self.menu_landplaning.setTitle(u'Землеустройство')
-
-        self.openland_createpgfpt = QAction(u'Участок по точкам', self.iface.mainWindow())
-        self.openland_createpgfpt.setEnabled(True)
-        self.openland_createpgfpt.setIcon(QIcon(":/plugins/openland/icons/create_coordcatalog.png"))
-        self.menu_landplaning.addActions([self.openland_createpgfpt])
-        self.openland_createcoordcatalog = QAction(u'Ведомость координат', self.iface.mainWindow())
-        self.openland_createcoordcatalog.setEnabled(True)
-        self.openland_createcoordcatalog.setIcon(QIcon(":/plugins/openland/icons/create_coordcatalog.png"))
-        self.menu_landplaning.addActions([self.openland_createcoordcatalog])
-        self.openland_creategeodata = QAction(u'Геоданные', self.iface.mainWindow())
-        self.openland_creategeodata.setEnabled(True)
-        self.openland_creategeodata.setIcon(QIcon(":/plugins/openland/icons/create_coordcatalog.png"))
-        self.menu_landplaning.addActions([self.openland_creategeodata])
-        self.openland_createprojm = QAction(u'Проект межеания', self.iface.mainWindow())
-        self.openland_createprojm.setEnabled(True)
-        self.openland_createprojm.setIcon(QIcon(":/plugins/openland/icons/create_coordcatalog.png"))
-        self.menu_landplaning.addActions([self.openland_createprojm])
-        self.openland_createshemazu = QAction(u'Схема ЗУ', self.iface.mainWindow())
-        self.openland_createshemazu.setEnabled(True)
-        self.openland_createshemazu.setIcon(QIcon(":/plugins/openland/icons/create_coordcatalog.png"))
-        self.menu_landplaning.addActions([self.openland_createshemazu])
-        self.menu.addMenu(self.menu_landplaning)
 
         self.cadastreWorkMenu = QMenu()
         self.cadastreWorkMenu.setTitle(u"Кадастровые работы")
@@ -206,12 +179,10 @@ class openLand:
         self.openland_about.setIcon(QIcon(":/plugins/openland/icons/about.png"))
         self.menu.addActions([self.openland_xml2print, self.openland_filterset, self.openland_settings, self.openland_about])
 
-
         menu_bar = self.iface.mainWindow().menuBar()
         actions = menu_bar.actions()
-        lastAction = actions[len(actions) - 1]
+        lastAction = actions[len( actions ) - 1]
         menu_bar.insertMenu(lastAction, self.menu)
-        #menu_bar.insertMenu(lastAction, self.menu_landplaning)
 
         QObject.connect(self.openland_importxml, SIGNAL("triggered()"), self.doImportXML)
         QObject.connect(self.openland_importgeometry, SIGNAL("triggered()"), self.doImportGeometry)
@@ -236,9 +207,6 @@ class openLand:
         QObject.connect(self.openland_filterset, SIGNAL("triggered()"), self.doFilterSet)
         QObject.connect(self.openland_settings, SIGNAL("triggered()"), self.doSettings)
         QObject.connect(self.openland_about, SIGNAL("triggered()"), self.doAbout)
-        QObject.connect(self.openland_createcoordcatalog, SIGNAL("triggered()"), self.doCreateCoordcatalog)
-        QObject.connect(self.openland_creategeodata, SIGNAL("triggered()"), self.doCreateGeodata)
-        QObject.connect(self.openland_createpgfpt, SIGNAL("triggered()"), self.doCreatePgFromPt)
 
         self.toolBar = self.iface.addToolBar("openLand")
         self.toolBar.setObjectName("openLand")
@@ -302,7 +270,7 @@ class openLand:
         if d.toPrepare():
             d.exec_()
         del d
-
+            
     def doCreatePoints(self):
         d = createPoints(self.iface)
         if d.toPrepare():
@@ -314,7 +282,7 @@ class openLand:
         if d.toPrepare():
             d.exec_()
         del d
-
+        
     def doReNumberPoints(self):
         # noinspection PyUnresolvedReferences
         layer = get_vector_layer_by_name(gln['ln_uchastok'])
@@ -358,11 +326,11 @@ class openLand:
                     for i in geomaPoints:
                         dl = sqrt((i[0] - x)**2 + (i[1] - y)**2);
                         l4sort.append([dl, i[0], i[1]])
-
+    
                     l4sort.sort()
                     xNew = l4sort[0][1]
                     yNew = l4sort[0][2]
-
+                    
                     attributesOnePoint = {}
                     attributesOnePoint[layerPn.fieldNameIndex('id_uchastok')] = idu
                     attributesOnePoint[layerPn.fieldNameIndex('x')] = xNew
@@ -381,7 +349,7 @@ class openLand:
         else:
             QMessageBox.warning(self.iface.mainWindow(), u"Ошибка выбора данных", 
                                                          u'Необходимо предварительно выбрать только один участок.')
-
+    
     def doCreateBorder(self):
         layerPn = get_vector_layer_by_name(gln['ln_tochka'])
         selection = layerPn.selectedFeatures()
@@ -411,7 +379,7 @@ class openLand:
                 feat.initAttributes(len(layerBrd.dataProvider().attributeIndexes()))
                 feat.setAttribute(layerBrd.fieldNameIndex('id_uchastok'), id_uchastok1)
                 feat.setAttribute(layerBrd.fieldNameIndex('id_msk'), idCurrentMSK())
-
+                
                 if layerBrd.dataProvider().addFeatures([feat])[0]:
                     self.canvas.refresh()
                 else: 
@@ -469,7 +437,7 @@ class openLand:
 
             if idParent > 0:
                 listIdParcel = listIdChildByIdParent(idParent)
-
+                
                 if len(listIdParcel) > 0:
                     if selectVectorObjectsById('ln_uchastok', listIdParcel):
                         self.canvas.zoomToSelected()
@@ -492,13 +460,13 @@ class openLand:
         else:
             QMessageBox.warning(self.iface.mainWindow(), u"Ошибка выбора данных", 
                                                          u'Необходимо выбрать не менее одного контура для расчёта уточнённой площади.')
-
+    
     def doAttribute(self):
         layer = self.iface.mainWindow().activeLayer()
         selection = layer.selectedFeatures()
         if len(selection) == 1:
             row = selection[0].attributes()
-
+            
             # Атрибуты земельного участка
             if layer.name() == gln['ln_uchastok']: 
                 d = uchAttributes(self.iface)
@@ -544,14 +512,14 @@ class openLand:
                 QMessageBox.warning(self.iface.mainWindow(), u"Ошибка выбора данных", 
                                                              u'Необходимо выбрать объект на одном из перечисленных слоёв: \"Точка\", \"Граница\", \"Участок\", \"Квартал\"')
                 return
-
+            
             d.exec_()
             del d
             self.canvas.refresh()
         else:
             QMessageBox.warning(self.iface.mainWindow(), u"Ошибка выбора данных", 
                                                          u'Необходимо выбрать только один объект для работы с атрибутами.')
-
+                    
     def doMp(self):
         if self.dlgMP == None:
             self.dlgMP = mpDialog(self.iface)
@@ -559,7 +527,7 @@ class openLand:
 
         self.dlgMP.mpSelectionParcel()
         self.dlgMP.show()
-
+    
     def doFilterSet(self):
         if self.dlgFilterSet == None:
             self.dlgFilterSet = filterSet(self.iface)
@@ -600,22 +568,6 @@ class openLand:
         self.dlgAbout.lblVersion.setText(u'<html><head/><body><p>Версия ' +gv['versionPlugin']+ u' <span style=\" color:#008800; vertical-align:sub;\">бета</span> от ' +gv['datePlugin']+ u'</p></body></html>')
         self.dlgAbout.show()
 
-    def doCreateCoordcatalog(self):
-        if self.dlg_coordcatalog is None:
-            self.dlg_coordcatalog = CreateCoordCatalog(self.iface)
-            self.dlg_coordcatalog.setWindowModality(Qt.NonModal)
-        self.dlg_coordcatalog.show()
-
-    def doCreateGeodata(self):
-        if self.dlg_geodata is None:
-            self.dlg_geodata = CreateGeodata(self.iface)
-            self.dlg_geodata.setWindowModality(Qt.NonModal)
-        self.dlg_geodata.show()
-
-    def doCreatePgFromPt(self):
-        PgCreator = CreatePolygonFromPoints(self.iface)
-        PgCreator.createpolygon()
-
     def updateProjectFromDefault(self):
         '''
         Обновление проекта QGIS, указанного в настройках
@@ -638,16 +590,16 @@ class openLand:
             isCreateNewProject = False
             newConnectionString = ''
             newLine = ''
-
+            
             if (connectionServer > ' ') and (connectionPort > ' ') and (connectionDataBase > ' '):
                 newConnectionString = "dbname=\'" +connectionDataBase+ "\' host=" +connectionServer+ " port=" +connectionPort
-
+                
                 if (connectionUserName > ' '):
                     newConnectionString = newConnectionString + " user=\'" +connectionUserName+ "\'"
 
                 if (connectionUserPassword > ' '):
                     newConnectionString = newConnectionString + " password=\'" +connectionUserPassword+ "\'"
-
+                 
                 # newConnectionString = newConnectionString + " key="
                 newConnectionString = newConnectionString + " sslmode=disable"
                 # newConnectionString = unicode(newConnectionString)
@@ -666,7 +618,7 @@ class openLand:
 
                 else:
                     isCreateNewProject = True
-
+                        
             if (isCreateNewProject) and (newConnectionString > 'dbname'):
                 fileIn = codecs.open(fileProject, 'r', 'utf-8')
 
@@ -713,7 +665,7 @@ class openLand:
                             copyTree(shpFromDir, shpToDir)
 
                 fileIn.close()
-
+    
     def toggle(self):
         mc = self.canvas
         layer = mc.currentLayer()
@@ -764,7 +716,7 @@ class openLand:
                     self.openland_importxml.setEnabled(False)
                     self.openland_unionparcels.setEnabled(False)
                     self.openland_splitparcel.setEnabled(False)
-
+                    
                 elif (unicode(layer.name()) == gln['ln_granica']):
                     self.openland_attribute.setEnabled(True)
                     self.openland_mp.setEnabled(False)
@@ -883,3 +835,4 @@ class openLand:
 #        QObject.disconnect(layer,SIGNAL("editingStopped()"),self.toggle)        
 
 #        QMessageBox.information(self.iface.mainWindow(), 'test', str())
+   

@@ -128,56 +128,46 @@ class address(QDialog,  Ui_Address):
         ln: string
         cBox, cBoxT:QComboBox()
         '''
-        l = get_vector_layer_by_name(gln[ln])
-        p = l.dataProvider()
         isCreateRecord = False
-        if (cBox.itemData(cBox.currentIndex())) and (cBoxT.itemData(cBoxT.currentIndex()) > ' '): # проверка True была
-            id = cBox.itemData(cBox.currentIndex())
-            id2 = cBoxT.itemData(cBoxT.currentIndex())
-            pre = l.subsetString()
-            l.setSubsetString('\"id\"=' + str(id))
-            if (int(l.featureCount()) == 1):
-                for f in p.getFeatures(QgsFeatureRequest().setFlags(QgsFeatureRequest.NoGeometry)):
-                    a = f.attributes()
-                    id0 = a[1]
+        p = get_vector_layer_by_name(gln[ln]).dataProvider()
+        
+        if (cBox.itemData(cBox.currentIndex())) and (cBoxT.itemData(cBoxT.currentIndex()) > ' '):
+            typeValue = unicode(cBoxT.itemData(cBoxT.currentIndex()))
+            textValue = unicode(cBox.currentText()).strip()
 
-                if  id2 == id0: 
-                    l.setSubsetString(pre)
-                    return id
-                else:
-                    isCreateRecord = True
+            typeName = unicode(p.fields()[1].name())
+            textName = unicode(p.fields()[2].name())
+
+            searchCondition = '\"' + typeName + '\" = \'' + typeValue + '\' AND \"' + textName + '\" = \'' + textValue + '\''
+            attributes = attributesBySearchCondition(ln, searchCondition, ['id'])
+
+            if len(attributes) == 1:
+                id = int(attributes[0]['id'])
+                return id
+
             else:
                 isCreateRecord = True
-            
-            l.setSubsetString(pre)
         else:
             isCreateRecord = True
 
         if isCreateRecord:
-            id2 = cBoxT.itemData(cBoxT.currentIndex())
-            n = unicode(cBox.currentText()).strip()
-            if (id2 > ' ') and (n > ' '):
-                c = l.dataProvider().capabilities()
-                if c & QgsVectorDataProvider.ChangeAttributeValues:
-                    f = QgsFeature()
-                    f.initAttributes(len(p.attributeIndexes()))
-                    f.setAttribute(1, id2)
-                    f.setAttribute(2, n)
-                    if p.addFeatures([f])[0]:
-                        s =  '\"' +str(l.attributeDisplayName(1))+ '\"=\'' +id2+ '\' and \"' +str(l.attributeDisplayName(2))+ '\"=\'' +n+ '\''
-                        pre = l.subsetString()
-                        l.setSubsetString(s)
-                        if (int(l.featureCount()) == 1):
-                            for f in p.getFeatures(QgsFeatureRequest().setFlags(QgsFeatureRequest.NoGeometry)):
-                                a = f.attributes()
-                                idnew = a[0]
-                            
-                            l.setSubsetString(pre)
-                            return idnew
-                        else:
-                            l.setSubsetString(pre)
-                            return 0
-                    del f
+            typeValue = unicode(cBoxT.itemData(cBoxT.currentIndex()))
+            textValue = unicode(cBox.currentText()).strip()
+
+            typeName = unicode(p.fields()[1].name())
+            textName = unicode(p.fields()[2].name())
+
+            listNames  = [typeName, textName]
+            listValues = [typeValue, textValue]
+            if insertFeatures(ln, listNames, [listValues]):
+                searchCondition = '\"' + typeName + '\" = \'' + typeValue + '\' AND \"' + textName + '\" = \'' + textValue + '\''
+                attributes = attributesBySearchCondition(ln, searchCondition, ['id'])
+
+                if len(attributes) == 1:
+                    id = int(attributes[0]['id'])
+                    return id
+
+                else:
                     return 0
             else:
                 return 0
@@ -335,6 +325,7 @@ class address(QDialog,  Ui_Address):
             self.lineEditKLADR.setText(self.dlgKladr.kladr)
             self.lineEditOKATO.setText(self.dlgKladr.okato)
             self.lineEditIndeks.setText(self.dlgKladr.index)
+            self.comboBoxTRayon.setFocus()
     
     def doDocument(self):
         if self.dlgDocument == None:

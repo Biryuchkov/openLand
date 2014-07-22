@@ -234,8 +234,8 @@
      <widget class="QWidget" name="tabInterface">
       <property name="maximumSize">
        <size>
-        <width>439</width>
-        <height>268</height>
+        <width>16777215</width>
+        <height>16777215</height>
        </size>
       </property>
       <attribute name="title">
@@ -247,35 +247,25 @@
          <property name="title">
           <string>При выборе одного полигона слоя  «Участок» производить операции с</string>
          </property>
-         <widget class="QRadioButton" name="radioButtonMultiCont">
-          <property name="geometry">
-           <rect>
-            <x>10</x>
-            <y>20</y>
-            <width>188</width>
-            <height>18</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Земельным участком полностью</string>
-          </property>
-          <property name="checked">
-           <bool>true</bool>
-          </property>
-         </widget>
-         <widget class="QRadioButton" name="radioButtonOneCont">
-          <property name="geometry">
-           <rect>
-            <x>11</x>
-            <y>48</y>
-            <width>411</width>
-            <height>18</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Только выбранным контуром МЗУ (входящим в ЕЗП, ЧЗУ)</string>
-          </property>
-         </widget>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QRadioButton" name="radioButtonMultiCont">
+            <property name="text">
+             <string>Земельным участком полностью</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="radioButtonOneCont">
+            <property name="text">
+             <string>Только выбранным контуром МЗУ (входящим в ЕЗП, ЧЗУ)</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </widget>
        </item>
        <item>

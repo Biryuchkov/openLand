@@ -2,8 +2,8 @@
 
 # Form implementation generated from reading ui file 'importobject.ui'
 #
-# Created: Mon Oct 28 11:22:27 2013
-#      by: PyQt4 UI code generator 4.9.4
+# Created: Sat Apr 26 11:03:34 2014
+#      by: PyQt4 UI code generator 4.10.2
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -12,7 +12,16 @@ from PyQt4 import QtCore, QtGui
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
 except AttributeError:
-    _fromUtf8 = lambda s: s
+    def _fromUtf8(s):
+        return s
+
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
 
 class Ui_importObject(object):
     def setupUi(self, importObject):
@@ -30,19 +39,12 @@ class Ui_importObject(object):
         importObject.setModal(True)
         self.gridLayout = QtGui.QGridLayout(importObject)
         self.gridLayout.setObjectName(_fromUtf8("gridLayout"))
-        self.comboBoxKn = QtGui.QComboBox(importObject)
-        self.comboBoxKn.setObjectName(_fromUtf8("comboBoxKn"))
-        self.gridLayout.addWidget(self.comboBoxKn, 5, 1, 1, 1)
-        self.radioButtonBlock = QtGui.QRadioButton(importObject)
-        self.radioButtonBlock.setChecked(True)
-        self.radioButtonBlock.setObjectName(_fromUtf8("radioButtonBlock"))
-        self.gridLayout.addWidget(self.radioButtonBlock, 1, 1, 1, 1)
-        self.pushButtonCancel = QtGui.QPushButton(importObject)
-        icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap(_fromUtf8(":/plugins/openland/icons/close.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        self.pushButtonCancel.setIcon(icon1)
-        self.pushButtonCancel.setObjectName(_fromUtf8("pushButtonCancel"))
-        self.gridLayout.addWidget(self.pushButtonCancel, 6, 1, 1, 1)
+        self.radioButtonDistrict = QtGui.QRadioButton(importObject)
+        self.radioButtonDistrict.setObjectName(_fromUtf8("radioButtonDistrict"))
+        self.gridLayout.addWidget(self.radioButtonDistrict, 2, 1, 1, 1)
+        self.label_4 = QtGui.QLabel(importObject)
+        self.label_4.setObjectName(_fromUtf8("label_4"))
+        self.gridLayout.addWidget(self.label_4, 0, 0, 3, 1)
         self.label_3 = QtGui.QLabel(importObject)
         self.label_3.setObjectName(_fromUtf8("label_3"))
         self.gridLayout.addWidget(self.label_3, 4, 0, 1, 1)
@@ -59,10 +61,6 @@ class Ui_importObject(object):
         self.lineEdit4Import.setReadOnly(True)
         self.lineEdit4Import.setObjectName(_fromUtf8("lineEdit4Import"))
         self.gridLayout.addWidget(self.lineEdit4Import, 3, 1, 1, 1)
-        self.progressBar = QtGui.QProgressBar(importObject)
-        self.progressBar.setProperty("value", 0)
-        self.progressBar.setObjectName(_fromUtf8("progressBar"))
-        self.gridLayout.addWidget(self.progressBar, 7, 0, 1, 2)
         self.label_2 = QtGui.QLabel(importObject)
         self.label_2.setObjectName(_fromUtf8("label_2"))
         self.gridLayout.addWidget(self.label_2, 5, 0, 1, 1)
@@ -77,12 +75,19 @@ class Ui_importObject(object):
         self.radioButtonParcel = QtGui.QRadioButton(importObject)
         self.radioButtonParcel.setObjectName(_fromUtf8("radioButtonParcel"))
         self.gridLayout.addWidget(self.radioButtonParcel, 0, 1, 1, 1)
-        self.radioButtonDistrict = QtGui.QRadioButton(importObject)
-        self.radioButtonDistrict.setObjectName(_fromUtf8("radioButtonDistrict"))
-        self.gridLayout.addWidget(self.radioButtonDistrict, 2, 1, 1, 1)
-        self.label_4 = QtGui.QLabel(importObject)
-        self.label_4.setObjectName(_fromUtf8("label_4"))
-        self.gridLayout.addWidget(self.label_4, 0, 0, 3, 1)
+        self.pushButtonCancel = QtGui.QPushButton(importObject)
+        icon1 = QtGui.QIcon()
+        icon1.addPixmap(QtGui.QPixmap(_fromUtf8(":/plugins/openland/icons/close.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButtonCancel.setIcon(icon1)
+        self.pushButtonCancel.setObjectName(_fromUtf8("pushButtonCancel"))
+        self.gridLayout.addWidget(self.pushButtonCancel, 6, 1, 1, 1)
+        self.radioButtonBlock = QtGui.QRadioButton(importObject)
+        self.radioButtonBlock.setChecked(True)
+        self.radioButtonBlock.setObjectName(_fromUtf8("radioButtonBlock"))
+        self.gridLayout.addWidget(self.radioButtonBlock, 1, 1, 1, 1)
+        self.comboBoxKn = QtGui.QComboBox(importObject)
+        self.comboBoxKn.setObjectName(_fromUtf8("comboBoxKn"))
+        self.gridLayout.addWidget(self.comboBoxKn, 5, 1, 1, 1)
 
         self.retranslateUi(importObject)
         QtCore.QMetaObject.connectSlotsByName(importObject)
@@ -95,15 +100,15 @@ class Ui_importObject(object):
         importObject.setTabOrder(self.pushButtonOk, self.pushButtonCancel)
 
     def retranslateUi(self, importObject):
-        importObject.setWindowTitle(QtGui.QApplication.translate("importObject", "Импортировать кадастровые объекты", None, QtGui.QApplication.UnicodeUTF8))
-        self.radioButtonBlock.setText(QtGui.QApplication.translate("importObject", "Кадастровый квартал", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButtonCancel.setText(QtGui.QApplication.translate("importObject", "Закрыть", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_3.setText(QtGui.QApplication.translate("importObject", "<html><head/><body><p align=\"right\">Выбрано объектов для импорта</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label.setText(QtGui.QApplication.translate("importObject", "<html><head/><body><p align=\"right\">из векторного слоя</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_2.setText(QtGui.QApplication.translate("importObject", "<html><head/><body><p align=\"right\">Кадастровый номер из поля</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButtonOk.setText(QtGui.QApplication.translate("importObject", "Импортировать", None, QtGui.QApplication.UnicodeUTF8))
-        self.radioButtonParcel.setText(QtGui.QApplication.translate("importObject", "Земельный участок", None, QtGui.QApplication.UnicodeUTF8))
-        self.radioButtonDistrict.setText(QtGui.QApplication.translate("importObject", "Кадастровый район", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_4.setText(QtGui.QApplication.translate("importObject", "<html><head/><body><p align=\"right\">Импортировать</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        importObject.setWindowTitle(_translate("importObject", "Импортировать кадастровые объекты", None))
+        self.radioButtonDistrict.setText(_translate("importObject", "Кадастровый район", None))
+        self.label_4.setText(_translate("importObject", "<html><head/><body><p align=\"right\">Импортировать</p></body></html>", None))
+        self.label_3.setText(_translate("importObject", "<html><head/><body><p align=\"right\">Выбрано объектов для импорта</p></body></html>", None))
+        self.label.setText(_translate("importObject", "<html><head/><body><p align=\"right\">из векторного слоя</p></body></html>", None))
+        self.label_2.setText(_translate("importObject", "<html><head/><body><p align=\"right\">Кадастровый номер из поля</p></body></html>", None))
+        self.pushButtonOk.setText(_translate("importObject", "Импортировать", None))
+        self.radioButtonParcel.setText(_translate("importObject", "Земельный участок", None))
+        self.pushButtonCancel.setText(_translate("importObject", "Закрыть", None))
+        self.radioButtonBlock.setText(_translate("importObject", "Кадастровый квартал", None))
 
 import resources_rc

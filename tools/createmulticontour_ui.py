@@ -2,8 +2,8 @@
 
 # Form implementation generated from reading ui file 'createmulticontour.ui'
 #
-# Created: Fri Nov 08 20:20:18 2013
-#      by: PyQt4 UI code generator 4.9.4
+# Created: Tue May 13 12:34:04 2014
+#      by: PyQt4 UI code generator 4.10.2
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -12,12 +12,21 @@ from PyQt4 import QtCore, QtGui
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
 except AttributeError:
-    _fromUtf8 = lambda s: s
+    def _fromUtf8(s):
+        return s
+
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
 
 class Ui_createMultiContour(object):
     def setupUi(self, createMultiContour):
         createMultiContour.setObjectName(_fromUtf8("createMultiContour"))
-        createMultiContour.resize(360, 140)
+        createMultiContour.resize(360, 120)
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Minimum, QtGui.QSizePolicy.Minimum)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -42,6 +51,7 @@ class Ui_createMultiContour(object):
         self.label_2.setObjectName(_fromUtf8("label_2"))
         self.formLayout.setWidget(2, QtGui.QFormLayout.LabelRole, self.label_2)
         self.comboBoxKvr = QtGui.QComboBox(createMultiContour)
+        self.comboBoxKvr.setEditable(True)
         self.comboBoxKvr.setObjectName(_fromUtf8("comboBoxKvr"))
         self.formLayout.setWidget(2, QtGui.QFormLayout.FieldRole, self.comboBoxKvr)
         self.pushButtonOk = QtGui.QPushButton(createMultiContour)
@@ -54,12 +64,6 @@ class Ui_createMultiContour(object):
         self.pushButtonCancel.setIcon(icon1)
         self.pushButtonCancel.setObjectName(_fromUtf8("pushButtonCancel"))
         self.formLayout.setWidget(4, QtGui.QFormLayout.FieldRole, self.pushButtonCancel)
-        self.progressBar = QtGui.QProgressBar(createMultiContour)
-        self.progressBar.setProperty("value", 0)
-        self.progressBar.setObjectName(_fromUtf8("progressBar"))
-        self.formLayout.setWidget(6, QtGui.QFormLayout.SpanningRole, self.progressBar)
-        spacerItem = QtGui.QSpacerItem(20, 40, QtGui.QSizePolicy.Minimum, QtGui.QSizePolicy.Expanding)
-        self.formLayout.setItem(5, QtGui.QFormLayout.LabelRole, spacerItem)
 
         self.retranslateUi(createMultiContour)
         QtCore.QMetaObject.connectSlotsByName(createMultiContour)
@@ -68,10 +72,10 @@ class Ui_createMultiContour(object):
         createMultiContour.setTabOrder(self.pushButtonOk, self.pushButtonCancel)
 
     def retranslateUi(self, createMultiContour):
-        createMultiContour.setWindowTitle(QtGui.QApplication.translate("createMultiContour", "Создание многоконтурного участка", None, QtGui.QApplication.UnicodeUTF8))
-        self.label.setText(QtGui.QApplication.translate("createMultiContour", "<html><head/><body><p align=\"right\">Количество выбранных контуров</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.label_2.setText(QtGui.QApplication.translate("createMultiContour", "<html><head/><body><p align=\"right\">Квартал для многоконтурного</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButtonOk.setText(QtGui.QApplication.translate("createMultiContour", "Создать многоконтурный", None, QtGui.QApplication.UnicodeUTF8))
-        self.pushButtonCancel.setText(QtGui.QApplication.translate("createMultiContour", "Закрыть", None, QtGui.QApplication.UnicodeUTF8))
+        createMultiContour.setWindowTitle(_translate("createMultiContour", "Создание многоконтурного участка", None))
+        self.label.setText(_translate("createMultiContour", "<html><head/><body><p align=\"right\">Количество выбранных контуров</p></body></html>", None))
+        self.label_2.setText(_translate("createMultiContour", "<html><head/><body><p align=\"right\">Квартал для многоконтурного</p></body></html>", None))
+        self.pushButtonOk.setText(_translate("createMultiContour", "Создать многоконтурный", None))
+        self.pushButtonCancel.setText(_translate("createMultiContour", "Закрыть", None))
 
 import resources_rc

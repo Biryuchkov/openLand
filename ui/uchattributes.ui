@@ -319,7 +319,7 @@
          <item row="2" column="2">
           <widget class="QLabel" name="label_9">
            <property name="text">
-            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;Способ&lt;br/&gt;образования&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;Способ образования&lt;br/&gt;(тип нумерации точек)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
           </widget>
          </item>
@@ -516,8 +516,8 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>802</width>
-        <height>286</height>
+        <width>256</width>
+        <height>170</height>
        </rect>
       </property>
       <attribute name="label">

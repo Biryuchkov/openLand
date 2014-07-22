@@ -201,7 +201,7 @@ class uchAttributes(QDialog,  Ui_uchAttributes):
                              attributesParcel['id_obremeneniya'])
                 fillComboBox(self.comboBoxTipChast, 'cl_obekt_gkn', 'id', 'znachenie', 
                              attributesParcel['id_tip_chasti'])
-                self.textEditVidObremeneniya.setText(str(attributesParcel['vid_obremeneniya']))
+                self.textEditVidObremeneniya.setText(unicode(attributesParcel['vid_obremeneniya']))
 
         # Контуры
         if len(self.contourId) > 0:
@@ -232,7 +232,7 @@ class uchAttributes(QDialog,  Ui_uchAttributes):
             tree.addTopLevelItem(itemTree)
             topLevel['nominal'] = tree.topLevelItemCount() - 1
             for i in self.nominalId:
-                itemTree = QTreeWidgetItem([u'Условный ' + self.isolated[i][0], self.isolated[i][1]])
+                itemTree = QTreeWidgetItem([u'Условный ' + self.nominal[i][0], self.nominal[i][1]])
                 itemTree.setData(2, 0, i)
                 tree.topLevelItem(topLevel['nominal']).addChild(itemTree)
 
@@ -841,6 +841,15 @@ class uchAttributes(QDialog,  Ui_uchAttributes):
                         else: 
                             QMessageBox.warning(self.iface.mainWindow(), u'Ошибка удаления', 
                                                                          u'Произошла ошибка при удалении контура')
+                    elif itemText == u'Обособленные ЗУ':
+                        idLink = valueByFieldValue('pb_parcel_parcel', 'guid', 's', 'id_children', itemData, 'i')
+                        if deleteById('pb_parcel_parcel', idLink): 
+                            updateFeature('ln_uchastok', itemData, ['id_vid_uchastka'], [None])
+                            self.fillChildren()
+                            self.dlgFill()
+                        else: 
+                            QMessageBox.warning(self.iface.mainWindow(), u'Ошибка удаления', 
+                                                                         u'Произошла ошибка при удалении обособленного ЗУ')
                     elif itemText == u'Части':
                         idLink = valueByFieldValue('pb_parcel_parcel', 'guid', 's', 'id_children', itemData, 'i')
                         if deleteById('pb_parcel_parcel', idLink): 
@@ -1066,6 +1075,9 @@ class uchAttributes(QDialog,  Ui_uchAttributes):
         
 ################################################################################
     def editMode(self, isEdit):
+        if type(isEdit) <> bool: 
+            isEdit = True
+
         if isEdit:
             self.pushButtonSave.setEnabled(True)
             self.pushButtonAdd.setEnabled(False)

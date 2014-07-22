@@ -19,6 +19,7 @@ class createGeoShema(QDialog,  Ui_geoShema):
         self.canvas = self.iface.mapCanvas()
         self.setupUi(self)
 
+        self.comboBoxTypeLine.addItem(u'Направления геодезических построений при определении координат точек границ ЗУ', '21')        
         self.comboBoxTypeLine.addItem(u'Направление координирования', '12')        
         self.comboBoxTypeLine.addItem(u'Черная линия толщиной 0.1 мм', 'NULL')        
         self.comboBoxTypeLine.setCurrentIndex(0)

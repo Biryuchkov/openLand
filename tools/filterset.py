@@ -24,18 +24,20 @@ class filterSet(QDialog, Ui_FilterSet):
         self.prevFilter = []  # список предыдущих условий выборки(фильтры из проекта)
 #       слои 
         self.layers = ['ln_kvartal', 'ln_uchastok', 'ln_granica', 'ln_tochka', 
-                       'pb_parcel_parcel']
+                       'pb_parcel_parcel', 'ds_tochka_uni']
         self.layerK = get_vector_layer_by_name(gln[self.layers[0]])
         self.layerU = get_vector_layer_by_name(gln[self.layers[1]])
         self.layerG = get_vector_layer_by_name(gln[self.layers[2]])
         self.layerT = get_vector_layer_by_name(gln[self.layers[3]])
-        self.layerPP = get_vector_layer_by_name(gln[self.layers[4]])
+        self.layerPP= get_vector_layer_by_name(gln[self.layers[4]])
+        self.layerTU= get_vector_layer_by_name(gln[self.layers[5]])
 #       провайдеры данных
-        self.providerK = self.layerK.dataProvider()
-        self.providerU = self.layerU.dataProvider()
-        self.providerG = self.layerG.dataProvider()
-        self.providerT = self.layerT.dataProvider()
+        self.providerK  = self.layerK.dataProvider()
+        self.providerU  = self.layerU.dataProvider()
+        self.providerG  = self.layerG.dataProvider()
+        self.providerT  = self.layerT.dataProvider()
         self.providerPP = self.layerPP.dataProvider()
+        self.providerTU = self.layerTU.dataProvider()
         for i in range(len(self.layers)):
             self.prevFilter.append(get_vector_layer_by_name(gln[self.layers[i]]).subsetString())
 
@@ -118,6 +120,7 @@ class filterSet(QDialog, Ui_FilterSet):
                 self.layerU.setSubsetString(self.prevFilter[1] + ' AND \"id\" IN ' + t)
                 self.layerG.setSubsetString(self.prevFilter[2] + ' AND \"id_uchastok\" IN ' + t)
                 self.layerT.setSubsetString(self.prevFilter[3] + ' AND \"id_uchastok\" IN ' + t)
+                self.layerTU.setSubsetString(self.prevFilter[5] + ' AND \"id_uchastok\" IN ' + t)
             else:
                 for i in range(1, 3):
                     get_vector_layer_by_name(gln[self.layers[i]]).setSubsetString(self.prevFilter[i])

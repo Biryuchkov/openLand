@@ -1,17 +1,24 @@
-<Composer title="МП. Схема расположения ЗУ. Условные обозначения. А4 - портрет." visible="1">
- <Composition printResolution="300" paperWidth="210" snapGridOffsetX="0" snapGridResolution="3" snapGridOffsetY="0" alignmentSnap="1" snapping="1" numPages="1" paperHeight="297" alignmentSnapTolerance="2" printAsRaster="0">
+<Composer title="Макет 1" visible="1">
+ <Composition snapGridTolerance="2" gridVisible="0" printResolution="300" paperWidth="210" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="3" snapGridOffsetY="0" alignmentSnap="1" snapping="1" numPages="1" paperHeight="297" alignmentSnapTolerance="2" smartGuides="1" printAsRaster="0" generateWorldFile="0">
+  <symbol alpha="1" type="fill" name="">
+   <layer pass="0" class="SimpleFill" locked="0">
+    <prop k="border_width_map_unit_scale" v="0,0"/>
+    <prop k="border_width_unit" v="MM"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="color_border" v="0,0,0,255"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+    <prop k="style_border" v="no"/>
+    <prop k="width_border" v="0.26"/>
+   </layer>
+  </symbol>
   <ComposerLabel valign="32" labelText="- кадастровый номер кадастрового квартала" htmlState="0" halign="1" margin="1">
    <LabelFont description="Times New Roman,8,-1,5,50,0,0,0,0,0"/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem width="147" x="54" transparency="0" y="192" rotation="0" height="6" positionMode="0" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="4.71141" uuid="{cb6eaf63-2e33-4f7b-b87d-18b98fa0ce23}" id="" background="false" blendMode="0" positionLock="false">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="32" labelText="56:43:0102003" htmlState="0" halign="1" margin="1">
-   <LabelFont description="Times New Roman,12,-1,5,50,0,0,0,0,0"/>
-   <FontColor red="0" blue="255" green="0"/>
-   <ComposerItem width="30" x="24" transparency="0" y="192" rotation="0" height="7.1" positionMode="0" frame="false" outlineWidth="0.3" zValue="19" lastValidViewScaleFactor="4.71141" uuid="{754051de-2da9-4b5c-b679-b4cd469be2d0}" id="" background="false" blendMode="0" positionLock="false">
+   <ComposerItem pagey="165" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="54" y="165" zValue="10" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="147" outlineWidth="0.3" uuid="{a11c0906-0842-4d34-8363-39c3ac1b157a}" height="6" itemRotation="0" frame="false" pagex="54">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>
@@ -19,7 +26,15 @@
   <ComposerLabel valign="32" labelText=":19&#xa;:123/5&#xa;" htmlState="0" halign="1" margin="1">
    <LabelFont description="Times New Roman,8,-1,5,50,0,1,0,0,0"/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem width="12" x="24" transparency="0" y="183" rotation="0" height="9" positionMode="0" frame="false" outlineWidth="0.3" zValue="19" lastValidViewScaleFactor="6.51007" uuid="{72833122-a041-4a1e-958a-1c55f685adb3}" id="" background="false" blendMode="0" positionLock="false">
+   <ComposerItem pagey="156" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="24" y="156" zValue="9" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="12" outlineWidth="0.3" uuid="{e22e009f-7fc7-40f4-960e-0bff55edfdaa}" height="9" itemRotation="0" frame="false" pagex="24">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="56:43:0102003" htmlState="0" halign="1" margin="1">
+   <LabelFont description="Times New Roman,12,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="255" green="0"/>
+   <ComposerItem pagey="165" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="24" y="165" zValue="8" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="30" outlineWidth="0.3" uuid="{28727a3f-8320-49c7-8ea8-86d493dff283}" height="7.1" itemRotation="0" frame="false" pagex="24">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>
@@ -27,12 +42,12 @@
   <ComposerLabel valign="32" labelText=":ЗУ1                 - обозначение  земельных участков, образуемых путем перераспределения, а также из земель, находящихся в государственной или муниципальной собственности &#xa;:123:ЗУ1          - обозначение  земельных участков, образуемых путем раздела и выдела&#xa;:19                   - обозначение исходных, измененных и уточняемых земельных участков&#xa;:ЗУ1(1), :123(1), :123:ЗУ1(1) - обозначение контура многоконтурного земельного участка&#xa;:123/5               - обозначение существующих частей земельных участков&#xa;:123/чзу1         - обозначение образуемых частей измененных и уточняемых  земельных участков, а также образуемых частей земельных участков при выполнении кадастровых работ исключительно в целях образования частей земельных участков&#xa;:123:ЗУ1/чзу1, :ЗУ1/чзу1 - обозначение образуемых частей  образуемых земельных участков&#xa;:ЗУ1/чзу1(1), :123:ЗУ1/чзу1(1) - обозначение контура  многоконтурной части земельного участка&#xa;1                        - обозначение выноски (врезки)" htmlState="0" halign="1" margin="1">
    <LabelFont description="Times New Roman,8,-1,5,50,0,0,0,0,0"/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem width="177" x="24" transparency="0" y="141" rotation="0" height="42" positionMode="0" frame="false" outlineWidth="0.3" zValue="15" lastValidViewScaleFactor="6.51007" uuid="{c49211dd-e34e-41e9-833e-e35bed64b7a8}" id="" background="false" blendMode="0" positionLock="false">
+   <ComposerItem pagey="117" page="1" id="" lastValidViewScaleFactor="2.80435" positionMode="0" positionLock="false" x="24" y="117" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="177" outlineWidth="0.3" uuid="{e6dae7d0-5420-40c6-86a2-4c9f0820b95a}" height="42" itemRotation="0" frame="false" pagex="24">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerLegend symbolWidth="10" title="Условные обозначения:" boxSpace="1" splitLayer="0" equalColumnWidth="0" symbolHeight="2" wrapChar="/" fontColor="#000000" columnSpace="2" columnCount="1">
+  <ComposerLegend symbolWidth="10" title="Условные обозначения:" boxSpace="1" splitLayer="0" equalColumnWidth="0" titleAlignment="1" symbolHeight="2" wmsLegendHeight="25" wrapChar="/" fontColor="#000000" columnSpace="2" wmsLegendWidth="50" columnCount="1">
    <styles>
     <style name="title" font="Times New Roman,10,-1,5,50,0,0,0,0,0"/>
     <style name="group" font="Times New Roman,8,-1,5,50,0,0,0,0,0"/>
@@ -49,13 +64,17 @@
          <prop k="capstyle" v="square"/>
          <prop k="color" v="255,0,0,255"/>
          <prop k="customdash" v="5;2"/>
+         <prop k="customdash_map_unit_scale" v="0,0"/>
          <prop k="customdash_unit" v="MM"/>
+         <prop k="draw_inside_polygon" v="0"/>
          <prop k="joinstyle" v="bevel"/>
          <prop k="offset" v="0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
          <prop k="offset_unit" v="MM"/>
          <prop k="penstyle" v="solid"/>
          <prop k="use_custom_dash" v="0"/>
          <prop k="width" v="0.2"/>
+         <prop k="width_map_unit_scale" v="0,0"/>
          <prop k="width_unit" v="MM"/>
         </layer>
        </symbol>
@@ -68,13 +87,17 @@
          <prop k="capstyle" v="square"/>
          <prop k="color" v="0,0,0,255"/>
          <prop k="customdash" v="5;2"/>
+         <prop k="customdash_map_unit_scale" v="0,0"/>
          <prop k="customdash_unit" v="MM"/>
+         <prop k="draw_inside_polygon" v="0"/>
          <prop k="joinstyle" v="bevel"/>
          <prop k="offset" v="0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
          <prop k="offset_unit" v="MM"/>
          <prop k="penstyle" v="solid"/>
          <prop k="use_custom_dash" v="0"/>
          <prop k="width" v="0.2"/>
+         <prop k="width_map_unit_scale" v="0,0"/>
          <prop k="width_unit" v="MM"/>
         </layer>
        </symbol>
@@ -87,13 +110,17 @@
          <prop k="capstyle" v="square"/>
          <prop k="color" v="0,0,0,255"/>
          <prop k="customdash" v="2;1"/>
+         <prop k="customdash_map_unit_scale" v="0,0"/>
          <prop k="customdash_unit" v="MM"/>
+         <prop k="draw_inside_polygon" v="0"/>
          <prop k="joinstyle" v="bevel"/>
          <prop k="offset" v="0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
          <prop k="offset_unit" v="MM"/>
          <prop k="penstyle" v="dot"/>
          <prop k="use_custom_dash" v="1"/>
          <prop k="width" v="0.2"/>
+         <prop k="width_map_unit_scale" v="0,0"/>
          <prop k="width_unit" v="MM"/>
         </layer>
        </symbol>
@@ -106,13 +133,17 @@
          <prop k="capstyle" v="square"/>
          <prop k="color" v="255,0,0,255"/>
          <prop k="customdash" v="2;1"/>
+         <prop k="customdash_map_unit_scale" v="0,0"/>
          <prop k="customdash_unit" v="MM"/>
+         <prop k="draw_inside_polygon" v="0"/>
          <prop k="joinstyle" v="bevel"/>
          <prop k="offset" v="0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
          <prop k="offset_unit" v="MM"/>
          <prop k="penstyle" v="dot"/>
          <prop k="use_custom_dash" v="1"/>
          <prop k="width" v="0.2"/>
+         <prop k="width_map_unit_scale" v="0,0"/>
          <prop k="width_unit" v="MM"/>
         </layer>
        </symbol>
@@ -127,14 +158,20 @@
          <prop k="angle" v="0"/>
          <prop k="color" v="0,0,0,255"/>
          <prop k="color_border" v="0,0,0,255"/>
+         <prop k="horizontal_anchor_point" v="1"/>
          <prop k="name" v="rectangle"/>
          <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
          <prop k="offset_unit" v="MM"/>
+         <prop k="outline_style" v="solid"/>
          <prop k="outline_width" v="0"/>
+         <prop k="outline_width_map_unit_scale" v="0,0"/>
          <prop k="outline_width_unit" v="MM"/>
          <prop k="scale_method" v="area"/>
          <prop k="size" v="3"/>
+         <prop k="size_map_unit_scale" v="0,0"/>
          <prop k="size_unit" v="MM"/>
+         <prop k="vertical_anchor_point" v="1"/>
         </layer>
        </symbol>
       </symbols>
@@ -145,16 +182,26 @@
         <layer pass="0" class="EllipseMarker" locked="0">
          <prop k="angle" v="0"/>
          <prop k="fill_color" v="255,255,255,255"/>
+         <prop k="horizontal_anchor_point" v="1"/>
          <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
          <prop k="offset_unit" v="MM"/>
          <prop k="outline_color" v="0,0,0,255"/>
+         <prop k="outline_style" v="solid"/>
          <prop k="outline_width" v="0.2"/>
+         <prop k="outline_width_map_unit_scale" v="0,0"/>
          <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="7.00259e-313"/>
+         <prop k="size_map_unit_scale" v="0,0"/>
+         <prop k="size_unit" v="MM"/>
          <prop k="symbol_height" v="3"/>
+         <prop k="symbol_height_map_unit_scale" v="0,0"/>
          <prop k="symbol_height_unit" v="MM"/>
          <prop k="symbol_name" v="rectangle"/>
          <prop k="symbol_width" v="3"/>
+         <prop k="symbol_width_map_unit_scale" v="0,0"/>
          <prop k="symbol_width_unit" v="MM"/>
+         <prop k="vertical_anchor_point" v="1"/>
         </layer>
        </symbol>
       </symbols>
@@ -166,14 +213,20 @@
          <prop k="angle" v="0"/>
          <prop k="color" v="255,0,0,255"/>
          <prop k="color_border" v="255,0,0,255"/>
+         <prop k="horizontal_anchor_point" v="1"/>
          <prop k="name" v="rectangle"/>
          <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
          <prop k="offset_unit" v="MM"/>
+         <prop k="outline_style" v="solid"/>
          <prop k="outline_width" v="0"/>
+         <prop k="outline_width_map_unit_scale" v="0,0"/>
          <prop k="outline_width_unit" v="MM"/>
          <prop k="scale_method" v="area"/>
          <prop k="size" v="3"/>
+         <prop k="size_map_unit_scale" v="0,0"/>
          <prop k="size_unit" v="MM"/>
+         <prop k="vertical_anchor_point" v="1"/>
         </layer>
        </symbol>
       </symbols>
@@ -184,16 +237,26 @@
         <layer pass="0" class="EllipseMarker" locked="0">
          <prop k="angle" v="0"/>
          <prop k="fill_color" v="255,255,255,255"/>
+         <prop k="horizontal_anchor_point" v="1"/>
          <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
          <prop k="offset_unit" v="MM"/>
          <prop k="outline_color" v="255,0,0,255"/>
+         <prop k="outline_style" v="solid"/>
          <prop k="outline_width" v="0.2"/>
+         <prop k="outline_width_map_unit_scale" v="0,0"/>
          <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="-2.08354e-312"/>
+         <prop k="size_map_unit_scale" v="0,0"/>
+         <prop k="size_unit" v="MM"/>
          <prop k="symbol_height" v="3"/>
+         <prop k="symbol_height_map_unit_scale" v="0,0"/>
          <prop k="symbol_height_unit" v="MM"/>
          <prop k="symbol_name" v="rectangle"/>
          <prop k="symbol_width" v="3"/>
+         <prop k="symbol_width_map_unit_scale" v="0,0"/>
          <prop k="symbol_width_unit" v="MM"/>
+         <prop k="vertical_anchor_point" v="1"/>
         </layer>
        </symbol>
       </symbols>
@@ -207,19 +270,28 @@
          <prop k="capstyle" v="square"/>
          <prop k="color" v="0,0,0,255"/>
          <prop k="customdash" v="5;2"/>
+         <prop k="customdash_map_unit_scale" v="0,0"/>
          <prop k="customdash_unit" v="MM"/>
+         <prop k="draw_inside_polygon" v="0"/>
          <prop k="joinstyle" v="bevel"/>
          <prop k="offset" v="0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
          <prop k="offset_unit" v="MM"/>
          <prop k="penstyle" v="solid"/>
          <prop k="use_custom_dash" v="0"/>
          <prop k="width" v="0.2"/>
+         <prop k="width_map_unit_scale" v="0,0"/>
          <prop k="width_unit" v="MM"/>
         </layer>
         <layer pass="0" class="MarkerLine" locked="0">
          <prop k="interval" v="6"/>
+         <prop k="interval_map_unit_scale" v="0,0"/>
          <prop k="interval_unit" v="MM"/>
          <prop k="offset" v="0"/>
+         <prop k="offset_along_line" v="0"/>
+         <prop k="offset_along_line_map_unit_scale" v="0,0"/>
+         <prop k="offset_along_line_unit" v="MM"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
          <prop k="offset_unit" v="MM"/>
          <prop k="placement" v="vertex"/>
          <prop k="rotate" v="1"/>
@@ -228,14 +300,20 @@
            <prop k="angle" v="0"/>
            <prop k="color" v="0,0,0,255"/>
            <prop k="color_border" v="0,0,0,255"/>
+           <prop k="horizontal_anchor_point" v="1"/>
            <prop k="name" v="rectangle"/>
            <prop k="offset" v="0,0"/>
+           <prop k="offset_map_unit_scale" v="0,0"/>
            <prop k="offset_unit" v="MM"/>
+           <prop k="outline_style" v="solid"/>
            <prop k="outline_width" v="0"/>
+           <prop k="outline_width_map_unit_scale" v="0,0"/>
            <prop k="outline_width_unit" v="MM"/>
            <prop k="scale_method" v="area"/>
            <prop k="size" v="2"/>
+           <prop k="size_map_unit_scale" v="0,0"/>
            <prop k="size_unit" v="MM"/>
+           <prop k="vertical_anchor_point" v="1"/>
           </layer>
          </symbol>
         </layer>
@@ -249,19 +327,28 @@
          <prop k="capstyle" v="square"/>
          <prop k="color" v="0,0,0,255"/>
          <prop k="customdash" v="5;2"/>
+         <prop k="customdash_map_unit_scale" v="0,0"/>
          <prop k="customdash_unit" v="MM"/>
+         <prop k="draw_inside_polygon" v="0"/>
          <prop k="joinstyle" v="bevel"/>
          <prop k="offset" v="0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
          <prop k="offset_unit" v="MM"/>
          <prop k="penstyle" v="solid"/>
          <prop k="use_custom_dash" v="0"/>
          <prop k="width" v="0.2"/>
+         <prop k="width_map_unit_scale" v="0,0"/>
          <prop k="width_unit" v="MM"/>
         </layer>
         <layer pass="0" class="MarkerLine" locked="0">
          <prop k="interval" v="3"/>
+         <prop k="interval_map_unit_scale" v="0,0"/>
          <prop k="interval_unit" v="MM"/>
          <prop k="offset" v="0"/>
+         <prop k="offset_along_line" v="0"/>
+         <prop k="offset_along_line_map_unit_scale" v="0,0"/>
+         <prop k="offset_along_line_unit" v="MM"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
          <prop k="offset_unit" v="MM"/>
          <prop k="placement" v="vertex"/>
          <prop k="rotate" v="1"/>
@@ -269,16 +356,26 @@
           <layer pass="0" class="EllipseMarker" locked="0">
            <prop k="angle" v="0"/>
            <prop k="fill_color" v="255,255,255,255"/>
+           <prop k="horizontal_anchor_point" v="1"/>
            <prop k="offset" v="0,0"/>
+           <prop k="offset_map_unit_scale" v="0,0"/>
            <prop k="offset_unit" v="MM"/>
            <prop k="outline_color" v="0,0,0,255"/>
+           <prop k="outline_style" v="solid"/>
            <prop k="outline_width" v="0.2"/>
+           <prop k="outline_width_map_unit_scale" v="0,0"/>
            <prop k="outline_width_unit" v="MM"/>
+           <prop k="size" v="-2.08381e-312"/>
+           <prop k="size_map_unit_scale" v="0,0"/>
+           <prop k="size_unit" v="MM"/>
            <prop k="symbol_height" v="2"/>
+           <prop k="symbol_height_map_unit_scale" v="0,0"/>
            <prop k="symbol_height_unit" v="MM"/>
            <prop k="symbol_name" v="rectangle"/>
            <prop k="symbol_width" v="2"/>
+           <prop k="symbol_width_map_unit_scale" v="0,0"/>
            <prop k="symbol_width_unit" v="MM"/>
+           <prop k="vertical_anchor_point" v="1"/>
           </layer>
          </symbol>
         </layer>
@@ -292,26 +389,34 @@
          <prop k="capstyle" v="square"/>
          <prop k="color" v="0,0,0,255"/>
          <prop k="customdash" v="5;2"/>
+         <prop k="customdash_map_unit_scale" v="0,0"/>
          <prop k="customdash_unit" v="MM"/>
+         <prop k="draw_inside_polygon" v="0"/>
          <prop k="joinstyle" v="round"/>
          <prop k="offset" v="0.5"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
          <prop k="offset_unit" v="MM"/>
          <prop k="penstyle" v="solid"/>
          <prop k="use_custom_dash" v="0"/>
          <prop k="width" v="0.2"/>
+         <prop k="width_map_unit_scale" v="0,0"/>
          <prop k="width_unit" v="MM"/>
         </layer>
         <layer pass="0" class="SimpleLine" locked="0">
          <prop k="capstyle" v="square"/>
          <prop k="color" v="0,0,0,255"/>
          <prop k="customdash" v="5;2"/>
+         <prop k="customdash_map_unit_scale" v="0,0"/>
          <prop k="customdash_unit" v="MM"/>
+         <prop k="draw_inside_polygon" v="0"/>
          <prop k="joinstyle" v="bevel"/>
          <prop k="offset" v="-0.5"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
          <prop k="offset_unit" v="MM"/>
          <prop k="penstyle" v="solid"/>
          <prop k="use_custom_dash" v="0"/>
          <prop k="width" v="0.2"/>
+         <prop k="width_map_unit_scale" v="0,0"/>
          <prop k="width_unit" v="MM"/>
         </layer>
        </symbol>
@@ -324,26 +429,34 @@
          <prop k="capstyle" v="square"/>
          <prop k="color" v="0,0,0,255"/>
          <prop k="customdash" v="2;1"/>
+         <prop k="customdash_map_unit_scale" v="0,0"/>
          <prop k="customdash_unit" v="MM"/>
+         <prop k="draw_inside_polygon" v="0"/>
          <prop k="joinstyle" v="bevel"/>
          <prop k="offset" v="-0.5"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
          <prop k="offset_unit" v="MM"/>
          <prop k="penstyle" v="dot"/>
          <prop k="use_custom_dash" v="1"/>
          <prop k="width" v="0.2"/>
+         <prop k="width_map_unit_scale" v="0,0"/>
          <prop k="width_unit" v="MM"/>
         </layer>
         <layer pass="0" class="SimpleLine" locked="0">
          <prop k="capstyle" v="square"/>
          <prop k="color" v="0,0,0,255"/>
          <prop k="customdash" v="2;1"/>
+         <prop k="customdash_map_unit_scale" v="0,0"/>
          <prop k="customdash_unit" v="MM"/>
+         <prop k="draw_inside_polygon" v="0"/>
          <prop k="joinstyle" v="bevel"/>
          <prop k="offset" v="0.5"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
          <prop k="offset_unit" v="MM"/>
          <prop k="penstyle" v="solid"/>
          <prop k="use_custom_dash" v="1"/>
          <prop k="width" v="0.2"/>
+         <prop k="width_map_unit_scale" v="0,0"/>
          <prop k="width_unit" v="MM"/>
         </layer>
        </symbol>
@@ -355,10 +468,13 @@
       <symbols>
        <symbol alpha="1" type="fill" name="classificationSymbol">
         <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_map_unit_scale" v="0,0"/>
          <prop k="border_width_unit" v="MM"/>
          <prop k="color" v="0,0,255,255"/>
          <prop k="color_border" v="0,0,255,255"/>
+         <prop k="joinstyle" v="bevel"/>
          <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
          <prop k="offset_unit" v="MM"/>
          <prop k="style" v="no"/>
          <prop k="style_border" v="solid"/>
@@ -375,24 +491,33 @@
         <layer pass="0" class="LinePatternFill" locked="0">
          <prop k="color" v="255,85,0,255"/>
          <prop k="distance" v="2"/>
+         <prop k="distance_map_unit_scale" v="0,0"/>
          <prop k="distance_unit" v="MM"/>
+         <prop k="line_width_map_unit_scale" v="0,0"/>
          <prop k="line_width_unit" v="MM"/>
          <prop k="lineangle" v="45"/>
          <prop k="linewidth" v="0.2"/>
          <prop k="offset" v="0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
          <prop k="offset_unit" v="MM"/>
+         <prop k="outline_width_map_unit_scale" v="0,0"/>
+         <prop k="outline_width_unit" v="MM"/>
          <symbol alpha="1" type="line" name="@classificationSymbol@0">
           <layer pass="0" class="SimpleLine" locked="0">
            <prop k="capstyle" v="square"/>
            <prop k="color" v="255,85,0,255"/>
            <prop k="customdash" v="5;2"/>
+           <prop k="customdash_map_unit_scale" v="0,0"/>
            <prop k="customdash_unit" v="MM"/>
+           <prop k="draw_inside_polygon" v="0"/>
            <prop k="joinstyle" v="bevel"/>
            <prop k="offset" v="0"/>
+           <prop k="offset_map_unit_scale" v="0,0"/>
            <prop k="offset_unit" v="MM"/>
            <prop k="penstyle" v="solid"/>
            <prop k="use_custom_dash" v="0"/>
            <prop k="width" v="0.2"/>
+           <prop k="width_map_unit_scale" v="0,0"/>
            <prop k="width_unit" v="MM"/>
           </layer>
          </symbol>
@@ -404,10 +529,13 @@
       <symbols>
        <symbol alpha="1" type="fill" name="classificationSymbol">
         <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_map_unit_scale" v="0,0"/>
          <prop k="border_width_unit" v="MM"/>
          <prop k="color" v="0,255,0,255"/>
          <prop k="color_border" v="0,255,0,255"/>
+         <prop k="joinstyle" v="bevel"/>
          <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
          <prop k="offset_unit" v="MM"/>
          <prop k="style" v="no"/>
          <prop k="style_border" v="solid"/>
@@ -420,10 +548,13 @@
       <symbols>
        <symbol alpha="1" type="fill" name="classificationSymbol">
         <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_map_unit_scale" v="0,0"/>
          <prop k="border_width_unit" v="MM"/>
          <prop k="color" v="255,0,127,255"/>
          <prop k="color_border" v="255,0,127,255"/>
+         <prop k="joinstyle" v="bevel"/>
          <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="0,0"/>
          <prop k="offset_unit" v="MM"/>
          <prop k="style" v="no"/>
          <prop k="style_border" v="solid"/>
@@ -434,7 +565,7 @@
      </VectorClassificationItemNg>
     </LayerItem>
    </Model>
-   <ComposerItem width="174.4" x="24" transparency="0" y="33" rotation="0" height="95.4" positionMode="0" frame="false" outlineWidth="0.3" zValue="14" lastValidViewScaleFactor="6.51007" uuid="{646bbe29-4e98-4da7-a9c5-5f589ddaac1f}" id="" background="false" blendMode="0" positionLock="false">
+   <ComposerItem pagey="18" page="1" id="" lastValidViewScaleFactor="2.80435" positionMode="0" positionLock="false" x="24" y="18" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="174.4" outlineWidth="0.3" uuid="{c3bcb6a1-4c99-41cf-9c1f-742345a268f6}" height="95.4" itemRotation="0" frame="false" pagex="24">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>
@@ -442,23 +573,7 @@
   <ComposerLabel valign="32" labelText="Схема расположения земельных участков " htmlState="0" halign="4" margin="1">
    <LabelFont description="Times New Roman,12,-1,5,75,0,0,0,0,0"/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem width="183" x="21" transparency="0" y="21" rotation="0" height="9" positionMode="0" frame="true" outlineWidth="0.15" zValue="8" lastValidViewScaleFactor="3.02349" uuid="{14cff450-1565-45db-9a34-aea44ca65e26}" id="" background="false" blendMode="0" positionLock="false">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="32" labelText="МЕЖЕВОЙ ПЛАН" htmlState="0" halign="4" margin="0.5">
-   <LabelFont description="Times New Roman,12,-1,5,75,0,0,0,0,0"/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem width="183" x="21" transparency="0" y="12" rotation="0" height="18" positionMode="0" frame="true" outlineWidth="0.3" zValue="7" lastValidViewScaleFactor="3.02349" uuid="{a81fc565-bab6-4286-88f5-5c3a82de573e}" id="" background="false" blendMode="0" positionLock="false">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="32" labelText="Лист № " htmlState="0" halign="1" margin="1">
-   <LabelFont description="Times New Roman,10,-1,5,50,0,0,0,0,0"/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem width="24" x="180" transparency="0" y="6" rotation="0" height="6" positionMode="0" frame="true" outlineWidth="0.3" zValue="6" lastValidViewScaleFactor="3.02349" uuid="{e7d50b23-36a7-496c-bfca-a0f57ea90843}" id="" background="false" blendMode="0" positionLock="false">
+   <ComposerItem pagey="6.075" page="1" id="" lastValidViewScaleFactor="2.80435" positionMode="0" positionLock="false" x="21" y="6.075" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="183" outlineWidth="0.15" uuid="{8dcc9535-7a67-42ba-9b29-eb030cd1e3d7}" height="8.85" itemRotation="0" frame="true" pagex="21">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>
@@ -466,13 +581,28 @@
   <ComposerLabel valign="32" labelText="- обозначение исходных земельных участков, прекращающих существование&#xa;- обозначение прекращающих существование частей земельных участков&#xa;" htmlState="0" halign="1" margin="1">
    <LabelFont description="Times New Roman,8,-1,5,50,0,0,0,0,0"/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem width="159" x="39" transparency="0" y="183" rotation="0" height="9" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="6.51007" uuid="{6b7db1dc-d952-44a7-ba2c-83f253ac2927}" id="" background="false" blendMode="0" positionLock="false">
+   <ComposerItem pagey="156" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="false" x="39" y="156" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="159" outlineWidth="0.3" uuid="{2f601863-7d64-4d27-b400-2f51550131a2}" height="9" itemRotation="0" frame="false" pagex="39">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerShape shapeType="1">
-   <ComposerItem width="183.069" x="21" transparency="0" y="30" rotation="0" height="255" positionMode="0" frame="true" outlineWidth="0" zValue="1" lastValidViewScaleFactor="3.25503" uuid="{b32a26d3-9869-4ab2-8ba7-84f82b4808d3}" id="" background="false" blendMode="0" positionLock="false">
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0"/>
+     <prop k="border_width_unit" v="MM"/>
+     <prop k="color" v="255,255,255,0"/>
+     <prop k="color_border" v="255,255,255,0"/>
+     <prop k="joinstyle" v="bevel"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="style" v="no"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="15" page="1" id="" lastValidViewScaleFactor="1.88976" positionMode="0" positionLock="false" x="21" y="15" zValue="1" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="183.069" outlineWidth="0" uuid="{1438b4cd-f93c-487c-afa2-c93752f0be88}" height="255" itemRotation="0" frame="false" pagex="21">
     <FrameColor alpha="0" red="255" blue="255" green="255"/>
     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
    </ComposerItem>

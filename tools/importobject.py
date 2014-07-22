@@ -43,8 +43,6 @@ class importObject(QDialog,  Ui_importObject):
             return True
 
     def doImportObject(self):
-        self.progressBar.setRange(0,0)
-
         if self.radioButtonParcel.isChecked():
             self.layerName = 'ln_uchastok'
 
@@ -54,10 +52,19 @@ class importObject(QDialog,  Ui_importObject):
         elif self.radioButtonDistrict.isChecked():
             self.layerName = 'ln_rayon'
         
-        selection4Import = self.layer4Import.selectedFeatures()
-        fieldName4ImportKn = self.comboBoxKn.currentText()
-        idMSK = idCurrentMSK()
-        listValues = []
+        selection4Import    = self.layer4Import.selectedFeatures()
+        fieldName4ImportKn  = self.comboBoxKn.currentText()
+        idMSK       = idCurrentMSK()
+        listValues  = []
+        progress    = QProgressBar()
+
+        progressMessageBar = self.iface.messageBar().createMessage(u'Подготовка данных ...')
+        progress.setMaximum(int(len(selection4Import)))
+        progress.setAlignment(Qt.AlignLeft|Qt.AlignVCenter)
+        progressMessageBar.layout().addWidget(progress)
+        self.iface.messageBar().pushWidget(progressMessageBar, 
+                                           self.iface.messageBar().INFO)
+        numberObject = 0
         for every in selection4Import:
             geo = every.geometry()
             att = every.attributes()
@@ -68,14 +75,17 @@ class importObject(QDialog,  Ui_importObject):
                 kn = att[self.layer4Import.fieldNameIndex(fieldName4ImportKn)]
 
             listValues.append([kn, idMSK, geo])
+            numberObject += 1
+            progress.setValue(numberObject)
 
+        progressMessageBar.setText(u'Импорт объектов в базу данных...')
         insertFeatures(self.layerName, ['kn', 'id_msk', 'geom'], listValues)
+        progressMessageBar.setText(u'Импорт завершен.')
 
         self.canvas.refresh()
-        self.progressBar.setRange(0, 100)
-        self.progressBar.setValue(100)
             
     def doCancel(self):
+        self.iface.messageBar().clearWidgets()
         self.close()
 
 #        QMessageBox.information(self.iface.mainWindow(), u'test', str())
