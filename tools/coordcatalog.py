@@ -216,10 +216,10 @@ class CatalogData():
             iter_contour += 1
             iter_ring = 0
         if self.multi:
-            self.catalog += u'<BR/><h4>Общая площадь: {0} кв.м Общий периметр: {1} м<h4>'.format(str(sum(self.area, 0)),
+            self.catalog += u'<BR/><strong>Общая площадь: {0} кв.м Общий периметр: {1} м</strong>'.format(str(sum(self.area, 0)),
                                                                                                  str(sum(self.perimeter,
                                                                                                          0)))
-            self.geodata += u'<BR/><h4>Общая площадь: {0} кв.м Общий периметр: {1} м<h4>'.format(str(sum(self.area, 0)),
+            self.geodata += u'<BR/><strong>Общая площадь: {0} кв.м Общий периметр: {1} м</strong>'.format(str(sum(self.area, 0)),
                                                                                                  str(sum(self.perimeter,
                                                                                                          0)))
 

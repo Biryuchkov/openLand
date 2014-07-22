@@ -55,6 +55,8 @@ from border import border
 from filterset import filterSet
 from openlandsettings import OpenLandSettings
 from openlandabout import OpenLandAbout
+from createCoordCatalog import CreateCoordCatalog
+from createGeodata import CreateGeodata
 
 class openLand:
     def __init__(self, iface):
@@ -166,6 +168,19 @@ class openLand:
         self.beforeprintMenu.addActions([self.openland_geoshema])
         self.menu.addMenu(self.beforeprintMenu)
 
+        # Землеустройство
+        self.menu_landplaning = QMenu()
+        self.menu_landplaning.setTitle(u'Землеустройство')
+        self.openland_createcoordcatalog = QAction(u'Ведомость координат', self.iface.mainWindow())
+        self.openland_createcoordcatalog.setEnabled(True)
+        self.openland_createcoordcatalog.setIcon(QIcon(":/plugins/openland/icons/create_coordcatalog.png"))
+        self.menu_landplaning.addActions([self.openland_createcoordcatalog])
+        self.openland_creategeodata = QAction(u'Геоданные', self.iface.mainWindow())
+        self.openland_creategeodata.setEnabled(True)
+        self.openland_creategeodata.setIcon(QIcon(":/plugins/openland/icons/create_coordcatalog.png"))
+        self.menu_landplaning.addActions([self.openland_creategeodata])
+        self.menu.addMenu(self.menu_landplaning)
+
         self.openland_xml2print = QAction(u"Документ для печати", self.iface.mainWindow() )
         self.openland_xml2print.setIcon(QIcon(":/plugins/openland/icons/print.png"))
         self.openland_xml2print.setEnabled(False)
@@ -207,6 +222,8 @@ class openLand:
         QObject.connect(self.openland_filterset, SIGNAL("triggered()"), self.doFilterSet)
         QObject.connect(self.openland_settings, SIGNAL("triggered()"), self.doSettings)
         QObject.connect(self.openland_about, SIGNAL("triggered()"), self.doAbout)
+        QObject.connect(self.openland_createcoordcatalog, SIGNAL("triggered()"), self.doCreateCoordcatalog)
+        QObject.connect(self.openland_creategeodata, SIGNAL("triggered()"), self.doCreateGeodata)
 
         self.toolBar = self.iface.addToolBar("openLand")
         self.toolBar.setObjectName("openLand")
@@ -552,6 +569,18 @@ class openLand:
         if self.dlgSettings.isChangeMSK:
             if not (self.dlgFilterSet == None):
                 self.dlgFilterSet = None
+
+    def doCreateCoordcatalog(self):
+        if self.dlg_coordcatalog is None:
+            self.dlg_coordcatalog = CreateCoordCatalog(self.iface)
+            self.dlg_coordcatalog.setWindowModality(Qt.NonModal)
+            self.dlg_coordcatalog.show()
+
+    def doCreateGeodata(self):
+        if self.dlg_geodata is None:
+            self.dlg_geodata = CreateGeodata(self.iface)
+            self.dlg_geodata.setWindowModality(Qt.NonModal)
+            self.dlg_geodata.show()
 
     def doAbout(self):
         if self.dlgAbout == None:
